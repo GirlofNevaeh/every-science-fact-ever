@@ -1,0 +1,320 @@
+import { createFileRoute } from "@tanstack/react-router";
+import { useEffect, useState } from "react";
+import { KID_LOOKS, Portrait } from "@/components/portrait";
+import { Shell } from "@/components/shell";
+import { drawQuestions, type QuizQuestion } from "@/data/quiz";
+
+export const Route = createFileRoute("/quiz")({
+  head: () => ({ meta: [{ title: "Quiz · Every Science Fact Ever" }] }),
+  component: QuizPage,
+});
+
+type Team = { name: string; score: number };
+type Phase = "setup" | "ask" | "wait" | "reveal" | "win" | "draw";
+
+function QuizPage() {
+  return (
+    <Shell>
+      <QuizBody />
+    </Shell>
+  );
+}
+
+function QuizBody() {
+  const [mode, setMode] = useState<"quick" | "mega">("quick");
+  const [play, setPlay] = useState<"solo" | "teams">("solo");
+  const [count, setCount] = useState(2);
+  const [names, setNames] = useState(() => Array.from({ length: 10 }, (_, i) => `Team ${i + 1}`));
+  const [phase, setPhase] = useState<Phase>("setup");
+  const [queue, setQueue] = useState<QuizQuestion[]>([]);
+  const [cursor, setCursor] = useState(0);
+  const [teams, setTeams] = useState<Team[]>([]);
+  const [active, setActive] = useState<number[]>([]);
+  const [turn, setTurn] = useState(0);
+  const [picked, setPicked] = useState<number | null>(null);
+  const [limit, setLimit] = useState(10);
+  const [answered, setAnswered] = useState(0);
+  const [sudden, setSudden] = useState(false);
+  const [clean, setClean] = useState(0);
+  const [roundHits, setRoundHits] = useState<boolean[]>([]);
+
+  useEffect(() => {
+    if (phase !== "wait") return;
+    const id = window.setTimeout(() => setPhase("reveal"), 1000);
+    return () => window.clearTimeout(id);
+  }, [phase, cursor, picked]);
+
+  function start() {
+    const size = play === "solo" ? 1 : count;
+    const nextTeams =
+      play === "solo"
+        ? [{ name: "You", score: 0 }]
+        : names.slice(0, size).map((name, index) => ({ name: name.trim() || `Team ${index + 1}`, score: 0 }));
+    setTeams(nextTeams);
+    setActive(nextTeams.map((_, index) => index));
+    setQueue(drawQuestions(80));
+    setCursor(0);
+    setTurn(0);
+    setPicked(null);
+    setLimit(mode === "quick" ? 10 : 25);
+    setAnswered(0);
+    setSudden(false);
+    setClean(0);
+    setRoundHits([]);
+    setPhase("ask");
+  }
+
+  const question = queue[cursor];
+  const teamIndex = active[turn] ?? 0;
+  const correct = question ? picked === question.answer : false;
+
+  function choose(choice: number) {
+    if (phase !== "ask") return;
+    setPicked(choice);
+    setPhase("wait");
+  }
+
+  function leadersOf(list: Team[]): number[] {
+    const top = Math.max(...list.map((team) => team.score));
+    return list.map((team, index) => (team.score === top ? index : -1)).filter((index) => index >= 0);
+  }
+
+  function next() {
+    if (!question || picked === null) return;
+    const gained = picked === question.answer;
+    const nextTeams = teams.map((team, index) =>
+      index === teamIndex && gained ? { ...team, score: team.score + 1 } : team,
+    );
+    const nextCursor = cursor + 1;
+    if (!sudden) {
+      const nextAnswered = answered + 1;
+      if (nextAnswered >= limit) {
+        const leaders = leadersOf(nextTeams);
+        setTeams(nextTeams);
+        setCursor(nextCursor);
+        setAnswered(nextAnswered);
+        if (leaders.length <= 1) {
+          setPhase("win");
+          return;
+        }
+        setSudden(true);
+        setActive(leaders);
+        setTurn(0);
+        setClean(0);
+        setRoundHits([]);
+        setPicked(null);
+        setPhase("ask");
+        return;
+      }
+      setTeams(nextTeams);
+      setCursor(nextCursor);
+      setAnswered(nextAnswered);
+      setTurn((turn + 1) % teams.length);
+      setPicked(null);
+      setPhase("ask");
+      return;
+    }
+    const hits = [...roundHits, gained];
+    if (hits.length < active.length) {
+      setTeams(nextTeams);
+      setCursor(nextCursor);
+      setRoundHits(hits);
+      setTurn(turn + 1);
+      setPicked(null);
+      setPhase("ask");
+      return;
+    }
+    const allSame = hits.every(Boolean) || hits.every((hit) => !hit);
+    const nextClean = allSame ? clean + 1 : 0;
+    setTeams(nextTeams);
+    setCursor(nextCursor);
+    if (allSame && nextClean >= 3) {
+      setPhase("draw");
+      return;
+    }
+    const leaders = leadersOf(nextTeams);
+    if (leaders.length <= 1) {
+      setPhase("win");
+      return;
+    }
+    setActive(leaders);
+    setClean(nextClean);
+    setRoundHits([]);
+    setTurn(0);
+    setPicked(null);
+    setPhase("ask");
+  }
+
+  const winner = teams.length > 0 ? teams[leadersOf(teams)[0] ?? 0] : undefined;
+  const showCongrats = phase === "win" && (teams.length > 1 || (winner?.score ?? 0) > 0);
+
+  return (
+    <div className="bg-leaf-soft">
+      <div className="mx-auto max-w-3xl px-4 py-6">
+        {phase === "setup" ? (
+          <div>
+            <h1 className="font-display text-4xl font-bold">Class Quiz</h1>
+            <p className="mt-2 text-lg">Quick 10 or Mega 25. Solo, or up to 10 teams of 4.</p>
+            <div className="mt-4 grid grid-cols-2 gap-3">
+              <button type="button" className={mode === "quick" ? "btn btn-chalk" : "btn btn-paper"} onClick={() => setMode("quick")}>
+                Quick 10
+              </button>
+              <button type="button" className={mode === "mega" ? "btn btn-chalk" : "btn btn-paper"} onClick={() => setMode("mega")}>
+                Mega 25
+              </button>
+              <button type="button" className={play === "solo" ? "btn btn-leaf" : "btn btn-paper"} onClick={() => setPlay("solo")}>
+                Solo
+              </button>
+              <button type="button" className={play === "teams" ? "btn btn-leaf" : "btn btn-paper"} onClick={() => setPlay("teams")}>
+                Teams
+              </button>
+            </div>
+            {play === "teams" ? (
+              <div className="stamp mt-4 bg-paper p-4">
+                <div className="flex items-center justify-between gap-3">
+                  <p className="font-extrabold">Teams: {count}</p>
+                  <div className="flex gap-2">
+                    <button type="button" className="btn btn-paper" onClick={() => setCount((n) => Math.max(2, n - 1))}>
+                      Fewer
+                    </button>
+                    <button type="button" className="btn btn-paper" onClick={() => setCount((n) => Math.min(10, n + 1))}>
+                      More
+                    </button>
+                  </div>
+                </div>
+                <p className="mt-2 text-base">Each team can have up to 4 kids.</p>
+                <div className="mt-3 grid gap-2">
+                  {names.slice(0, count).map((name, index) => (
+                    <label key={index} className="block text-base font-extrabold">
+                      Team {index + 1}
+                      <input
+                        value={name}
+                        onChange={(event) =>
+                          setNames((prev) => prev.map((item, i) => (i === index ? event.target.value : item)))
+                        }
+                        className="mt-1 h-11 w-full rounded-full border-[3px] border-ink px-3 font-medium"
+                      />
+                    </label>
+                  ))}
+                </div>
+              </div>
+            ) : null}
+            <button type="button" className="btn btn-chalk mt-4 w-full" onClick={start}>
+              Start
+            </button>
+            <ul className="mt-4 space-y-1 text-base">
+              <li>After you answer, wait. Then you see right or wrong.</li>
+              <li>A tie starts a playoff.</li>
+              <li>Three tied rounds in a row make a draw.</li>
+            </ul>
+          </div>
+        ) : null}
+
+        {phase !== "setup" && phase !== "win" && phase !== "draw" && question ? (
+          <div>
+            <div className="flex flex-wrap gap-2">
+              {teams.map((team, index) => (
+                <p
+                  key={team.name + index}
+                  className={`rounded-full border-2 border-ink px-3 py-1 text-sm font-extrabold ${
+                    index === teamIndex ? "bg-chalk" : "bg-paper"
+                  }`}
+                >
+                  {team.name}: {team.score + (phase === "reveal" && index === teamIndex && correct ? 1 : 0)}
+                </p>
+              ))}
+            </div>
+            <p className="mt-4 text-sm font-extrabold uppercase">
+              {sudden ? "Playoff" : `Question ${answered + 1} of ${limit}`}
+            </p>
+            <div className="stamp mt-3 bg-paper p-4">
+              <div className="flex items-center gap-3">
+                <Portrait look={KID_LOOKS[cursor % KID_LOOKS.length] ?? KID_LOOKS[0]!} className="h-20 w-20 shrink-0" />
+                <div>
+                  <p className="font-extrabold">{teams[teamIndex]?.name}</p>
+                  <h2 className="font-display text-2xl leading-tight font-bold">{question.prompt}</h2>
+                </div>
+              </div>
+              <div className="mt-4 grid gap-2">
+                {question.choices.map((choice, index) => {
+                  const chosen = picked === index;
+                  const reveal = phase === "reveal";
+                  const isAnswer = index === question.answer;
+                  let tone = "btn-paper";
+                  let note = "";
+                  if (phase === "wait" && chosen) {
+                    tone = "btn-chalk";
+                    note = "You picked this.";
+                  }
+                  if (reveal && isAnswer) {
+                    tone = "btn-leaf";
+                    note = "Yes";
+                  } else if (reveal && chosen && !isAnswer) {
+                    tone = "btn-chalk";
+                    note = "Not this one";
+                  }
+                  return (
+                    <button
+                      key={choice}
+                      type="button"
+                      className={`btn ${tone} w-full justify-between text-left whitespace-normal`}
+                      disabled={phase !== "ask"}
+                      onClick={() => choose(index)}
+                    >
+                      <span>{choice}</span>
+                      {note ? <span className="ml-3 shrink-0">{note}</span> : null}
+                    </button>
+                  );
+                })}
+              </div>
+              {phase === "wait" ? <p className="mt-3 font-extrabold">Hold on.</p> : null}
+              {phase === "reveal" ? (
+                <button type="button" className="btn btn-cobalt mt-4 w-full" onClick={next}>
+                  Next
+                </button>
+              ) : null}
+            </div>
+          </div>
+        ) : null}
+
+        {phase === "win" ? (
+          <div className="stamp bg-chalk p-6 text-center">
+            {showCongrats ? (
+              <p className="font-display text-4xl font-bold sm:text-5xl">CONGRATULATIONS</p>
+            ) : (
+              <p className="font-display text-4xl font-bold">You finished</p>
+            )}
+            <p className="mt-3 text-2xl font-extrabold">{winner?.name}</p>
+            <ul className="mt-4 space-y-1 text-lg">
+              {teams.map((team) => (
+                <li key={team.name}>
+                  {team.name}: {team.score}
+                </li>
+              ))}
+            </ul>
+            <button type="button" className="btn btn-paper mt-5" onClick={() => setPhase("setup")}>
+              Play again
+            </button>
+          </div>
+        ) : null}
+
+        {phase === "draw" ? (
+          <div className="stamp bg-paper p-6 text-center">
+            <h2 className="font-display text-4xl font-bold">It is a draw.</h2>
+            <p className="mt-2 text-lg">Three playoff rounds stayed tied.</p>
+            <ul className="mt-4 space-y-1 text-lg">
+              {teams.map((team) => (
+                <li key={team.name}>
+                  {team.name}: {team.score}
+                </li>
+              ))}
+            </ul>
+            <button type="button" className="btn btn-chalk mt-5" onClick={() => setPhase("setup")}>
+              Play again
+            </button>
+          </div>
+        ) : null}
+      </div>
+    </div>
+  );
+}

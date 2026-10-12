@@ -1,0 +1,60 @@
+import type { Step } from "@/data/types";
+import { SHOTS } from "@/data/photos";
+
+export const STEPS: Step[] = [
+  {
+    id: "stars",
+    title: "Star watchers",
+    when: "A very long time ago",
+    sentence: "People watched the stars and learned the patterns in the sky.",
+    more: "Those patterns helped them track seasons.",
+    unsure: "We are not sure who did this first.",
+    image: SHOTS.stonehenge.src,
+    alt: SHOTS.stonehenge.alt,
+  },
+  {
+    id: "microscopes",
+    title: "Microscopes",
+    when: "The 1600s",
+    sentence: "Microscopes let people see tiny things no eye could see alone.",
+    more: "A small lens bends light so a speck looks large.",
+    image: SHOTS.scope.src,
+    alt: SHOTS.scope.alt,
+  },
+  {
+    id: "germs",
+    title: "Germs",
+    when: "The 1800s",
+    sentence: "Scientists tested the idea that some germs can cause illness.",
+    more: "Louis Pasteur and others ran tests that supported germ theory. Washing hands still helps.",
+    image: SHOTS.petri.src,
+    alt: SHOTS.petri.alt,
+  },
+  {
+    id: "flight",
+    title: "Flight",
+    when: "1903",
+    sentence: "A powered airplane flew, and people could ride the air.",
+    more: "The Wright brothers' plane lifted off in 1903.",
+    image: SHOTS.flight.src,
+    alt: SHOTS.flight.alt,
+  },
+  {
+    id: "dna",
+    title: "DNA",
+    when: "1953",
+    sentence: "Scientists showed that DNA is a twisted ladder.",
+    more: "Rosalind Franklin's X-ray picture helped them see the shape.",
+    image: SHOTS.franklin.src,
+    alt: SHOTS.franklin.alt,
+  },
+  {
+    id: "telescope",
+    title: "A space telescope",
+    when: "1990",
+    sentence: "A telescope in space looked past the blur of Earth's air.",
+    more: "The Hubble Space Telescope launched in 1990. Newer space telescopes keep looking.",
+    image: SHOTS.hubble.src,
+    alt: SHOTS.hubble.alt,
+  },
+];
