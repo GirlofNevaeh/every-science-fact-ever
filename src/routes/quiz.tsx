@@ -4,6 +4,7 @@ import { KID_LOOKS, Portrait } from "@/components/portrait";
 import { Shell } from "@/components/shell";
 import { drawQuestions, type QuizQuestion } from "@/data/quiz";
 import { localizeQuestion, useI18n, usePageTitle } from "@/i18n";
+import type { Lang } from "@/i18n/langs";
 
 export const Route = createFileRoute("/quiz")({
   head: () => ({ meta: [{ title: "Quiz · Every Science Fact Ever" }] }),
@@ -12,6 +13,26 @@ export const Route = createFileRoute("/quiz")({
 
 type Team = { name: string; score: number };
 type Phase = "setup" | "ask" | "wait" | "reveal" | "win" | "draw";
+type Order = [number, number, number, number];
+type Drawn = QuizQuestion & { order: Order };
+
+function mixOrder(): Order {
+  const order: Order = [0, 1, 2, 3];
+  for (let i = order.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    const swap = order[i];
+    order[i] = order[j];
+    order[j] = swap;
+  }
+  return order;
+}
+
+function showQuestion(question: Drawn, lang: Lang): QuizQuestion {
+  const localized = localizeQuestion(question, lang);
+  const choices = question.order.map((index) => localized.choices[index]) as QuizQuestion["choices"];
+  const answer = question.order.indexOf(localized.answer) as 0 | 1 | 2 | 3;
+  return { ...localized, choices, answer };
+}
 
 function QuizPage() {
   return (
@@ -29,7 +50,7 @@ function QuizBody() {
   const [count, setCount] = useState(2);
   const [names, setNames] = useState(() => Array.from({ length: 10 }, () => ""));
   const [phase, setPhase] = useState<Phase>("setup");
-  const [queue, setQueue] = useState<QuizQuestion[]>([]);
+  const [queue, setQueue] = useState<Drawn[]>([]);
   const [cursor, setCursor] = useState(0);
   const [teams, setTeams] = useState<Team[]>([]);
   const [active, setActive] = useState<number[]>([]);
@@ -55,7 +76,7 @@ function QuizBody() {
         : names.slice(0, size).map((name, index) => ({ name: name.trim() || t("teamN", { n: index + 1 }), score: 0 }));
     setTeams(nextTeams);
     setActive(nextTeams.map((_, index) => index));
-    setQueue(drawQuestions(80));
+    setQueue(drawQuestions(250).map((item) => ({ ...item, order: mixOrder() })));
     setCursor(0);
     setTurn(0);
     setPicked(null);
@@ -68,9 +89,9 @@ function QuizBody() {
   }
 
   const question = queue[cursor];
-  const shown = question ? localizeQuestion(question, lang) : undefined;
+  const shown = question ? showQuestion(question, lang) : undefined;
   const teamIndex = active[turn] ?? 0;
-  const correct = question ? picked === question.answer : false;
+  const correct = shown ? picked === shown.answer : false;
 
   function choose(choice: number) {
     if (phase !== "ask") return;
@@ -85,7 +106,7 @@ function QuizBody() {
 
   function next() {
     if (!question || picked === null) return;
-    const gained = picked === question.answer;
+    const gained = shown ? picked === shown.answer : false;
     const nextTeams = teams.map((team, index) =>
       index === teamIndex && gained ? { ...team, score: team.score + 1 } : team,
     );
@@ -247,7 +268,7 @@ function QuizBody() {
                 {shown?.choices.map((choice, index) => {
                   const chosen = picked === index;
                   const reveal = phase === "reveal";
-                  const isAnswer = index === question.answer;
+                  const isAnswer = index === shown.answer;
                   let tone = "btn-paper";
                   let note = "";
                   if (phase === "wait" && chosen) {
@@ -263,7 +284,7 @@ function QuizBody() {
                   }
                   return (
                     <button
-                      key={choice}
+                      key={`${cursor}-${index}`}
                       type="button"
                       className={`btn ${tone} w-full justify-between text-left whitespace-normal`}
                       disabled={phase !== "ask"}
