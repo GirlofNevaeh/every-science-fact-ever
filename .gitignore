@@ -13,4 +13,5 @@ attachments
 .env
 .env.*
 !.env.example
+.access-secret
 .node_modules.lock
