@@ -7,6 +7,7 @@ import ga from "@/i18n/ga.json";
 import fr from "@/i18n/fr.json";
 import it from "@/i18n/it.json";
 import es from "@/i18n/es.json";
+import de from "@/i18n/de.json";
 import ru from "@/i18n/ru.json";
 
 type QuizRow = [string, string, string, string, string];
@@ -28,6 +29,7 @@ const PACKS: Record<Exclude<Lang, "en">, ContentPack> = {
   fr: fr as unknown as ContentPack,
   it: it as unknown as ContentPack,
   es: es as unknown as ContentPack,
+  de: de as unknown as ContentPack,
   ru: ru as unknown as ContentPack,
 };
 

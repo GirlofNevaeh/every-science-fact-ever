@@ -6,6 +6,7 @@ export const LANGS = [
   { id: "fr", name: "Français" },
   { id: "it", name: "Italiano" },
   { id: "es", name: "Español" },
+  { id: "de", name: "Deutsch" },
   { id: "ru", name: "Русский" },
 ] as const;
 
