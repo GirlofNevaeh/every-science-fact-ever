@@ -6,7 +6,7 @@ import { SHOTS } from "@/data/photos";
 import { PLACES } from "@/data/places";
 import { STEPS } from "@/data/time";
 import { STAGES, WORK } from "@/data/work";
-import { localizeFact, localizePlace, localizeStep, localizeWork, useI18n, useKindLabel, usePageTitle } from "@/i18n";
+import { localizeFact, localizePlace, localizeStep, localizeWork, useI18n, useKindLabel, usePageTitle, useStageLabel } from "@/i18n";
 import { useState, type FormEvent } from "react";
 
 export const Route = createFileRoute("/")({
@@ -33,6 +33,7 @@ function HomeBody() {
   const openInstall = useInstall();
   const { t, lang } = useI18n();
   const kindName = useKindLabel();
+  const stageLabel = useStageLabel();
   usePageTitle(t("home"));
   const [q, setQ] = useState("");
   const heroRaw = getFact("wood-frog");
@@ -243,7 +244,7 @@ function HomeBody() {
             const team = teamRaw ? localizeWork(teamRaw, lang) : undefined;
             return (
               <li key={stage} className="stamp bg-paper p-3">
-                <p className="font-extrabold">{t("primary", { n: stage.slice(1) })}</p>
+                <p className="font-extrabold">{stageLabel(stage)}</p>
                 {solo ? (
                   <Link to="/work/$slug" params={{ slug: solo.slug }} className="mt-1 block underline">
                     {solo.title}

@@ -52,6 +52,29 @@ export function usePageTitle(title: string) {
   }, [title, t]);
 }
 
+const STAGE_AGES = ["5-6", "6-7", "7-8", "8-9", "9-10", "10-11", "11-12"] as const;
+
+const AGE_WORD: Record<Lang, string> = {
+  en: "Age",
+  gd: "Aois",
+  cy: "Oed",
+  ga: "Aois",
+  fr: "Âge",
+  it: "Età",
+  es: "Edad",
+  ru: "Возраст",
+  de: "Alter",
+};
+
+export function useStageLabel() {
+  const { lang } = useI18n();
+  return (stage: string) => {
+    const n = Number(stage.replace(/\D/g, ""));
+    const range = STAGE_AGES[n - 1];
+    return range ? `${AGE_WORD[lang]} ${range}` : stage;
+  };
+}
+
 export function useKindLabel() {
   const { t } = useI18n();
   return (kind: Kind) => (kind === "theory" ? t("kindTheory") : kind === "guess" ? t("kindGuess") : t("kindFact"));

@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Art, Shell } from "@/components/shell";
 import { getWork } from "@/data/work";
-import { localizeWork, useI18n, usePageTitle } from "@/i18n";
+import { localizeWork, useI18n, usePageTitle, useStageLabel } from "@/i18n";
 
 export const Route = createFileRoute("/work/$slug")({
   loader: ({ params }) => getWork(params.slug) ?? null,
@@ -14,6 +14,7 @@ export const Route = createFileRoute("/work/$slug")({
 function WorkDetail() {
   const raw = Route.useLoaderData();
   const { t, lang } = useI18n();
+  const stageLabel = useStageLabel();
   const card = raw ? localizeWork(raw, lang) : null;
   usePageTitle(card ? card.title : t("projects"));
   if (!card) {
@@ -33,7 +34,7 @@ function WorkDetail() {
     <Shell>
       <article className="mx-auto max-w-3xl px-4 py-6">
         <p className="text-sm font-extrabold uppercase">
-          {card.stage === "Print" ? t("printWord") : t("primary", { n: card.stage.slice(1) })} · {label}
+          {card.stage === "Print" ? t("printWord") : stageLabel(card.stage)} · {label}
         </p>
         <h1 className="font-display text-4xl font-bold">{card.title}</h1>
         {card.photo ? <Art src={card.photo} alt="" className="stamp mt-4 w-full" /> : null}

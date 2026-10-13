@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Shell, Art } from "@/components/shell";
 import { STAGES, WORK, type Stage } from "@/data/work";
 import type { WorkCard } from "@/data/types";
-import { localizeWork, useI18n, usePageTitle } from "@/i18n";
+import { localizeWork, useI18n, usePageTitle, useStageLabel } from "@/i18n";
 
 export const Route = createFileRoute("/work/")({
   head: () => ({ meta: [{ title: "Projects · Every Science Fact Ever" }] }),
@@ -12,6 +12,7 @@ export const Route = createFileRoute("/work/")({
 
 function ProjectsPage() {
   const { t, lang } = useI18n();
+  const stageLabel = useStageLabel();
   usePageTitle(t("projects"));
   const [stage, setStage] = useState<Stage>("P1");
   const cards = WORK.filter((card) => card.stage === stage);
@@ -32,11 +33,11 @@ function ProjectsPage() {
                 className={item === stage ? "chip is-on" : "chip"}
                 onClick={() => setStage(item)}
               >
-                {item}
+                {stageLabel(item)}
               </button>
             ))}
           </div>
-          <h2 className="mt-6 font-display text-3xl font-bold">{t("primary", { n: stage.slice(1) })}</h2>
+          <h2 className="mt-6 font-display text-3xl font-bold">{stageLabel(stage)}</h2>
           <div className="mt-3 grid gap-4 md:grid-cols-2">
             {solo ? <ProjectCard card={localizeWork(solo, lang)} /> : null}
             {team ? <ProjectCard card={localizeWork(team, lang)} /> : null}
