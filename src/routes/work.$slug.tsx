@@ -1,11 +1,11 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { Shell } from "@/components/shell";
+import { Art, Shell } from "@/components/shell";
 import { getWork } from "@/data/work";
 
 export const Route = createFileRoute("/work/$slug")({
   loader: ({ params }) => getWork(params.slug) ?? null,
   head: ({ loaderData }) => ({
-    meta: [{ title: loaderData ? `${loaderData.title} · Every Science Fact Ever` : "Work · Every Science Fact Ever" }],
+    meta: [{ title: loaderData ? `${loaderData.title} · Every Science Fact Ever` : "Projects · Every Science Fact Ever" }],
   }),
   component: WorkDetail,
 });
@@ -18,7 +18,7 @@ function WorkDetail() {
         <div className="mx-auto max-w-3xl px-4 py-8">
           <p>That page is not here.</p>
           <Link to="/work" className="btn btn-chalk mt-4">
-            Work
+            Projects
           </Link>
         </div>
       </Shell>
@@ -32,6 +32,7 @@ function WorkDetail() {
           {card.stage === "Print" ? "Print" : `Primary ${card.stage.slice(1)}`} · {label}
         </p>
         <h1 className="font-display text-4xl font-bold">{card.title}</h1>
+        {card.photo ? <Art src={card.photo} alt="" className="stamp mt-4 w-full" /> : null}
         <div className="lined stamp mt-4 bg-paper p-5">
           <p>
             <span className="font-extrabold">Time. </span>
@@ -70,7 +71,7 @@ function WorkDetail() {
             Print
           </button>
           <Link to="/work" className="btn btn-paper">
-            All work
+            All projects
           </Link>
         </div>
       </article>

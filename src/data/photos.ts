@@ -25,144 +25,6 @@ function nasa(id: string, src: string, alt: string, credit: string): Shot {
 }
 
 export const SHOTS = {
-  darwin: commons(
-    "Charles Darwin by Julia Margaret Cameron, c. 1868.jpg",
-    "/photos/darwin.jpg",
-    "Charles Darwin",
-    "Julia Margaret Cameron. Public domain.",
-  ),
-  goodall: commons(
-    "Jane Goodall 2015.jpg",
-    "/photos/goodall.jpg",
-    "Jane Goodall",
-    "U.S. Department of State. Public domain.",
-  ),
-  carver: commons(
-    "George Washington Carver c1910 - Restoration.jpg",
-    "/photos/carver.jpg",
-    "George Washington Carver",
-    "Public domain. Restored by Adam Cuerden.",
-  ),
-  mcclintock: commons(
-    "Barbara McClintock (1902-1992) shown in her laboratory in 1947.jpg",
-    "/photos/mcclintock.jpg",
-    "Barbara McClintock in her laboratory",
-    "Smithsonian Institution. Public domain.",
-  ),
-  just: commons(
-    "Ernest Everett Just.jpg",
-    "/photos/just.jpg",
-    "Ernest Everett Just",
-    "Public domain.",
-  ),
-  maathai: commons(
-    "Wangari Maathai in 2001.jpg",
-    "/photos/maathai.jpg",
-    "Wangari Maathai",
-    "Kingkongphoto. CC BY-SA 2.0.",
-  ),
-  curie: commons(
-    "Marie Curie c1920.jpg",
-    "/photos/curie.jpg",
-    "Marie Curie",
-    "Henri Manuel. Public domain.",
-  ),
-  franklin: commons(
-    "Rosalind Franklin.jpg",
-    "/photos/franklin.jpg",
-    "Rosalind Franklin at a microscope",
-    "MRC Laboratory of Molecular Biology. CC BY-SA 4.0.",
-  ),
-  julian: commons(
-    "Percy Lavon Julian (1899-1975) portrait.jpg",
-    "/photos/julian.jpg",
-    "Percy Julian",
-    "Public domain.",
-  ),
-  tu: commons(
-    "Tu Youyou 5012-1-2015.jpg",
-    "/photos/tu.jpg",
-    "Tu Youyou",
-    "Bengt Nyman. CC BY-SA 4.0.",
-  ),
-  mendeleev: commons(
-    "Dmitri Mendeleev 1890s.jpg",
-    "/photos/mendeleev.jpg",
-    "Dmitri Mendeleev",
-    "Public domain.",
-  ),
-  ball: commons(
-    "Alice Augusta Ball.jpg",
-    "/photos/ball.jpg",
-    "Alice Ball",
-    "Public domain.",
-  ),
-  newton: commons(
-    "GodfreyKneller-IsaacNewton-1689.jpg",
-    "/photos/newton.jpg",
-    "Isaac Newton",
-    "Godfrey Kneller. Public domain.",
-  ),
-  faraday: commons(
-    "Michael Faraday sitting.jpg",
-    "/photos/faraday.jpg",
-    "Michael Faraday",
-    "Public domain.",
-  ),
-  wu: commons(
-    "Chien-Shiung Wu (1912-1997) in 1958.jpg",
-    "/photos/wu.jpg",
-    "Chien-Shiung Wu",
-    "Smithsonian Institution. Public domain.",
-  ),
-  lovelace: commons(
-    "Ada Lovelace portrait.jpg",
-    "/photos/lovelace.jpg",
-    "Ada Lovelace",
-    "Alfred Edward Chalon. Public domain.",
-  ),
-  jackson: commons(
-    "Shirley Ann Jackson World Economic Forum 2010.jpg",
-    "/photos/jackson.jpg",
-    "Shirley Ann Jackson",
-    "World Economic Forum / Qilai Shen. CC BY-SA 2.0.",
-  ),
-  ibn: commons(
-    "Ibn al-Haytham.jpg",
-    "/photos/ibn.jpg",
-    "A later drawing of Hasan Ibn al-Haytham",
-    "Public domain.",
-  ),
-  anning: commons(
-    "Mary Anning painting.jpg",
-    "/photos/anning.jpg",
-    "Mary Anning",
-    "Painting credited to Mr. Grey. Public domain.",
-  ),
-  johnson: commons(
-    "Katherine Johnson at NASA, in 1966.jpg",
-    "/photos/johnson.jpg",
-    "Katherine Johnson",
-    "NASA. Public domain. Restored by Adam Cuerden.",
-  ),
-  jemison: commons(
-    "Mae Jemison.jpg",
-    "/photos/jemison.jpg",
-    "Mae Jemison",
-    "NASA. Public domain.",
-  ),
-  copernicus: commons(
-    "Nikolaus Kopernikus.jpg",
-    "/photos/copernicus.jpg",
-    "Nicolaus Copernicus",
-    "Public domain.",
-  ),
-  galileo: commons(
-    "Justus Sustermans - Portrait of Galileo Galilei, 1636.jpg",
-    "/photos/galileo.jpg",
-    "Galileo Galilei",
-    "Justus Sustermans. Public domain.",
-  ),
   frog: commons(
     "Lithobates sylvaticus.jpg",
     "/photos/frog.jpg",
@@ -235,11 +97,11 @@ export const SHOTS = {
     "Telescope domes on Mauna Kea",
     "T. Wynne / NASA JPL. Public domain.",
   ),
-  hands: commons(
-    "OCD handwash.jpg",
-    "/photos/hands.jpg",
-    "Hands being washed with soap",
-    "Lars Klintwall Malmqvist. Public domain.",
+  heart: commons(
+    "Heart model front back views.png",
+    "/photos/heart.jpg",
+    "A model of a human heart",
+    "RWhitwam. CC BY-SA 4.0. Cropped to the front view.",
   ),
   octopus: commons(
     "Octopus2.jpg",
@@ -266,10 +128,16 @@ export const SHOTS = {
     "SS. Antonio e Biagio e Cesare Arrigo. CC BY-SA 4.0.",
   ),
   flight: commons(
-    "First flight2.jpg",
+    "Wright Flyer replica (4-9-2024).jpg",
     "/photos/flight.jpg",
-    "The Wright Flyer on its first flight in 1903",
-    "John T. Daniels. Public domain.",
+    "A Wright Flyer replica hanging in a museum",
+    "ZLEA. CC BY-SA 4.0.",
+  ),
+  dna: commons(
+    "20251019 Replica DNA double helix model Berlin 03.jpg",
+    "/photos/dna.jpg",
+    "A museum model of the DNA double helix",
+    "Flocci Nivis. CC BY 4.0.",
   ),
   engine: commons(
     "Babbage Difference Engine.jpg",
@@ -301,33 +169,6 @@ export function shotBySrc(src: string): Shot | undefined {
 
 export const PHOTO_LIST: Shot[] = Object.values(SHOTS);
 
-const FACE: Record<string, ShotId> = {
-  darwin: "darwin",
-  goodall: "goodall",
-  carver: "carver",
-  mcclintock: "mcclintock",
-  just: "just",
-  maathai: "maathai",
-  curie: "curie",
-  franklin: "franklin",
-  julian: "julian",
-  tu: "tu",
-  mendeleev: "mendeleev",
-  ball: "ball",
-  newton: "newton",
-  faraday: "faraday",
-  wu: "wu",
-  lovelace: "lovelace",
-  jackson: "jackson",
-  ibn: "ibn",
-  anning: "anning",
-  johnson: "johnson",
-  jemison: "jemison",
-  copernicus: "copernicus",
-  galileo: "galileo",
-  chandra: "hubble",
-};
-
 const SCENE: Record<string, ShotId> = {
   darwin: "amazon",
   goodall: "chimp",
@@ -355,10 +196,6 @@ const SCENE: Record<string, ShotId> = {
   chandra: "hubble",
 };
 
-export function faceFor(slug: string): Shot {
-  return SHOTS[FACE[slug] ?? "earth"];
-}
-
 export function sceneFor(slug: string): Shot {
   return SHOTS[SCENE[slug] ?? "earth"];
 }
@@ -369,6 +206,6 @@ export const TOPIC_SHOT: Record<string, Shot> = {
   forces: SHOTS.magnet,
   earth: SHOTS.earth,
   space: SHOTS.jupiter,
-  body: SHOTS.hands,
+  body: SHOTS.heart,
   unusual: SHOTS.octopus,
 };

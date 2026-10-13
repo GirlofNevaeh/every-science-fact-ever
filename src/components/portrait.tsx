@@ -12,20 +12,41 @@ function coatFill(coat: Look["coat"]) {
   if (coat === "leaf") return "var(--color-leaf)";
   if (coat === "cobalt") return "var(--color-cobalt)";
   if (coat === "chalk") return "var(--color-chalk)";
+  if (coat === "brick") return "#c4472d";
+  if (coat === "flight") return "#e36a2c";
   return "var(--color-ink)";
 }
 
 function BackHair({ style, fill }: { style: HairStyle; fill: string }) {
   if (style === "bald") return null;
+  if (style === "bowl") {
+    return (
+      <g fill={fill}>
+        <ellipse cx="62" cy="120" rx="20" ry="32" />
+        <ellipse cx="138" cy="120" rx="20" ry="32" />
+        <path d="M50 114 Q48 58 100 48 Q152 58 150 114 Q130 76 100 72 Q70 76 50 114" />
+      </g>
+    );
+  }
+  if (style === "recede") {
+    return (
+      <g fill={fill}>
+        <path d="M60 120 Q52 86 80 80 Q68 108 74 132 Q88 110 96 98 Q74 108 60 120" />
+        <path d="M140 120 Q148 86 120 80 Q132 108 126 132 Q112 110 104 98 Q126 108 140 120" />
+      </g>
+    );
+  }
   if (style === "bun") return <circle cx="100" cy="58" r="16" fill={fill} />;
   if (style === "afro") return <circle cx="100" cy="104" r="62" fill={fill} />;
   if (style === "puff") return <circle cx="100" cy="96" r="52" fill={fill} />;
-  if (style === "long" || style === "ponytail") {
+  if (style === "ponytail") return null;
+  if (style === "long") {
     return (
-      <path
-        d="M64 96 Q58 168 80 196 H120 Q142 168 136 96 Q120 70 100 66 Q80 70 64 96"
-        fill={fill}
-      />
+      <g fill={fill}>
+        <path d="M64 92 Q46 150 68 202 Q90 158 80 100 Q72 78 64 92" />
+        <path d="M136 92 Q154 150 132 202 Q110 158 120 100 Q128 78 136 92" />
+        <path d="M70 98 Q100 56 130 98 Q116 76 100 72 Q84 76 70 98" />
+      </g>
     );
   }
   if (style === "bob") {
@@ -68,33 +89,82 @@ function BackHair({ style, fill }: { style: HairStyle; fill: string }) {
   return <path d={cap} fill={fill} />;
 }
 
-export function Portrait({ look, className }: { look: Look; className?: string }) {
+export function Portrait({
+  look,
+  className,
+  label,
+}: {
+  look: Look;
+  className?: string;
+  label?: string;
+}) {
   const skin = skinFill(look.skin);
   const fill = hairFill(look.hair);
   const coat = coatFill(look.coat);
   const faceRy = look.woman ? 48 : 44;
+  const skipFront =
+    look.style === "bald" ||
+    look.style === "afro" ||
+    look.style === "puff" ||
+    look.style === "recede" ||
+    look.style === "bowl" ||
+    look.style === "long";
   return (
-    <svg viewBox="0 0 200 220" className={className} aria-hidden="true">
+    <svg
+      viewBox="0 0 200 220"
+      className={className}
+      role={label ? "img" : undefined}
+      aria-label={label}
+      aria-hidden={label ? undefined : true}
+    >
       <circle cx="100" cy="112" r="96" fill="var(--color-chalk)" />
       <BackHair style={look.style} fill={fill} />
-      <path d="M28 222 Q100 150 172 222 Z" fill={coat} stroke="var(--color-ink)" strokeWidth="3" />
+      <path d="M34 222 Q100 176 166 222 Z" fill={coat} stroke="var(--color-ink)" strokeWidth="3" />
       <rect x="86" y="142" width="28" height="28" rx="10" fill={skin} />
       <ellipse cx="58" cy="116" rx="8" ry="12" fill={skin} />
       <ellipse cx="142" cy="116" rx="8" ry="12" fill={skin} />
       <ellipse cx="100" cy="108" rx="40" ry={faceRy} fill={skin} />
-      {look.style !== "bald" && look.style !== "afro" && look.style !== "puff" ? (
-        <path d="M68 96 Q100 78 132 96 Q120 86 100 84 Q80 86 68 96" fill={fill} />
-      ) : null}
-      {look.hat === "cap" ? (
-        <path d="M52 96 Q100 36 148 96 L156 106 H44 Z" fill="var(--color-ink)" />
-      ) : null}
+      {skipFront ? null : <path d="M68 96 Q100 78 132 96 Q120 86 100 84 Q80 86 68 96" fill={fill} />}
+      {look.hat === "cap" ? <path d="M52 96 Q100 36 148 96 L156 106 H44 Z" fill="var(--color-ink)" /> : null}
       {look.hat === "bonnet" ? (
-        <path
-          d="M42 108 Q100 28 158 108 Q140 128 100 120 Q60 128 42 108"
-          fill="var(--color-chalk)"
-          stroke="var(--color-ink)"
-          strokeWidth="3"
-        />
+        <g>
+          <path
+            d="M44 90 Q100 18 156 90 Q142 70 100 66 Q58 70 44 90"
+            fill="var(--color-chalk)"
+            stroke="var(--color-ink)"
+            strokeWidth="3"
+          />
+          <path d="M46 88 Q34 132 64 150" fill="none" stroke="var(--color-ink)" strokeWidth="3" />
+          <path d="M154 88 Q166 132 136 150" fill="none" stroke="var(--color-ink)" strokeWidth="3" />
+        </g>
+      ) : null}
+      {look.hat === "turban" ? (
+        <g>
+          <path
+            d="M46 98 Q72 30 100 26 Q158 34 158 98 Q146 68 100 60 Q56 68 46 98"
+            fill="var(--color-chalk)"
+            stroke="var(--color-ink)"
+            strokeWidth="3"
+          />
+          <ellipse cx="100" cy="62" rx="34" ry="12" fill="var(--color-chalk)" stroke="var(--color-ink)" strokeWidth="2.5" />
+        </g>
+      ) : null}
+      {look.hat === "wrap" ? (
+        <g>
+          <path
+            d="M64 84 Q100 68 142 84 Q136 96 100 92 Q72 96 64 84"
+            fill="var(--color-chalk)"
+            stroke="var(--color-ink)"
+            strokeWidth="2.5"
+          />
+          <circle cx="146" cy="74" r="11" fill="var(--color-chalk)" stroke="var(--color-ink)" strokeWidth="2.5" />
+        </g>
+      ) : null}
+      {look.older ? (
+        <g fill="none" stroke="var(--color-ink)" strokeWidth="1.6" opacity="0.4" strokeLinecap="round">
+          <path d="M68 98 Q74 94 80 98" />
+          <path d="M120 98 Q126 94 132 98" />
+        </g>
       ) : null}
       <ellipse cx="84" cy="108" rx="7" ry="8" fill="var(--color-lab)" />
       <ellipse cx="116" cy="108" rx="7" ry="8" fill="var(--color-lab)" />
@@ -116,14 +186,43 @@ export function Portrait({ look, className }: { look: Look; className?: string }
         </g>
       ) : null}
       <path d="M100 114 Q106 122 100 124" fill="none" stroke="var(--color-ink)" strokeWidth="2" opacity="0.55" />
-      <path
-        d="M86 128 Q100 140 114 128"
-        fill="none"
-        stroke="var(--color-ink)"
-        strokeWidth="2.5"
-        strokeLinecap="round"
-      />
-      {look.beard ? <path d="M70 132 Q100 176 130 132 Q114 150 100 154 Q86 150 70 132" fill={fill} /> : null}
+      {look.mouth === "calm" ? (
+        <path d="M88 132 H112" fill="none" stroke="var(--color-ink)" strokeWidth="2.5" strokeLinecap="round" />
+      ) : look.mouth === "wide" ? (
+        <g>
+          <path d="M76 128 Q100 156 124 128 Q100 146 76 128" fill="var(--color-ink)" />
+          <path d="M84 130 Q100 146 116 130" fill="var(--color-lab)" />
+        </g>
+      ) : (
+        <path
+          d="M86 128 Q100 140 114 128"
+          fill="none"
+          stroke="var(--color-ink)"
+          strokeWidth="2.5"
+          strokeLinecap="round"
+        />
+      )}
+      {look.beard ? (
+        <path
+          d="M70 126 C64 168 78 192 100 194 C122 192 136 168 130 126 C118 148 100 156 82 148 C76 140 74 132 70 126 Z"
+          fill={fill}
+          stroke="var(--color-ink)"
+          strokeWidth="2.5"
+        />
+      ) : null}
+      {look.mustache ? (
+        <path d="M82 122 Q100 136 118 122 Q108 130 100 130 Q92 130 82 122" fill={fill} stroke="var(--color-ink)" strokeWidth="2" />
+      ) : null}
+      {look.style === "ponytail" ? (
+        <path d="M130 76 C158 96 168 150 146 200 C132 158 120 112 134 84 Z" fill={fill} stroke="var(--color-ink)" strokeWidth="2" />
+      ) : null}
+      {look.bow ? (
+        <g fill="var(--color-ink)">
+          <path d="M100 166 L76 156 L76 178 Z" />
+          <path d="M100 166 L124 156 L124 178 Z" />
+          <circle cx="100" cy="167" r="4" fill="var(--color-chalk)" stroke="var(--color-ink)" strokeWidth="2" />
+        </g>
+      ) : null}
     </svg>
   );
 }

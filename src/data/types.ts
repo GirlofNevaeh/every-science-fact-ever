@@ -52,7 +52,9 @@ export type HairStyle =
   | "curls"
   | "crop"
   | "ponytail"
-  | "side";
+  | "side"
+  | "bowl"
+  | "recede";
 
 export type Look = {
   skin: 1 | 2 | 3 | 4 | 5 | 6;
@@ -60,9 +62,13 @@ export type Look = {
   style: HairStyle;
   woman: boolean;
   beard?: boolean;
+  mustache?: boolean;
   glasses?: boolean;
-  hat?: "cap" | "bonnet";
-  coat: "leaf" | "cobalt" | "chalk" | "ink";
+  bow?: boolean;
+  older?: boolean;
+  mouth?: "smile" | "wide" | "calm";
+  hat?: "cap" | "bonnet" | "turban" | "wrap";
+  coat: "leaf" | "cobalt" | "chalk" | "ink" | "brick" | "flight";
 };
 
 export type Person = {
@@ -112,6 +118,7 @@ export type WorkCard = {
   need: string[];
   steps: string[];
   done: string;
+  photo?: string;
 };
 
 export function topicLabel(id: string): string {

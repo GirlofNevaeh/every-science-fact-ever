@@ -40,7 +40,7 @@ function PlacesPage() {
         </div>
         {place ? (
           <article className="stamp mt-4 grid overflow-hidden bg-paper md:grid-cols-[18rem_1fr]">
-            <Art src={place.image} alt={place.alt} className="h-52 w-full md:h-full" />
+            <Art src={place.image} alt={place.alt} className="w-full" />
             <div className="p-5">
               <p className="text-sm font-extrabold uppercase">{place.where}</p>
               <h2 className="font-display text-3xl font-bold">{place.title}</h2>

@@ -1,6 +1,8 @@
 import { Link, useNavigate } from "@tanstack/react-router";
 import { createContext, useContext, useEffect, useRef, useState, type FormEvent, type ReactNode } from "react";
 import { PHOTO_LIST, shotBySrc } from "@/data/photos";
+import type { Look } from "@/data/types";
+import { Portrait } from "@/components/portrait";
 
 const NAV = [
   { to: "/", label: "Home", exact: true },
@@ -10,8 +12,19 @@ const NAV = [
   { to: "/ideas", label: "Ideas", exact: true },
   { to: "/time", label: "Time", exact: true },
   { to: "/quiz", label: "Quiz", exact: true },
-  { to: "/work", label: "Work", exact: false },
+  { to: "/work", label: "Projects", exact: false },
 ] as const;
+
+function PreloadPhotos() {
+  useEffect(() => {
+    for (const shot of PHOTO_LIST) {
+      const img = new Image();
+      img.decoding = "async";
+      img.src = shot.src;
+    }
+  }, []);
+  return null;
+}
 
 const InstallContext = createContext<() => void>(() => {});
 
@@ -108,6 +121,7 @@ export function Shell({ children }: { children: ReactNode }) {
   const [open, setOpen] = useState(false);
   return (
     <InstallContext.Provider value={() => setOpen(true)}>
+      <PreloadPhotos />
       <div className="min-h-dvh bg-lab text-ink">
         <a href="#content" className="sr-only">
           Skip to content
@@ -122,7 +136,7 @@ export function Shell({ children }: { children: ReactNode }) {
         </footer>
         <details className="no-print mx-auto max-w-6xl px-4 pb-8">
           <summary className="cursor-pointer font-extrabold">Photo credits</summary>
-          <p className="mt-2 text-base">Pictures were resized to fit. Nothing else was changed.</p>
+          <p className="mt-2 text-base">Pictures were resized to fit. The heart model was cropped to the front view. Nothing else was changed.</p>
           <ul className="mt-3 space-y-2 text-sm">
             {PHOTO_LIST.map((shot) => (
               <li key={shot.src}>
@@ -153,11 +167,19 @@ export function Art({
 }) {
   const shot = shotBySrc(src);
   const line = shot?.credit;
+  const label = alt || shot?.alt || "";
   return (
-    <figure className={`relative m-0 overflow-hidden bg-cobalt-soft ${className ?? ""}`}>
-      <img src={src} alt={alt} className="h-full w-full object-cover" />
+    <figure className={`m-0 overflow-hidden bg-chalk ${className ?? ""}`}>
+      <img
+        src={src}
+        alt={label}
+        loading="eager"
+        decoding="async"
+        fetchPriority="high"
+        className="block h-auto w-full"
+      />
       {credit === "overlay" && line ? (
-        <figcaption className="absolute inset-x-0 bottom-0 bg-ink/85 px-2 py-1 text-left text-[0.7rem] leading-snug font-semibold break-words text-lab">
+        <figcaption className="bg-ink px-2 py-1 text-left text-[0.7rem] leading-snug font-semibold break-words text-lab">
           <a href={shot.href} target="_blank" rel="noreferrer" className="underline decoration-lab/70">
             {line}
           </a>
@@ -168,19 +190,17 @@ export function Art({
 }
 
 export function Face({
-  src,
-  alt,
+  look,
+  name,
   className,
 }: {
-  src: string;
-  alt: string;
+  look: Look;
+  name: string;
   className?: string;
 }) {
   return (
-    <img
-      src={src}
-      alt={alt}
-      className={`rounded-full border-[3px] border-ink object-cover object-[center_15%] ${className ?? ""}`}
-    />
+    <div className={`overflow-hidden rounded-full border-[3px] border-ink bg-chalk ${className ?? ""}`}>
+      <Portrait look={look} label={`Cartoon portrait of ${name}`} className="h-full w-full" />
+    </div>
   );
 }

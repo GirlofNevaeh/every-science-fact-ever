@@ -1,4 +1,5 @@
 import type { WorkCard } from "@/data/types";
+import { SHOTS } from "@/data/photos";
 
 export const WORK: WorkCard[] = [
   {
@@ -56,6 +57,7 @@ export const WORK: WorkCard[] = [
       "Circle the ones made of iron or steel.",
     ],
     done: "The team can point to something the magnet pulls and something it does not.",
+    photo: SHOTS.magnet.src,
   },
   {
     slug: "p3-sugar",
@@ -112,6 +114,7 @@ export const WORK: WorkCard[] = [
       "Write both numbers. Say what changed and what you kept the same.",
     ],
     done: "The team has two counts and a sentence about the difference.",
+    photo: SHOTS.heart.src,
   },
   {
     slug: "p5-friction",
@@ -168,6 +171,7 @@ export const WORK: WorkCard[] = [
       "Say one measured fact you used, and one thing that is still a theory.",
     ],
     done: "The model is in order, and the team can name the fact they checked.",
+    photo: SHOTS.jupiter.src,
   },
   {
     slug: "p7-ice",
@@ -196,6 +200,7 @@ export const WORK: WorkCard[] = [
       "Write what would change the result if you were careless.",
     ],
     done: "The team has a result, a unit, and one sentence about what would spoil the test.",
+    photo: SHOTS.lab.src,
   },
   {
     slug: "print-fair",
@@ -260,3 +265,4 @@ export function getWork(slug: string): WorkCard | undefined {
 }
 
 export const STAGES = ["P1", "P2", "P3", "P4", "P5", "P6", "P7"] as const;
+export type Stage = (typeof STAGES)[number];

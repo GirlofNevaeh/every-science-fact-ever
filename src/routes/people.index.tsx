@@ -1,7 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Face, Shell } from "@/components/shell";
 import { PEOPLE } from "@/data/people";
-import { faceFor } from "@/data/photos";
 import { FIELDS } from "@/data/types";
 
 export const Route = createFileRoute("/people/")({
@@ -26,7 +25,7 @@ function PeoplePage() {
                       params={{ slug: person.slug }}
                       className="stamp block bg-paper p-3 text-center"
                     >
-                      <Face src={faceFor(person.slug).src} alt={faceFor(person.slug).alt} className="mx-auto h-28 w-28" />
+                      <Face look={person.look} name={person.name} className="mx-auto h-28 w-28" />
                       <p className="mt-2 font-extrabold leading-tight">{person.name}</p>
                     </Link>
                   </li>

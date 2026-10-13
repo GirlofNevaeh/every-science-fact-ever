@@ -33,7 +33,7 @@ export const PEOPLE: Person[] = [
       "In 1859 he published a theory. Living things that fit their homes tend to have more young, and groups change over a very long time.",
       "Fossils are one way we test that theory.",
     ],
-    { skin: 1, hair: 5, style: "side", woman: false, beard: true, coat: "ink" },
+    { skin: 1, hair: 5, style: "recede", woman: false, beard: true, older: true, coat: "ink" },
     "/art/living.jpg",
     "A frog, a bee, and a mushroom in a bright forest",
     q(
@@ -55,7 +55,7 @@ export const PEOPLE: Person[] = [
       "In 1960 she saw a chimp use a stick to pull insects from a mound.",
       "That record showed that chimps can make and use tools.",
     ],
-    { skin: 1, hair: 4, style: "ponytail", woman: true, coat: "leaf" },
+    { skin: 1, hair: 5, style: "ponytail", woman: true, coat: "leaf" },
     "/art/living.jpg",
     "A bright forest with a frog, a bee, and a flower",
     q(
@@ -79,7 +79,7 @@ export const PEOPLE: Person[] = [
       "He showed farmers that peanuts and sweet potatoes could rest fields that had grown cotton for too long.",
       "He also found new ways to use those plants so less was wasted.",
     ],
-    { skin: 6, hair: 5, style: "short", woman: false, coat: "chalk" },
+    { skin: 6, hair: 5, style: "recede", woman: false, mustache: true, bow: true, older: true, coat: "ink" },
     "/art/living.jpg",
     "Green plants in bright daylight",
     q(
@@ -103,7 +103,7 @@ export const PEOPLE: Person[] = [
       "She figured out that some bits of DNA can jump to a new place.",
       "Later tests in other living things showed she was right.",
     ],
-    { skin: 1, hair: 5, style: "wavy", woman: true, glasses: true, coat: "cobalt" },
+    { skin: 1, hair: 5, style: "short", woman: true, glasses: true, older: true, coat: "cobalt" },
     "/art/living.jpg",
     "A bright patch of living plants",
     q(
@@ -127,7 +127,7 @@ export const PEOPLE: Person[] = [
       "He showed that the outer part of a cell helps control what the cell does.",
       "He did that careful work at the shore and in the lab.",
     ],
-    { skin: 6, hair: 1, style: "short", woman: false, glasses: true, coat: "leaf" },
+    { skin: 5, hair: 1, style: "short", woman: false, bow: true, coat: "ink" },
     "/art/place-ocean.jpg",
     "A research ship on a sunny sea",
     q(
@@ -151,7 +151,7 @@ export const PEOPLE: Person[] = [
       "She led a movement that planted millions of trees.",
       "Trees hold soil and help the air.",
     ],
-    { skin: 6, hair: 1, style: "braids", woman: true, coat: "leaf" },
+    { skin: 6, hair: 1, style: "braids", woman: true, hat: "wrap", mouth: "wide", coat: "leaf" },
     "/art/place-rain.jpg",
     "A wooden field station in a green rainforest",
     q(
@@ -175,7 +175,7 @@ export const PEOPLE: Person[] = [
       "She named that action radioactivity.",
       "She found two elements, polonium and radium.",
     ],
-    { skin: 1, hair: 2, style: "bun", woman: true, coat: "cobalt" },
+    { skin: 1, hair: 1, style: "bun", woman: true, coat: "ink" },
     "/art/place-lab.jpg",
     "A bright chemistry lab with bottles of colored water",
     q(
@@ -199,7 +199,7 @@ export const PEOPLE: Person[] = [
       "In 1952 one picture gave a clear clue that DNA is a twisted shape.",
       "Other scientists used her picture when they built a model of DNA.",
     ],
-    { skin: 1, hair: 1, style: "bob", woman: true, coat: "leaf" },
+    { skin: 1, hair: 1, style: "wavy", woman: true, coat: "cobalt" },
     "/art/time-dna.jpg",
     "A colorful twisted-ladder model on a wooden table",
     q(
@@ -223,7 +223,7 @@ export const PEOPLE: Person[] = [
       "He found ways to turn soybean chemicals into medicines.",
       "One of those medicines was used to ease stiff joints.",
     ],
-    { skin: 5, hair: 1, style: "short", woman: false, glasses: true, coat: "leaf" },
+    { skin: 5, hair: 1, style: "short", woman: false, mustache: true, glasses: true, bow: true, coat: "ink" },
     "/art/place-lab.jpg",
     "A sunny chemistry laboratory",
     q(
@@ -247,7 +247,7 @@ export const PEOPLE: Person[] = [
       "In the 1970s they pulled a strong medicine, artemisinin, out of sweet wormwood.",
       "That medicine helps people who have malaria.",
     ],
-    { skin: 2, hair: 1, style: "bob", woman: true, coat: "chalk" },
+    { skin: 2, hair: 1, style: "bob", woman: true, older: true, mouth: "calm", coat: "chalk" },
     "/art/materials.jpg",
     "Beakers of green, blue, and yellow water on a sunny bench",
     q(
@@ -271,7 +271,7 @@ export const PEOPLE: Person[] = [
       "In 1869 he left gaps where he thought missing elements should fit.",
       "Later, people found elements that matched his gaps.",
     ],
-    { skin: 1, hair: 5, style: "wavy", woman: false, beard: true, coat: "ink" },
+    { skin: 1, hair: 5, style: "long", woman: false, beard: true, older: true, coat: "ink" },
     "/art/materials.jpg",
     "A bright bench of glass beakers",
     q(
@@ -316,7 +316,7 @@ export const PEOPLE: Person[] = [
       "He also built a theory of gravity that covers both a falling apple and the Moon.",
       "Scientists still test gravity in new ways.",
     ],
-    { skin: 1, hair: 5, style: "long", woman: false, coat: "ink" },
+    { skin: 1, hair: 5, style: "long", woman: false, older: true, coat: "ink" },
     "/art/forces.jpg",
     "A ramp, a ball, a magnet, and a spring",
     q(
@@ -338,7 +338,7 @@ export const PEOPLE: Person[] = [
       "That finding is how many generators make electricity.",
       "He tested it with coils and magnets in the lab.",
     ],
-    { skin: 1, hair: 2, style: "side", woman: false, coat: "cobalt" },
+    { skin: 1, hair: 5, style: "recede", woman: false, older: true, bow: true, mouth: "calm", coat: "ink" },
     "/art/forces.jpg",
     "A magnet, a ramp, and a spring on a cream floor",
     q(
@@ -383,7 +383,7 @@ export const PEOPLE: Person[] = [
       "In 1843 she published a step-by-step plan for the machine to compute numbers.",
       "People call that plan the first computer program. The machine was not built in her lifetime.",
     ],
-    { skin: 1, hair: 2, style: "curls", woman: true, coat: "chalk" },
+    { skin: 1, hair: 1, style: "curls", woman: true, coat: "chalk" },
     "/art/forces.jpg",
     "A wooden ramp, a ball, and a magnet",
     q(
@@ -407,7 +407,7 @@ export const PEOPLE: Person[] = [
       "She researched how those particles behave, then how electrons move in special materials.",
       "That work helped later studies of materials used in electronics.",
     ],
-    { skin: 6, hair: 1, style: "crop", woman: true, glasses: true, coat: "leaf" },
+    { skin: 6, hair: 1, style: "crop", woman: true, glasses: true, coat: "cobalt" },
     "/art/place-lab.jpg",
     "A bright lab with glassware",
     q(
@@ -431,7 +431,7 @@ export const PEOPLE: Person[] = [
       "He showed that we see because light enters the eye, not because the eye sends out beams.",
       "He wrote the steps so someone else could try the tests.",
     ],
-    { skin: 3, hair: 1, style: "short", woman: false, beard: true, coat: "cobalt" },
+    { skin: 3, hair: 1, style: "short", woman: false, beard: true, hat: "turban", coat: "ink" },
     "/art/time-scope.jpg",
     "A brass microscope beside a green leaf",
     q(
@@ -503,7 +503,7 @@ export const PEOPLE: Person[] = [
       "In 1992 she flew on a space shuttle and ran experiments in orbit.",
       "The experiments looked at how bodies work away from Earth's usual pull.",
     ],
-    { skin: 6, hair: 1, style: "puff", woman: true, coat: "leaf" },
+    { skin: 6, hair: 1, style: "crop", woman: true, mouth: "wide", coat: "flight" },
     "/art/time-hubble.jpg",
     "A space telescope above Earth",
     q(
@@ -527,7 +527,7 @@ export const PEOPLE: Person[] = [
       "His book came out in 1543.",
       "A year is one of those trips around the Sun.",
     ],
-    { skin: 1, hair: 5, style: "short", woman: false, hat: "cap", coat: "ink" },
+    { skin: 1, hair: 1, style: "bowl", woman: false, coat: "brick" },
     "/art/earth.jpg",
     "A round Earth and a small Moon",
     q(
@@ -548,7 +548,7 @@ export const PEOPLE: Person[] = [
       "In 1610 he saw four moons moving around Jupiter.",
       "He also saw that Venus has phases, which fits a Sun-centered system.",
     ],
-    { skin: 1, hair: 5, style: "bald", woman: false, beard: true, coat: "cobalt" },
+    { skin: 1, hair: 5, style: "recede", woman: false, beard: true, mustache: true, older: true, coat: "ink" },
     "/art/place-sky.jpg",
     "A white observatory dome under a starry sky",
     q(
@@ -569,7 +569,7 @@ export const PEOPLE: Person[] = [
       "He found a weight limit. Past that limit, the star cannot hold itself up in the same way.",
       "Later tests agreed with his theory.",
     ],
-    { skin: 3, hair: 1, style: "side", woman: false, glasses: true, coat: "leaf" },
+    { skin: 3, hair: 1, style: "side", woman: false, glasses: true, coat: "cobalt" },
     "/art/space.jpg",
     "Planets and a Sun on a cream background",
     q(

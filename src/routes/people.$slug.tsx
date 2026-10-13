@@ -1,8 +1,9 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { Art, Face, Shell } from "@/components/shell";
+import { Art, Shell } from "@/components/shell";
 import { FACTS } from "@/data/facts";
 import { getPerson } from "@/data/people";
-import { faceFor, sceneFor } from "@/data/photos";
+import { sceneFor } from "@/data/photos";
+import { Portrait } from "@/components/portrait";
 import { fieldLabel } from "@/data/types";
 
 export const Route = createFileRoute("/people/$slug")({
@@ -32,18 +33,16 @@ function PersonPage() {
     );
   }
   const related = FACTS.filter((fact) => fact.person === person.slug);
-  const face = faceFor(person.slug);
   const scene = sceneFor(person.slug);
   return (
     <Shell>
       <article className="mx-auto grid max-w-5xl gap-4 px-4 py-5 lg:grid-cols-[16rem_1fr]">
         <div className="stamp bg-chalk p-4">
-          <Face src={face.src} alt={face.alt} className="mx-auto h-56 w-56" />
-          <p className="mt-3 text-center text-sm leading-snug font-semibold break-words">
-            <a href={face.href} className="underline" target="_blank" rel="noreferrer">
-              {face.credit}
-            </a>
-          </p>
+          <Portrait
+            look={person.look}
+            label={`Cartoon portrait of ${person.name}`}
+            className="mx-auto h-64 w-full"
+          />
           <p className="mt-3 text-center text-sm font-extrabold uppercase">{fieldLabel(person.field)}</p>
         </div>
         <div>
@@ -59,7 +58,7 @@ function PersonPage() {
           {person.extra ? <p className="stamp mt-4 bg-paper p-4 text-lg">{person.extra}</p> : null}
           {person.unsure ? <p className="mt-3 text-lg font-extrabold">{person.unsure}</p> : null}
         </div>
-        <Art src={scene.src} alt={scene.alt} className="stamp h-56 w-full lg:col-span-2" />
+        <Art src={scene.src} alt={scene.alt} className="stamp w-full lg:col-span-2" />
         {related.length > 0 ? (
           <section className="lg:col-span-2">
             <h2 className="font-display text-2xl font-bold">Related</h2>

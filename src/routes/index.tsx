@@ -2,9 +2,10 @@ import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { Art, Face, Shell, useInstall } from "@/components/shell";
 import { getFact } from "@/data/facts";
 import { getPerson } from "@/data/people";
-import { SHOTS, faceFor } from "@/data/photos";
+import { SHOTS } from "@/data/photos";
 import { PLACES } from "@/data/places";
 import { STEPS } from "@/data/time";
+import { STAGES, WORK } from "@/data/work";
 import { kindLabel } from "@/data/types";
 import { useState, type FormEvent } from "react";
 
@@ -44,7 +45,7 @@ function HomeBody() {
   return (
     <div className="mx-auto max-w-6xl px-4 py-5">
       <section className="grid items-stretch gap-4 lg:grid-cols-[1.3fr_1fr]">
-        <Art src={SHOTS.frog.src} alt={SHOTS.frog.alt} className="stamp h-64 w-full sm:h-80" />
+        <Art src={SHOTS.frog.src} alt={SHOTS.frog.alt} className="stamp w-full" />
         {hero ? (
           <div className="stamp flex flex-col justify-between bg-chalk p-5">
             <p className="text-sm font-extrabold tracking-wide uppercase">{kindLabel(hero.kind)}</p>
@@ -80,7 +81,7 @@ function HomeBody() {
 
       <section className="mt-8 grid gap-4 lg:grid-cols-[1.2fr_0.8fr]">
         <div className="stamp overflow-hidden bg-leaf-soft">
-          <Art src={SHOTS.bee.src} alt={SHOTS.bee.alt} className="h-48 w-full" />
+          <Art src={SHOTS.bee.src} alt={SHOTS.bee.alt} className="w-full" />
           <div className="p-4">
             <h2 className="font-display text-3xl font-bold">Living things</h2>
             <ul className="mt-3 space-y-2">
@@ -135,7 +136,7 @@ function HomeBody() {
       </section>
 
       <section className="stamp mt-4 grid overflow-hidden bg-cobalt text-lab md:grid-cols-2">
-        <Art src={SHOTS.earth.src} alt={SHOTS.earth.alt} className="h-56 w-full md:h-full" />
+        <Art src={SHOTS.earth.src} alt={SHOTS.earth.alt} className="w-full" />
         <div className="p-5">
           <h2 className="font-display text-3xl font-bold">Earth and sky</h2>
           <ul className="mt-3 space-y-2">
@@ -150,7 +151,7 @@ function HomeBody() {
               ) : null;
             })}
           </ul>
-          <Art src={SHOTS.jupiter.src} alt={SHOTS.jupiter.alt} className="mt-4 h-36 w-full rounded-xl border-[3px] border-ink" />
+          <Art src={SHOTS.jupiter.src} alt={SHOTS.jupiter.alt} className="mt-4 w-full rounded-xl border-[3px] border-ink" />
         </div>
       </section>
 
@@ -204,11 +205,42 @@ function HomeBody() {
         <div className="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-3">
           {PLACES.map((place) => (
             <Link key={place.id} to="/places" className="stamp overflow-hidden bg-paper">
-              <Art src={place.image} alt={place.alt} credit="off" className="h-24 w-full" />
+              <Art src={place.image} alt={place.alt} credit="off" className="w-full" />
               <p className="p-3 font-extrabold">{place.title}</p>
             </Link>
           ))}
         </div>
+      </section>
+
+      <section className="mt-8">
+        <div className="flex items-end justify-between gap-3">
+          <h2 className="font-display text-3xl font-bold">Projects</h2>
+          <Link to="/work" className="btn btn-leaf">
+            All years
+          </Link>
+        </div>
+        <p className="mt-2 text-lg">Primary 1 through Primary 7. One project on your own, and one with a team.</p>
+        <ul className="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-4">
+          {STAGES.map((stage) => {
+            const solo = WORK.find((card) => card.stage === stage && card.mode === "solo");
+            const team = WORK.find((card) => card.stage === stage && card.mode === "team");
+            return (
+              <li key={stage} className="stamp bg-paper p-3">
+                <p className="font-extrabold">Primary {stage.slice(1)}</p>
+                {solo ? (
+                  <Link to="/work/$slug" params={{ slug: solo.slug }} className="mt-1 block underline">
+                    {solo.title}
+                  </Link>
+                ) : null}
+                {team ? (
+                  <Link to="/work/$slug" params={{ slug: team.slug }} className="mt-1 block underline">
+                    {team.title}
+                  </Link>
+                ) : null}
+              </li>
+            );
+          })}
+        </ul>
       </section>
 
       <section className="mt-8">
@@ -224,7 +256,7 @@ function HomeBody() {
             if (!person) return null;
             return (
               <Link key={slug} to="/people/$slug" params={{ slug }} className="stamp bg-paper p-3 text-center">
-                <Face src={faceFor(slug).src} alt={faceFor(slug).alt} className="mx-auto h-28 w-28" />
+                <Face look={person.look} name={person.name} className="mx-auto h-28 w-28" />
                 <p className="mt-2 font-extrabold">{person.name}</p>
               </Link>
             );

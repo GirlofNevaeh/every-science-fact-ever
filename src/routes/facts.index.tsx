@@ -1,7 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Face, Shell } from "@/components/shell";
 import { matchingFacts, matchingPeople, topicCounts } from "@/data/search";
-import { faceFor } from "@/data/photos";
 import { TOPICS, kindLabel, type TopicId } from "@/data/types";
 
 type FactsSearch = { q: string; topic: string };
@@ -57,7 +56,7 @@ function FactsPage() {
               {people.map((person) => (
                 <li key={person.slug}>
                   <Link to="/people/$slug" params={{ slug: person.slug }} className="stamp flex items-center gap-3 bg-paper p-3">
-                    <Face src={faceFor(person.slug).src} alt={faceFor(person.slug).alt} className="h-16 w-16 shrink-0" />
+                    <Face look={person.look} name={person.name} className="h-16 w-16 shrink-0" />
                     <span>
                       <span className="block font-extrabold">{person.name}</span>
                       <span className="block text-base">{person.lines[0]}</span>

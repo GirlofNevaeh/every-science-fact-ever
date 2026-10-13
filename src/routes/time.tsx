@@ -25,7 +25,7 @@ function TimePage() {
             {step + 1} of {STEPS.length}
           </p>
           <div className="grid items-center gap-4 md:grid-cols-2">
-            <Art src={item.image} alt={item.alt} className="stamp h-64 w-full object-cover" />
+            <Art src={item.image} alt={item.alt} className="stamp w-full" />
             <div>
               <p className="font-extrabold">{item.when}</p>
               <h1 className="font-display text-4xl font-bold sm:text-5xl">{item.title}</h1>

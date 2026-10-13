@@ -45,8 +45,8 @@ export const STEPS: Step[] = [
     when: "1953",
     sentence: "Scientists showed that DNA is a twisted ladder.",
     more: "Rosalind Franklin's X-ray picture helped them see the shape.",
-    image: SHOTS.franklin.src,
-    alt: SHOTS.franklin.alt,
+    image: SHOTS.dna.src,
+    alt: SHOTS.dna.alt,
   },
   {
     id: "telescope",

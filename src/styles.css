@@ -15,17 +15,6 @@
   --color-mist: color-mix(in srgb, var(--color-leaf) 8%, var(--color-lab));
   --color-leaf-soft: color-mix(in srgb, var(--color-leaf) 16%, var(--color-lab));
   --color-cobalt-soft: color-mix(in srgb, var(--color-cobalt) 14%, var(--color-lab));
-  --color-skin-1: #f3d5c0;
-  --color-skin-2: #e7b894;
-  --color-skin-3: #c68642;
-  --color-skin-4: #8d5524;
-  --color-skin-5: #5c3a21;
-  --color-skin-6: #3b2416;
-  --color-hair-1: #1a1a1a;
-  --color-hair-2: #3b2a22;
-  --color-hair-3: #6b4423;
-  --color-hair-4: #8a4b2a;
-  --color-hair-5: #c4bbb0;
   --font-sans: "Nunito", "Segoe UI", sans-serif;
   --font-display: "Fraunces", Georgia, serif;
   --text-nav: 0.7rem;
@@ -34,6 +23,19 @@
 }
 
 @layer base {
+  :root {
+    --color-skin-1: #f3d5c0;
+    --color-skin-2: #e7b894;
+    --color-skin-3: #c68642;
+    --color-skin-4: #8d5524;
+    --color-skin-5: #5c3a21;
+    --color-skin-6: #3b2416;
+    --color-hair-1: #1a1a1a;
+    --color-hair-2: #3b2a22;
+    --color-hair-3: #6b4423;
+    --color-hair-4: #8a4b2a;
+    --color-hair-5: #d9d3cb;
+  }
   html {
     overflow-x: hidden;
   }
