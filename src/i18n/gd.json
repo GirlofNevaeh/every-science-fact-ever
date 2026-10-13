@@ -8,17 +8,17 @@
       "unsure": "",
       "quiz": [
         [
-          "Dè bhios lusan a' cleachdadh airson biadh a dhèanamh?",
+          "Dè a bhios lusan a' cleachdadh airson biadh a dhèanamh?",
           "Solas na grèine, adhar, agus uisge",
           "Creagan a-mhàin",
           "Salann a-mhàin",
           "Meatailt a-mhàin"
         ],
         [
-          "Dè thachras mura faigh duilleag solas?",
+          "Dè a thachras mura faigh duilleag solas?",
           "Chan urrainn dhi biadh a dhèanamh",
           "Bidh i na h-iarann",
-          "Bidh i na magnaid",
+          "Bidh i na mhagnaid",
           "Bidh i a' itealaich dhan Moon"
         ]
       ]
@@ -54,7 +54,7 @@
       "unsure": "",
       "quiz": [
         [
-          "Dè bhios seilleanan a' giùlan eadar flùraichean?",
+          "Dè a bhios seilleanan a' giùlan eadar flùraichean?",
           "Poilean",
           "Magnaidean",
           "Fosailean",
@@ -77,7 +77,7 @@
       "unsure": "",
       "quiz": [
         [
-          "Dè a chuidicheas mòran sìl tòiseachadh air fàs?",
+          "Dè a chuidicheas mòran sìl a thòiseachadh air fàs?",
           "Uisge agus blàths",
           "Magnaid a-mhàin",
           "Fuaim àrd a-mhàin",
@@ -100,7 +100,7 @@
       "unsure": "",
       "quiz": [
         [
-          "Tha balgan-buachair còmhla ri",
+          "Dè am buidheann dhan a bhuineas balgan-buachair?",
           "Fungasan",
           "Iasg",
           "Planaidean",
@@ -170,7 +170,7 @@
       "quiz": [
         [
           "Carson a tha mòran chnàmhan eòin falamh?",
-          "Gus an t-eun a chuideachadh fuireach aotrom",
+          "Gus an t-eun a chuideachadh a bhith aotrom",
           "Gus òr a stòradh",
           "Gus uisge a ghoil",
           "Gus tàirneanach a dhèanamh"
@@ -291,7 +291,7 @@
           "Fe"
         ],
         [
-          "Cia mheud atam haidridein a tha ann an aon phìos uisge?",
+          "Cia mheud atam haidridein a tha ann an aon mhoileciuil uisge?",
           "Dhà",
           "Neoni",
           "Deich",
@@ -331,17 +331,17 @@
       "quiz": [
         [
           "Dè nì deigh ann an glainne uisge?",
-          "Bidh e a' fleòdradh",
-          "Bidh e an-còmhnaidh a' dol fodha mar chloich",
-          "Bidh e a' tionndadh gu iarann",
-          "Bidh e na mhagnaid"
+          "Bidh i a' fleòdradh",
+          "Bidh i an-còmhnaidh a' dol fodha mar chloich",
+          "Bidh i a' tionndadh gu iarann",
+          "Bidh i na mhagnaid"
         ],
         [
           "Carson a dh'fhaodas deigh fleòdradh?",
-          "Bidh e a' gabhail barrachd àite na an t-aon uisge leaghaidh",
-          "Tha e nas truime na òr",
-          "Tha dà phòla aige",
-          "Is e fosail a th' ann"
+          "Bidh i a' gabhail barrachd àite na an t-aon uisge leaghaidh",
+          "Tha i nas truime na òr",
+          "Tha dà phòla aice",
+          "Is i fosail a th' innte"
         ]
       ]
     },
@@ -379,7 +379,7 @@
           "Nuair a leaghas salann, tha e",
           "Fhathast anns an uisge",
           "A' tionndadh gu òr",
-          "A' fàgail an Talamh",
+          "A' fàgail an Talmhainn",
           "A' fàs na DNA"
         ],
         [
@@ -408,7 +408,7 @@
         [
           "Dè an tarrag a dh'fhuiricheas deàrrsach nas fhaide?",
           "Tarrag thioram air a cumail bho uisge",
-          "Tarrag fhliuch air fhàgail san adhar",
+          "Tarrag fhliuch air a fàgail san adhar",
           "Tarrag dèanta de smùid",
           "Tarrag gun deuchainn idir"
         ]
@@ -422,7 +422,7 @@
       "unsure": "",
       "quiz": [
         [
-          "Tha glainne air a dhèanamh le",
+          "Tha glainne air a dèanamh le",
           "A' teasachadh gainmhich gus an leagh i",
           "A' reothadh losgannan",
           "A' càrnadh poilein",
@@ -430,7 +430,7 @@
         ],
         [
           "Carson a tha cuid de sheann ghloinne uinneig nas tiugha aig a' bhonn?",
-          "Air sgàth mar a chaidh a dhèanamh",
+          "Air sgàth mar a chaidh a dèanamh",
           "A chionn 's gu bheil glainne a' driopadh gu slaodach mar mhil",
           "A chionn 's gu bheil losgannan nan suidhe air",
           "A chionn 's gu bheil fuaim a' càrnadh"
@@ -454,9 +454,9 @@
         [
           "Carson a dh'fhaodas gualain a bhith cruaidh no bog?",
           "Tha na h-ataman air am pacadh ann an dòigh eadar-dhealaichte",
-          "Is e planaid a th' ann an aonan",
-          "Tha aonan beò",
-          "Is e teòiridh a th' ann an aonan"
+          "Is e planaid a th' ann an aon dhiubh",
+          "Tha aon dhiubh beò",
+          "Is e teòiridh a th' ann an aon dhiubh"
         ]
       ]
     },
@@ -537,7 +537,7 @@
       "unsure": "",
       "quiz": [
         [
-          "Dè bhios clàr nan eileamaid a' cur ann an òrdugh?",
+          "Dè a bhios clàr nan eileamaidean a' cur ann an òrdugh?",
           "Na h-eileamaidean",
           "Na planaidean a-mhàin",
           "Na cnàmhan a-mhàin",
@@ -699,7 +699,7 @@
       "quiz": [
         [
           "Tha solas na grèine a' ruighinn oirnn le bhith a' dol thar",
-          "Fànas falamh",
+          "Fànais fhalaimh",
           "Tiùb iarainn cruaidh a-mhàin",
           "Do chnàmhan",
           "Bogsa fiodha dùinte"
@@ -770,7 +770,7 @@
           "Fuirichidh leabhar socair socair gus",
           "An gluais feachd e",
           "Gun co-dhùin e itealaich",
-          "Gun gairm an Moon air ainm",
+          "An gairm an Moon a ainm",
           "Gun fàs e na DNA"
         ],
         [
@@ -837,13 +837,13 @@
       "quiz": [
         [
           "Is e seo a th' ann am bliadhna",
-          "Aon chuairt den Talamh timcheall air a' Ghrian",
+          "Aon chuairt den Talmhainn timcheall air a' Ghrian",
           "Aon phriobadh",
           "Aon làn",
           "Aon snìomh de mhullach dèideig"
         ],
         [
-          "Mu cia mheud latha a tha ann an aon chuairt den Talamh timcheall air a' Ghrian?",
+          "Mu cia mheud latha a tha ann an aon chuairt den Talmhainn timcheall air a' Ghrian?",
           "365",
           "8",
           "12",
@@ -860,7 +860,7 @@
       "quiz": [
         [
           "Tha latha mu",
-          "Aon làn-snìomh den Talamh",
+          "Aon làn-snìomh den Talmhainn",
           "Aon chuairt timcheall air an reul-bhuidheann",
           "Aon gheamhradh losgainn",
           "Aon chnàimh"
@@ -883,14 +883,14 @@
       "quiz": [
         [
           "Dè a tha a' dèanamh nan ràithean?",
-          "Claonadh an Talamh",
+          "Claonadh an Talmhainn",
           "An Talamh a' tighinn mòran nas fhaisge air a' Ghrian",
           "Magnaidean ann am brògan",
           "Òrain mhucan-mara"
         ],
         [
           "Dè an abairt a tha fìor?",
-          "Bidh claonadh an Talamh ag atharrachadh dè cho dìreach 's a bhuaileas solas na grèine oirnn",
+          "Bidh claonadh an Talmhainn ag atharrachadh dè cho dìreach 's a bhuaileas solas na grèine oirnn",
           "Tha samhradh ann a chionn 's gu bheil an Moon a' goil",
           "Tha geamhradh a' ciallachadh gun do dh'fhàg an Talamh siostam na grèine",
           "Is e seòrsa de mheatailt a th' ann an ràithean"
@@ -905,7 +905,7 @@
       "unsure": "",
       "quiz": [
         [
-          "Dè an liosta a tha ag ainmeachadh sreathan an Talamh?",
+          "Dè an liosta a tha ag ainmeachadh sreathan an Talmhainn?",
           "Rùsg, mantal, cridhe",
           "Duilleag, freumh, seillean",
           "Deigh, ola, òr",
@@ -951,14 +951,14 @@
       "unsure": "",
       "quiz": [
         [
-          "Dè a tha a' còmhdach a' mhòr-chuid den Talamh?",
+          "Dè a tha a' còmhdach a' mhòr-chuid den Talmhainn?",
           "Cuan",
           "Bailtean",
           "Gainmheach fàsach a-mhàin",
           "Deigh a-mhàin"
         ],
         [
-          "Mu dè an uiread de uachdar an Talamh a tha na chuan?",
+          "Mu dè an uiread de uachdar an Talmhainn a tha na chuan?",
           "Seachd deicheamhan",
           "Aon deicheamh",
           "Chan eil gin",
@@ -1004,7 +1004,7 @@
           "A thig meirg air òr"
         ],
         [
-          "Dè a chlàras crith crith-thalmhainn?",
+          "Dè a chlàras crathadh na crith-thalmhainn?",
           "Innealan",
           "Bioran cactais",
           "Bogha-froise",
@@ -1074,10 +1074,10 @@
         ],
         [
           "Is e seo a th' ann an gnàth-shìde",
-          "Am pàtran thar iomadh bliadhna",
+          "Am pàtran sìde thar iomadh bliadhna",
           "Aon neul",
           "Aon ghlumag",
-          "Biadh meadhan-latha an-diugh"
+          "Lòn an-diugh"
         ]
       ]
     },
@@ -1207,7 +1207,7 @@
           "Dè an t-ainm a tha air an reul-bhuidheann againn?",
           "Slighe Chlann Uisnich",
           "An Cuan Ruadh",
-          "Clàr nan Eileamaid",
+          "Clàr nan Eileamaidean",
           "An Rùsg"
         ],
         [
@@ -1234,7 +1234,7 @@
           "A' cur iom-tharraing dheth"
         ],
         [
-          "Leumaidh balùn a thèid a leigeil às a chionn 's",
+          "Thèid balùn a leigeas tu às a dh'aon ruith a chionn 's",
           "Gu bheil adhar a' ruith a-mach an rathad eile",
           "Gu bheil e a' fàs na dheigh",
           "Gu bheil an Moon a' tarraing an snaidhm",
@@ -1303,7 +1303,7 @@
           "Gu bheil fuaim a' dol thar fànais fhalaimh"
         ],
         [
-          "Is e seo sealladh nas deirge nan reul-bhuidhnean fad às",
+          "Is e an solas nas deirge bho reul-bhuidhnean fad às",
           "Fianais a chumas saidheansairean a' deuchainn",
           "Tomhas nach urrainn do dhuine deuchainn a dhèanamh air",
           "Dearbhadh gu bheil aon phòla aig magnaidean",
@@ -1319,18 +1319,18 @@
       "unsure": "",
       "quiz": [
         [
-          "A bheil sinn air nithean beò a lorg taobh a-muigh an Talamh?",
+          "A bheil sinn air nithean beò a lorg taobh a-muigh an Talmhainn?",
           "Chan eil fhathast",
           "Seadh, baile air a' Ghrian",
           "Seadh, mucan-mara air an Moon",
           "Seadh, coilltean air fàinneachan Saturn"
         ],
         [
-          "Is e seo a th' anns a' bheachd air beatha taobh a-muigh an Talamh",
+          "Is e seo a th' anns a' bheachd air beatha taobh a-muigh an Talmhainn",
           "Tomhas gus an seall deuchainn e",
           "Fìrinn thomhais mu thràth",
           "An aon rud ri H2O",
-          "Aon de riaghailtean gluasad Newton"
+          "Aon de laghan gluasad Newton"
         ]
       ]
     },
@@ -1350,7 +1350,7 @@
         ],
         [
           "Cuin a bhios do chridhe a' bualadh nas luaithe mar as àbhaist?",
-          "Às do dhèidh ruith",
+          "Às dèidh dhut ruith",
           "Nuair a tha thu nad fhosail",
           "Nuair a tha thu dèanta de ghlainne",
           "Cha bhi gu bràth"
@@ -1434,7 +1434,7 @@
       "unsure": "",
       "quiz": [
         [
-          "Dè a chuidicheas gus stad a chur air bitheagan a' sgaoileadh air làmhan?",
+          "Dè a chuidicheas gus casg a chur air bitheagan bho bhith a' sgaoileadh air làmhan?",
           "Nighe le siabann agus uisge",
           "A' suathadh gainmhich a-mhàin",
           "A' leum thairis air siabann gu bràth",
@@ -1488,7 +1488,7 @@
         ],
         [
           "Tha cruan",
-          "Nas cruaidhe na taobh a-staigh na fiacaill",
+          "Nas cruaidhe na taobh a-staigh na fiacla",
           "Meatailt leaghaidh",
           "Seòrsa de neul",
           "Gealach"
@@ -1512,7 +1512,7 @@
         [
           "Dè an abairt a tha fìor?",
           "Bidh tu a' cleachdadh mòran phàirtean de d' eanchainn gach latha",
-          "Cha chleachd daoine ach spot beag bìodach agus tha an còrr dheth",
+          "Cha chleachd daoine ach spot beag bìodach agus tha an còrr air a chur dheth",
           "Is e cnàimh anns a' chois a th' anns an eanchainn",
           "Tha an eanchainn dèanta de ghlainne uinneig"
         ]
@@ -1579,8 +1579,8 @@
           "Pòla a tuath"
         ],
         [
-          "Carson a sheasas an stamag ris an t-searbhag aige fhèin?",
-          "Tha lìonadh cruaidh aige",
+          "Carson as urrainn don stamag seasamh ris an t-searbhag aice fhèin?",
+          "Tha lìonadh cruaidh aice",
           "Tha e dèanta de dhaoimean a-mhàin",
           "Chan eil searbhag aige",
           "Is e fànas falamh a th' ann"
@@ -1605,7 +1605,7 @@
           "A bheil a h-uile bitheag cronail?",
           "Chan eil",
           "Seadh",
-          "Chan eil ach bitheagan san fhànas fìor",
+          "Chan eil fìor ach bitheagan san fhànas",
           "Chan eil bitheagan fìor"
         ]
       ]
@@ -1618,7 +1618,7 @@
       "unsure": "",
       "quiz": [
         [
-          "Dè am meatailt a tha na leaghan aig teòthachd an t-seòmair?",
+          "Dè a' mheatailt a tha na leaghan aig teòthachd an t-seòmair?",
           "Airgead-beò",
           "Iarann",
           "Fiodh",
@@ -1740,11 +1740,11 @@
           "Fàinneachan"
         ],
         [
-          "Tha buinn ann an cumadh ciùb",
+          "Dè a tha sònraichte mu bhuinn ann an cumadh ciùb?",
           "Cha bhi iad a' roiligeadh air falbh cho furasta",
-          "A' tionndadh gu òr",
-          "Nan magnaidean",
-          "Nan reultan"
+          "Bidh iad a' tionndadh gu òr",
+          "Tha iad nan magnaidean",
+          "Tha iad nan reultan"
         ]
       ]
     },
@@ -1803,14 +1803,14 @@
       "quiz": [
         [
           "Dè a dh'fhaodas cuid de laghairtean a dhèanamh?",
-          "Earball a leigeil às agus fear ùr fhàs",
+          "Earball a leigeil às agus fear ùr a fhàs",
           "Tionndadh gu eòin sa mhionaid",
-          "Fàs nan airgead-beò",
-          "Ceann glainne fhàs"
+          "Fàs mar airgead-beò",
+          "Ceann glainne a fhàs"
         ],
         [
           "Tha an t-earball ùr",
-          "Chan eil e dìreach mar an seann fhear",
+          "Eadar-dhealaichte bhon t-seann fhear",
           "Teileasgop",
           "Dèanta de dhaoimean a-mhàin",
           "Planaid"
@@ -1925,7 +1925,7 @@
       "unsure": "",
       "sceneAlt": "Ochd-chasach cumanta",
       "quiz": [
-        "Cò sheall gu bheil taobh a-muigh cealla a' cuideachadh le smachd a chumail air an cealla?",
+        "Cò sheall gu bheil taobh a-muigh na cealla a' cuideachadh le smachd a chumail air a' chealla?",
         "Ernest Everett Just",
         "Dmitri Mendeleev",
         "Nicolaus Copernicus",
@@ -2033,7 +2033,7 @@
       "unsure": "",
       "sceneAlt": "Togalach saidheans oilthigh",
       "quiz": [
-        "Cò dh'fhàg beàrnan ann an clàr nan eileamaid airson eileamaidean nach deach a lorg fhathast?",
+        "Cò dh'fhàg beàrnan ann an clàr nan eileamaidean airson eileamaidean nach deach a lorg fhathast?",
         "Dmitri Mendeleev",
         "Mae Jemison",
         "Jane Goodall",
@@ -2267,7 +2267,7 @@
       "unsure": "",
       "sceneAlt": "Teileasgop Fànais Hubble os cionn an Talamh",
       "quiz": [
-        "Cò lorg crìoch cuideim airson reultan troich geal?",
+        "Cò lorg crìoch cuideim airson reultan troich gheal?",
         "Subrahmanyan Chandrasekhar",
         "Jane Goodall",
         "Alice Ball",
@@ -2604,6 +2604,546 @@
       ],
       "done": "Tha toradh, aonad, agus aon abairt aig an sgioba mu dè a mhilleadh an deuchainn."
     },
+    "p1-colors": {
+      "title": "Deasaich na dathan",
+      "time": "15 mionaidean",
+      "need": [
+        "8 nithean sàbhailte ann an dathan eadar-dhealaichte",
+        "Bòrd"
+      ],
+      "steps": [
+        "Sgaoil na nithean a-mach.",
+        "Cuir ann am buidhnean dath iad. Tagh thusa na buidhnean.",
+        "Abair an riaghailt os àrd. Tha dearg agus chan e dearg ceart gu leòr."
+      ],
+      "done": "Tha buidhnean agad, agus is urrainn dhut an riaghailt dath a ràdh."
+    },
+    "p1-sounds": {
+      "title": "Sealg fuaimean",
+      "time": "10 mionaidean",
+      "need": [
+        "Mionaid shàmhach",
+        "Pàipear",
+        "Peansail"
+      ],
+      "steps": [
+        "Suidh gu socair agus èist.",
+        "Sgrìobh no tarraing còig fuaimean a chluinneas tu.",
+        "Comharraich gach aon àrd no sàmhach."
+      ],
+      "done": "Tha còig fuaimean agad, gach aon air a chomharrachadh àrd no sàmhach."
+    },
+    "p1-touch": {
+      "title": "Garbh no rèidh",
+      "time": "15 mionaidean",
+      "need": [
+        "6 nithean sàbhailte",
+        "Bòrd"
+      ],
+      "steps": [
+        "Dùin do shùilean. Bheir companach aon nì dhut.",
+        "Abair garbh no rèidh mus coimhead thu.",
+        "Deasaich na sia. Thoir sùil le do shùilean."
+      ],
+      "done": "Tha buidheann gharbh agus buidheann rèidh aig an sgioba."
+    },
+    "p1-sky": {
+      "title": "Speur an-diugh",
+      "time": "10 mionaidean",
+      "need": [
+        "Uinneag no àite sàbhailte a-muigh",
+        "Pàipear",
+        "Peansail"
+      ],
+      "steps": [
+        "Coimhead air an speur còmhla ri inbheach.",
+        "Tarraing na chì thu. Tha neòil, a' Ghrian, no uisge uile ceart.",
+        "Sgrìobh aon fhacal airson an speura an-diugh."
+      ],
+      "done": "Tha dealbh aig an sgioba agus aon fhìor fhacal mun speur."
+    },
+    "p1-bean": {
+      "title": "Pònair ann am baga",
+      "time": "Sùil gach latha airson 5 làithean",
+      "need": [
+        "Pònair thioram",
+        "Baga soilleir",
+        "Tubhailt pàipeir fhliuch",
+        "Teip"
+      ],
+      "steps": [
+        "Iarr air inbheach an tubhailt a fhliuchadh. Bu chòir dhi a bhith tais, chan ann a' sileadh.",
+        "Cuir a' phònair sa bhaga, seulaich e, agus ceangail le teip e ri uinneag ghrianach.",
+        "Tarraing a' phònair gach latha. Abair dè dh'atharraich."
+      ],
+      "done": "Tha dealbhan agad a tha a' sealltainn mar a dh'atharraich a' phònair."
+    },
+    "p2-puddle": {
+      "title": "A' ghlumag a tha a' dol à sealladh",
+      "time": "Dà sgrùdadh ann an aon latha",
+      "need": [
+        "Glumag no bad fliuch",
+        "Cailc no clach"
+      ],
+      "steps": [
+        "Comharraich oir a' bhaid fhlich.",
+        "Thig air ais an dèidh sin agus comharraich e a-rithist.",
+        "Abair an deach e na bu lugha, agus cò ris a bha an t-adhar coltach."
+      ],
+      "done": "Tha dà chomharra agad agus abairt mun atharrachadh."
+    },
+    "p2-push": {
+      "title": "Putadh cruaidh, putadh bog",
+      "time": "15 mionaidean",
+      "need": [
+        "Bogsa beag",
+        "Làr rèidh",
+        "Inbheach faisg air làimh"
+      ],
+      "steps": [
+        "Thoir putadh bog don bhogsa. Faic dè cho fada 's a thèid e.",
+        "Cuir air ais e. Thoir putadh nas cruaidhe dha.",
+        "Abair dè dh'atharraich thu, agus dè a dh'fhuirich mar a bha e."
+      ],
+      "done": "Is urrainn don sgioba innse dè am putadh a ghluais am bogsa nas fhaide."
+    },
+    "p2-wayup": {
+      "title": "Dè an rathad a tha suas",
+      "time": "Sgrùdadh a-nis agus an ceann beagan làithean",
+      "need": [
+        "Pònair thioram",
+        "Cupa soilleir",
+        "Tubhailt pàipeir fhliuch",
+        "Inbheach"
+      ],
+      "steps": [
+        "Iarr air inbheach tubhailt thais a chur timcheall taobh a-staigh a' chupa agus a' phònair a phasgadh a-steach.",
+        "Tionndaidh an cupa gus am faic thu a' phònair. Cùm an tubhailt tais.",
+        "Nuair a thig gucag, tomh air a' phàirt a dh'fhàsas suas agus air a' phàirt a dh'fhàsas sìos."
+      ],
+      "done": "Is urrainn dhut tomhadh air a' ghas òg agus air an fhreumh."
+    },
+    "p2-dissolve": {
+      "title": "Siùcar no gainmheach",
+      "time": "15 mionaidean",
+      "need": [
+        "Dà chupa uisge",
+        "Siùcar",
+        "Gainmheach",
+        "Spàin",
+        "Inbheach"
+      ],
+      "steps": [
+        "Cuir an aon spàin de shiùcar ann an aon chupa agus an aon spàin de ghainmhich anns a' chupa eile.",
+        "Caraich an dà chuid san aon dòigh.",
+        "Abair dè am fear a tha coltach ri bhith a' dol à sealladh, agus dè am fear a tha na shuidhe air a' bhonn."
+      ],
+      "done": "Is urrainn don sgioba ainmeachadh dè a leagh agus dè nach do leagh."
+    },
+    "p2-shadowsize": {
+      "title": "Sgàil faisg agus fad às",
+      "time": "15 mionaidean",
+      "need": [
+        "Toidse",
+        "Dèideag bheag",
+        "Balla",
+        "Inbheach"
+      ],
+      "steps": [
+        "Iarr air inbheach an solas a chumail socair.",
+        "Cùm an dèideag faisg air a' bhalla. Coimhead air an sgàil.",
+        "Gluais an dèideag nas fhaisge air an t-solas. Abair mar a dh'atharraich an sgàil."
+      ],
+      "done": "Is urrainn dhut innse dè an t-àite a rinn an sgàil as motha."
+    },
+    "p3-melt": {
+      "title": "Grian no sgàil",
+      "time": "20 mionaidean",
+      "need": [
+        "2 chiùban deighe den aon mheud",
+        "Dà phlàta",
+        "Àite grianach agus àite sgàil"
+      ],
+      "steps": [
+        "Cuir aon chiùb sa ghrèin agus aon chiùb san sgàil.",
+        "Cùm na ciùban den aon mheud aig an toiseach.",
+        "Thoir sùil gach beagan mhionaidean. Dè an ciùb a tha a' crìonadh nas luaithe?"
+      ],
+      "done": "Dh'atharraich thu an t-àite a-mhàin, agus is urrainn dhut innse dè an ciùb a leagh nas luaithe."
+    },
+    "p3-plane": {
+      "title": "Aon phasgadh ùr",
+      "time": "25 mionaidean",
+      "need": [
+        "Dà dhuilleag pàipeir den aon mheud",
+        "Àite fosgailte"
+      ],
+      "steps": [
+        "Pasg dà phlèan san aon dòigh. Itealaich gach aon trì tursan.",
+        "Atharraich aon phasgadh air aon phlèan a-mhàin.",
+        "Itealaich iad a-rithist. Abair dè an aon atharrachadh a bha cudromach."
+      ],
+      "done": "Is urrainn don sgioba an aon phasgadh a dh'atharraich iad ainmeachadh."
+    },
+    "p3-water": {
+      "title": "Uisge no gun uisge",
+      "time": "Sgrùdadh gach latha airson 4 làithean",
+      "need": [
+        "Dà phoit bheag no dà chupa ùir",
+        "Sìol",
+        "Uisge",
+        "Inbheach"
+      ],
+      "steps": [
+        "Cuir an aon seòrsa sìl anns gach cupa. Iarr air inbheach ma tha cobhair a dhìth ort.",
+        "Thoir uisge do aon chupa a-mhàin. Thoir an aon sholas don dà chuid.",
+        "Tarraing an dà chupa air latha 4. Abair dè a chùm thu mar a bha e."
+      ],
+      "done": "Is urrainn dhut innse dè an cupa a dh'fhàs nas motha, agus an aon rud a dh'atharraich thu."
+    },
+    "p3-bounce": {
+      "title": "Dà làr",
+      "time": "20 mionaidean",
+      "need": [
+        "Bàla",
+        "Dà làr shàbhailte, mar fhiodh agus brat-ùrlair",
+        "Inbheach"
+      ],
+      "steps": [
+        "Leig sìos am bàla bhon aon àirde air a' chiad làr. Coimhead air a' phreabadh.",
+        "Leig sìos e san aon dòigh air an dàrna làr.",
+        "Dèan gach leigeil sìos trì tursan. Abair dè an làr a thug preabadh nas àirde."
+      ],
+      "done": "Tha toradh aig an sgioba bho thrì tursan air gach làr."
+    },
+    "p3-string": {
+      "title": "Fòn chupaichean",
+      "time": "20 mionaidean",
+      "need": [
+        "Dà chupa pàipeir",
+        "Sreang fhada",
+        "Companach",
+        "Inbheach gus na tuill a tholladh"
+      ],
+      "steps": [
+        "Iarr air inbheach toll beag a tholladh ann am bonn gach cupa.",
+        "Cuir an t-sreang troimhe agus ceangail snaidhm gus an cùm i. Tarraing an t-sreang teann.",
+        "Bidh aon neach a' cagarsaich ann an cupa. Bidh am fear eile ag èisteachd. An uair sin feuch e le sreang fhuasgailte."
+      ],
+      "done": "Is urrainn dhut innse cuin a shiubhail a' chagarsaich agus cuin nach do shiubhail."
+    },
+    "p4-mirror": {
+      "title": "Anail air sgàthan",
+      "time": "10 mionaidean",
+      "need": [
+        "Sgàthan fionnar",
+        "Aodach tioram"
+      ],
+      "steps": [
+        "Sguab an sgàthan tioram.",
+        "Thoir anail air bho fhaisg.",
+        "Coimhead air a' cheò. Abair dè a tha thu a' smaoineachadh a tha sa cheò."
+      ],
+      "done": "Is urrainn dhut ràdh gur e uisge bhon anail agad a th' anns a' cheò."
+    },
+    "p4-bridge": {
+      "title": "Drochaid phàipeir",
+      "time": "25 mionaidean",
+      "need": [
+        "Pàipear",
+        "Dà chruach leabhraichean",
+        "Buinn no cunntairean"
+      ],
+      "steps": [
+        "Cuir duilleag rèidh thairis air na leabhraichean. Cuir buinn a-steach aon air aon gus an lùb i sìos.",
+        "Pasg duilleag ùr mar fhèileag. Dèan deuchainn oirre san aon dòigh.",
+        "Sgrìobh an dà chunntas. Dh'atharraich thu an cumadh, chan e meud a' phàipeir."
+      ],
+      "done": "Tha dà chunntas aig an sgioba agus is urrainn dhaibh innse dè an cumadh a chùm barrachd."
+    },
+    "p4-clock": {
+      "title": "Uaireadair sgàile",
+      "time": "Trì sgrùdaidhean ann an aon latha",
+      "need": [
+        "Àite grianach",
+        "Botal no bata",
+        "Cailc"
+      ],
+      "steps": [
+        "Cuir am bata na sheasamh. Comharraich bàrr na sgàile agus sgrìobh an uair.",
+        "Thig air ais an dèidh sin. Comharraich am bàrr a-rithist agus sgrìobh an uair.",
+        "Dèan e aon turas eile. Abair mar a ghluais an sgàil."
+      ],
+      "done": "Tha trì comharran, trì uairean, agus abairt mun ghluasad agad."
+    },
+    "p4-mix": {
+      "title": "Measgachadh dath",
+      "time": "15 mionaidean",
+      "need": [
+        "Trì cupannan soilleir",
+        "Uisge",
+        "Dà dhath bìdh",
+        "Inbheach"
+      ],
+      "steps": [
+        "Iarr air inbheach dà chupa uisge dathte, dathan eadar-dhealaichte.",
+        "Dèan tuairmse air an dath a gheibh thu ma mheasgaicheas tu spàin de gach aon.",
+        "Measgaich iad anns an treas cupa. Sgrìobh an tuairmse agus an toradh."
+      ],
+      "done": "Sgrìobh an sgioba tuairmse ron mheasgachadh, agus an dath a fhuair iad."
+    },
+    "p4-spoon": {
+      "title": "Dè an spàin a dh'fhàsas blàth",
+      "time": "10 mionaidean",
+      "need": [
+        "Spàin mheatailt",
+        "Spàin fiodha no plastaig",
+        "Cupa uisge blàth",
+        "Inbheach"
+      ],
+      "steps": [
+        "Iarr air inbheach uisge blàth, chan e uisge a tha a' goil.",
+        "Cuir an dà spàin sa chupa gus am bi na casan a' stobadh a-mach.",
+        "Às dèidh dà mhionaid, bean ris na casan. Dè a' chas as blàithe?"
+      ],
+      "done": "Is urrainn dhut innse dè a' chas a dh'fhàs blàth, agus gun robh an t-uisge mar a bha e."
+    },
+    "p5-sleeve": {
+      "title": "Cùm an blàths",
+      "time": "20 mionaidean",
+      "need": [
+        "Dà chupa cho-ionann",
+        "Uisge blàth",
+        "Soc no aodach",
+        "Inbheach"
+      ],
+      "steps": [
+        "Iarr air inbheach an aon uisge blàth a dhòrtadh anns an dà chupa.",
+        "Paisg aon chupa a-mhàin. Fàg an cupa eile lom.",
+        "Fuirich 10 mionaidean. Dè an cupa as blàithe? Dh'atharraich thu an còmhdach a-mhàin."
+      ],
+      "done": "Is urrainn dhut innse dè an cupa a chùm a bhlàths nas fhaide."
+    },
+    "p5-swing": {
+      "title": "Sreang nas fhaide",
+      "time": "25 mionaidean",
+      "need": [
+        "Sreang",
+        "Cuideam beag mar fhàinne mheatailt",
+        "Uaireadair",
+        "Oir bòrd"
+      ],
+      "steps": [
+        "Croch luaisgear goirid. Cunnt na luaisgean ann an 10 diog.",
+        "Dèan e trì tursan san aon dòigh.",
+        "Dèan an t-sreang nas fhaide agus cunnt a-rithist. Na atharraich dad eile."
+      ],
+      "done": "Tha dà chunntas aig an sgioba agus is urrainn dhaibh an aon atharrachadh ainmeachadh."
+    },
+    "p5-leaf": {
+      "title": "Suathadh duilleige",
+      "time": "15 mionaidean",
+      "need": [
+        "Duilleag ùr",
+        "Pàipear tana",
+        "Crayon leis a' phàipear air a rùsgadh air ais"
+      ],
+      "steps": [
+        "Cuir an duilleag fon phàipear.",
+        "Suath an crayon rèidh gus am bi na fèithean a' sealltainn.",
+        "Tomh air na loidhnichean a dh'fhaodadh uisge a ghiùlan."
+      ],
+      "done": "Tha suathadh agad agus is urrainn dhut tomhadh air na fèithean."
+    },
+    "p5-boat": {
+      "title": "Bàta foil",
+      "time": "25 mionaidean",
+      "need": [
+        "Foil alùmanaim",
+        "Bobhla uisge",
+        "Buinn",
+        "Inbheach"
+      ],
+      "steps": [
+        "Dèan dà bhàta bhon aon uiread foil.",
+        "Cuir buinn a-steach aon air aon sa chiad bhàta gus an tig uisge a-steach. Cunnt iad.",
+        "Atharraich cumadh an dàrna bàta a-mhàin. Dèan deuchainn a-rithist."
+      ],
+      "done": "Is urrainn don sgioba innse an do chùm an cumadh ùr barrachd bhuinn."
+    },
+    "p5-night": {
+      "title": "Bogsa speur na h-oidhche",
+      "time": "15 mionaidean air oidhche shoilleir",
+      "need": [
+        "Pàipear",
+        "Peansail",
+        "Sealladh soilleir air an speur",
+        "Inbheach"
+      ],
+      "steps": [
+        "Rach a-mach le inbheach. Coimhead air aon phìos den speur.",
+        "Tarraing na dotagan soilleir a chì thu. Ma tha neòil gan falach, sgrìobh neòil.",
+        "Sgrìobh an uair. Air an ath oidhche shoilleir, coimhead a-rithist agus abair dè a tha a' freagairt."
+      ],
+      "done": "Tha sgeidse, uair, agus abairt agad mu na chunnaic thu."
+    },
+    "p6-layers": {
+      "title": "Trì leaghanan",
+      "time": "15 mionaidean",
+      "need": [
+        "Cupa soilleir",
+        "Mil no siorap",
+        "Uisge",
+        "Ola còcaireachd",
+        "Inbheach"
+      ],
+      "steps": [
+        "Iarr air inbheach mil a dhòrtadh an toiseach, an uair sin uisge, an uair sin ola. Dòirt gu slaodach.",
+        "Fuirich. Faic dè an leaghan a tha aig a' bhonn, sa mheadhan, agus aig a' mhullach.",
+        "Abair dè am fear leis an dùmhlachd as lugha. Sin am fear a tha a' fleòdradh air a' mhullach."
+      ],
+      "done": "Is urrainn dhut òrdugh nan trì leaghanan ainmeachadh."
+    },
+    "p6-gas": {
+      "title": "Gas ann am balùn",
+      "time": "20 mionaidean",
+      "need": [
+        "Botal beag",
+        "Balùn",
+        "Soda-fuine",
+        "Fìon-geur",
+        "Inbheach"
+      ],
+      "steps": [
+        "Iarr air inbheach soda-fuine a chur sa bhalùn agus fìon-geur sa bhotal.",
+        "Cuir am balùn air a' bhotal, agus an uair sin dòirt am pùdar a-steach.",
+        "Coimhead air a' bhalùn. Ainmich an gas a ghabh àite. Na blais am measgachadh."
+      ],
+      "done": "Is urrainn don sgioba ràdh gun do lìon gas am balùn."
+    },
+    "p6-model": {
+      "title": "An Talamh agus an Moon",
+      "time": "20 mionaidean",
+      "need": [
+        "Bàla airson an Talamh",
+        "Bàla nas lugha airson an Moon",
+        "Rioban-tomhais no sreang"
+      ],
+      "steps": [
+        "Cùm an Talamh socair. Coisich an Moon timcheall air ann an cearcall.",
+        "Stad ceithir tursan agus abair dè an taobh den Moon a bhiodh grianach nan robh a' Ghrian air taobh eile an t-seòmair.",
+        "Sgrìobh aon fhìrinn thomhais a tha fios agad mu thràth mun Moon."
+      ],
+      "done": "Choisich thu làn-chuairt agus dh'ainmich thu aon fhìrinn mun Moon."
+    },
+    "p6-sieve": {
+      "title": "Criathraich an eabar",
+      "time": "25 mionaidean",
+      "need": [
+        "Uisge eabarach",
+        "Aodach",
+        "Criathar cofaidh no tubhailt pàipeir",
+        "Dà chupa",
+        "Inbheach"
+      ],
+      "steps": [
+        "Dòirt uisge eabarach tron aodach a-steach do chupa.",
+        "Dòirt pìos ùr den uisge tron chriathar.",
+        "Coimhead air na cupannan ri chèile. Abair dè am fear a leig nas lugha de phìosan troimhe. Na òl an t-uisge."
+      ],
+      "done": "Is urrainn don sgioba innse dè an criathar a chùm a-mach barrachd eabair."
+    },
+    "p6-breath": {
+      "title": "Cunnt an anail",
+      "time": "10 mionaidean",
+      "need": [
+        "Uaireadair",
+        "Pàipear"
+      ],
+      "steps": [
+        "Suidh gu socair. Cunnt anail airson 30 diog.",
+        "Coisich gu luath airson 30 diog, an uair sin suidh agus cunnt a-rithist.",
+        "Sgrìobh an dà àireamh. Abair dè dh'atharraich agus dè a chùm thu mar a bha e."
+      ],
+      "done": "Tha dà chunntas agad agus abairt mun eadar-dhealachadh."
+    },
+    "p7-cabbage": {
+      "title": "Dathan càil",
+      "time": "30 mionaidean",
+      "need": [
+        "Uisge càil dheirg",
+        "Sùgh liomaid",
+        "Uisge lom",
+        "Uisge siabainn",
+        "Inbheach"
+      ],
+      "steps": [
+        "Iarr air inbheach uisge càil a dhòrtadh ann an trì cupannan.",
+        "Cuir sùgh liomaid ri aon, gun dad ri aon, agus boinne de dh'uisge siabainn ri aon.",
+        "Sgrìobh dath gach cupa. Tha an dath na chomharra mu shearbhagan agus bunaitean."
+      ],
+      "done": "Tha trì dathan agad agus is urrainn dhut innse dè an cupa anns nach robh ach uisge càil."
+    },
+    "p7-launch": {
+      "title": "Aon atharrachadh, aon chur air bhog",
+      "time": "30 mionaidean",
+      "need": [
+        "Spàin no rùilear",
+        "Bàla bog no pom-pom",
+        "Rioban-tomhais",
+        "Àite fosgailte"
+      ],
+      "steps": [
+        "Cuir air bhog am bàla san aon dòigh trì tursan. Tomhais gach astar.",
+        "Atharraich aon rud a-mhàin, mar dè cho fada 's a tharraingeas tu air ais.",
+        "Cuir air bhog trì tursan eile. Coimhead air an dà sheata àireamhan ri chèile."
+      ],
+      "done": "Is urrainn don sgioba tomhadh air an aon atharrachadh agus air na h-astaran."
+    },
+    "p7-trials": {
+      "title": "Trì tursan",
+      "time": "20 mionaidean",
+      "need": [
+        "Bàla",
+        "Uaireadair no rioban-tomhais",
+        "Pàipear"
+      ],
+      "steps": [
+        "Tagh aon leigeil sìos bhon aon àirde.",
+        "Tomhais ùine an tuiteim, no tomhais am preabadh, trì tursan.",
+        "Sgrìobh na trì àireamhan agus an t-aonad. Cuir cearcall timcheall air an àireamh mheadhanach."
+      ],
+      "done": "Tha trì tomhais agad le aon aonad, agus àireamh mheadhanach."
+    },
+    "p7-scale": {
+      "title": "Siostam-grèine pàipeir",
+      "time": "40 mionaidean",
+      "need": [
+        "Stiall fhada de phàipear",
+        "Rùilear",
+        "Fìrinn planaid a leugh thu"
+      ],
+      "steps": [
+        "Cuir a' Ghrian aig aon cheann.",
+        "Comharraich ochd planaidean ann an òrdugh. Fàg beàrn eatorra gus am bi an fheadhainn a-muigh mòran nas fhaide air falbh.",
+        "Sgrìobh aon fhìrinn thomhais a chleachd thu, agus aon bheachd a tha fhathast na theòiridh."
+      ],
+      "done": "Tha an stiall ann an òrdugh, agus is urrainn don sgioba an fhìrinn a sgrùdaich iad ainmeachadh."
+    },
+    "p7-variables": {
+      "title": "Ainmich na caochladairean",
+      "time": "25 mionaidean",
+      "need": [
+        "Fìrinn a leugh thu",
+        "Pàipear"
+      ],
+      "steps": [
+        "Sgrìobh ceist a dh'fhaodadh tu deuchainn a dhèanamh oirre le stuthan sàbhailte.",
+        "Sgrìobh an aon rud a dh'atharraicheadh tu.",
+        "Sgrìobh dà rud a chumas tu mar a tha iad, agus na thomhaiseadh tu."
+      ],
+      "done": "Chì leughadair an t-atharrachadh, na smachdan, agus an tomhas."
+    },
     "print-fair": {
       "title": "Duilleag deuchainn chothromach",
       "time": "20 mionaidean",
@@ -2670,14 +3210,14 @@
       "Seadh. B' e an-uiridh."
     ],
     "time-scope": [
-      "Dè leig microsgopan anns na 1600an le daoine fhaicinn?",
+      "Dè a leig microsgopan anns na 1600an le daoine fhaicinn?",
       "Rudan beaga bìodach",
-      "Meadhan an Talamh leis an t-sùil",
+      "Meadhan an Talmhainn leis an t-sùil",
       "Fuaim ann am fànas falamh",
       "Smaointean magnaid"
     ],
     "time-germs": [
-      "Anns dè na bliadhnaichean a dh'fhàs deuchainnean làidir gun urrainn do bhitheagan tinneas adhbhrachadh?",
+      "Anns dè na bliadhnaichean a sheall deuchainnean làidir gun urrainn do bhitheagan tinneas adhbhrachadh?",
       "Na 1800an",
       "A' bhliadhna 1610 a-mhàin",
       "Mus do chruthaicheadh an Talamh, agus tha sinn cinnteach",
@@ -2691,7 +3231,7 @@
       "1992"
     ],
     "time-dna": [
-      "Chaidh modail àradh toinnte DNA a shealltainn ann an",
+      "Anns dè a' bhliadhna a chaidh modail àradh toinnte DNA a shealltainn?",
       "1953",
       "1650",
       "1903",
@@ -2720,9 +3260,9 @@
     ],
     "place-sky": [
       "Carson a tha beinn àrd math airson teileasgop?",
-      "Tha e na shuidhe os cionn mòran neòil",
-      "Tha e fon chuan",
-      "Chan eil speur aige",
+      "Tha i na suidhe os cionn mòran neòil",
+      "Tha i fon chuan",
+      "Chan eil speur aice",
       "Tha an t-adhar cruaidh an sin"
     ],
     "place-cliff": [
@@ -2736,7 +3276,7 @@
       "Tha laba an ospadail air a' mhapa ann an",
       "London",
       "An Amazon",
-      "Fànais dhomhainn",
+      "Fànas domhainn",
       "Eigh-shruth"
     ],
     "place-ocean": [
@@ -2751,7 +3291,7 @@
       "Aon rud",
       "A h-uile rud aig an aon àm",
       "Chan eil dad, a-chaoidh",
-      "Am freagairt mus tòisich thu"
+      "An fhreagairt mus tòisich thu"
     ],
     "idea-two": [
       "Bidh thu ag atharrachadh an uisge agus an t-solais ann an deuchainn lus. Dè an duilgheadas?",
@@ -2773,6 +3313,356 @@
       "A' taghadh creideamhan teaghlaich dhaibh",
       "A' leum thairis air tomhas",
       "Ag ràdh gur e fìrinn a th' ann an tomhas"
+    ],
+    "extra-legs": [
+      "Cia mheud cas a tha aig biastag?",
+      "Sia",
+      "Ochd",
+      "Dhà",
+      "206"
+    ],
+    "extra-spider": [
+      "Chan e biastag a th' ann an damhan-allaidh. Cia mheud cas a tha aig damhan-allaidh?",
+      "Ochd",
+      "Sia",
+      "Ceithir",
+      "Aon"
+    ],
+    "extra-gills": [
+      "Ciamar a gheibh iasg ogsaidean bho uisge?",
+      "Le giùrain",
+      "Le sgamhanan, mar mhuc-mhara",
+      "Le bhith ag ithe gainmhich",
+      "Le itean"
+    ],
+    "extra-milk": [
+      "Dè a nì màthraichean mamailean dha na h-òga aca?",
+      "Bainne",
+      "Solas na grèine",
+      "Làbha",
+      "Glainne"
+    ],
+    "extra-eggs": [
+      "Dè às a thig eòin a-mach?",
+      "Uighean",
+      "Sìol",
+      "Creagan",
+      "Magnaidean"
+    ],
+    "extra-roots": [
+      "Dè a nì freumhaichean sa mhòr-chuid?",
+      "Gabhaidh iad a-steach uisge",
+      "Nì iad fàinneachan timcheall air Saturn",
+      "Putaidh iad an Moon",
+      "Bidh iad a' tionndadh gu òr"
+    ],
+    "extra-green": [
+      "Dè a tha a' dèanamh mòran dhuilleagan uaine?",
+      "Stuth uaine a ghlacas solas",
+      "Meirg iarainn",
+      "Cnàimh muice-mara",
+      "Duslach an Moon"
+    ],
+    "extra-solid": [
+      "Cumaidh creag a cumadh fhèin. Is e seo a th' ann an creag",
+      "Cruaidh",
+      "Gas",
+      "Làn",
+      "Reul-bhuidheann"
+    ],
+    "extra-gas": [
+      "Is e seo a th' anns an adhar san t-seòmar seo",
+      "Gas",
+      "Cnàimh cruaidh",
+      "Planaid",
+      "Fosail"
+    ],
+    "extra-melt": [
+      "Bidh deigh a' tionndadh gu uisge leaghaidh nuair",
+      "A gheibh i teas gu leòr",
+      "A chailleas i a h-uile atam",
+      "A bhios i na mhagnaid",
+      "A dh'itealaicheas i dhan Ghrian"
+    ],
+    "extra-freeze": [
+      "Bidh uisge leaghaidh a' tionndadh gu deigh nuair",
+      "A dh'fhàsas e fuar gu leòr",
+      "A ghoileas e sa mhionaid",
+      "A thionndaidheas e gu ola",
+      "A bhios e na rionnag"
+    ],
+    "extra-puddle": [
+      "Faodaidh glumag dol à sealladh air latha blàth a chionn 's gu bheil an t-uisge",
+      "A' fàs na ghas",
+      "A' tionndadh gu creag",
+      "Air òl an-còmhnaidh le losgannan",
+      "Air a thoirt air falbh leis an Moon"
+    ],
+    "extra-shadow": [
+      "Thig sgàil gu bith nuair",
+      "A bhacas rudeigin an solas",
+      "Nach eil stòr aig an t-solas idir",
+      "A chàrnas fuaim",
+      "A cho-dhùineas magnaid"
+    ],
+    "extra-mirror": [
+      "Bidh sgàthan a' cur solais air ais. Canar seo ris a' phreabadh sin",
+      "Meòrachadh",
+      "Meirg",
+      "Fosail",
+      "Làn"
+    ],
+    "extra-circuit": [
+      "Dè a tha a dhìth air cuairt shìmplidh gus am bi bulb a' lasadh?",
+      "Slighe dhùinte airson an dealain",
+      "Beàrn a stadas an t-slighe",
+      "Bata fiodha a-mhàin",
+      "Cupa gainmhich"
+    ],
+    "extra-rubber": [
+      "Chan eil rubair a' leigeil le dealan a dhol seachad gu furasta. Is e seo a th' ann an rubair",
+      "Inslithear",
+      "Slighe mheatailt",
+      "Pòla magnaid",
+      "Seòrsa de chnàimh"
+    ],
+    "extra-copper": [
+      "Bidh copar a' leigeil le dealan a dhol seachad. Is e seo a th' ann an copar",
+      "Giùladair",
+      "Inslithear mar rubair",
+      "Gas san t-seòmar",
+      "Gealach"
+    ],
+    "extra-compass": [
+      "Bidh snàthad combaist a' tomhadh, gu ìre,",
+      "Gu tuath",
+      "Air do bhrògan",
+      "Air an cactas as fhaisge",
+      "Dìreach a-steach ann am fosail"
+    ],
+    "extra-closest": [
+      "Dè as fhaisge air an Talamh a th' anns a' Ghrian?",
+      "Rionnag",
+      "Cuan",
+      "Cnàimh",
+      "Baile"
+    ],
+    "extra-moon-trip": [
+      "Tha an Moon a' dol timcheall air",
+      "An Talamh",
+      "Magnaid clas",
+      "Do chridhe",
+      "Aon sheillean"
+    ],
+    "extra-drop": [
+      "Mura put adhar mòran, bidh bàla trom agus bàla aotrom a thèid a leigeil às còmhla",
+      "A' tuiteam aig cha mhòr an aon ìre",
+      "An-còmhnaidh a' tuiteam aig ìrean gu tur eadar-dhealaichte",
+      "A' fleòdradh suas",
+      "A' tionndadh gu glainne"
+    ],
+    "extra-feather": [
+      "Bidh iteag a' tuiteam gu slaodach a chionn 's",
+      "Gu bheil adhar a' putadh oirre",
+      "Gu bheil iom-tharraing air a cur dheth",
+      "Nach eil tomad aice",
+      "Gur e planaid a th' innte"
+    ],
+    "extra-unit": [
+      "Feumaidh tomhas cùramach àireamh agus",
+      "Aonad",
+      "Miann",
+      "Freagairt ùr gach turas a tha thu an dòchas",
+      "Gun inneal"
+    ],
+    "extra-repeat": [
+      "Carson a nì thu deuchainn chothromach barrachd air aon turas?",
+      "Gus faicinn an tachair an toradh a-rithist",
+      "Gus a h-uile rud a dh'atharrachadh gach turas",
+      "Gus tomhas a leigeil seachad",
+      "Gus an fhreagairt a thaghadh an toiseach"
+    ],
+    "extra-cm": [
+      "Dè aon a tha na h-aonad faid?",
+      "Ceudameatair",
+      "Dimàirt",
+      "Gorm",
+      "Àrd"
+    ],
+    "extra-thermo": [
+      "Bidh teirmiméadar a' tomhas",
+      "Teòthachd",
+      "Dè cho àrd 's a tha losgann",
+      "Ainm rionnag",
+      "Cia mheud cnàimh a tha agad"
+    ],
+    "extra-balance": [
+      "Dè a tha meidh a' coimeas?",
+      "Dè cho trom 's a tha dà rud",
+      "Dath an speur",
+      "Fuaim ann am fànas falamh",
+      "Ìrean an Moon"
+    ],
+    "extra-cup": [
+      "Innsidh cupa-tomhais dhut",
+      "Dè an rùm a lìonas leaghan",
+      "Dath òir",
+      "Aois fosaile",
+      "Smaointean magnaid"
+    ],
+    "extra-wilt": [
+      "Crìonaidh lus nuair nach fhaigh e",
+      "Uisge gu leòr",
+      "Solas an Moon a bharrachd a-mhàin",
+      "Magnaid-bhàr",
+      "Teileasgop"
+    ],
+    "extra-stone": [
+      "Cha fhàs clach na lus a chionn 's",
+      "Nach e sìol a th' innte",
+      "Gu bheil i ro uaine",
+      "Gur e craobh leanabh a th' innte",
+      "Gu bheil duilleagan aice mu thràth"
+    ],
+    "extra-habitat": [
+      "Is e seo a th' ann an àrainn",
+      "An t-àite a tha a dhìth air nì beò",
+      "Seòrsa de mheatailt",
+      "Ìre den Moon",
+      "Luamhan"
+    ],
+    "extra-chain": [
+      "Bidh sreath-bìdh a' sealltainn",
+      "Cò a tha ag ithe cò",
+      "Mar a thathar ag ràdh gu bheil glainne a' sileadh",
+      "Ainmean nam planaidean a-mhàin",
+      "Mar a tha magnaidean a' smaoineachadh"
+    ],
+    "extra-rot": [
+      "Bidh fungasan agus cuid de nithean beò bìodach",
+      "A' cuideachadh le rudan marbh a bhriseadh sìos",
+      "A' dèanamh solas na grèine",
+      "Nan planaidean",
+      "Nan magnaidean-bàr"
+    ],
+    "extra-hide": [
+      "Bidh breug-riochd a' cuideachadh beathach",
+      "A fhalach",
+      "Uisge a ghoil",
+      "Meirg mar iarann",
+      "Cuairteachadh Saturn"
+    ],
+    "extra-migrate": [
+      "Bidh cuid de dh'eòin ag itealaich astar fada nuair a dh'atharraicheas na ràithean. Is e seo a chanar ris an turas sin",
+      "Imrich",
+      "Meirg",
+      "Fosail",
+      "Luamhan"
+    ],
+    "extra-sleep": [
+      "Bidh cuid de bheathaichean a' cur seachad nam mìosan fuara ann an tàmh domhainn. Is e seo a chanar ris an tàmh sin",
+      "Cadal-geamhraidh",
+      "Goil",
+      "Ìre den Moon",
+      "Dèanamh glainne"
+    ],
+    "extra-skull": [
+      "Bidh do chlaigeann a' cuideachadh le",
+      "Do eanchainn a dhìon",
+      "Fuil a phumpadh",
+      "Solas na grèine a dhèanamh",
+      "Meirg a stòradh"
+    ],
+    "extra-elbow": [
+      "Bidh d' uilinn a' lùbadh aig",
+      "Alt",
+      "Pòla magnaid",
+      "Creag fhosailean",
+      "Reul-bhuidheann"
+    ],
+    "extra-teeth": [
+      "Bidh fiaclan a' do chuideachadh le",
+      "Biadh a ghearradh agus a phronnadh",
+      "Fuil a phumpadh",
+      "Faicinn anns an dorchadas",
+      "Na làin a dhèanamh"
+    ],
+    "extra-sweat": [
+      "Bidh fallas a' cuideachadh do chuirp le",
+      "Fuarachadh",
+      "Tionndadh gu deigh sa mhionaid",
+      "Òr a dhèanamh",
+      "Dàrna cridhe a fhàs"
+    ],
+    "extra-mercury-planet": [
+      "Dè a' phlanaid as fhaisge air a' Ghrian?",
+      "Mercury",
+      "Neptune",
+      "Saturn",
+      "An Talamh"
+    ],
+    "extra-third": [
+      "Dè a' phlanaid bhon Ghrian a th' anns an Talamh?",
+      "An treas",
+      "A' chiad",
+      "An t-ochdamh",
+      "Gealach de Jupiter"
+    ],
+    "extra-giant": [
+      "Is e seo sa mhòr-chuid a th' ann an Jupiter",
+      "Gas, gun talamh cruaidh air am faod thu seasamh",
+      "Iarann cruaidh fad na slighe troimhe",
+      "Cnàimh",
+      "Fiodh leaghaidh"
+    ],
+    "extra-asteroid": [
+      "Is e seo a th' ann an asteroid",
+      "Corp creige no meatailt a tha a' dol timcheall air a' Ghrian",
+      "Seòrsa de mhuc-mhara",
+      "Neul air a bheil blas salainn",
+      "Craobh leanabh"
+    ],
+    "extra-stars": [
+      "Is e seo a th' ann an reul-bhad",
+      "Pàtran a tha daoine a' dealbh anns na reultan",
+      "Cnàimh anns a' chois",
+      "Seòrsa de shalann",
+      "Cuairt dhùinte"
+    ],
+    "extra-fact": [
+      "Is e beachd a th' ann am fìrinn thomhais",
+      "A tha sinn air a dhearbhadh le deuchainn",
+      "A tha sinn dìreach an dòchas gu bheil e fìor",
+      "Air nach urrainn dhuinn deuchainn a dhèanamh",
+      "A chruthaich sinn madainn an-diugh"
+    ],
+    "extra-theory": [
+      "Is e seo a th' ann an teòiridh ann an saidheans",
+      "Beachd mòr a chumas a' dol seachad air deuchainnean",
+      "Tomhas fiadhaich gun deuchainnean",
+      "Seòrsa de chreig",
+      "Aonad faid"
+    ],
+    "extra-control": [
+      "Ann an deuchainn chothromach, is e seo na rudan a chumas tu mar a tha iad",
+      "Smachdan",
+      "An fhreagairt a bha thu ag iarraidh an toiseach",
+      "A h-uile atharrachadh aig an aon àm",
+      "Roghainneil, gus an leum thu thairis orra"
+    ],
+    "extra-sprout": [
+      "Faodaidh sìol brìoghadh san dorchadas, ach chan urrainn don lus òg cumail air biadh a dhèanamh às aonais",
+      "Solas",
+      "Druma àrd",
+      "Magnaid",
+      "Fosail"
+    ],
+    "extra-battery": [
+      "Faodaidh bataraidh putadh",
+      "Sruth dealain",
+      "Ìrean an Moon",
+      "Creag fhosailean",
+      "Na làin leis fhèin"
     ]
   },
   "photos": {
@@ -2800,7 +3690,3 @@
     "hospital": "St Mary's Hospital ann an London"
   }
 }
-
-
-
-

@@ -14,7 +14,7 @@ seeds-water|living|Seeds need water|Many seeds start to grow when they get water
 Q|What helps many seeds start to grow?|Water and warmth|A magnet only|Loud sound only|A dry shelf forever|0
 Q|How can you test what a seed needs?|Water one seed and leave another dry|Paint both seeds and guess|Hide them from every test|Freeze a rock beside them|0
 fungi|living|Mushrooms are fungi|A mushroom is a fungus, not a plant.|fact|Mushrooms do not make food from sunlight the way green plants do.|Fungi get food from living or once-living things.||
-Q|A mushroom belongs with|Fungi|Fish|Planets|Magnets|0
+Q|A mushroom belongs in which group?|Fungi|Fish|Planets|Magnets|0
 Q|Why is a mushroom not a plant?|It does not make food from sunlight like a green plant|It has feathers|It is made of glass|It orbits the Sun|0
 whales|living|Whales breathe air|Whales are mammals, so they breathe air.|fact|Watchers see whales come up and blow out used air.|They cannot stay under the sea the way fish do.||
 Q|Whales must come up to get|Air|Lava|Sand|Moon dust|0
@@ -39,7 +39,7 @@ Q|Living things change over a very long time. That idea is|A theory scientists t
 Q|Which is one way we test that idea?|Fossils|A single wish|The color of a magnet|The name of a boat|0
 water-h2o|materials|Water is H2O|Water is H2O, two hydrogen atoms and one oxygen atom.|fact|When scientists split water, they get that same recipe every time.|Ice is solid water, and it floats on liquid water.||
 Q|Which recipe names water?|H2O|CO2|NaCl|Fe|0
-Q|How many hydrogen atoms are in one bit of water?|Two|Zero|Ten|One hundred|0
+Q|How many hydrogen atoms are in one molecule of water?|Two|Zero|Ten|One hundred|0
 states|materials|Three states|Matter can be a solid, a liquid, or a gas.|fact|You can watch the same water be ice, then liquid, then steam.|The tiny bits move more freely as it warms.||
 Q|Ice, liquid water, and steam are|The same matter in three states|Three different metals|Three planets|Three bones|0
 Q|Which list names three states of matter?|Solid, liquid, gas|North, south, east|Leaf, root, beak|Day, year, tide|0
@@ -126,7 +126,7 @@ Q|A fossil can be|A bone or footprint kept in rock|A living whale|A rain cloud|A
 Q|Who found famous fossil sea animals in cliffs in England?|Mary Anning|Katherine Johnson|Ada Lovelace|Chien-Shiung Wu|0
 ocean-cover|earth|Ocean covers most|Ocean covers most of Earth.|fact|Maps and pictures from space show much more water than land.|About seven tenths of Earth's surface is ocean.||
 Q|What covers most of Earth?|Ocean|Cities|Desert sand only|Ice only|0
-Q|About how much of Earth's surface is ocean?|Seven tenths|One tenth|None|All of the Moon|0
+Q|About how much of Earth's surface is ocean?|Seven-tenths|One-tenth|None|All of the Moon|0
 volcano|earth|Volcanoes|A volcano can let melted rock come out of Earth.|fact|People have watched lava flow out and then cool into rock.|Not every mountain is a volcano.||
 Q|What can come out of a volcano?|Melted rock|A finished element table|Moonlight|Liquid frogs|0
 Q|Is every mountain a volcano?|No|Yes|Only on Tuesdays|Only if it has bones|0
@@ -141,7 +141,7 @@ Q|What helps make the tides?|The Moon's pull|A frog's heartbeat|Pencil graphite|
 Q|Tide times line up with|The Moon|The color of gold|Your shoe size|A cactus|0
 weather-climate|earth|Weather and climate|Weather is what the air does today, and climate is the pattern over many years.|fact|One rainy day is weather, while records kept for years show the climate.|A cold day does not erase a long warm pattern.||
 Q|Weather is|What the air does today|The shape of DNA|A magnet pole|A fossil cliff|0
-Q|Climate is|The pattern over many years|One cloud|A single puddle|Today lunch|0
+Q|Climate is|The pattern of weather over many years|One cloud|A single puddle|Today's lunch|0
 sun-star|space|The Sun is a star|The Sun is a star.|fact|Its light and its makeup match other stars, only it is much closer.|Other stars look small because they are very far away.||
 Q|The Sun is|A star|A cold rock|A whale|A fossil|0
 Q|Why do other stars look tiny?|They are very far away|They are bacteria|They are underground|They have no light at all|0
@@ -149,7 +149,7 @@ eight-planets|space|Eight planets|Eight planets go around the Sun.|fact|Telescop
 Q|How many planets go around the Sun?|Eight|Two|206|One million|0
 Q|Pluto is|A dwarf planet|One of the eight planets|The biggest ocean|A kind of bone|0
 moon-light|space|The Moon reflects|The Moon does not make its own light. It reflects the Sun.|fact|The bright part of the Moon always faces the Sun light.|The side in shadow looks dark.||
-Q|The Moon light comes from|The Sun bouncing off it|A fire inside the Moon|City lamps|Frogs on the Moon|0
+Q|The Moon's light comes from|The Sun bouncing off it|A fire inside the Moon|City lamps|Frogs on the Moon|0
 Q|The dark part of the Moon is|The side in shadow|A hole with no rock|An ocean of ink|A magnet|0
 moon-phases|space|Moon phases|The Moon looks different each night because we see different amounts of its sunny side.|fact|Draw the Moon for a month and the bright part grows and shrinks in order.|A full loop of phases takes about one month.||
 Q|Why does the Moon shape seem to change?|We see different amounts of its sunny side|The Moon melts each night|Clouds eat it|It grows bones|0
@@ -162,7 +162,7 @@ Q|What is the name of our galaxy?|The Milky Way|The Red Sea|The Periodic Table|T
 Q|A galaxy is|A huge family of stars|One frog|A type of salt|A lever|0
 rockets|space|Rockets push gas|A rocket moves forward by pushing gas backward.|fact|Let a balloon go and the air rushes out one way while the balloon zips the other way.|The same kind of push sends real rockets up.||newton
 Q|A rocket goes forward by|Pushing gas backward|Pulling the stars with a rope|Dropping sand upward|Turning gravity off|0
-Q|A let-go balloon zips because|Air rushes out the other way|It becomes ice|The Moon pulls the knot|Friction disappears forever|0
+Q|A balloon you let go zips because|Air rushes out the other way|It becomes ice|The Moon pulls the knot|Friction disappears forever|0
 orbit-float|space|Floating in orbit|People in orbit float because they are falling around Earth, not because gravity is gone.|fact|The ship and the people fall together, so they feel weightless inside.|Gravity is still pulling. It bends their path around Earth.||
 Q|Why do people in orbit float?|They are falling around Earth|Gravity has left space|The ship removes all mass|They are balloons|0
 Q|Is gravity gone in orbit?|No|Yes|Only on Tuesdays|Only for plants|0
@@ -171,10 +171,10 @@ Q|A telescope helps us see faint things because it|Gathers more light|Makes soun
 Q|Who used a telescope and saw moons around Jupiter?|Galileo Galilei|George Washington Carver|Tu Youyou|Barbara McClintock|0
 universe-stretch|space|Space may stretch|Many far galaxies look redder, and a theory says space itself is stretching.|theory|That red shift lines up with distance for a huge number of galaxies.|This is a theory scientists keep testing, not a wild guess.||
 Q|A theory about far galaxies says|Space is stretching|Frogs are planets|Glass is a slow liquid|Sound crosses empty space|0
-Q|The redder look of far galaxies is|Evidence scientists keep testing|A guess nobody can test|Proof magnets have one pole|A tide|0
+Q|The redder light from far galaxies is|Evidence scientists keep testing|A guess nobody can test|Proof magnets have one pole|A tide|0
 life-beyond|space|Life beyond Earth|The idea that living things exist beyond Earth is a guess until a test shows them.|guess|Spacecraft have checked some places, such as Mars, and have not found life there yet.|A guess can become a fact only after a test shows it.||
 Q|Have we found living things beyond Earth?|Not yet|Yes, a city on the Sun|Yes, whales on the Moon|Yes, forests on Saturn rings|0
-Q|The idea of life beyond Earth is|A guess until a test shows it|Already a measured fact|The same as H2O|One of Newton motion rules|0
+Q|The idea of life beyond Earth is|A guess until a test shows it|Already a measured fact|The same as H2O|One of Newton's laws of motion|0
 heart|body|Your heart pumps|Your heart pumps blood around your body.|fact|You can feel the beat as a pulse, and scans can watch the heart squeeze.|The beat gets faster after you run.||
 Q|What does your heart do?|It pumps blood|It makes sunlight|It stores rocks|It is a bar magnet|0
 Q|When does your heart usually beat faster?|After you run|When you are a fossil|When you are made of glass|Never|0
@@ -183,12 +183,12 @@ Q|Lungs help your blood pick up|Oxygen|Sand|Iron rust|Only pollen|0
 Q|You breathe out|Carbon dioxide|Liquid gold|Moon rocks|Magnets|0
 bones|body|206 bones|A grown person's skeleton has 206 bones.|fact|Doctors count them on careful pictures and on skeletons in labs.|Babies have more bones, and some later join.||
 Q|How many bones are in a grown person's skeleton?|206|8|2|3|0
-Q|Babies have|More bones that later can join|No bones at all|A glass skull only|Bones made of honey|0
+Q|Babies have|More bones that can join later|No bones at all|A glass skull only|Bones made of honey|0
 muscles|body|Muscles pull|Muscles pull on bones. They do not push.|fact|When your arm bends, a muscle gets shorter and pulls.|Another muscle pulls the other way to straighten the arm.||
 Q|Muscles move bones by|Pulling|Pushing them like a pole|Melting them|Freezing them|0
 Q|To straighten your arm|Another muscle pulls the other way|The same muscle pushes|The bone floats off|Gravity leaves|0
 germs|body|Germs and hands|Some germs can cause illness, and washing hands with soap helps stop their spread.|fact|Tests show that soap and water lift germs off skin.|Soap and water work better than a quick rinse with water alone.||
-Q|What helps stop germs spreading on hands?|Washing with soap and water|Rubbing sand only|Skipping soap forever|Hiding hands in a fossil|0
+Q|What helps stop germs from spreading on hands?|Washing with soap and water|Rubbing sand only|Skipping soap forever|Hiding hands in a fossil|0
 Q|Which sentence is true?|Some germs can cause illness|All germs are rocks|Germs are planets|Soap is a planet|0
 senses|body|Five senses|You can see, hear, smell, taste, and touch.|fact|Each of these senses uses its own body parts, such as eyes, ears, nose, tongue, and skin.|You also sense balance and heat.||
 Q|Which list names five senses?|See, hear, smell, taste, touch|North, south, east, west, up|Solid, liquid, gas, rust, gold|Crust, mantle, core, tide, year|0
@@ -207,7 +207,7 @@ Q|Sleep helps you|Remember and grow|Turn into a magnet|Lose all your bones|Stop 
 Q|Who needs more sleep?|Children|Rocks|Fossils|Gold coins|0
 stomach|body|Stomach acid|Your stomach makes a strong acid that helps break down food.|fact|Doctors can measure that acid, and food changes after it sits in the stomach.|The stomach has a lining that stands up to its own acid.||
 Q|The stomach makes|Acid that helps break down food|Sunlight|Rings of ice|A north pole|0
-Q|Why does the stomach stand its own acid?|It has a tough lining|It is made only of diamond|It has no acid|It is empty space|0
+Q|Why can the stomach stand its own acid?|It has a tough lining|It is made only of diamond|It has no acid|It is empty space|0
 helpful-germs|body|Some germs help|Some germs help us, like the ones that turn milk into yogurt.|fact|People grow those germs on purpose, and the milk thickens into yogurt.|Many helpful germs live in soil too.||
 Q|Yogurt gets help from|Helpful germs|Liquid mercury|A telescope|An earthquake|0
 Q|Are all germs harmful?|No|Yes|Only germs in space are real|Germs are not real|0
@@ -228,7 +228,7 @@ Q|Butterflies taste with their|Feet|Ears|Shadows|Elbows only|0
 Q|A butterfly tongue is|A long tube|A magnet|A bone|A ring of ice|0
 wombat-cubes|unusual|Cube droppings|A wombat's droppings are cube shaped.|fact|People have measured them, and studies of the intestine show how the cubes form.|Cubes do not roll away as easily as round pellets.||
 Q|What shape are a wombat's droppings?|Cubes|Perfect spheres|Long swords|Rings|0
-Q|Cube shaped droppings|Do not roll away as easily|Turn into gold|Are magnets|Are stars|0
+Q|What is special about cube-shaped droppings?|They do not roll away as easily|They turn into gold|They are magnets|They are stars|0
 sharks-trees|unusual|Sharks before trees|Sharks were swimming before the first trees grew.|fact|Shark fossils in old rock sit below the first tree fossils.||We are not sure of the exact years.|
 Q|Which came first?|Sharks swimming, then trees|Trees, then the first sharks much later|People, then sharks|Glass, then sharks|0
 Q|Are we sure of the exact years for sharks and trees?|No. We are not sure.|Yes, to the minute|Yes, it was last Tuesday|We invent the dates|0

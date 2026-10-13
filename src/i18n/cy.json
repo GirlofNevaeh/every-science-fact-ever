@@ -41,7 +41,7 @@
           "Pryd mae planhigion yn gwneud mwy o ocsigen nag y maen nhw'n ei ddefnyddio?",
           "Mewn haul cryf",
           "Mewn bocs tywyll",
-          "Fel ffosilau yn unig",
+          "Fel ffosiliau yn unig",
           "Byth"
         ]
       ]
@@ -85,8 +85,8 @@
         ],
         [
           "Sut gelli di brofi beth mae had ei angen?",
-          "Rho ddŵr i un had a gadael un arall yn sych",
-          "Paentia'r ddau had a dyfalu",
+          "Rho ddŵr i un had a gad un arall yn sych",
+          "Peintia'r ddau had a dyfala",
           "Cuddia nhw rhag pob prawf",
           "Rhewa graig wrth eu hymyl"
         ]
@@ -100,7 +100,7 @@
       "unsure": "",
       "quiz": [
         [
-          "Mae madarchen yn perthyn i",
+          "Ym mha rŵp mae madarchen yn perthyn?",
           "Ffyngau",
           "Pysgod",
           "Planedau",
@@ -109,8 +109,8 @@
         [
           "Pam nad yw madarchen yn blanhigyn?",
           "Nid yw'n gwneud bwyd o olau'r haul fel planhigyn gwyrdd",
-          "Mae ganddo blu",
-          "Mae wedi'i wneud o wydr",
+          "Mae ganddi blu",
+          "Mae wedi'i gwneud o wydr",
           "Mae'n cylchdroi'r Haul"
         ]
       ]
@@ -199,7 +199,7 @@
           "Modrwyau iâ"
         ],
         [
-          "Mae rhan galed riff yn dod o",
+          "Mae rhan galed y riff yn dod o",
           "Sgerbydau cwrel",
           "Plwm pensil",
           "Anadl morfil",
@@ -291,7 +291,7 @@
           "Fe"
         ],
         [
-          "Sawl atom hydrogen sydd mewn un darn o ddŵr?",
+          "Sawl atom hydrogen sydd mewn un moleciwl o ddŵr?",
           "Dau",
           "Dim",
           "Deg",
@@ -656,7 +656,7 @@
           "Maen nhw'n disgyn tuag at y Ddaear",
           "Maen nhw bob amser yn arnofio i ffwrdd",
           "Maen nhw'n troi'n olew",
-          "Maen nhw'n troi'n ffosilau ar unwaith"
+          "Maen nhw'n troi'n ffosiliau ar unwaith"
         ],
         [
           "Syniad dwfn y tynnu hwn yw",
@@ -729,7 +729,7 @@
         ],
         [
           "Mae car tegan yn rholio ymhellach ar",
-          "Lawr llyfn",
+          "Llawr llyfn",
           "Carped garw",
           "Mwd trwchus",
           "Mêl gludiog"
@@ -747,8 +747,8 @@
           "Mae lifer yn dy helpu i",
           "Godi llwyth trwm gyda gwthio llai",
           "Stopio pob ffrithiant am byth",
-          "Berwi dŵr heb wres",
-          "Tynnu pegwn magnet"
+          "Ferwi dŵr heb wres",
+          "Dynnu pegwn magnet"
         ],
         [
           "Math o beth yw si-so",
@@ -916,7 +916,7 @@
           "Mae tonnau daeargryn yn newid cyflymder y tu mewn iddi",
           "Cloddiodd rhywun i'r canol",
           "Dyfaliad heb brawf",
-          "Diferoedd gwydr i lawr"
+          "Diferodd gwydr i lawr"
         ]
       ]
     },
@@ -1074,7 +1074,7 @@
         ],
         [
           "Yr hinsawdd yw",
-          "Y patrwm dros lawer o flynyddoedd",
+          "Patrwm y tywydd dros lawer o flynyddoedd",
           "Un cwmwl",
           "Un pwll",
           "Cinio heddiw"
@@ -1234,7 +1234,7 @@
           "Diffodd disgyrchiant"
         ],
         [
-          "Mae balŵn a ollyngwyd yn saethu oherwydd",
+          "Mae balŵn rwyt ti'n ei ollwng yn saethu oherwydd",
           "Mae aer yn rhuthro allan y ffordd arall",
           "Mae'n troi'n iâ",
           "Mae'r Lleuad yn tynnu'r cwlwm",
@@ -1303,7 +1303,7 @@
           "Mae sain yn croesi gofod gwag"
         ],
         [
-          "Golwg fwy coch alaethau pell yw",
+          "Y golau cochach o alaethau pell yw",
           "Tystiolaeth y mae gwyddonwyr yn dal i'w phrofi",
           "Dyfaliad na all neb ei brofi",
           "Prawf bod gan fagnetau un pegwn",
@@ -1488,7 +1488,7 @@
         ],
         [
           "Mae gwydredd",
-          "Yn galetach na thu mewn y dant",
+          "Yn galetach na thu mewn i'r dant",
           "Yn fetel hylifol",
           "Yn fath o gwmwl",
           "Yn lleuad"
@@ -1533,7 +1533,7 @@
           "Blewyn amrant"
         ],
         [
-          "Mae croen yn helpu",
+          "Mae croen yn helpu i",
           "Gadw dŵr i mewn a germau allan",
           "Bwmpio gwaed fel ail galon",
           "Wneud modrwyau o amgylch Saturn",
@@ -1580,9 +1580,9 @@
         ],
         [
           "Pam mae'r stumog yn gwrthsefyll ei asid ei hun?",
-          "Mae ganddo leinin caled",
-          "Mae wedi'i wneud o ddiemwnt yn unig",
-          "Nid oes ganddo asid",
+          "Mae ganddi leinin caled",
+          "Mae wedi'i gwneud o ddiemwnt yn unig",
+          "Nid oes ganddi asid",
           "Gofod gwag ydyw"
         ]
       ]
@@ -1606,7 +1606,7 @@
           "Na",
           "Ie",
           "Dim ond germau yn y gofod sy'n go iawn",
-          "Nid yw germau'n wir"
+          "Nid ydyn germau'n wir"
         ]
       ]
     },
@@ -1626,7 +1626,7 @@
         ],
         [
           "Beth ddylit ti ei wneud gyda mercwri?",
-          "Ei adael wedi'i selio a phaid â chyffwrdd ag ef",
+          "Ei adael wedi'i selio a pheidio â chyffwrdd ag ef",
           "Ei yfed",
           "Ei roi ar dy groen",
           "Ei droi i mewn i fwyd"
@@ -1687,7 +1687,7 @@
       "unsure": "",
       "quiz": [
         [
-          "Pa un yw aeron mewn gwyddoniaeth?",
+          "Pa un yw aeronen mewn gwyddoniaeth?",
           "Banana",
           "Mefus",
           "Côn pinwydd",
@@ -1740,11 +1740,11 @@
           "Modrwyau"
         ],
         [
-          "Baw ar siâp ciwb",
-          "Nid yw'n rholio i ffwrdd mor hawdd",
-          "Yn troi'n aur",
-          "Yn fagnetau",
-          "Yn sêr"
+          "Beth sy'n arbennig am faw ar siâp ciwb?",
+          "Nid ydyn nhw'n rholio i ffwrdd mor hawdd",
+          "Maen nhw'n troi'n aur",
+          "Magnetau ydyn nhw",
+          "Sêr ydyn nhw"
         ]
       ]
     },
@@ -1925,7 +1925,7 @@
       "unsure": "",
       "sceneAlt": "Octopws cyffredin",
       "quiz": [
-        "Pwy ddangosodd fod tu allan cell yn helpu i reoli'r gell?",
+        "Pwy ddangosodd fod y tu allan i gell yn helpu i reoli'r gell?",
         "Ernest Everett Just",
         "Dmitri Mendeleev",
         "Nicolaus Copernicus",
@@ -2604,6 +2604,546 @@
       ],
       "done": "Mae gan y tîm ganlyniad, uned, ac un frawddeg am beth fyddai'n difetha'r prawf."
     },
+    "p1-colors": {
+      "title": "Didoli'r lliwiau",
+      "time": "15 munud",
+      "need": [
+        "8 gwrthrych diogel mewn lliwiau gwahanol",
+        "Bwrdd"
+      ],
+      "steps": [
+        "Gosod y gwrthrychau allan.",
+        "Rho nhw mewn grwpiau lliw. Ti sy'n dewis y grwpiau.",
+        "Dwed y rheol yn uchel. Coch a ddim yn goch yn iawn."
+      ],
+      "done": "Mae gen ti grwpiau, a gelli di ddweud rheol y lliw."
+    },
+    "p1-sounds": {
+      "title": "Helfa synau",
+      "time": "10 munud",
+      "need": [
+        "Munud tawel",
+        "Papur",
+        "Pensil"
+      ],
+      "steps": [
+        "Eistedda'n llonydd a gwrando.",
+        "Ysgrifenna neu dynna lun pum sain rwyt ti'n eu clywed.",
+        "Marcia pob un yn uchel neu'n dawel."
+      ],
+      "done": "Mae gen ti bum sain, pob un wedi'i marcio'n uchel neu'n dawel."
+    },
+    "p1-touch": {
+      "title": "Garw neu lyfn",
+      "time": "15 munud",
+      "need": [
+        "6 gwrthrych diogel",
+        "Bwrdd"
+      ],
+      "steps": [
+        "Caea dy lygaid. Mae partner yn rhoi un gwrthrych i ti.",
+        "Dwed garw neu lyfn cyn i ti edrych.",
+        "Didola'r chwech i gyd. Gwira gyda dy lygaid."
+      ],
+      "done": "Mae gan y tîm grŵp garw a grŵp llyfn."
+    },
+    "p1-sky": {
+      "title": "Awyr heddiw",
+      "time": "10 munud",
+      "need": [
+        "Ffenestr neu fan diogel tu allan",
+        "Papur",
+        "Pensil"
+      ],
+      "steps": [
+        "Edrycha ar yr awyr gydag oedolyn.",
+        "Tynna lun beth rwyt ti'n ei weld. Mae cymylau, yr Haul, neu law i gyd yn cyfrif.",
+        "Ysgrifenna un gair am yr awyr heddiw."
+      ],
+      "done": "Mae gan y tîm lun ac un gair gwir am yr awyr."
+    },
+    "p1-bean": {
+      "title": "Ffa mewn bag",
+      "time": "Golwg bob dydd am 5 diwrnod",
+      "need": [
+        "Ffa sych",
+        "Bag clir",
+        "Tywel papur gwlyb",
+        "Tâp"
+      ],
+      "steps": [
+        "Gofyn i oedolyn wlychu'r tywel. Dylai fod yn llaith, nid yn diferu.",
+        "Rho'r ffa yn y bag, sela fe, a'i dapio wrth ffenestr heulog.",
+        "Tynna lun y ffa bob dydd. Dwed beth newidiodd."
+      ],
+      "done": "Mae gen ti luniau sy'n dangos sut newidiodd y ffa."
+    },
+    "p2-puddle": {
+      "title": "Y pwll sy'n diflannu",
+      "time": "Dau wiriad mewn un diwrnod",
+      "need": [
+        "Pwll neu ddarn gwlyb",
+        "Sialc neu garreg"
+      ],
+      "steps": [
+        "Marcia ymyl y darn gwlyb.",
+        "Tyrd yn ôl yn ddiweddarach a'i farcio eto.",
+        "Dwed a aeth yn llai, a sut roedd yr aer yn teimlo."
+      ],
+      "done": "Mae gen ti ddau farc a brawddeg am y newid."
+    },
+    "p2-push": {
+      "title": "Gwthio caled, gwthio meddal",
+      "time": "15 munud",
+      "need": [
+        "Blwch bach",
+        "Llawr llyfn",
+        "Oedolyn gerllaw"
+      ],
+      "steps": [
+        "Rho wthiad meddal i'r blwch. Gweld pa mor bell mae'n mynd.",
+        "Rho fe'n ôl. Rho wthiad caletach iddo.",
+        "Dwed beth newidiaist, a beth arhosodd yr un fath."
+      ],
+      "done": "Gall y tîm ddweud pa wthiad a symudodd y blwch ymhellach."
+    },
+    "p2-wayup": {
+      "title": "Pa ffordd yw fyny",
+      "time": "Gwirio nawr ac ymhen ychydig ddyddiau",
+      "need": [
+        "Ffa sych",
+        "Cwpan clir",
+        "Tywel papur gwlyb",
+        "Oedolyn"
+      ],
+      "steps": [
+        "Gofyn i oedolyn leinio'r cwpan â thywel llaith a thwtio'r ffa i mewn.",
+        "Tro'r cwpan fel y gelli di weld y ffa. Cadw'r tywel yn llaith.",
+        "Pan mae'n egino, pwyntia at y rhan sy'n tyfu i fyny a'r rhan sy'n tyfu i lawr."
+      ],
+      "done": "Gelli di bwyntio at y blaguryn a'r gwreiddyn."
+    },
+    "p2-dissolve": {
+      "title": "Siwgr neu dywod",
+      "time": "15 munud",
+      "need": [
+        "Dau gwpan o ddŵr",
+        "Siwgr",
+        "Tywod",
+        "Llwy",
+        "Oedolyn"
+      ],
+      "steps": [
+        "Rho'r un llwy o siwgr mewn un cwpan a'r un llwy o dywod yn y llall.",
+        "Troe'r ddau yr un ffordd.",
+        "Dwed pa un sy'n ymddangos fel pe bai'n diflannu, a pha un sy'n eistedd ar y gwaelod."
+      ],
+      "done": "Gall y tîm enwi beth hydoddodd a beth na wnaeth."
+    },
+    "p2-shadowsize": {
+      "title": "Cysgod agos ac pell",
+      "time": "15 munud",
+      "need": [
+        "Tortsh",
+        "Tegan bach",
+        "Wal",
+        "Oedolyn"
+      ],
+      "steps": [
+        "Gofyn i oedolyn ddal y golau'n llonydd.",
+        "Dal y tegan yn agos at y wal. Edrycha ar y cysgod.",
+        "Symuda'r tegan yn agosach at y golau. Dwed sut newidiodd y cysgod."
+      ],
+      "done": "Gelli di ddweud pa fan a wnaeth y cysgod mwyaf."
+    },
+    "p3-melt": {
+      "title": "Haul neu gysgod",
+      "time": "20 munud",
+      "need": [
+        "2 giwb iâ o'r un maint",
+        "Dau blât",
+        "Man heulog a man cysgodol"
+      ],
+      "steps": [
+        "Rho un ciwb yn yr haul ac un yn y cysgod.",
+        "Cadw'r ciwbiau yr un maint ar y dechrau.",
+        "Gwira bob ychydig funudau. Pa giwb sy'n crebachu'n gynt?"
+      ],
+      "done": "Newidiaist y lle yn unig, a gelli di ddweud pa giwb a doddodd yn gynt."
+    },
+    "p3-plane": {
+      "title": "Un plyg newydd",
+      "time": "25 munud",
+      "need": [
+        "Dwy ddalen bapur o'r un maint",
+        "Lle clir"
+      ],
+      "steps": [
+        "Plyga ddwy awyren yr un ffordd. Hedfan pob un deirgwaith.",
+        "Newidia un plyg ar un awyren yn unig.",
+        "Hedfan nhw eto. Dwed pa un newid oedd yn bwysig."
+      ],
+      "done": "Gall y tîm enwi'r un plyg a newidion nhw."
+    },
+    "p3-water": {
+      "title": "Dŵr neu ddim",
+      "time": "Gwirio bob dydd am 4 diwrnod",
+      "need": [
+        "Dau bot bach neu gwpan o bridd",
+        "Hadau",
+        "Dŵr",
+        "Oedolyn"
+      ],
+      "steps": [
+        "Planna'r un math o had ym mhob cwpan. Gofyn i oedolyn os oes angen help.",
+        "Dyfrha un cwpan yn unig. Rho'r un golau i'r ddau.",
+        "Tynna lun y ddau gwpan ar ddiwrnod 4. Dwed beth gadwaist yr un fath."
+      ],
+      "done": "Gelli di ddweud pa gwpan a dyfodd fwy, a'r un peth a newidiaist."
+    },
+    "p3-bounce": {
+      "title": "Dau lawr",
+      "time": "20 munud",
+      "need": [
+        "Pêl",
+        "Dau lawr diogel, fel pren a charped",
+        "Oedolyn"
+      ],
+      "steps": [
+        "Gollwng y bêl o'r un uchder ar y llawr cyntaf. Gwylia'r bowns.",
+        "Gollwng hi yr un ffordd ar yr ail lawr.",
+        "Gwna bob gollwng deirgwaith. Dwed pa lawr a roddodd y bowns uchaf."
+      ],
+      "done": "Mae gan y tîm ganlyniad o dri chynnig ar bob llawr."
+    },
+    "p3-string": {
+      "title": "Ffôn cwpan",
+      "time": "20 munud",
+      "need": [
+        "Dau gwpan papur",
+        "Llinyn hir",
+        "Partner",
+        "Oedolyn i wneud y tyllau"
+      ],
+      "steps": [
+        "Gofyn i oedolyn wneud twll bach yng ngwaelod pob cwpan.",
+        "Edrydda'r llinyn drwodd a'i glymu fel ei fod yn aros. Tynna'r llinyn yn dynn.",
+        "Mae un person yn sibrwd mewn cwpan. Mae'r llall yn gwrando. Yna rho gynnig arni gyda llinyn llac."
+      ],
+      "done": "Gelli di ddweud pryd teithiodd y sibrwd a phryd na wnaeth."
+    },
+    "p4-mirror": {
+      "title": "Anadl ar ddrych",
+      "time": "10 munud",
+      "need": [
+        "Drych oer",
+        "Cadach sych"
+      ],
+      "steps": [
+        "Sycha'r drych.",
+        "Anadla arno o agos.",
+        "Gwylia'r niwl. Dwed o beth wyt ti'n meddwl mae'r niwl wedi'i wneud."
+      ],
+      "done": "Gelli di ddweud mai dŵr o dy anadl yw'r niwl."
+    },
+    "p4-bridge": {
+      "title": "Pont bapur",
+      "time": "25 munud",
+      "need": [
+        "Papur",
+        "Dau bentwr o lyfrau",
+        "Darnau arian neu gownteri"
+      ],
+      "steps": [
+        "Gosod dalen wastad ar draws y llyfrau. Ychwanega ddarnau arian un ar y tro nes ei bod yn plygu i lawr.",
+        "Plyga ddalen newydd fel ffan. Profa hi yr un ffordd.",
+        "Ysgrifenna'r ddau gyfrif. Newidiaist y siâp, nid maint y papur."
+      ],
+      "done": "Mae gan y tîm ddau gyfrif a gallant ddweud pa siâp a ddaliodd fwy."
+    },
+    "p4-clock": {
+      "title": "Cloc cysgod",
+      "time": "Tri gwiriad mewn un diwrnod",
+      "need": [
+        "Man heulog",
+        "Potel neu ffon",
+        "Sialc"
+      ],
+      "steps": [
+        "Saf y ffon i fyny. Marcia flaen y cysgod ac ysgrifenna'r amser.",
+        "Tyrd yn ôl yn ddiweddarach. Marcia'r blaen eto ac ysgrifenna'r amser.",
+        "Gwna hynny unwaith eto. Dwed sut symudodd y cysgod."
+      ],
+      "done": "Mae gen ti dri marc, tri amser, a brawddeg am y symud."
+    },
+    "p4-mix": {
+      "title": "Cymysgu lliwiau",
+      "time": "15 munud",
+      "need": [
+        "Tri chwpan clir",
+        "Dŵr",
+        "Dau liw bwyd",
+        "Oedolyn"
+      ],
+      "steps": [
+        "Gofyn i oedolyn am ddau gwpan o ddŵr lliw, lliwiau gwahanol.",
+        "Dyfala'r lliw y cei di os wyt ti'n cymysgu llwy o bob un.",
+        "Cymysga nhw yn y trydydd cwpan. Ysgrifenna'r dyfal a'r canlyniad."
+      ],
+      "done": "Ysgrifennodd y tîm ddyfal cyn y cymysgu, a'r lliw a gawson nhw."
+    },
+    "p4-spoon": {
+      "title": "Pa lwy sy'n cynhesu",
+      "time": "10 munud",
+      "need": [
+        "Llwy fetel",
+        "Llwy bren neu blastig",
+        "Cwpan o ddŵr cynnes",
+        "Oedolyn"
+      ],
+      "steps": [
+        "Gofyn i oedolyn am ddŵr cynnes, nid dŵr berw.",
+        "Rho'r ddwy lwy yn y cwpan fel bod y dolenni'n sticio allan.",
+        "Ar ôl dwy funud, cyffwrdda'r dolenni. Pa un sy'n teimlo'n gynhesach?"
+      ],
+      "done": "Gelli di ddweud pa ddolen a gynhesodd, a bod y dŵr yr un fath."
+    },
+    "p5-sleeve": {
+      "title": "Cadw'r cynhesrwydd",
+      "time": "20 munud",
+      "need": [
+        "Dau gwpan sy'n cyd-fynd",
+        "Dŵr cynnes",
+        "Hosan neu frethyn",
+        "Oedolyn"
+      ],
+      "steps": [
+        "Gofyn i oedolyn arllwys yr un dŵr cynnes i'r ddau gwpan.",
+        "Lap un cwpan yn unig. Gadael y llall yn noeth.",
+        "Arhosa 10 munud. Pa gwpan sy'n teimlo'n gynhesach? Newidiaist y lap yn unig."
+      ],
+      "done": "Gelli di ddweud pa gwpan a gadwodd ei gynhesrwydd yn hirach."
+    },
+    "p5-swing": {
+      "title": "Llinyn hirach",
+      "time": "25 munud",
+      "need": [
+        "Llinyn",
+        "Pwysau bach fel golchwr",
+        "Amserydd",
+        "Ymyl bwrdd"
+      ],
+      "steps": [
+        "Hongia bendil byr. Cyfrifa'r sigloedd mewn 10 eiliad.",
+        "Gwna hynny deirgwaith yr un ffordd.",
+        "Gwna'r llinyn yn hirach a chyfrif eto. Paid â newid dim byd arall."
+      ],
+      "done": "Mae gan y tîm ddau gyfrif a gallant enwi'r un newid."
+    },
+    "p5-leaf": {
+      "title": "Rhwbio deilen",
+      "time": "15 munud",
+      "need": [
+        "Deilen ffres",
+        "Papur tenau",
+        "Creon gyda'r papur wedi'i blicio'n ôl"
+      ],
+      "steps": [
+        "Gosod y ddeilen o dan y papur.",
+        "Rhwbia'r creon yn wastad fel bod y gwythiennau'n dangos.",
+        "Pwyntia at y llinellau a allai gario dŵr."
+      ],
+      "done": "Mae gen ti rwbiad a gelli di bwyntio at y gwythiennau."
+    },
+    "p5-boat": {
+      "title": "Cwch ffoil",
+      "time": "25 munud",
+      "need": [
+        "Ffoil alwminiwm",
+        "Bowlen o ddŵr",
+        "Darnau arian",
+        "Oedolyn"
+      ],
+      "steps": [
+        "Gwna ddau gwch o'r un faint o ffoil.",
+        "Ychwanega ddarnau arian un ar y tro i'r cwch cyntaf nes bod dŵr yn dod i mewn. Cyfrifa nhw.",
+        "Newidia siâp yr ail gwch yn unig. Profa eto."
+      ],
+      "done": "Gall y tîm ddweud a ddaliodd y siâp newydd fwy o ddarnau arian."
+    },
+    "p5-night": {
+      "title": "Blwch awyr y nos",
+      "time": "15 munud ar noson glir",
+      "need": [
+        "Papur",
+        "Pensil",
+        "Golygfa glir o'r awyr",
+        "Oedolyn"
+      ],
+      "steps": [
+        "Dos allan gydag oedolyn. Edrycha ar un darn o'r awyr.",
+        "Tynna lun y dotiau llachar rwyt ti'n eu gweld. Os yw cymylau'n eu cuddio, ysgrifenna cymylau.",
+        "Ysgrifenna'r amser. Y noson glir nesaf, edrych eto a dwed beth sy'n cyd-fynd."
+      ],
+      "done": "Mae gen ti fraslun, amser, a brawddeg am beth welaist."
+    },
+    "p6-layers": {
+      "title": "Tri hylif",
+      "time": "15 munud",
+      "need": [
+        "Cwpan clir",
+        "Mêl neu surop",
+        "Dŵr",
+        "Olew coginio",
+        "Oedolyn"
+      ],
+      "steps": [
+        "Gofyn i oedolyn arllwys mêl yn gyntaf, yna dŵr, yna olew. Arllwys yn araf.",
+        "Arhosa. Gweld pa hylif sy'n eistedd ar y gwaelod, yn y canol, ac ar y top.",
+        "Dwed pa un sydd leiaf dwys. Dyna'r un sy'n arnofio ar y top."
+      ],
+      "done": "Gelli di enwi trefn y tri hylif."
+    },
+    "p6-gas": {
+      "title": "Nwy mewn balŵn",
+      "time": "20 munud",
+      "need": [
+        "Potel fach",
+        "Balŵn",
+        "Soda pobi",
+        "Finegr",
+        "Oedolyn"
+      ],
+      "steps": [
+        "Gofyn i oedolyn roi soda pobi yn y balŵn a finegr yn y botel.",
+        "Rho'r balŵn ar y botel, yna tipia'r powdr i mewn.",
+        "Gwylia'r balŵn. Enwa'r nwy a gymerodd le. Paid â blasu'r cymysgedd."
+      ],
+      "done": "Gall y tîm ddweud bod nwy wedi llenwi'r balŵn."
+    },
+    "p6-model": {
+      "title": "Y Ddaear a'r Lleuad",
+      "time": "20 munud",
+      "need": [
+        "Pêl ar gyfer y Ddaear",
+        "Pêl lai ar gyfer y Lleuad",
+        "Tâp mesur neu linyn"
+      ],
+      "steps": [
+        "Dal y Ddaear yn llonydd. Cerdda'r Lleuad o'i hamgylch mewn cylch.",
+        "Stopia bedair gwaith a dwed pa ochr o'r Lleuad fyddai'n heulog pe bai'r Haul ar draws yr ystafell.",
+        "Ysgrifenna un ffaith wedi'i mesur rwyt ti eisoes yn ei gwybod am y Lleuad."
+      ],
+      "done": "Cerddaist gylchdro llawn ac enwaist un ffaith am y Lleuad."
+    },
+    "p6-sieve": {
+      "title": "Hidlo'r mwd",
+      "time": "25 munud",
+      "need": [
+        "Dŵr mwdlyd",
+        "Brethyn",
+        "Hidlydd coffi neu dywel papur",
+        "Dau gwpan",
+        "Oedolyn"
+      ],
+      "steps": [
+        "Arllwys ddŵr mwdlyd drwy'r brethyn i gwpan.",
+        "Arllwys sampl ffres drwy'r hidlydd.",
+        "Cymhara'r cwpanau. Dwed pa un a adawodd lai o ddarnau drwodd. Paid ag yfed y dŵr."
+      ],
+      "done": "Gall y tîm ddweud pa hidlydd a gadwodd fwy o fwd allan."
+    },
+    "p6-breath": {
+      "title": "Cyfrif yr anadliadau",
+      "time": "10 munud",
+      "need": [
+        "Amserydd",
+        "Papur"
+      ],
+      "steps": [
+        "Eistedda'n llonydd. Cyfrifa anadliadau am 30 eiliad.",
+        "Cerdda'n gyflym am 30 eiliad, yna eistedda a chyfrif eto.",
+        "Ysgrifenna'r ddau rif. Dwed beth newidiodd a beth gadwaist yr un fath."
+      ],
+      "done": "Mae gen ti ddau gyfrif a brawddeg am y gwahaniaeth."
+    },
+    "p7-cabbage": {
+      "title": "Lliwiau bresych",
+      "time": "30 munud",
+      "need": [
+        "Dŵr bresych coch",
+        "Sudd lemwn",
+        "Dŵr plaen",
+        "Dŵr sebonllyd",
+        "Oedolyn"
+      ],
+      "steps": [
+        "Gofyn i oedolyn arllwys dŵr bresych i dri chwpan.",
+        "Ychwanega lemwn at un, dim byd at un, a diferyn o ddŵr sebonllyd at un.",
+        "Ysgrifenna liw pob un. Mae'r lliw yn gliw am asidau a basau."
+      ],
+      "done": "Mae gen ti dri lliw a gelli di ddweud pa gwpan oedd yn ddŵr bresych yn unig."
+    },
+    "p7-launch": {
+      "title": "Un newid, un lansiad",
+      "time": "30 munud",
+      "need": [
+        "Llwy neu bren mesur",
+        "Pêl feddal neu bom-pom",
+        "Tâp mesur",
+        "Lle clir"
+      ],
+      "steps": [
+        "Lansio'r bêl yr un ffordd deirgwaith. Mesura bob pellter.",
+        "Newidia un peth yn unig, fel pa mor bell rwyt ti'n tynnu'n ôl.",
+        "Lansio deirgwaith eto. Cymhara'r ddwy set o rifau."
+      ],
+      "done": "Gall y tîm bwyntio at yr un newid a'r pellteroedd."
+    },
+    "p7-trials": {
+      "title": "Tri chynnig",
+      "time": "20 munud",
+      "need": [
+        "Pêl",
+        "Amserydd neu dâp mesur",
+        "Papur"
+      ],
+      "steps": [
+        "Dewis un gollwng o'r un uchder.",
+        "Amsera'r cwymp, neu fesura'r bowns, deirgwaith.",
+        "Ysgrifenna'r tri rhif a'r uned. Cylcha'r rhif canol."
+      ],
+      "done": "Mae gen ti dri mesuriad gydag un uned, a rhif canol."
+    },
+    "p7-scale": {
+      "title": "Cysawd yr Haul o bapur",
+      "time": "40 munud",
+      "need": [
+        "Stribed hir o bapur",
+        "Pren mesur",
+        "Ffaith blaned rwyt ti wedi'i darllen"
+      ],
+      "steps": [
+        "Rho'r Haul ar un pen.",
+        "Marcia wyth planed mewn trefn. Gosod nhw fel bod y rhai allanol yn bellach o lawer.",
+        "Ysgrifenna un ffaith wedi'i mesur a ddefnyddiaist, ac un syniad sy'n ddamcaniaeth o hyd."
+      ],
+      "done": "Mae'r stribed mewn trefn, a gall y tîm enwi'r ffaith a wirion nhw."
+    },
+    "p7-variables": {
+      "title": "Enwi'r newidynnau",
+      "time": "25 munud",
+      "need": [
+        "Ffaith rwyt ti wedi'i darllen",
+        "Papur"
+      ],
+      "steps": [
+        "Ysgrifenna gwestiwn y gallet ti ei brofi gyda chyflenwadau diogel.",
+        "Ysgrifenna'r un peth y byddet ti'n ei newid.",
+        "Ysgrifenna ddau beth y byddet ti'n eu cadw yr un fath, a beth fyddet ti'n ei fesur."
+      ],
+      "done": "Gall darllenydd weld y newid, y rheolyddion, a'r mesuriad."
+    },
     "print-fair": {
       "title": "Tudalen prawf teg",
       "time": "20 munud",
@@ -2677,7 +3217,7 @@
       "Meddyliau magnet"
     ],
     "time-germs": [
-      "Ym mha flynyddoedd tyfodd profion cryf y gall germau achosi salwch?",
+      "Ym mha flynyddoedd dangosodd profion cryf y gall germau achosi salwch?",
       "Yr 1800au",
       "Y flwyddyn 1610 yn unig",
       "Cyn i'r Ddaear ffurfio, ac rydyn ni'n siŵr",
@@ -2691,7 +3231,7 @@
       "1992"
     ],
     "time-dna": [
-      "Dangoswyd model ysgol ddirdro DNA yn",
+      "Ym mha flwyddyn dangoswyd model ysgol ddirdro DNA?",
       "1953",
       "1650",
       "1903",
@@ -2773,6 +3313,356 @@
       "Dewis credoau teulu drostyn nhw",
       "Hepgor mesur",
       "Galw dyfaliad yn ffaith"
+    ],
+    "extra-legs": [
+      "Sawl coes sydd gan bryfyn?",
+      "Chwech",
+      "Wyth",
+      "Dwy",
+      "206"
+    ],
+    "extra-spider": [
+      "Nid pryfedyn yw pry cop. Sawl coes sydd gan bry cop?",
+      "Wyth",
+      "Chwech",
+      "Pedair",
+      "Un"
+    ],
+    "extra-gills": [
+      "Sut mae pysgod yn cael ocsigen o ddŵr?",
+      "Gyda thagellau",
+      "Gydag ysgyfaint, fel morfil",
+      "Drwy fwyta tywod",
+      "Gyda phlu"
+    ],
+    "extra-milk": [
+      "Beth mae mamau mamaliaid yn ei wneud i'w rhai bach?",
+      "Llaeth",
+      "Golau'r haul",
+      "Lafa",
+      "Gwydr"
+    ],
+    "extra-eggs": [
+      "O beth mae adar yn deor?",
+      "Wyau",
+      "Hadau",
+      "Creigiau",
+      "Magnetau"
+    ],
+    "extra-roots": [
+      "Beth mae gwreiddiau'n ei wneud yn bennaf?",
+      "Cymryd dŵr i mewn",
+      "Gwneud modrwyau o amgylch Saturn",
+      "Gwthio'r Lleuad",
+      "Troi'n aur"
+    ],
+    "extra-green": [
+      "Beth sy'n gwneud i lawer o ddail edrych yn wyrdd?",
+      "Sylwedd gwyrdd sy'n dal golau",
+      "Rhwd haearn",
+      "Asgwrn morfil",
+      "Llwch y Lleuad"
+    ],
+    "extra-solid": [
+      "Mae craig yn cadw ei siâp ei hun. Beth yw craig?",
+      "Solet",
+      "Nwy",
+      "Llanw",
+      "Galaeth"
+    ],
+    "extra-gas": [
+      "Beth yw'r aer yn yr ystafell hon?",
+      "Nwy",
+      "Asgwrn solet",
+      "Planed",
+      "Ffosil"
+    ],
+    "extra-melt": [
+      "Pryd mae iâ yn troi'n ddŵr hylifol?",
+      "Pan mae'n cael digon o wres",
+      "Pan mae'n colli pob atom",
+      "Pan mae'n troi'n fagnet",
+      "Pan mae'n hedfan i'r Haul"
+    ],
+    "extra-freeze": [
+      "Pryd mae dŵr hylifol yn troi'n iâ?",
+      "Pan mae'n mynd yn ddigon oer",
+      "Pan mae'n berwi ar unwaith",
+      "Pan mae'n troi'n olew",
+      "Pan mae'n troi'n seren"
+    ],
+    "extra-puddle": [
+      "Pam gall pwll ddiflannu ar ddiwrnod cynnes?",
+      "Mae'r dŵr yn troi'n nwy",
+      "Mae'r dŵr yn troi'n graig",
+      "Mae brogaod bob amser yn ei yfed",
+      "Mae'r Lleuad yn ei gymryd"
+    ],
+    "extra-shadow": [
+      "Pryd mae cysgod yn ffurfio?",
+      "Pan mae rhywbeth yn rhwystro'r golau",
+      "Pan nad oes gan olau ffynhonnell o gwbl",
+      "Pan mae sain yn pentyrru",
+      "Pan mae magnet yn penderfynu"
+    ],
+    "extra-mirror": [
+      "Mae drych yn anfon golau yn ôl. Beth yw enw'r bowns hwnnw?",
+      "Adlewyrchiad",
+      "Rhwd",
+      "Ffosil",
+      "Llanw"
+    ],
+    "extra-circuit": [
+      "Beth mae cylched syml ei angen fel y gall bwlb oleuo?",
+      "Llwybr caeedig i'r trydan",
+      "Bwlch sy'n stopio'r llwybr",
+      "Ffon bren yn unig",
+      "Cwpan o dywod"
+    ],
+    "extra-rubber": [
+      "Nid yw rwber yn gadael i drydan basio'n hawdd. Beth yw rwber?",
+      "Inswleiddiwr",
+      "Llwybr metel",
+      "Pegwn magnet",
+      "Math o asgwrn"
+    ],
+    "extra-copper": [
+      "Mae copr yn gadael i drydan basio. Beth yw copr?",
+      "Dargludydd",
+      "Inswleiddiwr fel rwber",
+      "Nwy yn yr ystafell",
+      "Lleuad"
+    ],
+    "extra-compass": [
+      "I ble mae nodwydd cwmpawd yn pwyntio, yn fras?",
+      "Gogledd",
+      "At dy esgidiau",
+      "At y cactws agosaf",
+      "Yn syth i mewn i ffosil"
+    ],
+    "extra-closest": [
+      "Pa beth agosaf at y Ddaear yw'r Haul?",
+      "Seren",
+      "Cefnfor",
+      "Asgwrn",
+      "Dinas"
+    ],
+    "extra-moon-trip": [
+      "O amgylch beth mae'r Lleuad yn mynd?",
+      "Y Ddaear",
+      "Magnet ystafell ddosbarth",
+      "Dy galon",
+      "Un wenynen"
+    ],
+    "extra-drop": [
+      "Os nad yw aer yn gwthio llawer, beth mae pêl drwm a phêl ysgafn a ollyngir gyda'i gilydd yn ei wneud?",
+      "Disgyn ar bron yr un cyflymder",
+      "Disgyn bob amser ar gyflymder hollol wahanol",
+      "Arnofio i fyny",
+      "Troi'n wydr"
+    ],
+    "extra-feather": [
+      "Pam mae pluen yn disgyn yn araf?",
+      "Mae aer yn gwthio arni",
+      "Mae disgyrchiant wedi'i ddiffodd",
+      "Nid oes ganddi fàs",
+      "Planed ydyw"
+    ],
+    "extra-unit": [
+      "Beth arall sydd ei angen ar fesuriad gofalus, ar wahân i rif?",
+      "Uned",
+      "Dymuniad",
+      "Ateb newydd bob tro rwyt ti'n gobeithio",
+      "Dim teclyn"
+    ],
+    "extra-repeat": [
+      "Pam gwneud prawf teg fwy nag unwaith?",
+      "I weld a yw'r canlyniad yn digwydd eto",
+      "I newid popeth bob tro",
+      "I hepgor mesur",
+      "I ddewis yr ateb yn gyntaf"
+    ],
+    "extra-cm": [
+      "Pa un yw uned hyd?",
+      "Centimedr",
+      "Dydd Mawrth",
+      "Glas",
+      "Uchel"
+    ],
+    "extra-thermo": [
+      "Beth mae thermomedr yn ei fesur?",
+      "Tymheredd",
+      "Pa mor uchel yw broga",
+      "Enw seren",
+      "Sawl asgwrn sydd gen ti"
+    ],
+    "extra-balance": [
+      "Beth mae clorian yn cael ei defnyddio i'w gymharu?",
+      "Pa mor drwm yw dau beth",
+      "Lliw'r awyr",
+      "Sain mewn gofod gwag",
+      "Cyfnodau'r Lleuad"
+    ],
+    "extra-cup": [
+      "Beth mae cwpan mesur yn ei ddweud wrthyt?",
+      "Faint o le mae hylif yn ei lenwi",
+      "Lliw aur",
+      "Oed ffosil",
+      "Meddyliau magnet"
+    ],
+    "extra-wilt": [
+      "Mae planhigyn yn gwywo pan na all gael",
+      "Digon o ddŵr",
+      "Golau lleuad ychwanegol yn unig",
+      "Magnet gwialen",
+      "Telesgop"
+    ],
+    "extra-stone": [
+      "Pam na fydd carreg yn tyfu'n blanhigyn?",
+      "Nid had ydyw",
+      "Mae'n rhy wyrdd",
+      "Coeden faban ydyw",
+      "Mae ganddi ddail eisoes"
+    ],
+    "extra-habitat": [
+      "Beth yw cynefin?",
+      "Y lle mae peth byw ei angen",
+      "Math o fetel",
+      "Cyfnod o'r Lleuad",
+      "Lifer"
+    ],
+    "extra-chain": [
+      "Beth mae cadwyn fwyd yn ei ddangos?",
+      "Pwy sy'n bwyta pwy",
+      "Sut dywedir bod gwydr yn diferu",
+      "Enwau'r planedau yn unig",
+      "Sut mae magnetau'n meddwl"
+    ],
+    "extra-rot": [
+      "Beth mae ffyngau a rhai pethau byw bach yn ei wneud?",
+      "Helpu i dorri pethau marw i lawr",
+      "Gwneud golau'r haul",
+      "Bod yn blanedau",
+      "Bod yn fagnetau gwialen"
+    ],
+    "extra-hide": [
+      "Beth mae cuddliw yn helpu anifail i'w wneud?",
+      "Cuddio",
+      "Berwi dŵr",
+      "Rhydu fel haearn",
+      "Cylchdroi Saturn"
+    ],
+    "extra-migrate": [
+      "Mae rhai adar yn hedfan yn bell pan mae'r tymhorau'n newid. Beth yw enw'r daith honno?",
+      "Ymfudo",
+      "Rhwd",
+      "Ffosil",
+      "Lifer"
+    ],
+    "extra-sleep": [
+      "Mae rhai anifeiliaid yn treulio'r misoedd oer mewn gorffwys dwfn. Beth yw enw'r gorffwys hwnnw?",
+      "Gaeafgysgu",
+      "Berwi",
+      "Cyfnod o'r Lleuad",
+      "Gwneud gwydr"
+    ],
+    "extra-skull": [
+      "Beth mae dy benglog yn helpu i'w wneud?",
+      "Amddiffyn dy ymennydd",
+      "Pwmpio gwaed",
+      "Gwneud golau'r haul",
+      "Storio rhwd"
+    ],
+    "extra-elbow": [
+      "Beth yw'r lle mae dy benelin yn plygu?",
+      "Cymal",
+      "Pegwn magnet",
+      "Clogwyn ffosil",
+      "Galaeth"
+    ],
+    "extra-teeth": [
+      "Beth mae dannedd yn dy helpu i'w wneud?",
+      "Torri a malu bwyd",
+      "Pwmpio gwaed",
+      "Gweld yn y tywyllwch",
+      "Gwneud y llanw"
+    ],
+    "extra-sweat": [
+      "Beth mae chwysu yn helpu dy gorff i'w wneud?",
+      "Oeri",
+      "Troi'n iâ ar unwaith",
+      "Gwneud aur",
+      "Tyfu ail galon"
+    ],
+    "extra-mercury-planet": [
+      "Pa blaned sydd agosaf at yr Haul?",
+      "Mercury",
+      "Neptune",
+      "Saturn",
+      "Y Ddaear"
+    ],
+    "extra-third": [
+      "Pa blaned o'r Haul yw'r Ddaear?",
+      "Y drydedd",
+      "Y gyntaf",
+      "Yr wythfed",
+      "Lleuad o Jupiter"
+    ],
+    "extra-giant": [
+      "Beth yw Jupiter yn bennaf?",
+      "Nwy, heb dir solet i sefyll arno",
+      "Haearn solet yr holl ffordd drwodd",
+      "Asgwrn",
+      "Pren hylifol"
+    ],
+    "extra-asteroid": [
+      "Beth yw asteroid?",
+      "Corff creigiog neu fetel sy'n cylchdroi'r Haul",
+      "Math o forfil",
+      "Cwmwl sy'n blasu'n hallt",
+      "Coeden faban"
+    ],
+    "extra-stars": [
+      "Beth yw cytser?",
+      "Patrwm mae pobl yn ei ddychmygu yn y sêr",
+      "Asgwrn yn y droed",
+      "Math o halen",
+      "Cylched gaeedig"
+    ],
+    "extra-fact": [
+      "Beth yw ffaith wedi'i mesur?",
+      "Syniad rydyn ni wedi'i wirio gyda phrawf",
+      "Syniad rydyn ni dim ond yn gobeithio ei fod yn wir",
+      "Syniad na allwn ni ei brofi",
+      "Syniad a ddyfeisiwyd y bore yma"
+    ],
+    "extra-theory": [
+      "Beth yw damcaniaeth mewn gwyddoniaeth?",
+      "Syniad mawr sy'n dal i basio profion",
+      "Dyfalu gwyllt heb brofion",
+      "Math o graig",
+      "Uned hyd"
+    ],
+    "extra-control": [
+      "Mewn prawf teg, beth yw'r pethau rwyt ti'n eu cadw yr un fath?",
+      "Rheolyddion",
+      "Yr ateb roeddet ti ei eisiau'n gyntaf",
+      "Pob newid ar unwaith",
+      "Dewisol, felly gelli di eu hepgor"
+    ],
+    "extra-sprout": [
+      "Gall had egino yn y tywyllwch, ond ni all y planhigyn ifanc barhau i wneud bwyd heb beth?",
+      "Golau",
+      "Drwm uchel",
+      "Magnet",
+      "Ffosil"
+    ],
+    "extra-battery": [
+      "Beth all batri ei wthio?",
+      "Cerrynt trydan",
+      "Cyfnodau'r Lleuad",
+      "Clogwyn ffosil",
+      "Y llanw ar ei ben ei hun"
     ]
   },
   "photos": {

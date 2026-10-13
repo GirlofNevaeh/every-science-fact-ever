@@ -100,11 +100,11 @@
       "unsure": "",
       "quiz": [
         [
-          "Ein Pilz gehört zu den",
-          "Pilzen",
-          "Fischen",
+          "Zu welcher Gruppe gehört ein Pilz?",
+          "Pilze",
+          "Fische",
           "Planeten",
-          "Magneten"
+          "Magnete"
         ],
         [
           "Warum ist ein Pilz keine Pflanze?",
@@ -291,7 +291,7 @@
           "Fe"
         ],
         [
-          "Wie viele Wasserstoffatome sind in einem Teil Wasser?",
+          "Wie viele Wasserstoffatome sind in einem Molekül Wasser?",
           "Zwei",
           "Null",
           "Zehn",
@@ -892,7 +892,7 @@
           "Welcher Satz stimmt?",
           "Die Neigung der Erde ändert, wie direkt uns das Sonnenlicht trifft",
           "Sommer gibt es, weil der Mond kocht",
-          "Winter heißt, die Erde hat das Sonnensystem verlassen",
+          "Winter heißt, dass die Erde das Sonnensystem verlassen hat",
           "Jahreszeiten sind eine Art Metall"
         ]
       ]
@@ -1027,7 +1027,7 @@
           "Nur Plastik"
         ],
         [
-          "Wer untersuchte Pflanzen, die müden Boden helfen?",
+          "Wer untersuchte Pflanzen, die müdem Boden helfen?",
           "George Washington Carver",
           "Galileo Galilei",
           "Isaac Newton",
@@ -1074,7 +1074,7 @@
         ],
         [
           "Klima ist",
-          "Das Muster über viele Jahre",
+          "Das Muster des Wetters über viele Jahre",
           "Eine Wolke",
           "Eine einzelne Pfütze",
           "Das heutige Mittagessen"
@@ -1136,7 +1136,7 @@
       "quiz": [
         [
           "Das Mondlicht kommt von",
-          "Der Sonne, die von ihm zurückgeworfen wird",
+          "Der Sonne, deren Licht von ihm zurückgeworfen wird",
           "Einem Feuer im Mond",
           "Stadtlampen",
           "Fröschen auf dem Mond"
@@ -1159,7 +1159,7 @@
       "quiz": [
         [
           "Warum scheint sich die Form des Mondes zu ändern?",
-          "Wir sehen verschieden viel von seiner Sonnenseite",
+          "Wir sehen unterschiedlich viel von seiner Sonnenseite",
           "Der Mond schmilzt jede Nacht",
           "Wolken essen ihn",
           "Er bekommt Knochen"
@@ -1303,7 +1303,7 @@
           "Schall durchquert leeren Raum"
         ],
         [
-          "Das rötere Aussehen ferner Galaxien ist",
+          "Das rötere Licht ferner Galaxien ist",
           "Ein Hinweis, den Forschende weiter prüfen",
           "Eine Vermutung, die niemand prüfen kann",
           "Ein Beweis, dass Magnete nur einen Pol haben",
@@ -1330,7 +1330,7 @@
           "Eine Vermutung, bis ein Test sie zeigt",
           "Schon eine gemessene Tatsache",
           "Dasselbe wie H2O",
-          "Eine der Bewegungsregeln von Newton"
+          "Eines der Bewegungsgesetze von Newton"
         ]
       ]
     },
@@ -1434,7 +1434,7 @@
       "unsure": "",
       "quiz": [
         [
-          "Was hilft, Keime an den Händen zu stoppen?",
+          "Was hilft, dass sich Keime an den Händen nicht ausbreiten?",
           "Waschen mit Seife und Wasser",
           "Nur mit Sand reiben",
           "Für immer auf Seife verzichten",
@@ -1512,7 +1512,7 @@
         [
           "Welcher Satz stimmt?",
           "Du benutzt jeden Tag viele Teile deines Gehirns",
-          "Menschen nutzen nur ein winziges Stück, der Rest ist aus",
+          "Menschen nutzen nur ein winziges Stück, und der Rest ist aus",
           "Das Gehirn ist ein Knochen im Fuß",
           "Das Gehirn ist aus Fensterglas"
         ]
@@ -1740,11 +1740,11 @@
           "Ringe"
         ],
         [
-          "Würfelförmiger Kot",
-          "Rollt nicht so leicht weg",
-          "Wird zu Gold",
-          "Ist ein Magnet",
-          "Ist ein Stern"
+          "Was ist an würfelförmigem Kot besonders?",
+          "Sie rollen nicht so leicht weg",
+          "Sie werden zu Gold",
+          "Sie sind Magnete",
+          "Sie sind Sterne"
         ]
       ]
     },
@@ -2604,6 +2604,546 @@
       ],
       "done": "Das Team hat ein Ergebnis, eine Einheit und einen Satz darüber, was den Test verderben würde."
     },
+    "p1-colors": {
+      "title": "Sortiere die Farben",
+      "time": "15 Minuten",
+      "need": [
+        "8 sichere Gegenstände in verschiedenen Farben",
+        "Ein Tisch"
+      ],
+      "steps": [
+        "Leg die Gegenstände aus.",
+        "Leg sie in Farbgruppen. Du wählst die Gruppen.",
+        "Sag die Regel laut. Rot und nicht rot ist gut."
+      ],
+      "done": "Du hast Gruppen, und du kannst die Farbregel sagen."
+    },
+    "p1-sounds": {
+      "title": "Geräuschejagd",
+      "time": "10 Minuten",
+      "need": [
+        "Eine stille Minute",
+        "Papier",
+        "Ein Bleistift"
+      ],
+      "steps": [
+        "Sitz still und hör zu.",
+        "Schreib oder zeichne fünf Geräusche, die du hörst.",
+        "Markiere jedes als laut oder leise."
+      ],
+      "done": "Du hast fünf Geräusche, jedes als laut oder leise markiert."
+    },
+    "p1-touch": {
+      "title": "Rau oder glatt",
+      "time": "15 Minuten",
+      "need": [
+        "6 sichere Gegenstände",
+        "Ein Tisch"
+      ],
+      "steps": [
+        "Mach die Augen zu. Ein Partner gibt dir einen Gegenstand.",
+        "Sag rau oder glatt, bevor du hinschaust.",
+        "Sortiere alle sechs. Prüf mit den Augen."
+      ],
+      "done": "Das Team hat eine raue Gruppe und eine glatte Gruppe."
+    },
+    "p1-sky": {
+      "title": "Der Himmel heute",
+      "time": "10 Minuten",
+      "need": [
+        "Ein Fenster oder ein sicherer Platz draußen",
+        "Papier",
+        "Ein Bleistift"
+      ],
+      "steps": [
+        "Schau mit einem Erwachsenen zum Himmel.",
+        "Zeichne, was du siehst. Wolken, Sonne oder Regen zählen alle.",
+        "Schreib ein Wort für den Himmel heute."
+      ],
+      "done": "Das Team hat eine Zeichnung und ein wahres Wort über den Himmel."
+    },
+    "p1-bean": {
+      "title": "Eine Bohne im Beutel",
+      "time": "Ein Blick jeden Tag, 5 Tage lang",
+      "need": [
+        "Eine getrocknete Bohne",
+        "Ein durchsichtiger Beutel",
+        "Ein nasses Papiertuch",
+        "Klebeband"
+      ],
+      "steps": [
+        "Bitte einen Erwachsenen, das Tuch nass zu machen. Es soll feucht sein, nicht tropfen.",
+        "Leg die Bohne in den Beutel, mach ihn zu und klebe ihn an ein sonniges Fenster.",
+        "Zeichne die Bohne jeden Tag. Sag, was sich geändert hat."
+      ],
+      "done": "Du hast Zeichnungen, die zeigen, wie sich die Bohne geändert hat."
+    },
+    "p2-puddle": {
+      "title": "Die verschwindende Pfütze",
+      "time": "Zwei Kontrollen an einem Tag",
+      "need": [
+        "Eine Pfütze oder eine nasse Stelle",
+        "Kreide oder ein Stein"
+      ],
+      "steps": [
+        "Markiere den Rand der nassen Stelle.",
+        "Komm später wieder und markiere ihn noch einmal.",
+        "Sag, ob sie kleiner wurde, und wie sich die Luft anfühlte."
+      ],
+      "done": "Du hast zwei Marken und einen Satz über die Änderung."
+    },
+    "p2-push": {
+      "title": "Fester Stoß, sanfter Stoß",
+      "time": "15 Minuten",
+      "need": [
+        "Eine kleine Schachtel",
+        "Ein glatter Boden",
+        "Ein Erwachsener in der Nähe"
+      ],
+      "steps": [
+        "Gib der Schachtel einen sanften Stoß. Schau, wie weit sie kommt.",
+        "Stell sie zurück. Gib ihr einen festeren Stoß.",
+        "Sag, was du geändert hast und was gleich geblieben ist."
+      ],
+      "done": "Das Team kann sagen, welcher Stoß die Schachtel weiter bewegt hat."
+    },
+    "p2-wayup": {
+      "title": "Welche Richtung ist oben",
+      "time": "Eine Kontrolle jetzt und in ein paar Tagen",
+      "need": [
+        "Eine getrocknete Bohne",
+        "Eine durchsichtige Tasse",
+        "Ein nasses Papiertuch",
+        "Ein Erwachsener"
+      ],
+      "steps": [
+        "Bitte einen Erwachsenen, die Tasse mit einem feuchten Tuch auszulegen und die Bohne hineinzustecken.",
+        "Dreh die Tasse so, dass du die Bohne siehst. Halt das Tuch feucht.",
+        "Wenn sie keimt, zeig auf den Teil, der nach oben wächst, und den Teil, der nach unten wächst."
+      ],
+      "done": "Du kannst auf den Spross und die Wurzel zeigen."
+    },
+    "p2-dissolve": {
+      "title": "Zucker oder Sand",
+      "time": "15 Minuten",
+      "need": [
+        "Zwei Tassen Wasser",
+        "Zucker",
+        "Sand",
+        "Ein Löffel",
+        "Ein Erwachsener"
+      ],
+      "steps": [
+        "Tu denselben Löffel Zucker in eine Tasse und denselben Löffel Sand in die andere.",
+        "Rühr beide gleich.",
+        "Sag, welcher zu verschwinden scheint und welcher unten liegen bleibt."
+      ],
+      "done": "Das Team kann nennen, was sich aufgelöst hat und was nicht."
+    },
+    "p2-shadowsize": {
+      "title": "Schatten nah und fern",
+      "time": "15 Minuten",
+      "need": [
+        "Eine Taschenlampe",
+        "Ein kleines Spielzeug",
+        "Eine Wand",
+        "Ein Erwachsener"
+      ],
+      "steps": [
+        "Bitte einen Erwachsenen, das Licht stillzuhalten.",
+        "Halt das Spielzeug nah an die Wand. Schau auf den Schatten.",
+        "Beweg das Spielzeug näher ans Licht. Sag, wie sich der Schatten geändert hat."
+      ],
+      "done": "Du kannst sagen, welche Stelle den größeren Schatten gemacht hat."
+    },
+    "p3-melt": {
+      "title": "Sonne oder Schatten",
+      "time": "20 Minuten",
+      "need": [
+        "2 Eiswürfel gleicher Größe",
+        "Zwei Teller",
+        "Ein sonniger Platz und ein schattiger Platz"
+      ],
+      "steps": [
+        "Leg einen Würfel in die Sonne und einen in den Schatten.",
+        "Die Würfel sollen am Anfang gleich groß sein.",
+        "Schau alle paar Minuten. Welcher Würfel wird schneller kleiner?"
+      ],
+      "done": "Du hast nur den Platz geändert, und du kannst sagen, welcher Würfel schneller geschmolzen ist."
+    },
+    "p3-plane": {
+      "title": "Eine neue Falte",
+      "time": "25 Minuten",
+      "need": [
+        "Zwei Blätter Papier derselben Größe",
+        "Ein freier Platz"
+      ],
+      "steps": [
+        "Falte zwei Flieger auf dieselbe Art. Lass jeden dreimal fliegen.",
+        "Ändere nur an einem Flieger eine Falte.",
+        "Lass sie noch einmal fliegen. Sag, welche einzelne Änderung wichtig war."
+      ],
+      "done": "Das Team kann die eine Falte nennen, die es geändert hat."
+    },
+    "p3-water": {
+      "title": "Wasser oder keins",
+      "time": "Eine Kontrolle jeden Tag, 4 Tage lang",
+      "need": [
+        "Zwei kleine Töpfe oder Tassen mit Erde",
+        "Samen",
+        "Wasser",
+        "Ein Erwachsener"
+      ],
+      "steps": [
+        "Pflanz dieselbe Art Samen in jede Tasse. Bitte einen Erwachsenen, wenn du Hilfe brauchst.",
+        "Gieß nur eine Tasse. Gib beiden dasselbe Licht.",
+        "Zeichne beide Tassen an Tag 4. Sag, was du gleich gelassen hast."
+      ],
+      "done": "Du kannst sagen, welche Tasse mehr gewachsen ist, und die eine Sache, die du geändert hast."
+    },
+    "p3-bounce": {
+      "title": "Zwei Böden",
+      "time": "20 Minuten",
+      "need": [
+        "Ein Ball",
+        "Zwei sichere Böden, zum Beispiel Holz und Teppich",
+        "Ein Erwachsener"
+      ],
+      "steps": [
+        "Lass den Ball aus derselben Höhe auf den ersten Boden fallen. Schau auf den Sprung.",
+        "Lass ihn auf dieselbe Art auf den zweiten Boden fallen.",
+        "Mach jeden Fall dreimal. Sag, welcher Boden den höheren Sprung gab."
+      ],
+      "done": "Das Team hat ein Ergebnis aus drei Versuchen auf jedem Boden."
+    },
+    "p3-string": {
+      "title": "Bechertelefon",
+      "time": "20 Minuten",
+      "need": [
+        "Zwei Pappbecher",
+        "Eine lange Schnur",
+        "Ein Partner",
+        "Ein Erwachsener, der die Löcher sticht"
+      ],
+      "steps": [
+        "Bitte einen Erwachsenen, ein kleines Loch in den Boden jedes Bechers zu stechen.",
+        "Zieh die Schnur hindurch und verknote sie, damit sie hält. Zieh die Schnur straff.",
+        "Eine Person flüstert in einen Becher. Die andere hört. Dann probiere es mit lockerer Schnur."
+      ],
+      "done": "Du kannst sagen, wann das Flüstern ankam und wann nicht."
+    },
+    "p4-mirror": {
+      "title": "Hauch auf einen Spiegel",
+      "time": "10 Minuten",
+      "need": [
+        "Ein kühler Spiegel",
+        "Ein trockenes Tuch"
+      ],
+      "steps": [
+        "Wisch den Spiegel trocken.",
+        "Hauch aus der Nähe darauf.",
+        "Schau auf den Beschlag. Sag, woraus der Beschlag deiner Meinung nach besteht."
+      ],
+      "done": "Du kannst sagen, dass der Beschlag Wasser aus deinem Atem ist."
+    },
+    "p4-bridge": {
+      "title": "Papierbrücke",
+      "time": "25 Minuten",
+      "need": [
+        "Papier",
+        "Zwei Stapel Bücher",
+        "Münzen oder Spielsteine"
+      ],
+      "steps": [
+        "Leg ein flaches Blatt über die Bücher. Leg Münzen nacheinander darauf, bis es sich nach unten biegt.",
+        "Falte ein neues Blatt wie einen Fächer. Teste es auf dieselbe Art.",
+        "Schreib beide Zahlen auf. Du hast die Form geändert, nicht die Papiergröße."
+      ],
+      "done": "Das Team hat zwei Zahlen und kann sagen, welche Form mehr gehalten hat."
+    },
+    "p4-clock": {
+      "title": "Schattenuhr",
+      "time": "Drei Kontrollen an einem Tag",
+      "need": [
+        "Ein sonniger Platz",
+        "Eine Flasche oder ein Stock",
+        "Kreide"
+      ],
+      "steps": [
+        "Stell den Stock auf. Markiere die Spitze des Schattens und schreib die Uhrzeit.",
+        "Komm später wieder. Markiere die Spitze noch einmal und schreib die Uhrzeit.",
+        "Mach es noch einmal. Sag, wie sich der Schatten bewegt hat."
+      ],
+      "done": "Du hast drei Marken, drei Uhrzeiten und einen Satz über die Bewegung."
+    },
+    "p4-mix": {
+      "title": "Farben mischen",
+      "time": "15 Minuten",
+      "need": [
+        "Drei durchsichtige Tassen",
+        "Wasser",
+        "Zwei Lebensmittelfarben",
+        "Ein Erwachsener"
+      ],
+      "steps": [
+        "Bitte einen Erwachsenen um zwei Tassen gefärbtes Wasser, verschiedene Farben.",
+        "Rate die Farbe, die du bekommst, wenn du einen Löffel von jeder mischst.",
+        "Misch sie in der dritten Tasse. Schreib die Vermutung und das Ergebnis."
+      ],
+      "done": "Das Team hat vor dem Mischen eine Vermutung aufgeschrieben und die Farbe, die es bekam."
+    },
+    "p4-spoon": {
+      "title": "Welcher Löffel wird warm",
+      "time": "10 Minuten",
+      "need": [
+        "Ein Metalllöffel",
+        "Ein Holz- oder Plastiklöffel",
+        "Eine Tasse warmes Wasser",
+        "Ein Erwachsener"
+      ],
+      "steps": [
+        "Bitte einen Erwachsenen um warmes Wasser, nicht um kochendes Wasser.",
+        "Stell beide Löffel in die Tasse, sodass die Griffe herausschauen.",
+        "Fass nach zwei Minuten die Griffe an. Welcher fühlt sich wärmer an?"
+      ],
+      "done": "Du kannst sagen, welcher Griff warm wurde, und dass das Wasser dasselbe war."
+    },
+    "p5-sleeve": {
+      "title": "Die Wärme halten",
+      "time": "20 Minuten",
+      "need": [
+        "Zwei gleiche Tassen",
+        "Warmes Wasser",
+        "Eine Socke oder ein Tuch",
+        "Ein Erwachsener"
+      ],
+      "steps": [
+        "Bitte einen Erwachsenen, dasselbe warme Wasser in beide Tassen zu gießen.",
+        "Wickle nur eine Tasse ein. Lass die andere frei.",
+        "Warte 10 Minuten. Welche Tasse fühlt sich wärmer an? Du hast nur die Hülle geändert."
+      ],
+      "done": "Du kannst sagen, welche Tasse die Wärme länger gehalten hat."
+    },
+    "p5-swing": {
+      "title": "Längere Schnur",
+      "time": "25 Minuten",
+      "need": [
+        "Schnur",
+        "Ein kleines Gewicht, zum Beispiel eine Metallscheibe",
+        "Ein Timer",
+        "Eine Tischkante"
+      ],
+      "steps": [
+        "Häng ein kurzes Pendel auf. Zähl die Schwingungen in 10 Sekunden.",
+        "Mach es dreimal auf dieselbe Art.",
+        "Mach die Schnur länger und zähl noch einmal. Ändere sonst nichts."
+      ],
+      "done": "Das Team hat zwei Zählungen und kann die eine Änderung nennen."
+    },
+    "p5-leaf": {
+      "title": "Blattabreibung",
+      "time": "15 Minuten",
+      "need": [
+        "Ein frisches Blatt",
+        "Dünnes Papier",
+        "Ein Wachsmalstift, bei dem das Papier abgezogen ist"
+      ],
+      "steps": [
+        "Leg das Blatt unter das Papier.",
+        "Reib den Stift flach, sodass die Adern sichtbar werden.",
+        "Zeig auf die Linien, die Wasser tragen könnten."
+      ],
+      "done": "Du hast eine Abreibung und kannst auf die Adern zeigen."
+    },
+    "p5-boat": {
+      "title": "Boot aus Folie",
+      "time": "25 Minuten",
+      "need": [
+        "Alufolie",
+        "Eine Schüssel Wasser",
+        "Münzen",
+        "Ein Erwachsener"
+      ],
+      "steps": [
+        "Mach zwei Boote aus derselben Menge Folie.",
+        "Leg Münzen nacheinander in das erste Boot, bis Wasser hineinkommt. Zähl sie.",
+        "Ändere nur die Form des zweiten Boots. Teste noch einmal."
+      ],
+      "done": "Das Team kann sagen, ob die neue Form mehr Münzen gehalten hat."
+    },
+    "p5-night": {
+      "title": "Kästchen für den Nachthimmel",
+      "time": "15 Minuten in einer klaren Nacht",
+      "need": [
+        "Papier",
+        "Ein Bleistift",
+        "Freier Blick zum Himmel",
+        "Ein Erwachsener"
+      ],
+      "steps": [
+        "Geh mit einem Erwachsenen nach draußen. Schau auf ein Stück Himmel.",
+        "Zeichne die hellen Punkte, die du siehst. Wenn Wolken sie verstecken, schreib Wolken.",
+        "Schreib die Uhrzeit. In der nächsten klaren Nacht schau noch einmal und sag, was zusammenpasst."
+      ],
+      "done": "Du hast eine Skizze, eine Uhrzeit und einen Satz darüber, was du gesehen hast."
+    },
+    "p6-layers": {
+      "title": "Drei Flüssigkeiten",
+      "time": "15 Minuten",
+      "need": [
+        "Eine durchsichtige Tasse",
+        "Honig oder Sirup",
+        "Wasser",
+        "Speiseöl",
+        "Ein Erwachsener"
+      ],
+      "steps": [
+        "Bitte einen Erwachsenen, zuerst Honig hineinzugießen, dann Wasser, dann Öl. Gieß langsam.",
+        "Warte. Schau, welche Flüssigkeit unten, in der Mitte und oben sitzt.",
+        "Sag, welche am wenigsten dicht ist. Das ist die, die oben schwimmt."
+      ],
+      "done": "Du kannst die Reihenfolge der drei Flüssigkeiten nennen."
+    },
+    "p6-gas": {
+      "title": "Gas in einem Luftballon",
+      "time": "20 Minuten",
+      "need": [
+        "Eine kleine Flasche",
+        "Ein Luftballon",
+        "Natron",
+        "Essig",
+        "Ein Erwachsener"
+      ],
+      "steps": [
+        "Bitte einen Erwachsenen, Natron in den Ballon und Essig in die Flasche zu tun.",
+        "Setz den Ballon auf die Flasche und kippe dann das Pulver hinein.",
+        "Schau auf den Ballon. Nenn das Gas, das den Platz eingenommen hat. Schmeck die Mischung nicht."
+      ],
+      "done": "Das Team kann sagen, dass ein Gas den Ballon gefüllt hat."
+    },
+    "p6-model": {
+      "title": "Erde und Mond",
+      "time": "20 Minuten",
+      "need": [
+        "Ein Ball für die Erde",
+        "Ein kleinerer Ball für den Mond",
+        "Ein Maßband oder eine Schnur"
+      ],
+      "steps": [
+        "Halt die Erde still. Geh mit dem Mond im Kreis um sie herum.",
+        "Halt viermal an und sag, welche Seite des Mondes sonnig wäre, wenn die Sonne auf der anderen Seite des Zimmers ist.",
+        "Schreib eine gemessene Tatsache auf, die du schon über den Mond weißt."
+      ],
+      "done": "Du bist eine ganze Umlaufbahn gelaufen und hast eine Mondtatsache genannt."
+    },
+    "p6-sieve": {
+      "title": "Den Schlamm abseihen",
+      "time": "25 Minuten",
+      "need": [
+        "Schlammiges Wasser",
+        "Ein Tuch",
+        "Ein Kaffeefilter oder ein Papiertuch",
+        "Zwei Tassen",
+        "Ein Erwachsener"
+      ],
+      "steps": [
+        "Gieß schlammiges Wasser durch das Tuch in eine Tasse.",
+        "Gieß eine frische Probe durch den Filter.",
+        "Vergleiche die Tassen. Sag, welche weniger Stückchen durchgelassen hat. Trink das Wasser nicht."
+      ],
+      "done": "Das Team kann sagen, welcher Filter mehr Schlamm zurückgehalten hat."
+    },
+    "p6-breath": {
+      "title": "Zähl die Atemzüge",
+      "time": "10 Minuten",
+      "need": [
+        "Ein Timer",
+        "Papier"
+      ],
+      "steps": [
+        "Sitz still. Zähl 30 Sekunden lang die Atemzüge.",
+        "Geh 30 Sekunden schnell, dann setz dich und zähl noch einmal.",
+        "Schreib beide Zahlen. Sag, was sich geändert hat und was du gleich gelassen hast."
+      ],
+      "done": "Du hast zwei Zählungen und einen Satz über den Unterschied."
+    },
+    "p7-cabbage": {
+      "title": "Rotkohlfarben",
+      "time": "30 Minuten",
+      "need": [
+        "Rotkohlwasser",
+        "Zitronensaft",
+        "Normales Wasser",
+        "Seifenwasser",
+        "Ein Erwachsener"
+      ],
+      "steps": [
+        "Bitte einen Erwachsenen, Rotkohlwasser in drei Tassen zu gießen.",
+        "Tu Zitrone in eine, nichts in eine und einen Tropfen Seifenwasser in eine.",
+        "Schreib die Farbe jeder Tasse. Die Farbe ist ein Hinweis auf Säuren und Basen."
+      ],
+      "done": "Du hast drei Farben und kannst sagen, welche Tasse nur Rotkohlwasser war."
+    },
+    "p7-launch": {
+      "title": "Eine Änderung, ein Start",
+      "time": "30 Minuten",
+      "need": [
+        "Ein Löffel oder ein Lineal",
+        "Ein weicher Ball oder ein Pompon",
+        "Ein Maßband",
+        "Ein freier Platz"
+      ],
+      "steps": [
+        "Starte den Ball dreimal auf dieselbe Art. Miss jede Strecke.",
+        "Ändere nur eine Sache, zum Beispiel wie weit du zurückziehst.",
+        "Starte noch dreimal. Vergleiche die beiden Zahlengruppen."
+      ],
+      "done": "Das Team kann auf die eine Änderung und die Strecken zeigen."
+    },
+    "p7-trials": {
+      "title": "Drei Versuche",
+      "time": "20 Minuten",
+      "need": [
+        "Ein Ball",
+        "Ein Timer oder ein Maßband",
+        "Papier"
+      ],
+      "steps": [
+        "Wähl einen Fall aus derselben Höhe.",
+        "Miss die Fallzeit oder den Sprung, dreimal.",
+        "Schreib alle drei Zahlen und die Einheit. Kreise die mittlere Zahl ein."
+      ],
+      "done": "Du hast drei Messungen mit einer Einheit und eine mittlere Zahl."
+    },
+    "p7-scale": {
+      "title": "Ein Sonnensystem aus Papier",
+      "time": "40 Minuten",
+      "need": [
+        "Ein langer Papierstreifen",
+        "Ein Lineal",
+        "Eine Planetentatsache, die du gelesen hast"
+      ],
+      "steps": [
+        "Leg die Sonne an ein Ende.",
+        "Markiere acht Planeten in der Reihenfolge. Lass zwischen ihnen so viel Platz, dass die äußeren viel weiter weg sind.",
+        "Schreib eine gemessene Tatsache, die du genutzt hast, und eine Idee, die noch eine Theorie ist."
+      ],
+      "done": "Der Streifen ist in der richtigen Reihenfolge, und das Team kann die geprüfte Tatsache nennen."
+    },
+    "p7-variables": {
+      "title": "Nenn die Variablen",
+      "time": "25 Minuten",
+      "need": [
+        "Eine Tatsache, die du gelesen hast",
+        "Papier"
+      ],
+      "steps": [
+        "Schreib eine Frage, die du mit sicheren Sachen prüfen könntest.",
+        "Schreib die eine Sache, die du ändern würdest.",
+        "Schreib zwei Sachen, die du gleich lassen würdest, und was du messen würdest."
+      ],
+      "done": "Ein Leser kann die Änderung, die Kontrollen und die Messung sehen."
+    },
     "print-fair": {
       "title": "Seite zum fairen Test",
       "time": "20 Minuten",
@@ -2677,7 +3217,7 @@
       "Die Gedanken eines Magneten"
     ],
     "time-germs": [
-      "Starke Tests, dass Keime krank machen können, wuchsen in welchen Jahren?",
+      "In welchen Jahren zeigten starke Tests, dass Keime krank machen können?",
       "Im 19. Jahrhundert",
       "Nur im Jahr 1610",
       "Bevor die Erde entstand, und wir sind uns sicher",
@@ -2691,7 +3231,7 @@
       "1992"
     ],
     "time-dna": [
-      "Das Modell der DNA als gedrehte Leiter wurde gezeigt im Jahr",
+      "In welchem Jahr wurde das Modell der DNA als gedrehte Leiter gezeigt?",
       "1953",
       "1650",
       "1903",
@@ -2773,6 +3313,356 @@
       "Den Glauben einer Familie für sie wählen",
       "Das Messen weglassen",
       "Eine Vermutung eine Tatsache nennen"
+    ],
+    "extra-legs": [
+      "Wie viele Beine hat ein Insekt?",
+      "Sechs",
+      "Acht",
+      "Zwei",
+      "206"
+    ],
+    "extra-spider": [
+      "Eine Spinne ist kein Insekt. Wie viele Beine hat eine Spinne?",
+      "Acht",
+      "Sechs",
+      "Vier",
+      "Eins"
+    ],
+    "extra-gills": [
+      "Wie bekommen Fische Sauerstoff aus dem Wasser?",
+      "Mit Kiemen",
+      "Mit Lungen, wie ein Wal",
+      "Indem sie Sand essen",
+      "Mit Federn"
+    ],
+    "extra-milk": [
+      "Was machen Säugetiermütter für ihre Jungen?",
+      "Milch",
+      "Sonnenlicht",
+      "Lava",
+      "Glas"
+    ],
+    "extra-eggs": [
+      "Woraus schlüpfen Vögel?",
+      "Aus Eiern",
+      "Aus Samen",
+      "Aus Steinen",
+      "Aus Magneten"
+    ],
+    "extra-roots": [
+      "Was machen Wurzeln vor allem?",
+      "Sie nehmen Wasser auf",
+      "Sie machen Ringe um den Saturn",
+      "Sie schieben den Mond",
+      "Sie werden zu Gold"
+    ],
+    "extra-green": [
+      "Was lässt viele Blätter grün aussehen?",
+      "Ein grüner Stoff, der Licht einfängt",
+      "Eisenrost",
+      "Walknochen",
+      "Mondstaub"
+    ],
+    "extra-solid": [
+      "Ein Stein behält seine eigene Form. Ein Stein ist",
+      "Ein Feststoff",
+      "Ein Gas",
+      "Eine Gezeit",
+      "Eine Galaxie"
+    ],
+    "extra-gas": [
+      "Die Luft in diesem Zimmer ist",
+      "Ein Gas",
+      "Ein fester Knochen",
+      "Ein Planet",
+      "Ein Fossil"
+    ],
+    "extra-melt": [
+      "Eis wird zu flüssigem Wasser, wenn es",
+      "Genug Wärme bekommt",
+      "Jedes Atom verliert",
+      "Zu einem Magneten wird",
+      "Zur Sonne fliegt"
+    ],
+    "extra-freeze": [
+      "Flüssiges Wasser wird zu Eis, wenn es",
+      "Kalt genug wird",
+      "Sofort kocht",
+      "Zu Öl wird",
+      "Zu einem Stern wird"
+    ],
+    "extra-puddle": [
+      "Eine Pfütze kann an einem warmen Tag verschwinden, weil das Wasser",
+      "Zu einem Gas wird",
+      "Zu Stein wird",
+      "Immer von Fröschen getrunken wird",
+      "Vom Mond genommen wird"
+    ],
+    "extra-shadow": [
+      "Ein Schatten entsteht, wenn",
+      "Etwas das Licht blockiert",
+      "Licht gar keine Quelle hat",
+      "Schall sich stapelt",
+      "Ein Magnet entscheidet"
+    ],
+    "extra-mirror": [
+      "Ein Spiegel schickt Licht zurück. Dieses Zurückwerfen heißt",
+      "Reflexion",
+      "Rost",
+      "Ein Fossil",
+      "Eine Gezeit"
+    ],
+    "extra-circuit": [
+      "Was braucht ein einfacher Stromkreis, damit eine Birne leuchten kann?",
+      "Einen geschlossenen Weg für den Strom",
+      "Eine Lücke, die den Weg stoppt",
+      "Nur einen Holzstab",
+      "Eine Tasse Sand"
+    ],
+    "extra-rubber": [
+      "Gummi lässt Strom nicht leicht durch. Gummi ist",
+      "Ein Isolator",
+      "Ein Metallweg",
+      "Ein Magnetpol",
+      "Eine Art Knochen"
+    ],
+    "extra-copper": [
+      "Kupfer lässt Strom durch. Kupfer ist",
+      "Ein Leiter",
+      "Ein Isolator wie Gummi",
+      "Ein Gas im Zimmer",
+      "Ein Mond"
+    ],
+    "extra-compass": [
+      "Eine Kompassnadel zeigt ungefähr",
+      "Nach Norden",
+      "Auf deine Schuhe",
+      "Auf den nächsten Kaktus",
+      "Gerade in ein Fossil"
+    ],
+    "extra-closest": [
+      "Die Sonne ist für die Erde am nächsten:",
+      "Ein Stern",
+      "Ein Ozean",
+      "Ein Knochen",
+      "Eine Stadt"
+    ],
+    "extra-moon-trip": [
+      "Der Mond geht um",
+      "Die Erde",
+      "Einen Magneten im Klassenzimmer",
+      "Dein Herz",
+      "Eine einzelne Biene"
+    ],
+    "extra-drop": [
+      "Wenn die Luft nicht stark drückt, was tun eine schwere Kugel und eine leichte Kugel, die man zusammen fallen lässt?",
+      "Sie fallen fast gleich schnell",
+      "Sie fallen immer völlig unterschiedlich schnell",
+      "Sie schweben nach oben",
+      "Sie werden zu Glas"
+    ],
+    "extra-feather": [
+      "Eine Feder fällt langsam, weil",
+      "Die Luft auf sie drückt",
+      "Die Schwerkraft ausgeschaltet ist",
+      "Sie keine Masse hat",
+      "Sie ein Planet ist"
+    ],
+    "extra-unit": [
+      "Eine sorgfältige Messung braucht eine Zahl und",
+      "Eine Einheit",
+      "Einen Wunsch",
+      "Jedes Mal eine neue Antwort, wenn du hoffst",
+      "Kein Werkzeug"
+    ],
+    "extra-repeat": [
+      "Warum machst du einen fairen Test mehr als einmal?",
+      "Um zu sehen, ob das Ergebnis wieder passiert",
+      "Um jedes Mal alles zu ändern",
+      "Um das Messen wegzulassen",
+      "Um die Antwort zuerst auszusuchen"
+    ],
+    "extra-cm": [
+      "Welche davon ist eine Einheit für die Länge?",
+      "Zentimeter",
+      "Dienstag",
+      "Blau",
+      "Laut"
+    ],
+    "extra-thermo": [
+      "Ein Thermometer misst",
+      "Die Temperatur",
+      "Wie laut ein Frosch ist",
+      "Den Namen eines Sterns",
+      "Wie viele Knochen du hast"
+    ],
+    "extra-balance": [
+      "Mit einer Waage vergleicht man",
+      "Wie schwer zwei Sachen sind",
+      "Die Farbe des Himmels",
+      "Schall im leeren Raum",
+      "Mondphasen"
+    ],
+    "extra-cup": [
+      "Ein Messbecher sagt dir,",
+      "Wie viel Platz eine Flüssigkeit füllt",
+      "Die Farbe von Gold",
+      "Das Alter eines Fossils",
+      "Die Gedanken eines Magneten"
+    ],
+    "extra-wilt": [
+      "Eine Pflanze welkt, wenn sie nicht",
+      "Genug Wasser bekommt",
+      "Nur extra Mondlicht bekommt",
+      "Einen Stabmagneten bekommt",
+      "Ein Teleskop bekommt"
+    ],
+    "extra-stone": [
+      "Ein Stein wird keine Pflanze, weil",
+      "Er kein Samen ist",
+      "Er zu grün ist",
+      "Er ein Babybaum ist",
+      "Er schon Blätter hat"
+    ],
+    "extra-habitat": [
+      "Ein Lebensraum ist",
+      "Der Ort, den ein Lebewesen braucht",
+      "Eine Art Metall",
+      "Eine Mondphase",
+      "Ein Hebel"
+    ],
+    "extra-chain": [
+      "Eine Nahrungskette zeigt",
+      "Wer wen frisst",
+      "Wie Glas angeblich tropft",
+      "Nur die Namen der Planeten",
+      "Wie Magnete denken"
+    ],
+    "extra-rot": [
+      "Pilze und manche winzigen Lebewesen",
+      "Helfen dabei, tote Dinge abzubauen",
+      "Machen Sonnenlicht",
+      "Sind Planeten",
+      "Sind Stabmagnete"
+    ],
+    "extra-hide": [
+      "Tarnung hilft einem Tier,",
+      "Sich zu verstecken",
+      "Wasser zu kochen",
+      "Wie Eisen zu rosten",
+      "Um den Saturn zu kreisen"
+    ],
+    "extra-migrate": [
+      "Manche Vögel fliegen weit, wenn sich die Jahreszeiten ändern. Diese Reise heißt",
+      "Vogelzug",
+      "Rost",
+      "Ein Fossil",
+      "Ein Hebel"
+    ],
+    "extra-sleep": [
+      "Manche Tiere verbringen die kalten Monate in einer tiefen Ruhe. Diese Ruhe heißt",
+      "Winterschlaf",
+      "Kochen",
+      "Eine Mondphase",
+      "Glasmachen"
+    ],
+    "extra-skull": [
+      "Dein Schädel hilft dabei,",
+      "Dein Gehirn zu schützen",
+      "Blut zu pumpen",
+      "Sonnenlicht zu machen",
+      "Rost zu speichern"
+    ],
+    "extra-elbow": [
+      "Dein Ellbogen biegt sich an",
+      "Einem Gelenk",
+      "Einem Magnetpol",
+      "Einer Fossilienklippe",
+      "Einer Galaxie"
+    ],
+    "extra-teeth": [
+      "Zähne helfen dir,",
+      "Essen zu schneiden und zu zerdrücken",
+      "Blut zu pumpen",
+      "Im Dunkeln zu sehen",
+      "Die Gezeiten zu machen"
+    ],
+    "extra-sweat": [
+      "Schwitzen hilft deinem Körper,",
+      "Sich abzukühlen",
+      "Sofort zu Eis zu werden",
+      "Gold zu machen",
+      "Ein zweites Herz wachsen zu lassen"
+    ],
+    "extra-mercury-planet": [
+      "Welcher Planet ist der Sonne am nächsten?",
+      "Merkur",
+      "Neptun",
+      "Saturn",
+      "Erde"
+    ],
+    "extra-third": [
+      "Die Erde ist welcher Planet von der Sonne aus?",
+      "Der dritte",
+      "Der erste",
+      "Der achte",
+      "Ein Mond des Jupiter"
+    ],
+    "extra-giant": [
+      "Jupiter ist meist",
+      "Gas, ohne festen Boden zum Draufstehen",
+      "Festes Eisen, ganz durchgehend",
+      "Knochen",
+      "Flüssiges Holz"
+    ],
+    "extra-asteroid": [
+      "Ein Asteroid ist",
+      "Ein Körper aus Gestein oder Metall, der um die Sonne kreist",
+      "Eine Art Wal",
+      "Eine Wolke, die nach Salz schmeckt",
+      "Ein Babybaum"
+    ],
+    "extra-stars": [
+      "Ein Sternbild ist",
+      "Ein Muster, das Menschen in den Sternen sehen",
+      "Ein Knochen im Fuß",
+      "Eine Art Salz",
+      "Ein geschlossener Stromkreis"
+    ],
+    "extra-fact": [
+      "Eine gemessene Tatsache ist",
+      "Eine Idee, die wir mit einem Test geprüft haben",
+      "Eine Idee, von der wir nur hoffen, dass sie stimmt",
+      "Eine Idee, die wir nicht prüfen können",
+      "Eine Idee, die wir heute Morgen erfunden haben"
+    ],
+    "extra-theory": [
+      "Eine Theorie in der Wissenschaft ist",
+      "Eine große Idee, die immer wieder Tests besteht",
+      "Eine wilde Vermutung ohne Tests",
+      "Eine Art Gestein",
+      "Eine Einheit für die Länge"
+    ],
+    "extra-control": [
+      "Bei einem fairen Test sind die Sachen, die du gleich lässt,",
+      "Kontrollen",
+      "Die Antwort, die du zuerst wolltest",
+      "Jede Änderung auf einmal",
+      "Freiwillig, also darfst du sie weglassen"
+    ],
+    "extra-sprout": [
+      "Ein Samen kann im Dunkeln keimen, aber die junge Pflanze kann nicht weiter Nahrung machen ohne",
+      "Licht",
+      "Eine laute Trommel",
+      "Einen Magneten",
+      "Ein Fossil"
+    ],
+    "extra-battery": [
+      "Eine Batterie kann antreiben",
+      "Einen elektrischen Strom",
+      "Die Mondphasen",
+      "Eine Fossilienklippe",
+      "Die Gezeiten ganz von allein"
     ]
   },
   "photos": {

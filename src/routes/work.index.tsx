@@ -16,8 +16,6 @@ function ProjectsPage() {
   usePageTitle(t("projects"));
   const [stage, setStage] = useState<Stage>("P1");
   const cards = WORK.filter((card) => card.stage === stage);
-  const solo = cards.find((card) => card.mode === "solo");
-  const team = cards.find((card) => card.mode === "team");
   const prints = WORK.filter((card) => card.mode === "print");
   return (
     <Shell>
@@ -39,8 +37,9 @@ function ProjectsPage() {
           </div>
           <h2 className="mt-6 font-display text-3xl font-bold">{stageLabel(stage)}</h2>
           <div className="mt-3 grid gap-4 md:grid-cols-2">
-            {solo ? <ProjectCard card={localizeWork(solo, lang)} /> : null}
-            {team ? <ProjectCard card={localizeWork(team, lang)} /> : null}
+            {cards.map((raw) => (
+              <ProjectCard key={raw.slug} card={localizeWork(raw, lang)} />
+            ))}
           </div>
           <h2 className="mt-8 font-display text-3xl font-bold">{t("printPage")}</h2>
           <div className="mt-3 grid gap-3 sm:grid-cols-2">

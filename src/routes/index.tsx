@@ -238,23 +238,19 @@ function HomeBody() {
         <p className="mt-2 text-lg">{t("projectsLead")}</p>
         <ul className="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-4">
           {STAGES.map((stage) => {
-            const soloRaw = WORK.find((card) => card.stage === stage && card.mode === "solo");
-            const teamRaw = WORK.find((card) => card.stage === stage && card.mode === "team");
-            const solo = soloRaw ? localizeWork(soloRaw, lang) : undefined;
-            const team = teamRaw ? localizeWork(teamRaw, lang) : undefined;
+            const cards = WORK.filter((card) => card.stage === stage).map((card) => localizeWork(card, lang));
             return (
               <li key={stage} className="stamp bg-paper p-3">
                 <p className="font-extrabold">{stageLabel(stage)}</p>
-                {solo ? (
-                  <Link to="/work/$slug" params={{ slug: solo.slug }} className="mt-1 block underline">
-                    {solo.title}
-                  </Link>
-                ) : null}
-                {team ? (
-                  <Link to="/work/$slug" params={{ slug: team.slug }} className="mt-1 block underline">
-                    {team.title}
-                  </Link>
-                ) : null}
+                <ul className="mt-1 space-y-1">
+                  {cards.map((card) => (
+                    <li key={card.slug}>
+                      <Link to="/work/$slug" params={{ slug: card.slug }} className="underline">
+                        {card.title}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
               </li>
             );
           })}

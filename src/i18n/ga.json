@@ -42,7 +42,7 @@
           "I ngrian gheal",
           "I mbosca dorcha",
           "Mar iontaisí amháin",
-          "Choíche"
+          "Riamh"
         ]
       ]
     },
@@ -100,7 +100,7 @@
       "unsure": "",
       "quiz": [
         [
-          "Baineann beacán le",
+          "Cén grúpa lena mbaineann beacán?",
           "Fungais",
           "Iasc",
           "Pláinéid",
@@ -169,7 +169,7 @@
       "unsure": "",
       "quiz": [
         [
-          "Cén fáth a bhfuil go leor cnámha éan log?",
+          "Cén fáth a bhfuil go leor cnámha éan loga?",
           "Chun cabhrú leis an éan fanacht éadrom",
           "Chun ór a stóráil",
           "Chun uisce a fhiuchadh",
@@ -291,7 +291,7 @@
           "Fe"
         ],
         [
-          "Cé mhéad adamh hidrigine atá i ngiotán amháin uisce?",
+          "Cé mhéad adamh hidrigine atá i móilín amháin uisce?",
           "Dhá cheann",
           "Náid",
           "Deich",
@@ -363,7 +363,7 @@
           "Ar shliabh ard, fiuchann uisce",
           "Ag teocht níos ísle",
           "Mar oighear amháin",
-          "Choíche",
+          "Riamh",
           "Chomh te leis an nGhrian"
         ]
       ]
@@ -429,7 +429,7 @@
           "Poil mhaighnéid a lúbadh"
         ],
         [
-          "Cén fáth a bhfuil roinnt sean-ghloine fuinneoige níos tibhe ag bun?",
+          "Cén fáth a bhfuil roinnt sean-ghloine fuinneoige níos tibhe ag an mbun?",
           "Mar gheall ar an gcaoi a ndearnadh í",
           "Toisc go sileann gloine go mall mar mhil",
           "Toisc go suíonn loscainn uirthi",
@@ -478,7 +478,7 @@
           "Snámhann ola toisc go bhfuil sí",
           "Níos lú dlúis ná uisce",
           "Níos troime ná iarann",
-          "Cineál cnámh",
+          "Cineál cnámha",
           "Gealach"
         ]
       ]
@@ -494,7 +494,7 @@
           "Tá an chuid is mó den phlaisteach déanta as",
           "Slabhraí fada móilíní",
           "Gaineamh scaoilte amháin",
-          "Cnámha éan laga",
+          "Cnámha éan loga",
           "Solas na gealaí"
         ],
         [
@@ -590,7 +590,7 @@
           "206"
         ],
         [
-          "Tugtar ar phoill an mhaighnéid",
+          "Is iad poil an mhaighnéid",
           "Thuaidh agus theas",
           "Oighear agus gal",
           "Beach agus míol mór",
@@ -705,7 +705,7 @@
           "Bosca adhmaid dúnta"
         ],
         [
-          "Cad a fhéadann solas a lúbadh ina thuar ceatha?",
+          "Cad a fhéadann solas a lúbadh i dtuar ceatha?",
           "Braonta uisce",
           "Iontaise thirim",
           "Clóiséad dorcha gan solas",
@@ -767,7 +767,7 @@
       "unsure": "",
       "quiz": [
         [
-          "Fanann leabhar socair socair go dtí",
+          "Fanann leabhar socair go dtí",
           "Go mbogann fórsa é",
           "Go gcinnfidh sé eitilt",
           "Go nglaonn an Ghealach a ainm",
@@ -813,7 +813,7 @@
       "unsure": "",
       "quiz": [
         [
-          "Cad a dtimpeallaíonn an Domhan?",
+          "Cad a thimpeallaíonn an Domhan?",
           "An Ghrian",
           "An Ghealach amháin",
           "Míol mór",
@@ -859,7 +859,7 @@
       "unsure": "",
       "quiz": [
         [
-          "Is thart air é lá",
+          "Is éard is lá ann, thart air",
           "Casadh iomlán amháin den Domhan",
           "Turas amháin timpeall an réaltra",
           "Geimhreadh loscaín amháin",
@@ -867,7 +867,7 @@
         ],
         [
           "Tarlaíonn lá agus oíche toisc",
-          "Go gcasann an Domhan, mar sin sealaíonn áiteanna ag breathnú i dtreo na Gréine",
+          "Go gcasann an Domhan, mar sin tugann áiteanna seal ag féachaint i dtreo na Gréine",
           "Go múchtar an Ghrian gach oíche",
           "Go gclúdaíonn an Ghealach an Ghrian gach oíche",
           "Go stopann an Domhan ag bogadh"
@@ -882,7 +882,7 @@
       "unsure": "",
       "quiz": [
         [
-          "Cad a dhéanann na séasúir?",
+          "Cad is cúis leis na séasúir?",
           "Claonadh an Domhain",
           "An Domhan ag teacht i bhfad níos gaire don Ghrian",
           "Maighnéid i mbróga",
@@ -912,7 +912,7 @@
           "Thuaidh, theas, copar"
         ],
         [
-          "Conas a bhfuil a fhios againn go bhfuil sraitheanna ag an Domhan?",
+          "Conas atá a fhios againn go bhfuil sraitheanna ag an Domhan?",
           "Athraíonn tonnta crith talún luas istigh ann",
           "Chladhaigh duine éigin go dtí an lár",
           "Buille faoi thuairim gan tástáil",
@@ -935,7 +935,7 @@
           "Pol maighnéid"
         ],
         [
-          "Cé a d'aimsigh ainmhithe farraige iontaise cáiliúla i haillte in England?",
+          "Cé a d'aimsigh ainmhithe farraige iontaise cáiliúla in aillte in England?",
           "Mary Anning",
           "Katherine Johnson",
           "Ada Lovelace",
@@ -999,8 +999,8 @@
         [
           "Tosaíonn crith talún nuair",
           "A shleamhnaíonn carraig faoinár gcosa",
-          "A bhfuil blas salainn ar scamall",
-          "A bhfásann síol",
+          "Atá blas salainn ar scamall",
+          "A fhásann síol",
           "A mheirgíonn ór"
         ],
         [
@@ -1074,7 +1074,7 @@
         ],
         [
           "Is í an aeráid",
-          "An patrún thar blianta fada",
+          "Patrún na haimsire thar blianta fada",
           "Scamall amháin",
           "Lochán amháin",
           "Lón an lae inniu"
@@ -1123,7 +1123,7 @@
           "Abhacphláinéad",
           "Ceann de na hocht bpláinéad",
           "An t-aigéan is mó",
-          "Cineál cnámh"
+          "Cineál cnámha"
         ]
       ]
     },
@@ -1158,7 +1158,7 @@
       "unsure": "",
       "quiz": [
         [
-          "Cén fáth is cosúil go n-athraíonn cruth na Gealaí?",
+          "Cén fáth a ndealraíonn sé go n-athraíonn cruth na Gealaí?",
           "Feicimid méideanna éagsúla dá taobh gréine",
           "Leánn an Ghealach gach oíche",
           "Itheann scamaill í",
@@ -1189,7 +1189,7 @@
         ],
         [
           "Tá na fáinní",
-          "Leathan ach an-tanaí",
+          "Leathana ach an-tanaí",
           "Pláta miotail soladach amháin",
           "Bóthar ar féidir leat siúl air",
           "Déanta as míolta móra"
@@ -1273,11 +1273,11 @@
       "unsure": "",
       "quiz": [
         [
-          "Cabhraíonn teileascóp linn rudaí fanna a fheiceáil toisc go",
-          "Mbailíonn sé níos mó solais",
-          "Ndénann sé fuaim níos airde",
-          "Leánn sé gaineamh",
-          "Gcomhaireann sé cnámha"
+          "Cabhraíonn teileascóp linn rudaí fanna a fheiceáil toisc",
+          "Go mbailíonn sé níos mó solais",
+          "Go ndéanann sé fuaim níos airde",
+          "Go leánn sé gaineamh",
+          "Go gcomhaireann sé cnámha"
         ],
         [
           "Cé a d'úsáid teileascóp agus a chonaic gealacha timpeall Jupiter?",
@@ -1303,7 +1303,7 @@
           "Go dtrasnaíonn fuaim spás folamh"
         ],
         [
-          "Is í cuma níos deirge na réaltraí i bhfad uainn",
+          "Is é an solas níos deirge ó réaltraí i bhfad uainn",
           "Fianaise a thástálann eolaithe fós",
           "Buille faoi thuairim nach féidir le duine ar bith a thástáil",
           "Cruthúnas go bhfuil pol amháin ag maighnéid",
@@ -1330,7 +1330,7 @@
           "Buille faoi thuairim go dtí go dtaispeánann tástáil é",
           "Fíric thomhaiste cheana",
           "An rud céanna le H2O",
-          "Ceann de rialacha gluaiseachta Newton"
+          "Ceann de dhlíthe gluaiseachta Newton"
         ]
       ]
     },
@@ -1353,7 +1353,7 @@
           "Tar éis duit rith",
           "Nuair is iontaise thú",
           "Nuair atá tú déanta as gloine",
-          "Choíche"
+          "Riamh"
         ]
       ]
     },
@@ -1395,8 +1395,8 @@
           "3"
         ],
         [
-          "Tá ag babaithe",
-          "Níos mó cnámha ar féidir leo ceangal níos déanaí",
+          "Tá seo ag babaithe",
+          "Níos mó cnámh ar féidir leo ceangal le chéile níos déanaí",
           "Gan cnámh ar bith",
           "Cloigeann gloine amháin",
           "Cnámha déanta as mil"
@@ -1434,7 +1434,7 @@
       "unsure": "",
       "quiz": [
         [
-          "Cad a chabhraíonn le frídíní a stopadh ó scaipeadh ar lámha?",
+          "Cad a chabhraíonn le cosc a chur ar scaipeadh frídíní ar lámha?",
           "Níochán le gallúnach agus uisce",
           "Gaineamh a chuimilt amháin",
           "Gallúnach a fhágáil ar lár go deo",
@@ -1464,7 +1464,7 @@
           "Screamh, maintlín, croíleacán, taoide, bliain"
         ],
         [
-          "Seachas an cúig sin, is féidir leat a mhothú freisin",
+          "Seachas na cúig cinn sin, is féidir leat a mhothú freisin",
           "Cothromaíocht agus teas",
           "Cláir raidió le do ghlúine",
           "Fuaim i spás folamh",
@@ -1529,7 +1529,7 @@
           "Is é d'orgán is mó",
           "Craiceann",
           "Fiacail amháin",
-          "Ribín gruaige amháin",
+          "Ribe gruaige amháin",
           "Fabhra"
         ],
         [
@@ -1579,7 +1579,7 @@
           "Pol thuaidh"
         ],
         [
-          "Cén fáth a seasann an goile lena aigéad féin?",
+          "Cén fáth ar féidir leis an ngoile a aigéad féin a sheasamh?",
           "Tá líneáil chrua aige",
           "Tá sé déanta as diamant amháin",
           "Níl aon aigéad aige",
@@ -1649,7 +1649,7 @@
         ],
         [
           "Cad a chabhraíonn le cealla loscaín adhmaid a chosaint?",
-          "Leacht siúcraí",
+          "Leacht siúcrach",
           "Maighnéad barra",
           "Laibhe the",
           "Gaineamh tirim amháin"
@@ -1695,10 +1695,10 @@
         ],
         [
           "Sórtálann eolaithe torthaí de réir",
-          "Na caoi a bhfásann codanna an bhlátha",
+          "An chaoi a bhfásann codanna an bhlátha",
           "Dath an mhála",
           "A n-airde",
-          "A maighnéadacht"
+          "A maighnéadachta"
         ]
       ]
     },
@@ -1710,11 +1710,11 @@
       "unsure": "",
       "quiz": [
         [
-          "Blaisíonn féileacáin lena",
-          "Gcosa",
-          "Gcluasa",
-          "Scáthanna",
-          "nUillinneacha amháin"
+          "Blaisíonn féileacáin",
+          "Lena gcosa",
+          "Lena gcluasa",
+          "Lena scáthanna",
+          "Lena n-uillinneacha amháin"
         ],
         [
           "Is í teanga féileacáin",
@@ -1734,14 +1734,14 @@
       "quiz": [
         [
           "Cén cruth atá ar bhuín wombat?",
-          "Ciúib",
-          "Sféir fhoirfe",
+          "Ciúba",
+          "Sféir foirfe",
           "Claimhte fada",
           "Fáinní"
         ],
         [
-          "Buín i gcruth ciúibe",
-          "Ní rollann siad chomh héasca",
+          "Cad atá speisialta faoi bhuín i gcruth ciúibe?",
+          "Ní rollann siad ar shiúl chomh héasca",
           "Iompaíonn siad ina n-ór",
           "Is maighnéid iad",
           "Is réaltaí iad"
@@ -1763,7 +1763,7 @@
           "Gloine, ansin siorcanna"
         ],
         [
-          "An bhfuil a fhios againn na blianta cruinn do shiorcanna agus do chrainn?",
+          "An bhfuil a fhios againn cé na blianta cruinn do shiorcanna agus do chrainn?",
           "Níl. Níl a fhios againn.",
           "Tá, go dtí an nóiméad",
           "Tá, ba é Dé Máirt seo caite é",
@@ -2087,7 +2087,7 @@
       "unsure": "",
       "sceneAlt": "Maighnéad ag tarraingt píosa maighnéadait",
       "quiz": [
-        "Cé a d'aimsigh gur féidir le maighnéad ag bogadh sruth leictreach a dhéanamh?",
+        "Cé a d'aimsigh gur féidir le maighnéad atá ag bogadh sruth leictreach a dhéanamh?",
         "Michael Faraday",
         "Jane Goodall",
         "George Washington Carver",
@@ -2604,6 +2604,546 @@
       ],
       "done": "Tá toradh, aonad, agus abairt amháin ag an bhfoireann faoi cad a mhilleadh an tástáil."
     },
+    "p1-colors": {
+      "title": "Sórtáil na dathanna",
+      "time": "15 nóiméad",
+      "need": [
+        "8 rud sábháilte i ndathanna éagsúla",
+        "Bord"
+      ],
+      "steps": [
+        "Leathnaigh na rudaí amach.",
+        "Cuir i ngrúpaí datha iad. Roghnaíonn tusa na grúpaí.",
+        "Abair an riail os ard. Tá dearg agus ní dearg ceart go leor."
+      ],
+      "done": "Tá grúpaí agat, agus is féidir leat an riail datha a rá."
+    },
+    "p1-sounds": {
+      "title": "Cuardach fuaime",
+      "time": "10 nóiméad",
+      "need": [
+        "Nóiméad ciúin",
+        "Páipéar",
+        "Peann luaidhe"
+      ],
+      "steps": [
+        "Suigh socair agus éist.",
+        "Scríobh nó tarraing cúig fhuaim a chloiseann tú.",
+        "Marcáil gach ceann glórach nó ciúin."
+      ],
+      "done": "Tá cúig fhuaim agat, gach ceann marcáilte glórach nó ciúin."
+    },
+    "p1-touch": {
+      "title": "Garbh nó mín",
+      "time": "15 nóiméad",
+      "need": [
+        "6 rud sábháilte",
+        "Bord"
+      ],
+      "steps": [
+        "Dún do shúile. Tugann páirtí rud amháin duit.",
+        "Abair garbh nó mín sula bhféachann tú.",
+        "Sórtáil na sé rud. Seiceáil le do shúile."
+      ],
+      "done": "Tá grúpa garbh agus grúpa mín ag an bhfoireann."
+    },
+    "p1-sky": {
+      "title": "Spéir an lae inniu",
+      "time": "10 nóiméad",
+      "need": [
+        "Fuinneog nó áit shábháilte amuigh",
+        "Páipéar",
+        "Peann luaidhe"
+      ],
+      "steps": [
+        "Féach ar an spéir le duine fásta.",
+        "Tarraing an méid a fheiceann tú. Áirítear scamaill, an Ghrian, nó báisteach.",
+        "Scríobh focal amháin don spéir inniu."
+      ],
+      "done": "Tá líníocht agus focal fíor amháin faoin spéir ag an bhfoireann."
+    },
+    "p1-bean": {
+      "title": "Pónaire i mála",
+      "time": "Amharc gach lá ar feadh 5 lá",
+      "need": [
+        "Pónaire thriomaithe",
+        "Mála soiléir",
+        "Tuáille páipéir fliuch",
+        "Téip"
+      ],
+      "steps": [
+        "Iarr ar dhuine fásta an tuáille a fhliuchadh. Ba chóir dó a bheith tais, ní ag sileadh.",
+        "Cuir an phónaire sa mhála, dún go daingean é, agus téipeáil ar fhuinneog ghrianmhar é.",
+        "Tarraing an phónaire gach lá. Abair cad a d'athraigh."
+      ],
+      "done": "Tá líníochtaí agat a thaispeánann conas a d'athraigh an phónaire."
+    },
+    "p2-puddle": {
+      "title": "An lochán ag imeacht",
+      "time": "Dhá sheiceáil in aon lá amháin",
+      "need": [
+        "Lochán nó paiste fliuch",
+        "Cailc nó cloch"
+      ],
+      "steps": [
+        "Marcáil imeall an phaiste fhliuch.",
+        "Tar ar ais níos déanaí agus marcáil arís é.",
+        "Abair ar éirigh sé níos lú, agus conas a bhraith an t-aer."
+      ],
+      "done": "Tá dhá mharc agat agus abairt faoin athrú."
+    },
+    "p2-push": {
+      "title": "Brú crua, brú bog",
+      "time": "15 nóiméad",
+      "need": [
+        "Bosca beag",
+        "Urlár mín",
+        "Duine fásta in aice láimhe"
+      ],
+      "steps": [
+        "Tabhair brú bog don bhosca. Féach cé chomh fada is a théann sé.",
+        "Cuir ar ais é. Tabhair brú níos crua dó.",
+        "Abair cad a d'athraigh tú, agus cad a d'fhan mar an gcéanna."
+      ],
+      "done": "Is féidir leis an bhfoireann a rá cén brú a bhog an bosca níos faide."
+    },
+    "p2-wayup": {
+      "title": "Cén treo atá suas",
+      "time": "Seiceáil anois agus i gceann cúpla lá",
+      "need": [
+        "Pónaire thriomaithe",
+        "Cupán soiléir",
+        "Tuáille páipéir fliuch",
+        "Duine fásta"
+      ],
+      "steps": [
+        "Iarr ar dhuine fásta tuáille tais a chur taobh istigh den chupán agus an phónaire a shá isteach ann.",
+        "Cas an cupán ionas go bhfeiceann tú an phónaire. Coinnigh an tuáille tais.",
+        "Nuair a phéacann sí, dírigh ar an gcuid a fhásann suas agus ar an gcuid a fhásann síos."
+      ],
+      "done": "Is féidir leat díriú ar an bpéacán agus ar an bhfréamh."
+    },
+    "p2-dissolve": {
+      "title": "Siúcra nó gaineamh",
+      "time": "15 nóiméad",
+      "need": [
+        "Dhá chupán uisce",
+        "Siúcra",
+        "Gaineamh",
+        "Spúnóg",
+        "Duine fásta"
+      ],
+      "steps": [
+        "Cuir spúnóg siúcra i gcupán amháin agus spúnóg gainimh sa cheann eile, an méid céanna.",
+        "Corraigh an dá cheann ar an gcaoi chéanna.",
+        "Abair cé acu a dhealraíonn a bheith ag imeacht, agus cé acu a fhanann ar an mbun."
+      ],
+      "done": "Is féidir leis an bhfoireann a ainmniú cad a thuaslaigh agus cad nár thuaslaigh."
+    },
+    "p2-shadowsize": {
+      "title": "Scáth gar agus i bhfad",
+      "time": "15 nóiméad",
+      "need": [
+        "Tóirse",
+        "Bréagán beag",
+        "Balla",
+        "Duine fásta"
+      ],
+      "steps": [
+        "Iarr ar dhuine fásta an solas a choinneáil socair.",
+        "Coinnigh an bréagán gar don bhalla. Féach ar an scáth.",
+        "Bog an bréagán níos gaire don solas. Abair conas a d'athraigh an scáth."
+      ],
+      "done": "Is féidir leat a rá cén áit a rinne an scáth is mó."
+    },
+    "p3-melt": {
+      "title": "Grian nó scáth",
+      "time": "20 nóiméad",
+      "need": [
+        "2 chiúb oighir den mhéid céanna",
+        "Dhá phláta",
+        "Áit ghrianmhar agus áit scáthach"
+      ],
+      "steps": [
+        "Cuir ciúb amháin sa ghrian agus ceann amháin sa scáth.",
+        "Coinnigh na ciúbanna ar an méid céanna ag an tús.",
+        "Seiceáil gach cúpla nóiméad. Cén ciúb a chrapann níos tapúla?"
+      ],
+      "done": "Níor athraigh tú ach an áit, agus is féidir leat a rá cén ciúb a leáigh níos tapúla."
+    },
+    "p3-plane": {
+      "title": "Fill nua amháin",
+      "time": "25 nóiméad",
+      "need": [
+        "Dhá bhileog pháipéir den mhéid céanna",
+        "Spás soiléir"
+      ],
+      "steps": [
+        "Fill dhá heitleán páipéir ar an gcaoi chéanna. Eitil gach ceann trí huaire.",
+        "Athraigh filleadh amháin ar eitleán amháin, agus é sin amháin.",
+        "Eitil arís iad. Abair cén t-aon athrú a bhí tábhachtach."
+      ],
+      "done": "Is féidir leis an bhfoireann an t-aon fhilleadh a d'athraigh siad a ainmniú."
+    },
+    "p3-water": {
+      "title": "Uisce nó gan é",
+      "time": "Seiceáil gach lá ar feadh 4 lá",
+      "need": [
+        "Dhá phota bheaga nó dhá chupán ithreach",
+        "Síolta",
+        "Uisce",
+        "Duine fásta"
+      ],
+      "steps": [
+        "Cuir an cineál céanna síl i ngach cupán. Iarr ar dhuine fásta má theastaíonn cabhair uait.",
+        "Ná cuir uisce ach i gcupán amháin. Tabhair an solas céanna don dá cheann.",
+        "Tarraing an dá chupán ar lá 4. Abair cad a choinnigh tú mar an gcéanna."
+      ],
+      "done": "Is féidir leat a rá cén cupán a d'fhás níos mó, agus an t-aon rud a d'athraigh tú."
+    },
+    "p3-bounce": {
+      "title": "Dhá hurlár",
+      "time": "20 nóiméad",
+      "need": [
+        "Liathróid",
+        "Dhá hurlár shábháilte, mar adhmad agus cairpéad",
+        "Duine fásta"
+      ],
+      "steps": [
+        "Scaoil an liathróid ón airde chéanna ar an gcéad urlár. Féach ar an bpreab.",
+        "Scaoil ar an gcaoi chéanna í ar an dara hurlár.",
+        "Déan gach scaoileadh trí huaire. Abair cén t-urlár a thug an preab is airde."
+      ],
+      "done": "Tá toradh ag an bhfoireann ó thrí iarracht ar gach urlár."
+    },
+    "p3-string": {
+      "title": "Guthán cupáin",
+      "time": "20 nóiméad",
+      "need": [
+        "Dhá chupán páipéir",
+        "Sreang fhada",
+        "Páirtí",
+        "Duine fásta chun na poill a dhéanamh"
+      ],
+      "steps": [
+        "Iarr ar dhuine fásta poll beag a dhéanamh i mbun gach cupáin.",
+        "Cuir an tsreang tríd agus déan snaidhm ionas go bhfanfaidh sí. Tarraing an tsreang go teann.",
+        "Déanann duine amháin cogarnach sa chupán. Éisteann an duine eile. Ansin triail é le sreang scaoilte."
+      ],
+      "done": "Is féidir leat a rá cathain a thaistil an chogarnach agus cathain nár thaistil."
+    },
+    "p4-mirror": {
+      "title": "Anáil ar scáthán",
+      "time": "10 nóiméad",
+      "need": [
+        "Scáthán fionnuar",
+        "Éadach tirim"
+      ],
+      "steps": [
+        "Glan an scáthán go tirim.",
+        "Análaigh air ó chóngar.",
+        "Féach ar an gceo. Abair, dar leat, as a bhfuil an ceo déanta."
+      ],
+      "done": "Is féidir leat a rá gur uisce ón anáil atá sa cheo."
+    },
+    "p4-bridge": {
+      "title": "Droichead páipéir",
+      "time": "25 nóiméad",
+      "need": [
+        "Páipéar",
+        "Dhá charn leabhar",
+        "Boinn nó cuntair"
+      ],
+      "steps": [
+        "Leag bileog chothrom trasna na leabhar. Cuir boinn léi ceann ar cheann go dtí go lúbann sí síos.",
+        "Fill bileog nua mar ghaothrán. Tástáil ar an gcaoi chéanna í.",
+        "Scríobh an dá chomhaireamh. D'athraigh tú an cruth, ní méid an pháipéir."
+      ],
+      "done": "Tá dhá chomhaireamh ag an bhfoireann agus is féidir leo a rá cén cruth a choinnigh níos mó."
+    },
+    "p4-clock": {
+      "title": "Clog scátha",
+      "time": "Trí sheiceáil in aon lá amháin",
+      "need": [
+        "Áit ghrianmhar",
+        "Buidéal nó maide",
+        "Cailc"
+      ],
+      "steps": [
+        "Seas an maide. Marcáil barr an scátha agus scríobh an t-am.",
+        "Tar ar ais níos déanaí. Marcáil an barr arís agus scríobh an t-am.",
+        "Déan arís é. Abair conas a bhog an scáth."
+      ],
+      "done": "Tá trí mharc, trí ham, agus abairt faoin mbogadh agat."
+    },
+    "p4-mix": {
+      "title": "Meascadh dathanna",
+      "time": "15 nóiméad",
+      "need": [
+        "Trí chupán soiléir",
+        "Uisce",
+        "Dhá dhath bia",
+        "Duine fásta"
+      ],
+      "steps": [
+        "Iarr ar dhuine fásta dhá chupán uisce daite, dathanna éagsúla.",
+        "Déan buille faoi thuairim faoin dath a gheobhaidh tú má mheascann tú spúnóg de gach ceann.",
+        "Measc sa tríú cupán iad. Scríobh an buille faoi thuairim agus an toradh."
+      ],
+      "done": "Scríobh an fhoireann buille faoi thuairim roimh an meascadh, agus an dath a fuair siad."
+    },
+    "p4-spoon": {
+      "title": "Cén spúnóg a théann",
+      "time": "10 nóiméad",
+      "need": [
+        "Spúnóg miotail",
+        "Spúnóg adhmaid nó spúnóg phlaisteach",
+        "Cupán uisce the",
+        "Duine fásta"
+      ],
+      "steps": [
+        "Iarr uisce te ar dhuine fásta, ní uisce fiuchta.",
+        "Cuir an dá spúnóg sa chupán ionas go mbíonn na hanlaí ag gobadh amach.",
+        "Tar éis dhá nóiméad, bain teagmháil leis na hanlaí. Cé acu a bhraitheann níos teo?"
+      ],
+      "done": "Is féidir leat a rá cén hanla a théigh, agus go raibh an t-uisce mar an gcéanna."
+    },
+    "p5-sleeve": {
+      "title": "Coinnigh an teas",
+      "time": "20 nóiméad",
+      "need": [
+        "Dhá chupán den chineál céanna",
+        "Uisce te",
+        "Stoca nó éadach",
+        "Duine fásta"
+      ],
+      "steps": [
+        "Iarr ar dhuine fásta an t-uisce te céanna a dhoirteadh sa dá chupán.",
+        "Ná clúdaigh ach cupán amháin. Fág an ceann eile lom.",
+        "Fan 10 nóiméad. Cén cupán a bhraitheann níos teo? Níor athraigh tú ach an clúdach."
+      ],
+      "done": "Is féidir leat a rá cén cupán a choinnigh a theas níos faide."
+    },
+    "p5-swing": {
+      "title": "Sreang níos faide",
+      "time": "25 nóiméad",
+      "need": [
+        "Sreang",
+        "Meáchan beag mar fháinne miotail",
+        "Amadóir",
+        "Imeall boird"
+      ],
+      "steps": [
+        "Croch luascadán gearr. Comhair na luascanna i rith 10 soicind.",
+        "Déan é trí huaire ar an gcaoi chéanna.",
+        "Déan an tsreang níos faide agus comhair arís. Ná hathraigh aon rud eile."
+      ],
+      "done": "Tá dhá chomhaireamh ag an bhfoireann agus is féidir leo an t-aon athrú a ainmniú."
+    },
+    "p5-leaf": {
+      "title": "Cuimilt duilleoige",
+      "time": "15 nóiméad",
+      "need": [
+        "Duilleog úr",
+        "Páipéar tanaí",
+        "Crián agus an páipéar bainte siar de"
+      ],
+      "steps": [
+        "Leag an duilleog faoin bpáipéar.",
+        "Cuimil an crián go cothrom ionas go dtaispeánann na féitheacha.",
+        "Dírigh ar na línte a d'fhéadfadh uisce a iompar."
+      ],
+      "done": "Tá cuimilt agat agus is féidir leat díriú ar na féitheacha."
+    },
+    "p5-boat": {
+      "title": "Bád scragaill",
+      "time": "25 nóiméad",
+      "need": [
+        "Scragall alúmanaim",
+        "Babhla uisce",
+        "Boinn",
+        "Duine fásta"
+      ],
+      "steps": [
+        "Déan dhá bhád as an méid céanna scragaill.",
+        "Cuir boinn leis an gcéad bhád ceann ar cheann go dtí go dtagann uisce isteach. Comhair iad.",
+        "Athraigh cruth an dara bád amháin. Tástáil arís."
+      ],
+      "done": "Is féidir leis an bhfoireann a rá ar choinnigh an cruth nua níos mó bonn."
+    },
+    "p5-night": {
+      "title": "Bosca spéire na hoíche",
+      "time": "15 nóiméad ar oíche shoiléir",
+      "need": [
+        "Páipéar",
+        "Peann luaidhe",
+        "Radharc soiléir ar an spéir",
+        "Duine fásta"
+      ],
+      "steps": [
+        "Téigh amach le duine fásta. Féach ar phaiste amháin den spéir.",
+        "Tarraing na poncanna geala a fheiceann tú. Má chuireann scamaill i bhfolach iad, scríobh scamaill.",
+        "Scríobh an t-am. An chéad oíche shoiléir eile, féach arís agus abair cad atá mar an gcéanna."
+      ],
+      "done": "Tá sceitse, am, agus abairt agat faoin méid a chonaic tú."
+    },
+    "p6-layers": {
+      "title": "Trí leacht",
+      "time": "15 nóiméad",
+      "need": [
+        "Cupán soiléir",
+        "Mil nó síoróip",
+        "Uisce",
+        "Ola cócaireachta",
+        "Duine fásta"
+      ],
+      "steps": [
+        "Iarr ar dhuine fásta mil a dhoirteadh ar dtús, ansin uisce, ansin ola. Doirt go mall.",
+        "Fan. Féach cén leacht atá ar an mbun, sa lár, agus ar bharr.",
+        "Abair cé acu is lú dlús. Sin é an ceann a shnámhann ar bharr."
+      ],
+      "done": "Is féidir leat ord na dtrí leacht a ainmniú."
+    },
+    "p6-gas": {
+      "title": "Gás i mbalún",
+      "time": "20 nóiméad",
+      "need": [
+        "Buidéal beag",
+        "Balún",
+        "Sóid aráin",
+        "Fínéagar",
+        "Duine fásta"
+      ],
+      "steps": [
+        "Iarr ar dhuine fásta sóid aráin a chur sa bhalún agus fínéagar a chur sa bhuidéal.",
+        "Cuir an balún ar an mbuidéal, ansin doirt an púdar isteach.",
+        "Féach ar an mbalún. Ainmnigh an gás a ghlac an spás. Ná blais an meascán."
+      ],
+      "done": "Is féidir leis an bhfoireann a rá gur líon gás an balún."
+    },
+    "p6-model": {
+      "title": "An Domhan agus an Ghealach",
+      "time": "20 nóiméad",
+      "need": [
+        "Liathróid don Domhan",
+        "Liathróid níos lú don Ghealach",
+        "Téip tomhais nó sreang"
+      ],
+      "steps": [
+        "Coinnigh an Domhan socair. Siúil an Ghealach timpeall air i gciorcal.",
+        "Stop ceithre huaire agus abair cén taobh den Ghealach a bheadh grianmhar dá mbeadh an Ghrian ar an taobh eile den seomra.",
+        "Scríobh fíric thomhaiste amháin atá ar eolas agat cheana faoin nGealach."
+      ],
+      "done": "Shiúil tú fithis iomlán agus d'ainmnigh tú fíric amháin faoin nGealach."
+    },
+    "p6-sieve": {
+      "title": "Cuir an láib trí chriathar",
+      "time": "25 nóiméad",
+      "need": [
+        "Uisce láibe",
+        "Éadach",
+        "Scagaire caife nó tuáille páipéir",
+        "Dhá chupán",
+        "Duine fásta"
+      ],
+      "steps": [
+        "Doirt uisce láibe tríd an t-éadach isteach i gcupán.",
+        "Doirt sampla úr tríd an scagaire.",
+        "Déan comparáid idir na cupáin. Abair cé acu a lig níos lú giotaí tríd. Ná hól an t-uisce."
+      ],
+      "done": "Is féidir leis an bhfoireann a rá cén scagaire a choinnigh níos mó láibe amach."
+    },
+    "p6-breath": {
+      "title": "Comhair na hanála",
+      "time": "10 nóiméad",
+      "need": [
+        "Amadóir",
+        "Páipéar"
+      ],
+      "steps": [
+        "Suigh socair. Comhair anála ar feadh 30 soicind.",
+        "Siúil go tapa ar feadh 30 soicind, ansin suigh agus comhair arís.",
+        "Scríobh an dá uimhir. Abair cad a d'athraigh agus cad a choinnigh tú mar an gcéanna."
+      ],
+      "done": "Tá dhá chomhaireamh agat agus abairt faoin difríocht."
+    },
+    "p7-cabbage": {
+      "title": "Dathanna cabáiste",
+      "time": "30 nóiméad",
+      "need": [
+        "Uisce ó chabáiste dearg",
+        "Sú líomóide",
+        "Uisce glan",
+        "Uisce gallúnaí",
+        "Duine fásta"
+      ],
+      "steps": [
+        "Iarr ar dhuine fásta uisce cabáiste a dhoirteadh i dtrí chupán.",
+        "Cuir líomóid le ceann amháin, dada le ceann amháin, agus braon uisce gallúnaí le ceann amháin.",
+        "Scríobh dath gach ceann. Is leid é an dath faoi aigéid agus bunanna."
+      ],
+      "done": "Tá trí dhath agat agus is féidir leat a rá cén cupán nach raibh ann ach uisce cabáiste."
+    },
+    "p7-launch": {
+      "title": "Athrú amháin, lainseáil amháin",
+      "time": "30 nóiméad",
+      "need": [
+        "Spúnóg nó rialóir",
+        "Liathróid bhog nó pompon",
+        "Téip tomhais",
+        "Spás soiléir"
+      ],
+      "steps": [
+        "Lainseáil an liathróid ar an gcaoi chéanna trí huaire. Tomhais gach fad.",
+        "Athraigh rud amháin amháin, mar cé chomh fada siar a tharraingíonn tú.",
+        "Lainseáil trí huaire eile. Déan comparáid idir an dá thacar uimhreacha."
+      ],
+      "done": "Is féidir leis an bhfoireann díriú ar an aon athrú agus ar na faid."
+    },
+    "p7-trials": {
+      "title": "Trí iarracht",
+      "time": "20 nóiméad",
+      "need": [
+        "Liathróid",
+        "Amadóir nó téip tomhais",
+        "Páipéar"
+      ],
+      "steps": [
+        "Roghnaigh scaoileadh amháin ón airde chéanna.",
+        "Tomhais am an titim, nó tomhais an preab, trí huaire.",
+        "Scríobh na trí uimhir agus an t-aonad. Cuir ciorcal timpeall ar an uimhir láir."
+      ],
+      "done": "Tá trí thomhas agat le haonad amháin, agus uimhir láir."
+    },
+    "p7-scale": {
+      "title": "Grianchóras páipéir",
+      "time": "40 nóiméad",
+      "need": [
+        "Stiall fhada páipéir",
+        "Rialóir",
+        "Fíric pláinéid atá léite agat"
+      ],
+      "steps": [
+        "Cuir an Ghrian ag ceann amháin.",
+        "Marcáil ocht bpláinéad in ord. Spásáil iad ionas go mbíonn na cinn amuigh i bhfad níos faide.",
+        "Scríobh fíric thomhaiste amháin a d'úsáid tú, agus smaoineamh amháin atá fós ina theoiric."
+      ],
+      "done": "Tá an stiall in ord, agus is féidir leis an bhfoireann an fhíric a sheiceáil siad a ainmniú."
+    },
+    "p7-variables": {
+      "title": "Ainmnigh na hathróga",
+      "time": "25 nóiméad",
+      "need": [
+        "Fíric atá léite agat",
+        "Páipéar"
+      ],
+      "steps": [
+        "Scríobh ceist a d'fhéadfá a thástáil le hábhair shábháilte.",
+        "Scríobh an t-aon rud a d'athrófá.",
+        "Scríobh dhá rud a choinneofá mar an gcéanna, agus an méid a thomhaisfeá."
+      ],
+      "done": "Is féidir le léitheoir an t-athrú, na rialuithe, agus an tomhas a fheiceáil."
+    },
     "print-fair": {
       "title": "Leathanach tástála córa",
       "time": "20 nóiméad",
@@ -2677,7 +3217,7 @@
       "Smaointe maighnéid"
     ],
     "time-germs": [
-      "Cé na blianta inar fhás tástálacha láidre gur féidir le frídíní tinneas a chur ort?",
+      "Cé na blianta inar thaispeáin tástálacha láidre gur féidir le frídíní tinneas a chur ort?",
       "Na 1800í",
       "An bhliain 1610 amháin",
       "Sular foirmíodh an Domhan, agus táimid cinnte",
@@ -2691,7 +3231,7 @@
       "1992"
     ],
     "time-dna": [
-      "Taispeánadh samhail an dréimire chasta de DNA in",
+      "Cén bhliain ar taispeánadh samhail an dréimire chasta de DNA?",
       "1953",
       "1650",
       "1903",
@@ -2702,10 +3242,10 @@
       "Chun dul os cionn cheo an aeir",
       "Chun éalú ó gach solas",
       "Chun loscainn a reo",
-      "Chun an Ghrian a mhianadóireacht"
+      "Chun mianadóireacht a dhéanamh ar an nGhrian"
     ],
     "place-rain": [
-      "Tá stáisiún páirce na foraoise báistí ar an léarscáil i",
+      "Tá stáisiún páirce na foraoise bháistí ar an léarscáil i",
       "Ecuador",
       "Fáinní Saturn",
       "An Ghealach",
@@ -2754,7 +3294,7 @@
       "An freagra sula dtosaíonn tú"
     ],
     "idea-two": [
-      "Athraíonn tú an t-uisce agus an solas araon i dtástáil planda. Cad é an fhadhb?",
+      "Athraíonn tú an t-uisce agus an solas araon i dtástáil planda. Cad í an fhadhb?",
       "Ní bheidh a fhios agat cén t-athrú a bhí tábhachtach",
       "Tá an tástáil níos córa",
       "Éiríonn plandaí as a bheith beo d'aon ghnó",
@@ -2773,6 +3313,356 @@
       "Creidimh teaghlaigh a roghnú dóibh",
       "Tomhas a fhágáil ar lár",
       "Fíric a thabhairt ar bhuille faoi thuairim"
+    ],
+    "extra-legs": [
+      "Cé mhéad cos atá ag feithid?",
+      "Sé chinn",
+      "Ocht gcinn",
+      "Dhá cheann",
+      "206"
+    ],
+    "extra-spider": [
+      "Ní feithid é an damhán alla. Cé mhéad cos atá ag damhán alla?",
+      "Ocht gcinn",
+      "Sé chinn",
+      "Ceithre chinn",
+      "Ceann amháin"
+    ],
+    "extra-gills": [
+      "Conas a fhaigheann iasc ocsaigin as uisce?",
+      "Le geolbhaigh",
+      "Le scamhóga, mar mhíol mór",
+      "Trí ghaineamh a ithe",
+      "Le cleití"
+    ],
+    "extra-milk": [
+      "Cad a dhéanann máithreacha mamaigh dá n-óg?",
+      "Bainne",
+      "Solas na gréine",
+      "Laibhe",
+      "Gloine"
+    ],
+    "extra-eggs": [
+      "Cad as a dtagann éin?",
+      "Uibheacha",
+      "Síolta",
+      "Carraigeacha",
+      "Maighnéid"
+    ],
+    "extra-roots": [
+      "Cad a dhéanann fréamhacha den chuid is mó?",
+      "Uisce a thógáil isteach",
+      "Fáinní a dhéanamh timpeall Saturn",
+      "An Ghealach a bhrú",
+      "Iompú ina n-ór"
+    ],
+    "extra-green": [
+      "Cad a fhágann go mbíonn go leor duilleoga glasa?",
+      "Ábhar glas a ghlacann solas",
+      "Meirg iarainn",
+      "Cnámh míol mhóir",
+      "Deannach na Gealaí"
+    ],
+    "extra-solid": [
+      "Coinníonn carraig a cruth féin. Is éard is carraig ann",
+      "Solad",
+      "Gás",
+      "Taoide",
+      "Réaltra"
+    ],
+    "extra-gas": [
+      "Is é an t-aer sa seomra seo",
+      "Gás",
+      "Cnámh sholadach",
+      "Pláinéad",
+      "Iontaise"
+    ],
+    "extra-melt": [
+      "Iompaíonn oighear ina uisce leachtach nuair",
+      "A fhaigheann sé teas go leor",
+      "A chailleann sé gach adamh",
+      "A éiríonn sé ina mhaighnéad",
+      "A eitlíonn sé go dtí an Ghrian"
+    ],
+    "extra-freeze": [
+      "Iompaíonn uisce leachtach ina oighear nuair",
+      "A éiríonn sé fuar go leor",
+      "A fhiuchann sé láithreach",
+      "A iompaíonn sé ina ola",
+      "A éiríonn sé ina réalta"
+    ],
+    "extra-puddle": [
+      "Is féidir le lochán imeacht ar lá te toisc",
+      "Go n-éiríonn an t-uisce ina ghás",
+      "Go n-iompaíonn sé ina charraig",
+      "Go n-ólann loscainn é i gcónaí",
+      "Go dtógann an Ghealach é"
+    ],
+    "extra-shadow": [
+      "Cruthaítear scáth nuair",
+      "A bhacann rud éigin an solas",
+      "Nach bhfuil foinse ar bith ag an solas",
+      "A chruachann fuaim",
+      "A chinneann maighnéad air"
+    ],
+    "extra-mirror": [
+      "Seolann scáthán solas ar ais. Tugtar seo ar an bpreabadh sin",
+      "Frithchaitheamh",
+      "Meirg",
+      "Iontaise",
+      "Taoide"
+    ],
+    "extra-circuit": [
+      "Cad a theastaíonn ó chiorcad simplí ionas go lasfaidh bolgán?",
+      "Cosán dúnta don leictreachas",
+      "Bearna a stopann an cosán",
+      "Maide adhmaid amháin",
+      "Cupán gainimh"
+    ],
+    "extra-rubber": [
+      "Ní ligeann rubar don leictreachas dul tríd go héasca. Is é rubar",
+      "Inslitheoir",
+      "Cosán miotail",
+      "Pol maighnéid",
+      "Cineál cnámha"
+    ],
+    "extra-copper": [
+      "Ligeann copar don leictreachas dul tríd. Is é copar",
+      "Seoltóir",
+      "Inslitheoir mar rubar",
+      "Gás sa seomra",
+      "Gealach"
+    ],
+    "extra-compass": [
+      "Díríonn snáthaid compáis thart ar",
+      "An tuaisceart",
+      "Do bhróga",
+      "An cactas is gaire",
+      "Díreach isteach in iontaise"
+    ],
+    "extra-closest": [
+      "Cén rud is gaire don Domhan í an Ghrian?",
+      "Réalta",
+      "Aigéan",
+      "Cnámh",
+      "Cathair"
+    ],
+    "extra-moon-trip": [
+      "Téann an Ghealach timpeall",
+      "An Domhan",
+      "Maighnéad seomra ranga",
+      "Do chroí",
+      "Aon bheach amháin"
+    ],
+    "extra-drop": [
+      "Mura mbrúnn an t-aer mórán, liathróid throm agus liathróid éadrom a scaoiltear le chéile",
+      "Titeann siad ar an ráta céanna, beagnach",
+      "Titeann siad ar rátaí atá go hiomlán difriúil i gcónaí",
+      "Snámhann siad in airde",
+      "Iompaíonn siad ina ngloine"
+    ],
+    "extra-feather": [
+      "Titeann cleite go mall toisc",
+      "Go mbrúnn an t-aer air",
+      "Go múchtar an imtharraingt",
+      "Nach bhfuil mais ar bith aige",
+      "Gur pláinéad é"
+    ],
+    "extra-unit": [
+      "Teastaíonn ó thomhas cúramach uimhir agus",
+      "Aonad",
+      "Mian",
+      "Freagra nua gach uair a bhíonn súil agat",
+      "Gan uirlis"
+    ],
+    "extra-repeat": [
+      "Cén fáth a ndéantar tástáil chóir níos mó ná uair amháin?",
+      "Chun a fheiceáil an dtarlaíonn an toradh arís",
+      "Chun gach rud a athrú gach uair",
+      "Chun an tomhas a fhágáil ar lár",
+      "Chun an freagra a roghnú ar dtús"
+    ],
+    "extra-cm": [
+      "Cé acu is aonad faid?",
+      "Ceintiméadar",
+      "Dé Máirt",
+      "Gorm",
+      "Glórach"
+    ],
+    "extra-thermo": [
+      "Tomhaiseann teirmiméadar",
+      "Teocht",
+      "Cé chomh glórach is atá loscaín",
+      "Ainm réalta",
+      "Cé mhéad cnámh atá agat"
+    ],
+    "extra-balance": [
+      "Úsáidtear meá chun comparáid a dhéanamh ar",
+      "A throm atá dhá rud",
+      "Dath na spéire",
+      "Fuaim i spás folamh",
+      "Céimeanna na Gealaí"
+    ],
+    "extra-cup": [
+      "Insíonn cupán tomhais duit",
+      "Cé mhéad spáis a líonann leacht",
+      "Dath an óir",
+      "Aois iontaise",
+      "Smaointe maighnéid"
+    ],
+    "extra-wilt": [
+      "Feonn planda nuair nach féidir leis seo a fháil",
+      "Uisce go leor",
+      "Solas breise na gealaí amháin",
+      "Maighnéad barra",
+      "Teileascóp"
+    ],
+    "extra-stone": [
+      "Ní fhásfaidh cloch ina phlanda toisc",
+      "Nach síol í",
+      "Go bhfuil sí róghlas",
+      "Gur crann óg í",
+      "Go bhfuil duilleoga uirthi cheana"
+    ],
+    "extra-habitat": [
+      "Is éard is gnáthóg ann",
+      "An áit a dteastaíonn ó rud beo",
+      "Cineál miotail",
+      "Céim den Ghealach",
+      "Luamhán"
+    ],
+    "extra-chain": [
+      "Taispeánann slabhra bia",
+      "Cé a itheann cé",
+      "Conas a deirtear go sileann gloine",
+      "Ainmneacha na bpláinéad amháin",
+      "Conas a smaoiníonn maighnéid"
+    ],
+    "extra-rot": [
+      "Fungais agus roinnt rudaí beo bídeacha",
+      "Cabhraíonn siad le rudaí marbha a bhriseadh síos",
+      "Déanann siad solas na gréine",
+      "Is pláinéid iad",
+      "Is maighnéid barra iad"
+    ],
+    "extra-hide": [
+      "Cabhraíonn duaithníocht le hainmhí",
+      "Dul i bhfolach",
+      "Uisce a fhiuchadh",
+      "Meirgiú mar iarann",
+      "Fithisiú timpeall Saturn"
+    ],
+    "extra-migrate": [
+      "Eitlíonn roinnt éan achar fada nuair a athraíonn na séasúir. Tugtar seo ar an turas sin",
+      "Imirce",
+      "Meirg",
+      "Iontaise",
+      "Luamhán"
+    ],
+    "extra-sleep": [
+      "Caitheann roinnt ainmhithe na míonna fuara i suan domhain. Tugtar seo ar an suan sin",
+      "Geimhriú",
+      "Fiuchadh",
+      "Céim den Ghealach",
+      "Déanamh gloine"
+    ],
+    "extra-skull": [
+      "Cabhraíonn do chloigeann le",
+      "D'inchinn a chosaint",
+      "Fuil a chaidéalú",
+      "Solas na gréine a dhéanamh",
+      "Meirg a stóráil"
+    ],
+    "extra-elbow": [
+      "Lúbann d'uillinn ag",
+      "Alt",
+      "Pol maighnéid",
+      "Aill iontaise",
+      "Réaltra"
+    ],
+    "extra-teeth": [
+      "Cabhraíonn fiacla leat",
+      "Bia a ghearradh agus a bhrúchadh",
+      "Fuil a chaidéalú",
+      "Feiceáil sa dorchadas",
+      "Na taoidí a dhéanamh"
+    ],
+    "extra-sweat": [
+      "Cabhraíonn allas le do chorp",
+      "Fuarú",
+      "Iompú ina oighear láithreach",
+      "Ór a dhéanamh",
+      "Dara croí a fhás"
+    ],
+    "extra-mercury-planet": [
+      "Cén pláinéad is gaire don Ghrian?",
+      "Mearcair",
+      "Neiptiún",
+      "Saturn",
+      "An Domhan"
+    ],
+    "extra-third": [
+      "Cén pláinéad ón nGhrian é an Domhan?",
+      "An tríú ceann",
+      "An chéad cheann",
+      "An t-ochtú ceann",
+      "Gealach de chuid Jupiter"
+    ],
+    "extra-giant": [
+      "Is é Jupiter den chuid is mó",
+      "Gás, gan talamh soladach le seasamh air",
+      "Iarann soladach ar fad",
+      "Cnámh",
+      "Adhmad leachtach"
+    ],
+    "extra-asteroid": [
+      "Is éard is astaróid ann",
+      "Corp carraige nó miotail a théann timpeall na Gréine",
+      "Cineál míol mhóir",
+      "Scamall a bhfuil blas salainn air",
+      "Crann óg"
+    ],
+    "extra-stars": [
+      "Is éard is réaltbhuíon ann",
+      "Patrún a shamhlaíonn daoine sna réaltaí",
+      "Cnámh sa chos",
+      "Cineál salainn",
+      "Ciorcad dúnta"
+    ],
+    "extra-fact": [
+      "Is éard is fíric thomhaiste ann",
+      "Smaoineamh a tástálamar",
+      "Dóchas amháin go bhfuil sé fíor",
+      "Rud nach féidir a thástáil",
+      "Rud a cumadh ar maidin"
+    ],
+    "extra-theory": [
+      "Is éard is teoiric san eolaíocht ann",
+      "Smaoineamh mór a sheasann do thástálacha arís agus arís eile",
+      "Buille faoi thuairim gan tástáil ar bith",
+      "Cineál carraige",
+      "Aonad faid"
+    ],
+    "extra-control": [
+      "I dtástáil chóir, is iad na rudaí a choinníonn tú mar an gcéanna",
+      "Rialuithe",
+      "An freagra a theastaigh uait ar dtús",
+      "Gach athrú ag an am céanna",
+      "Roghnach, ionas gur féidir leat iad a fhágáil ar lár"
+    ],
+    "extra-sprout": [
+      "Is féidir le síol péacadh sa dorchadas, ach ní féidir leis an bplanda óg leanúint de bhia a dhéanamh gan",
+      "Solas",
+      "Druma glórach",
+      "Maighnéad",
+      "Iontaise"
+    ],
+    "extra-battery": [
+      "Is féidir le ceallra brú a chur ar",
+      "Sruth leictreach",
+      "Céimeanna na Gealaí",
+      "Aill iontaise",
+      "Na taoidí léi féin"
     ]
   },
   "photos": {

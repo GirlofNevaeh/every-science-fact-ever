@@ -100,7 +100,7 @@
       "unsure": "",
       "quiz": [
         [
-          "Un fungo sta insieme ai",
+          "A quale gruppo appartiene un fungo?",
           "Funghi",
           "Pesci",
           "Pianeti",
@@ -291,7 +291,7 @@
           "Fe"
         ],
         [
-          "Quanti atomi di idrogeno ci sono in un pezzetto d'acqua?",
+          "Quanti atomi di idrogeno ci sono in una molecola d'acqua?",
           "Due",
           "Zero",
           "Dieci",
@@ -1074,7 +1074,7 @@
         ],
         [
           "Il clima è",
-          "Il disegno di molti anni",
+          "Il disegno del meteo su molti anni",
           "Una nuvola",
           "Una sola pozzanghera",
           "Il pranzo di oggi"
@@ -1212,7 +1212,7 @@
         ],
         [
           "Una galassia è",
-          "Una enorme famiglia di stelle",
+          "Un'enorme famiglia di stelle",
           "Una rana",
           "Un tipo di sale",
           "Una leva"
@@ -1303,7 +1303,7 @@
           "Il suono attraversa lo spazio vuoto"
         ],
         [
-          "L'aspetto più rosso delle galassie lontane è",
+          "La luce più rossa delle galassie lontane è",
           "Una prova che gli scienziati continuano a mettere alla prova",
           "Un'idea che nessuno può provare",
           "La prova che le calamite hanno un solo polo",
@@ -1330,7 +1330,7 @@
           "Un'ipotesi finché una prova non la mostra",
           "Già un fatto misurato",
           "La stessa cosa di H2O",
-          "Una delle regole del movimento di Newton"
+          "Una delle leggi del moto di Newton"
         ]
       ]
     },
@@ -1434,7 +1434,7 @@
       "unsure": "",
       "quiz": [
         [
-          "Cosa aiuta a fermare i germi che si spostano sulle mani?",
+          "Cosa aiuta a fermare i germi che si diffondono sulle mani?",
           "Lavare con sapone e acqua",
           "Strofinare solo sabbia",
           "Saltare il sapone per sempre",
@@ -1618,7 +1618,7 @@
       "unsure": "",
       "quiz": [
         [
-          "Quale metallo è liquido a temperatura della stanza?",
+          "Quale metallo è liquido alla temperatura della stanza?",
           "Mercurio",
           "Ferro",
           "Legno",
@@ -1687,7 +1687,7 @@
       "unsure": "",
       "quiz": [
         [
-          "Quale è una bacca nella scienza?",
+          "Qual è una bacca nella scienza?",
           "Una banana",
           "Una fragola",
           "Una pigna",
@@ -1740,9 +1740,9 @@
           "Anelli"
         ],
         [
-          "La cacca a forma di cubo",
-          "Non rotola via così facilmente",
-          "Diventa oro",
+          "Cosa c'è di speciale nella cacca a forma di cubo?",
+          "Non rotolano via così facilmente",
+          "Diventano oro",
           "Sono calamite",
           "Sono stelle"
         ]
@@ -2604,6 +2604,546 @@
       ],
       "done": "Il gruppo ha un risultato, un'unità e una frase su cosa rovinerebbe la prova."
     },
+    "p1-colors": {
+      "title": "Ordina i colori",
+      "time": "15 minuti",
+      "need": [
+        "8 oggetti sicuri di colori diversi",
+        "Un tavolo"
+      ],
+      "steps": [
+        "Spargi gli oggetti.",
+        "Mettili in gruppi di colore. I gruppi li scegli tu.",
+        "Di' la regola ad alta voce. Rosso e non rosso va bene."
+      ],
+      "done": "Hai dei gruppi, e puoi dire la regola del colore."
+    },
+    "p1-sounds": {
+      "title": "Caccia ai suoni",
+      "time": "10 minuti",
+      "need": [
+        "Un minuto di silenzio",
+        "Carta",
+        "Una matita"
+      ],
+      "steps": [
+        "Siediti fermo e ascolta.",
+        "Scrivi o disegna cinque suoni che senti.",
+        "Segna ognuno forte o piano."
+      ],
+      "done": "Hai cinque suoni, ognuno segnato forte o piano."
+    },
+    "p1-touch": {
+      "title": "Ruvido o liscio",
+      "time": "15 minuti",
+      "need": [
+        "6 oggetti sicuri",
+        "Un tavolo"
+      ],
+      "steps": [
+        "Chiudi gli occhi. Un compagno ti dà un oggetto.",
+        "Di' ruvido o liscio prima di guardare.",
+        "Dividi tutti e sei. Controlla con gli occhi."
+      ],
+      "done": "Il gruppo ha un gruppo ruvido e un gruppo liscio."
+    },
+    "p1-sky": {
+      "title": "Il cielo di oggi",
+      "time": "10 minuti",
+      "need": [
+        "Una finestra o un posto sicuro all'aperto",
+        "Carta",
+        "Una matita"
+      ],
+      "steps": [
+        "Guarda il cielo con un adulto.",
+        "Disegna quello che vedi. Nuvole, Sole o pioggia vanno tutti bene.",
+        "Scrivi una parola per il cielo di oggi."
+      ],
+      "done": "Il gruppo ha un disegno e una parola vera sul cielo."
+    },
+    "p1-bean": {
+      "title": "Un fagiolo nel sacchetto",
+      "time": "Uno sguardo ogni giorno per 5 giorni",
+      "need": [
+        "Un fagiolo secco",
+        "Un sacchetto trasparente",
+        "Un tovagliolo di carta bagnato",
+        "Nastro adesivo"
+      ],
+      "steps": [
+        "Chiedi a un adulto di bagnare il tovagliolo. Deve essere umido, non gocciolante.",
+        "Metti il fagiolo nel sacchetto, chiudilo e attaccalo a una finestra al sole.",
+        "Disegna il fagiolo ogni giorno. Di' cosa è cambiato."
+      ],
+      "done": "Hai disegni che mostrano come è cambiato il fagiolo."
+    },
+    "p2-puddle": {
+      "title": "La pozzanghera che sparisce",
+      "time": "Due controlli in un giorno",
+      "need": [
+        "Una pozzanghera o una macchia bagnata",
+        "Un gesso o un sasso"
+      ],
+      "steps": [
+        "Segna il bordo della macchia bagnata.",
+        "Torna più tardi e segna di nuovo.",
+        "Di' se è diventata più piccola, e come si sentiva l'aria."
+      ],
+      "done": "Hai due segni e una frase sul cambiamento."
+    },
+    "p2-push": {
+      "title": "Spinta forte, spinta leggera",
+      "time": "15 minuti",
+      "need": [
+        "Una scatola piccola",
+        "Un pavimento liscio",
+        "Un adulto vicino"
+      ],
+      "steps": [
+        "Dai alla scatola una spinta leggera. Guarda quanto lontano va.",
+        "Rimettela a posto. Dalle una spinta più forte.",
+        "Di' cosa hai cambiato, e cosa è rimasto uguale."
+      ],
+      "done": "Il gruppo può dire quale spinta ha spostato la scatola più lontano."
+    },
+    "p2-wayup": {
+      "title": "Da che parte è l'alto",
+      "time": "Un controllo ora e fra qualche giorno",
+      "need": [
+        "Un fagiolo secco",
+        "Una tazza trasparente",
+        "Un tovagliolo di carta bagnato",
+        "Un adulto"
+      ],
+      "steps": [
+        "Chiedi a un adulto di foderare la tazza con un tovagliolo umido e di infilarci il fagiolo.",
+        "Gira la tazza così vedi il fagiolo. Tieni il tovagliolo umido.",
+        "Quando germoglia, indica la parte che cresce in su e la parte che cresce in giù."
+      ],
+      "done": "Puoi indicare il germoglio e la radice."
+    },
+    "p2-dissolve": {
+      "title": "Zucchero o sabbia",
+      "time": "15 minuti",
+      "need": [
+        "Due tazze d'acqua",
+        "Zucchero",
+        "Sabbia",
+        "Un cucchiaio",
+        "Un adulto"
+      ],
+      "steps": [
+        "Metti lo stesso cucchiaio di zucchero in una tazza e lo stesso cucchiaio di sabbia nell'altra.",
+        "Mescola tutte e due allo stesso modo.",
+        "Di' quale sembra sparire, e quale resta sul fondo."
+      ],
+      "done": "Il gruppo può dire cosa si è sciolto e cosa no."
+    },
+    "p2-shadowsize": {
+      "title": "Ombra vicina e lontana",
+      "time": "15 minuti",
+      "need": [
+        "Una torcia",
+        "Un giocattolo piccolo",
+        "Un muro",
+        "Un adulto"
+      ],
+      "steps": [
+        "Chiedi a un adulto di tenere ferma la luce.",
+        "Tieni il giocattolo vicino al muro. Guarda l'ombra.",
+        "Avvicina il giocattolo alla luce. Di' come è cambiata l'ombra."
+      ],
+      "done": "Puoi dire quale posto ha fatto l'ombra più grande."
+    },
+    "p3-melt": {
+      "title": "Sole o ombra",
+      "time": "20 minuti",
+      "need": [
+        "2 cubetti di ghiaccio della stessa misura",
+        "Due piatti",
+        "Un posto al sole e un posto all'ombra"
+      ],
+      "steps": [
+        "Metti un cubetto al sole e uno all'ombra.",
+        "All'inizio i cubetti devono avere la stessa misura.",
+        "Controlla ogni qualche minuto. Quale cubetto si rimpicciolisce più in fretta?"
+      ],
+      "done": "Hai cambiato solo il posto, e puoi dire quale cubetto si è sciolto più in fretta."
+    },
+    "p3-plane": {
+      "title": "Una piega nuova",
+      "time": "25 minuti",
+      "need": [
+        "Due fogli di carta della stessa misura",
+        "Uno spazio libero"
+      ],
+      "steps": [
+        "Piega due aeroplanini allo stesso modo. Falli volare tre volte ciascuno.",
+        "Cambia una piega su un solo aeroplanino.",
+        "Falli volare di nuovo. Di' quale singolo cambiamento ha contato."
+      ],
+      "done": "Il gruppo può dire l'unica piega che ha cambiato."
+    },
+    "p3-water": {
+      "title": "Acqua o niente",
+      "time": "Un controllo ogni giorno per 4 giorni",
+      "need": [
+        "Due vasetti piccoli o tazze di terra",
+        "Semi",
+        "Acqua",
+        "Un adulto"
+      ],
+      "steps": [
+        "Pianta lo stesso tipo di seme in ogni tazza. Chiedi a un adulto se ti serve aiuto.",
+        "Annaffia solo una tazza. Dai a tutte e due la stessa luce.",
+        "Disegna tutte e due le tazze il giorno 4. Di' cosa hai tenuto uguale."
+      ],
+      "done": "Puoi dire quale tazza è cresciuta di più, e l'unica cosa che hai cambiato."
+    },
+    "p3-bounce": {
+      "title": "Due pavimenti",
+      "time": "20 minuti",
+      "need": [
+        "Una palla",
+        "Due pavimenti sicuri, come legno e moquette",
+        "Un adulto"
+      ],
+      "steps": [
+        "Lascia cadere la palla dalla stessa altezza sul primo pavimento. Guarda il rimbalzo.",
+        "Lasciala cadere allo stesso modo sul secondo pavimento.",
+        "Fai ogni caduta tre volte. Di' quale pavimento ha dato il rimbalzo più alto."
+      ],
+      "done": "Il gruppo ha un risultato da tre prove su ogni pavimento."
+    },
+    "p3-string": {
+      "title": "Telefono con i bicchieri",
+      "time": "20 minuti",
+      "need": [
+        "Due bicchieri di carta",
+        "Uno spago lungo",
+        "Un compagno",
+        "Un adulto per fare i buchi"
+      ],
+      "steps": [
+        "Chiedi a un adulto di fare un buchino sul fondo di ogni bicchiere.",
+        "Infila lo spago e fai un nodo così resta. Tira lo spago ben teso.",
+        "Una persona bisbiglia in un bicchiere. L'altra ascolta. Poi prova con lo spago allentato."
+      ],
+      "done": "Puoi dire quando il bisbiglio è arrivato e quando no."
+    },
+    "p4-mirror": {
+      "title": "Fiato sullo specchio",
+      "time": "10 minuti",
+      "need": [
+        "Uno specchio freddo",
+        "Un panno asciutto"
+      ],
+      "steps": [
+        "Asciuga lo specchio.",
+        "Soffiaci sopra da vicino.",
+        "Guarda la nebbia. Di' di cosa pensi che sia fatta la nebbia."
+      ],
+      "done": "Puoi dire che la nebbia è acqua del tuo fiato."
+    },
+    "p4-bridge": {
+      "title": "Ponte di carta",
+      "time": "25 minuti",
+      "need": [
+        "Carta",
+        "Due pile di libri",
+        "Monete o gettoni"
+      ],
+      "steps": [
+        "Appoggia un foglio piatto sui libri. Aggiungi monete una alla volta finché si piega giù.",
+        "Piega un foglio nuovo a ventaglio. Provalo allo stesso modo.",
+        "Scrivi tutti e due i conteggi. Hai cambiato la forma, non la misura della carta."
+      ],
+      "done": "Il gruppo ha due conteggi e può dire quale forma ha retto di più."
+    },
+    "p4-clock": {
+      "title": "Orologio di ombra",
+      "time": "Tre controlli in un giorno",
+      "need": [
+        "Un posto al sole",
+        "Una bottiglia o un bastoncino",
+        "Un gesso"
+      ],
+      "steps": [
+        "Metti in piedi il bastoncino. Segna la punta dell'ombra e scrivi l'ora.",
+        "Torna più tardi. Segna di nuovo la punta e scrivi l'ora.",
+        "Fallo ancora una volta. Di' come si è mossa l'ombra."
+      ],
+      "done": "Hai tre segni, tre orari e una frase sul movimento."
+    },
+    "p4-mix": {
+      "title": "Miscela di colori",
+      "time": "15 minuti",
+      "need": [
+        "Tre tazze trasparenti",
+        "Acqua",
+        "Due coloranti per alimenti",
+        "Un adulto"
+      ],
+      "steps": [
+        "Chiedi a un adulto due tazze di acqua colorata, di colori diversi.",
+        "Indovina il colore che verrà se mescoli un cucchiaio di ciascuna.",
+        "Mescolale nella terza tazza. Scrivi l'ipotesi e il risultato."
+      ],
+      "done": "Il gruppo ha scritto un'ipotesi prima di mescolare, e il colore che è venuto."
+    },
+    "p4-spoon": {
+      "title": "Quale cucchiaio si scalda",
+      "time": "10 minuti",
+      "need": [
+        "Un cucchiaio di metallo",
+        "Un cucchiaio di legno o di plastica",
+        "Una tazza di acqua tiepida",
+        "Un adulto"
+      ],
+      "steps": [
+        "Chiedi a un adulto acqua tiepida, non acqua che bolle.",
+        "Metti tutti e due i cucchiai nella tazza così i manici sporgono.",
+        "Dopo due minuti, tocca i manici. Quale sembra più caldo?"
+      ],
+      "done": "Puoi dire quale manico si è scaldato, e che l'acqua era la stessa."
+    },
+    "p5-sleeve": {
+      "title": "Tieni il calore",
+      "time": "20 minuti",
+      "need": [
+        "Due tazze uguali",
+        "Acqua tiepida",
+        "Un calzino o un panno",
+        "Un adulto"
+      ],
+      "steps": [
+        "Chiedi a un adulto di versare la stessa acqua tiepida in tutte e due le tazze.",
+        "Avvolgi solo una tazza. Lascia l'altra nuda.",
+        "Aspetta 10 minuti. Quale tazza sembra più calda? Hai cambiato solo l'involucro."
+      ],
+      "done": "Puoi dire quale tazza ha tenuto il calore più a lungo."
+    },
+    "p5-swing": {
+      "title": "Spago più lungo",
+      "time": "25 minuti",
+      "need": [
+        "Spago",
+        "Un peso piccolo, come una rondella",
+        "Un cronometro",
+        "Il bordo di un tavolo"
+      ],
+      "steps": [
+        "Appendi un pendolo corto. Conta le oscillazioni in 10 secondi.",
+        "Fallo tre volte allo stesso modo.",
+        "Allunga lo spago e conta di nuovo. Non cambiare nient'altro."
+      ],
+      "done": "Il gruppo ha due conteggi e può dire l'unico cambiamento."
+    },
+    "p5-leaf": {
+      "title": "Strofina la foglia",
+      "time": "15 minuti",
+      "need": [
+        "Una foglia fresca",
+        "Carta sottile",
+        "Un pastello a cera con la carta tolta"
+      ],
+      "steps": [
+        "Metti la foglia sotto la carta.",
+        "Strofina il pastello di piatto così si vedono le nervature.",
+        "Indica le linee che potrebbero portare l'acqua."
+      ],
+      "done": "Hai un ricalco e puoi indicare le nervature."
+    },
+    "p5-boat": {
+      "title": "Barca di stagnola",
+      "time": "25 minuti",
+      "need": [
+        "Carta stagnola",
+        "Una ciotola d'acqua",
+        "Monete",
+        "Un adulto"
+      ],
+      "steps": [
+        "Fai due barche con la stessa quantità di stagnola.",
+        "Aggiungi monete una alla volta alla prima barca finché entra l'acqua. Contale.",
+        "Cambia solo la forma della seconda barca. Prova di nuovo."
+      ],
+      "done": "Il gruppo può dire se la forma nuova ha tenuto più monete."
+    },
+    "p5-night": {
+      "title": "Riquadro del cielo di notte",
+      "time": "15 minuti in una notte serena",
+      "need": [
+        "Carta",
+        "Una matita",
+        "Una vista libera del cielo",
+        "Un adulto"
+      ],
+      "steps": [
+        "Esci con un adulto. Guarda un pezzo di cielo.",
+        "Disegna i puntini luminosi che vedi. Se le nuvole li nascondono, scrivi nuvole.",
+        "Scrivi l'ora. La prossima notte serena, guarda di nuovo e di' cosa corrisponde."
+      ],
+      "done": "Hai uno schizzo, un orario e una frase su quello che hai visto."
+    },
+    "p6-layers": {
+      "title": "Tre liquidi",
+      "time": "15 minuti",
+      "need": [
+        "Una tazza trasparente",
+        "Miele o sciroppo",
+        "Acqua",
+        "Olio da cucina",
+        "Un adulto"
+      ],
+      "steps": [
+        "Chiedi a un adulto di versare piano prima il miele, poi l'acqua, poi l'olio.",
+        "Aspetta. Guarda quale liquido sta in fondo, in mezzo e in cima.",
+        "Di' qual è il meno denso. È quello che galleggia in cima."
+      ],
+      "done": "Puoi dire l'ordine dei tre liquidi."
+    },
+    "p6-gas": {
+      "title": "Gas in un palloncino",
+      "time": "20 minuti",
+      "need": [
+        "Una bottiglia piccola",
+        "Un palloncino",
+        "Bicarbonato",
+        "Aceto",
+        "Un adulto"
+      ],
+      "steps": [
+        "Chiedi a un adulto di mettere il bicarbonato nel palloncino e l'aceto nella bottiglia.",
+        "Metti il palloncino sulla bottiglia, poi rovescia la polvere dentro.",
+        "Guarda il palloncino. Dai il nome al gas che ha occupato lo spazio. Non assaggiare il miscuglio."
+      ],
+      "done": "Il gruppo può dire che un gas ha riempito il palloncino."
+    },
+    "p6-model": {
+      "title": "Terra e Luna",
+      "time": "20 minuti",
+      "need": [
+        "Una palla per la Terra",
+        "Una palla più piccola per la Luna",
+        "Un metro a nastro o uno spago"
+      ],
+      "steps": [
+        "Tieni ferma la Terra. Cammina con la Luna intorno a lei in un cerchio.",
+        "Fermati quattro volte e di' quale lato della Luna sarebbe al sole se il Sole è dall'altra parte della stanza.",
+        "Scrivi un fatto misurato che sai già sulla Luna."
+      ],
+      "done": "Hai percorso un'orbita intera e hai detto un fatto sulla Luna."
+    },
+    "p6-sieve": {
+      "title": "Filtra il fango",
+      "time": "25 minuti",
+      "need": [
+        "Acqua fangosa",
+        "Un panno",
+        "Un filtro da caffè o un tovagliolo di carta",
+        "Due tazze",
+        "Un adulto"
+      ],
+      "steps": [
+        "Versa l'acqua fangosa attraverso il panno in una tazza.",
+        "Versa un campione nuovo attraverso il filtro.",
+        "Confronta le tazze. Di' quale ha lasciato passare meno pezzetti. Non bere l'acqua."
+      ],
+      "done": "Il gruppo può dire quale filtro ha tenuto fuori più fango."
+    },
+    "p6-breath": {
+      "title": "Conta i respiri",
+      "time": "10 minuti",
+      "need": [
+        "Un cronometro",
+        "Carta"
+      ],
+      "steps": [
+        "Siediti fermo. Conta i respiri per 30 secondi.",
+        "Cammina veloce per 30 secondi, poi siediti e conta di nuovo.",
+        "Scrivi tutti e due i numeri. Di' cosa è cambiato e cosa hai tenuto uguale."
+      ],
+      "done": "Hai due conteggi e una frase sulla differenza."
+    },
+    "p7-cabbage": {
+      "title": "Colori del cavolo",
+      "time": "30 minuti",
+      "need": [
+        "Acqua di cavolo rosso",
+        "Succo di limone",
+        "Acqua semplice",
+        "Acqua saponata",
+        "Un adulto"
+      ],
+      "steps": [
+        "Chiedi a un adulto di versare l'acqua di cavolo in tre tazze.",
+        "Aggiungi il limone in una, niente in una, e una goccia di acqua saponata in una.",
+        "Scrivi il colore di ciascuna. Il colore è un indizio sugli acidi e sulle basi."
+      ],
+      "done": "Hai tre colori e puoi dire quale tazza aveva solo acqua di cavolo."
+    },
+    "p7-launch": {
+      "title": "Un cambiamento, un lancio",
+      "time": "30 minuti",
+      "need": [
+        "Un cucchiaio o un righello",
+        "Una palla morbida o un pon-pon",
+        "Un metro a nastro",
+        "Uno spazio libero"
+      ],
+      "steps": [
+        "Lancia la palla allo stesso modo tre volte. Misura ogni distanza.",
+        "Cambia una cosa sola, per esempio quanto tiri indietro.",
+        "Lancia altre tre volte. Confronta i due gruppi di numeri."
+      ],
+      "done": "Il gruppo può indicare l'unico cambiamento e le distanze."
+    },
+    "p7-trials": {
+      "title": "Tre prove",
+      "time": "20 minuti",
+      "need": [
+        "Una palla",
+        "Un cronometro o un metro a nastro",
+        "Carta"
+      ],
+      "steps": [
+        "Scegli una caduta dalla stessa altezza.",
+        "Cronometra la caduta, oppure misura il rimbalzo, tre volte.",
+        "Scrivi tutti e tre i numeri e l'unità. Cerchia il numero di mezzo."
+      ],
+      "done": "Hai tre misure con un'unità, e un numero di mezzo."
+    },
+    "p7-scale": {
+      "title": "Un sistema solare di carta",
+      "time": "40 minuti",
+      "need": [
+        "Una striscia lunga di carta",
+        "Un righello",
+        "Un fatto sui pianeti che hai letto"
+      ],
+      "steps": [
+        "Metti il Sole a un'estremità.",
+        "Segna otto pianeti in ordine. Distanziali così quelli esterni sono molto più lontani.",
+        "Scrivi un fatto misurato che hai usato, e un'idea che è ancora una teoria."
+      ],
+      "done": "La striscia è in ordine, e il gruppo può dire il fatto che ha controllato."
+    },
+    "p7-variables": {
+      "title": "Dai il nome alle variabili",
+      "time": "25 minuti",
+      "need": [
+        "Un fatto che hai letto",
+        "Carta"
+      ],
+      "steps": [
+        "Scrivi una domanda che potresti provare con materiali sicuri.",
+        "Scrivi l'unica cosa che cambieresti.",
+        "Scrivi due cose che terresti uguali, e cosa misureresti."
+      ],
+      "done": "Chi legge vede il cambiamento, i controlli e la misura."
+    },
     "print-fair": {
       "title": "Pagina della prova leale",
       "time": "20 minuti",
@@ -2677,7 +3217,7 @@
       "I pensieri di una calamita"
     ],
     "time-germs": [
-      "Le prove forti che i germi possono far ammalare crebbero in quali anni?",
+      "In quali anni le prove forti mostrarono che i germi possono far ammalare?",
       "Gli anni 1800",
       "Solo l'anno 1610",
       "Prima che si formasse la Terra, e ne siamo sicuri",
@@ -2691,7 +3231,7 @@
       "1992"
     ],
     "time-dna": [
-      "Il modello del DNA a scala attorcigliata fu mostrato nel",
+      "In quale anno fu mostrato il modello del DNA a scala attorcigliata?",
       "1953",
       "1650",
       "1903",
@@ -2770,9 +3310,359 @@
     "idea-science": [
       "La scienza è il modo in cui",
       "Mettiamo alla prova idee sul mondo naturale",
-      "Scegliamo al posto di una famiglia quello in cui crede",
+      "Scegliamo al posto di una famiglia quello in cui essa crede",
       "Saltiamo le misure",
       "Chiamiamo un'ipotesi un fatto"
+    ],
+    "extra-legs": [
+      "Quante zampe ha un insetto?",
+      "Sei",
+      "Otto",
+      "Due",
+      "206"
+    ],
+    "extra-spider": [
+      "Un ragno non è un insetto. Quante zampe ha un ragno?",
+      "Otto",
+      "Sei",
+      "Quattro",
+      "Uno"
+    ],
+    "extra-gills": [
+      "Come prendono l'ossigeno dall'acqua i pesci?",
+      "Con le branchie",
+      "Con i polmoni, come una balena",
+      "Mangiando sabbia",
+      "Con le piume"
+    ],
+    "extra-milk": [
+      "Cosa fanno le mamme dei mammiferi per i piccoli?",
+      "Latte",
+      "Luce del Sole",
+      "Lava",
+      "Vetro"
+    ],
+    "extra-eggs": [
+      "Gli uccelli nascono da cosa?",
+      "Uova",
+      "Semi",
+      "Sassi",
+      "Calamite"
+    ],
+    "extra-roots": [
+      "Cosa fanno soprattutto le radici?",
+      "Prendono l'acqua",
+      "Fanno anelli intorno a Saturno",
+      "Spingono la Luna",
+      "Diventano oro"
+    ],
+    "extra-green": [
+      "Cosa fa sembrare verdi molte foglie?",
+      "Una sostanza verde che cattura la luce",
+      "Ruggine di ferro",
+      "Osso di balena",
+      "Polvere della Luna"
+    ],
+    "extra-solid": [
+      "Un sasso tiene la sua forma. Un sasso è",
+      "Un solido",
+      "Un gas",
+      "Una marea",
+      "Una galassia"
+    ],
+    "extra-gas": [
+      "L'aria in questa stanza è",
+      "Un gas",
+      "Un osso solido",
+      "Un pianeta",
+      "Un fossile"
+    ],
+    "extra-melt": [
+      "Il ghiaccio diventa acqua liquida quando",
+      "Riceve abbastanza calore",
+      "Perde ogni atomo",
+      "Diventa una calamita",
+      "Vola fino al Sole"
+    ],
+    "extra-freeze": [
+      "L'acqua liquida diventa ghiaccio quando",
+      "Diventa abbastanza fredda",
+      "Bolle subito",
+      "Diventa olio",
+      "Diventa una stella"
+    ],
+    "extra-puddle": [
+      "Una pozzanghera può sparire in un giorno caldo perché l'acqua",
+      "Diventa un gas",
+      "Diventa roccia",
+      "Viene sempre bevuta dalle rane",
+      "Viene presa dalla Luna"
+    ],
+    "extra-shadow": [
+      "Un'ombra si forma quando",
+      "Qualcosa blocca la luce",
+      "La luce non ha nessuna fonte",
+      "Il suono si accumula",
+      "Una calamita decide"
+    ],
+    "extra-mirror": [
+      "Uno specchio rimanda la luce. Quel rimbalzo si chiama",
+      "Riflessione",
+      "Ruggine",
+      "Un fossile",
+      "Una marea"
+    ],
+    "extra-circuit": [
+      "Cosa serve a un circuito semplice per accendere una lampadina?",
+      "Un percorso chiuso per l'elettricità",
+      "Un'interruzione che ferma il percorso",
+      "Solo un bastoncino di legno",
+      "Una tazza di sabbia"
+    ],
+    "extra-rubber": [
+      "La gomma non lascia passare l'elettricità facilmente. La gomma è",
+      "Un isolante",
+      "Un percorso di metallo",
+      "Un polo di calamita",
+      "Un tipo di osso"
+    ],
+    "extra-copper": [
+      "Il rame lascia passare l'elettricità. Il rame è",
+      "Un conduttore",
+      "Un isolante come la gomma",
+      "Un gas nella stanza",
+      "Una luna"
+    ],
+    "extra-compass": [
+      "L'ago di una bussola punta più o meno",
+      "A nord",
+      "Alle tue scarpe",
+      "Al cactus più vicino",
+      "Dritto in un fossile"
+    ],
+    "extra-closest": [
+      "Il Sole è la cosa più vicina alla Terra di che tipo?",
+      "Stella",
+      "Oceano",
+      "Osso",
+      "Città"
+    ],
+    "extra-moon-trip": [
+      "La Luna gira intorno",
+      "Alla Terra",
+      "A una calamita della classe",
+      "Al tuo cuore",
+      "A una sola ape"
+    ],
+    "extra-drop": [
+      "Se l'aria non spinge molto, una palla pesante e una palla leggera lasciate cadere insieme",
+      "Cadono quasi alla stessa velocità",
+      "Cadono sempre a velocità del tutto diverse",
+      "Galleggiano in su",
+      "Diventano vetro"
+    ],
+    "extra-feather": [
+      "Una piuma cade piano perché",
+      "L'aria la spinge",
+      "La gravità è spenta",
+      "Non ha massa",
+      "È un pianeta"
+    ],
+    "extra-unit": [
+      "Una misura attenta ha bisogno di un numero e",
+      "Di un'unità",
+      "Di un desiderio",
+      "Di una risposta nuova ogni volta che speri",
+      "Di nessuno strumento"
+    ],
+    "extra-repeat": [
+      "Perché fai una prova leale più di una volta?",
+      "Per vedere se il risultato si ripete",
+      "Per cambiare tutto ogni volta",
+      "Per saltare le misure",
+      "Per scegliere la risposta prima"
+    ],
+    "extra-cm": [
+      "Qual è un'unità di lunghezza?",
+      "Centimetro",
+      "Martedì",
+      "Blu",
+      "Rumoroso"
+    ],
+    "extra-thermo": [
+      "Un termometro misura",
+      "La temperatura",
+      "Quanto è rumorosa una rana",
+      "Il nome di una stella",
+      "Quante ossa hai"
+    ],
+    "extra-balance": [
+      "Una bilancia serve a confrontare",
+      "Quanto pesano due cose",
+      "Il colore del cielo",
+      "Il suono nello spazio vuoto",
+      "Le fasi della Luna"
+    ],
+    "extra-cup": [
+      "Una tazza graduata ti dice",
+      "Quanto spazio riempie un liquido",
+      "Il colore dell'oro",
+      "L'età di un fossile",
+      "I pensieri di una calamita"
+    ],
+    "extra-wilt": [
+      "Una pianta appassisce quando non riceve",
+      "Abbastanza acqua",
+      "Solo più luce della Luna",
+      "Una calamita a barra",
+      "Un telescopio"
+    ],
+    "extra-stone": [
+      "Un sasso non diventa una pianta perché",
+      "Non è un seme",
+      "È troppo verde",
+      "È un albero bambino",
+      "Ha già le foglie"
+    ],
+    "extra-habitat": [
+      "Un habitat è",
+      "Il posto di cui ha bisogno un essere vivente",
+      "Un tipo di metallo",
+      "Una fase della Luna",
+      "Una leva"
+    ],
+    "extra-chain": [
+      "Una catena alimentare mostra",
+      "Chi mangia chi",
+      "Come si dice che il vetro cola",
+      "Solo i nomi dei pianeti",
+      "Come pensano le calamite"
+    ],
+    "extra-rot": [
+      "I funghi e alcuni esseri viventi piccolissimi",
+      "Aiutano a decomporre le cose morte",
+      "Fanno la luce del Sole",
+      "Sono pianeti",
+      "Sono calamite a barra"
+    ],
+    "extra-hide": [
+      "Il mimetismo aiuta un animale a",
+      "Nascondersi",
+      "Far bollire l'acqua",
+      "Arrugginire come il ferro",
+      "Girare intorno a Saturno"
+    ],
+    "extra-migrate": [
+      "Alcuni uccelli volano lontano quando cambiano le stagioni. Quel viaggio si chiama",
+      "Migrazione",
+      "Ruggine",
+      "Un fossile",
+      "Una leva"
+    ],
+    "extra-sleep": [
+      "Alcuni animali passano i mesi freddi in un riposo profondo. Quel riposo si chiama",
+      "Ibernazione",
+      "Bollire",
+      "Una fase della Luna",
+      "Fare il vetro"
+    ],
+    "extra-skull": [
+      "Il tuo cranio aiuta a",
+      "Proteggere il cervello",
+      "Pompare il sangue",
+      "Fare la luce del Sole",
+      "Conservare la ruggine"
+    ],
+    "extra-elbow": [
+      "Il tuo gomito si piega a",
+      "Un'articolazione",
+      "Un polo di calamita",
+      "Una scogliera di fossili",
+      "Una galassia"
+    ],
+    "extra-teeth": [
+      "I denti ti aiutano a",
+      "Tagliare e schiacciare il cibo",
+      "Pompare il sangue",
+      "Vedere al buio",
+      "Fare le maree"
+    ],
+    "extra-sweat": [
+      "Sudare aiuta il tuo corpo a",
+      "Raffreddarsi",
+      "Diventare ghiaccio subito",
+      "Fare l'oro",
+      "Far crescere un secondo cuore"
+    ],
+    "extra-mercury-planet": [
+      "Quale pianeta è il più vicino al Sole?",
+      "Mercurio",
+      "Nettuno",
+      "Saturno",
+      "Terra"
+    ],
+    "extra-third": [
+      "La Terra, a partire dal Sole, è",
+      "Il terzo",
+      "Il primo",
+      "L'ottavo",
+      "Una luna di Giove"
+    ],
+    "extra-giant": [
+      "Giove è soprattutto",
+      "Gas, senza un suolo solido su cui stare",
+      "Ferro solido da parte a parte",
+      "Osso",
+      "Legno liquido"
+    ],
+    "extra-asteroid": [
+      "Un asteroide è",
+      "Un corpo di roccia o di metallo che gira intorno al Sole",
+      "Un tipo di balena",
+      "Una nuvola che sa di sale",
+      "Un albero bambino"
+    ],
+    "extra-stars": [
+      "Una costellazione è",
+      "Un disegno che le persone immaginano nelle stelle",
+      "Un osso del piede",
+      "Un tipo di sale",
+      "Un circuito chiuso"
+    ],
+    "extra-fact": [
+      "Un fatto misurato è un'idea che",
+      "Abbiamo controllato con una prova",
+      "Speriamo solo sia vera",
+      "Non possiamo mettere alla prova",
+      "Abbiamo inventato stamattina"
+    ],
+    "extra-theory": [
+      "Una teoria nella scienza è",
+      "Una grande idea che continua a superare le prove",
+      "Un'idea selvaggia senza prove",
+      "Un tipo di roccia",
+      "Un'unità di lunghezza"
+    ],
+    "extra-control": [
+      "In una prova leale, le cose che tieni uguali sono",
+      "Controlli",
+      "La risposta che volevi prima",
+      "Tutti i cambiamenti insieme",
+      "Opzionali, così puoi saltarle"
+    ],
+    "extra-sprout": [
+      "Un seme può germogliare al buio, ma la piantina non può continuare a fare il cibo senza",
+      "Luce",
+      "Un tamburo forte",
+      "Una calamita",
+      "Un fossile"
+    ],
+    "extra-battery": [
+      "Una pila può spingere",
+      "Una corrente elettrica",
+      "Le fasi della Luna",
+      "Una scogliera di fossili",
+      "Le maree da sola"
     ]
   },
   "photos": {

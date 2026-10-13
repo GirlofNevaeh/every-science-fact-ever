@@ -207,6 +207,9 @@ function QuizBody() {
             <button type="button" className="btn btn-chalk mt-4 w-full" onClick={start}>
               {t("start")}
             </button>
+            <a className="btn btn-paper mt-3 w-full" href={`/quiz/quiz-${lang}.pdf`} download>
+              {t("quizPdf")}
+            </a>
             <ul className="mt-4 space-y-1 text-base">
               <li>{t("rule1")}</li>
               <li>{t("rule2")}</li>
