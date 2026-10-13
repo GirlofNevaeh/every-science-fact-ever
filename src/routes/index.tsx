@@ -6,7 +6,7 @@ import { SHOTS } from "@/data/photos";
 import { PLACES } from "@/data/places";
 import { STEPS } from "@/data/time";
 import { STAGES, WORK } from "@/data/work";
-import { kindLabel } from "@/data/types";
+import { localizeFact, localizePlace, localizeStep, localizeWork, useI18n, useKindLabel, usePageTitle } from "@/i18n";
 import { useState, type FormEvent } from "react";
 
 export const Route = createFileRoute("/")({
@@ -31,8 +31,12 @@ function Home() {
 function HomeBody() {
   const navigate = useNavigate();
   const openInstall = useInstall();
+  const { t, lang } = useI18n();
+  const kindName = useKindLabel();
+  usePageTitle(t("home"));
   const [q, setQ] = useState("");
-  const hero = getFact("wood-frog");
+  const heroRaw = getFact("wood-frog");
+  const hero = heroRaw ? localizeFact(heroRaw, lang) : undefined;
   function search(event: FormEvent) {
     event.preventDefault();
     void navigate({ to: "/facts", search: { q: q.trim(), topic: "all" } });
@@ -48,15 +52,15 @@ function HomeBody() {
         <Art src={SHOTS.frog.src} alt={SHOTS.frog.alt} className="stamp w-full" />
         {hero ? (
           <div className="stamp flex flex-col justify-between bg-chalk p-5">
-            <p className="text-sm font-extrabold tracking-wide uppercase">{kindLabel(hero.kind)}</p>
+            <p className="text-sm font-extrabold tracking-wide uppercase">{kindName(hero.kind)}</p>
             <h1 className="font-display text-3xl leading-tight font-bold sm:text-4xl">{hero.sentence}</h1>
             <p className="mt-3 text-lg">{hero.how}</p>
             <div className="mt-4 flex flex-wrap gap-2">
               <Link to="/facts/$slug" params={{ slug: hero.slug }} className="btn btn-ink bg-ink text-lab">
-                Read it
+                {t("readIt")}
               </Link>
               <button type="button" className="btn btn-paper" onClick={surprise}>
-                Surprise me
+                {t("surprise")}
               </button>
             </div>
           </div>
@@ -65,17 +69,17 @@ function HomeBody() {
 
       <form className="mt-4 flex gap-2" onSubmit={search}>
         <label className="sr-only" htmlFor="home-search">
-          Search facts and people
+          {t("searchLabel")}
         </label>
         <input
           id="home-search"
           value={q}
           onChange={(event) => setQ(event.target.value)}
-          placeholder="Search facts and people"
+          placeholder={t("searchLabel")}
           className="h-12 min-w-0 flex-1 rounded-full border-[3px] border-ink bg-paper px-4 text-lg"
         />
         <button type="submit" className="btn btn-leaf px-4">
-          SEARCH
+          {t("searchBtn")}
         </button>
       </form>
 
@@ -83,10 +87,11 @@ function HomeBody() {
         <div className="stamp overflow-hidden bg-leaf-soft">
           <Art src={SHOTS.bee.src} alt={SHOTS.bee.alt} className="w-full" />
           <div className="p-4">
-            <h2 className="font-display text-3xl font-bold">Living things</h2>
+            <h2 className="font-display text-3xl font-bold">{t("fieldLiving")}</h2>
             <ul className="mt-3 space-y-2">
               {LIVING.map((slug) => {
-                const fact = getFact(slug);
+                const raw = getFact(slug);
+                const fact = raw ? localizeFact(raw, lang) : undefined;
                 return fact ? (
                   <li key={slug}>
                     <Link to="/facts/$slug" params={{ slug }} className="text-lg font-extrabold underline decoration-ink/30">
@@ -99,10 +104,11 @@ function HomeBody() {
           </div>
         </div>
         <div className="stamp bg-paper p-4">
-          <h2 className="font-display text-3xl font-bold">Materials</h2>
+          <h2 className="font-display text-3xl font-bold">{t("topicMaterials")}</h2>
           <ul className="mt-3 divide-y-2 divide-ink">
             {MATERIALS.map((slug) => {
-              const fact = getFact(slug);
+              const raw = getFact(slug);
+              const fact = raw ? localizeFact(raw, lang) : undefined;
               return fact ? (
                 <li key={slug} className="py-3">
                   <Link to="/facts/$slug" params={{ slug }} className="font-extrabold">
@@ -118,7 +124,8 @@ function HomeBody() {
 
       <section className="mt-4 grid gap-3 sm:grid-cols-3">
         {FORCES.map((slug, index) => {
-          const fact = getFact(slug);
+          const raw = getFact(slug);
+          const fact = raw ? localizeFact(raw, lang) : undefined;
           if (!fact) return null;
           return (
             <Link
@@ -128,7 +135,7 @@ function HomeBody() {
               className={`stamp block p-4 ${index === 1 ? "bg-cobalt text-lab" : "bg-paper"}`}
             >
               <p className="font-display text-4xl font-bold">0{index + 1}</p>
-              <h2 className="mt-2 font-display text-2xl font-bold">Forces</h2>
+              <h2 className="mt-2 font-display text-2xl font-bold">{t("topicForces")}</h2>
               <p className="mt-2 text-lg">{fact.sentence}</p>
             </Link>
           );
@@ -138,10 +145,11 @@ function HomeBody() {
       <section className="stamp mt-4 grid overflow-hidden bg-cobalt text-lab md:grid-cols-2">
         <Art src={SHOTS.earth.src} alt={SHOTS.earth.alt} className="w-full" />
         <div className="p-5">
-          <h2 className="font-display text-3xl font-bold">Earth and sky</h2>
+          <h2 className="font-display text-3xl font-bold">{t("earthSky")}</h2>
           <ul className="mt-3 space-y-2">
             {SKY.map((slug) => {
-              const fact = getFact(slug);
+              const raw = getFact(slug);
+              const fact = raw ? localizeFact(raw, lang) : undefined;
               return fact ? (
                 <li key={slug}>
                   <Link to="/facts/$slug" params={{ slug }} className="font-extrabold underline">
@@ -156,14 +164,15 @@ function HomeBody() {
       </section>
 
       <section className="mt-4">
-        <h2 className="font-display text-3xl font-bold">Unusual facts</h2>
+        <h2 className="font-display text-3xl font-bold">{t("unusual")}</h2>
         <div className="mt-3 grid gap-3 sm:grid-cols-2">
           {ODD.map((slug) => {
-            const fact = getFact(slug);
+            const raw = getFact(slug);
+            const fact = raw ? localizeFact(raw, lang) : undefined;
             if (!fact) return null;
             return (
               <Link key={slug} to="/facts/$slug" params={{ slug }} className="stamp block bg-chalk p-4">
-                <p className="text-sm font-extrabold uppercase">{kindLabel(fact.kind)}</p>
+                <p className="text-sm font-extrabold uppercase">{kindName(fact.kind)}</p>
                 <p className="mt-1 text-xl font-extrabold">{fact.sentence}</p>
               </Link>
             );
@@ -173,13 +182,15 @@ function HomeBody() {
 
       <section className="mt-8">
         <div className="flex items-end justify-between gap-3">
-          <h2 className="font-display text-3xl font-bold">Time</h2>
+          <h2 className="font-display text-3xl font-bold">{t("time")}</h2>
           <Link to="/time" search={{ step: 0 }} className="btn btn-paper">
-            Step through
+            {t("stepThrough")}
           </Link>
         </div>
         <ol className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-          {STEPS.map((step, index) => (
+          {STEPS.map((raw, index) => {
+            const step = localizeStep(raw, lang);
+            return (
             <li key={step.id}>
               <Link to="/time" search={{ step: index }} className="stamp flex gap-3 bg-paper p-3">
                 <span className="grid h-11 w-11 shrink-0 place-items-center rounded-full bg-ink font-extrabold text-lab">
@@ -191,42 +202,48 @@ function HomeBody() {
                 </span>
               </Link>
             </li>
-          ))}
+            );
+          })}
         </ol>
       </section>
 
       <section className="mt-8">
         <div className="flex items-end justify-between gap-3">
-          <h2 className="font-display text-3xl font-bold">Places</h2>
+          <h2 className="font-display text-3xl font-bold">{t("places")}</h2>
           <Link to="/places" className="btn btn-cobalt">
-            Open the map
+            {t("openMap")}
           </Link>
         </div>
         <div className="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-3">
-          {PLACES.map((place) => (
+          {PLACES.map((raw) => {
+            const place = localizePlace(raw, lang);
+            return (
             <Link key={place.id} to="/places" className="stamp overflow-hidden bg-paper">
               <Art src={place.image} alt={place.alt} credit="off" className="w-full" />
               <p className="p-3 font-extrabold">{place.title}</p>
             </Link>
-          ))}
+            );
+          })}
         </div>
       </section>
 
       <section className="mt-8">
         <div className="flex items-end justify-between gap-3">
-          <h2 className="font-display text-3xl font-bold">Projects</h2>
+          <h2 className="font-display text-3xl font-bold">{t("projects")}</h2>
           <Link to="/work" className="btn btn-leaf">
-            All years
+            {t("allYears")}
           </Link>
         </div>
-        <p className="mt-2 text-lg">Primary 1 through Primary 7. One project on your own, and one with a team.</p>
+        <p className="mt-2 text-lg">{t("projectsLead")}</p>
         <ul className="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-4">
           {STAGES.map((stage) => {
-            const solo = WORK.find((card) => card.stage === stage && card.mode === "solo");
-            const team = WORK.find((card) => card.stage === stage && card.mode === "team");
+            const soloRaw = WORK.find((card) => card.stage === stage && card.mode === "solo");
+            const teamRaw = WORK.find((card) => card.stage === stage && card.mode === "team");
+            const solo = soloRaw ? localizeWork(soloRaw, lang) : undefined;
+            const team = teamRaw ? localizeWork(teamRaw, lang) : undefined;
             return (
               <li key={stage} className="stamp bg-paper p-3">
-                <p className="font-extrabold">Primary {stage.slice(1)}</p>
+                <p className="font-extrabold">{t("primary", { n: stage.slice(1) })}</p>
                 {solo ? (
                   <Link to="/work/$slug" params={{ slug: solo.slug }} className="mt-1 block underline">
                     {solo.title}
@@ -245,9 +262,9 @@ function HomeBody() {
 
       <section className="mt-8">
         <div className="flex items-end justify-between gap-3">
-          <h2 className="font-display text-3xl font-bold">Scientists</h2>
+          <h2 className="font-display text-3xl font-bold">{t("scientists")}</h2>
           <Link to="/people" className="btn btn-paper">
-            All 24
+            {t("all24")}
           </Link>
         </div>
         <div className="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-4">
@@ -265,10 +282,10 @@ function HomeBody() {
       </section>
 
       <section className="stamp mt-8 bg-cobalt p-5 text-lab">
-        <h2 className="font-display text-3xl font-bold">Add to iPhone or iPad</h2>
-        <p className="mt-2 text-lg">Use Safari. Tap Share. Then tap Add to Home Screen.</p>
+        <h2 className="font-display text-3xl font-bold">{t("install")}</h2>
+        <p className="mt-2 text-lg">{t("safariSteps")}</p>
         <button type="button" className="btn btn-chalk mt-4" onClick={openInstall}>
-          Show the steps
+          {t("showSteps")}
         </button>
       </section>
     </div>

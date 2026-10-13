@@ -1,0 +1,2802 @@
+{
+  "facts": {
+    "plants-food": {
+      "title": "Las plantas hacen comida",
+      "sentence": "Las plantas hacen su comida con luz del Sol, aire y agua.",
+      "how": "Si una hoja no recibe luz, no puede seguir haciendo comida.",
+      "extra": "El verde de la hoja atrapa la luz.",
+      "unsure": "",
+      "quiz": [
+        [
+          "¿Qué usan las plantas para hacer comida?",
+          "Luz del Sol, aire y agua",
+          "Solo rocas",
+          "Solo sal",
+          "Solo metal"
+        ],
+        [
+          "¿Qué pasa si una hoja no recibe luz?",
+          "No puede seguir haciendo comida",
+          "Se convierte en hierro",
+          "Se vuelve un imán",
+          "Vuela hasta la Luna"
+        ]
+      ]
+    },
+    "plants-oxygen": {
+      "title": "Las plantas sueltan oxígeno",
+      "sentence": "Con luz del Sol, las plantas sueltan oxígeno.",
+      "how": "Se puede recoger el gas de plantas de agua con luz fuerte y probar que es oxígeno.",
+      "extra": "Las plantas también usan algo de oxígeno, pero con sol fuerte hacen más del que usan.",
+      "unsure": "",
+      "quiz": [
+        [
+          "¿Qué gas sueltan las plantas con luz del Sol?",
+          "Oxígeno",
+          "Arena",
+          "Mercurio",
+          "Óxido"
+        ],
+        [
+          "¿Cuándo hacen las plantas más oxígeno del que usan?",
+          "Con sol fuerte",
+          "En una caja oscura",
+          "Solo como fósiles",
+          "Nunca"
+        ]
+      ]
+    },
+    "bees-pollen": {
+      "title": "Las abejas llevan polen",
+      "sentence": "Las abejas llevan polen de flor en flor.",
+      "how": "Puedes ver el polvo amarillo de una abeja pasar de flor en flor.",
+      "extra": "Otros insectos también llevan polen.",
+      "unsure": "",
+      "quiz": [
+        [
+          "¿Qué llevan las abejas entre las flores?",
+          "Polen",
+          "Imanes",
+          "Fósiles",
+          "Nubes de lluvia"
+        ],
+        [
+          "¿Cuál oración es verdadera?",
+          "Las abejas mueven polen de flor en flor",
+          "Las abejas son un tipo de metal",
+          "Las abejas dan vueltas alrededor de Saturn",
+          "Las abejas hacen luz de la Luna"
+        ]
+      ]
+    },
+    "seeds-water": {
+      "title": "Las semillas necesitan agua",
+      "sentence": "Muchas semillas empiezan a crecer cuando reciben agua y calor.",
+      "how": "Dale agua a una semilla y nada a otra, y puedes ver cuál brota.",
+      "extra": "Algunas semillas también necesitan un tiempo de frío primero.",
+      "unsure": "",
+      "quiz": [
+        [
+          "¿Qué ayuda a muchas semillas a empezar a crecer?",
+          "Agua y calor",
+          "Solo un imán",
+          "Solo un sonido fuerte",
+          "Un estante seco para siempre"
+        ],
+        [
+          "¿Cómo puedes probar qué necesita una semilla?",
+          "Riega una semilla y deja otra seca",
+          "Pinta las dos semillas y adivina",
+          "Escóndelas de toda prueba",
+          "Congela una roca a su lado"
+        ]
+      ]
+    },
+    "fungi": {
+      "title": "El champiñón es un hongo",
+      "sentence": "Un champiñón es un hongo, no una planta.",
+      "how": "Los champiñones no hacen comida con la luz del Sol como las plantas verdes.",
+      "extra": "Los hongos sacan comida de cosas vivas o que alguna vez vivieron.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Un champiñón pertenece a",
+          "Los hongos",
+          "Los peces",
+          "Los planetas",
+          "Los imanes"
+        ],
+        [
+          "¿Por qué un champiñón no es una planta?",
+          "No hace comida con la luz del Sol como una planta verde",
+          "Tiene plumas",
+          "Está hecho de vidrio",
+          "Da vueltas alrededor del Sol"
+        ]
+      ]
+    },
+    "whales": {
+      "title": "Las ballenas respiran aire",
+      "sentence": "Las ballenas son mamíferos, así que respiran aire.",
+      "how": "Quienes las miran ven a las ballenas subir y soltar el aire usado.",
+      "extra": "No pueden quedarse bajo el mar como los peces.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Las ballenas deben subir para conseguir",
+          "Aire",
+          "Lava",
+          "Arena",
+          "Polvo de la Luna"
+        ],
+        [
+          "Las ballenas son",
+          "Mamíferos",
+          "Insectos",
+          "Rocas",
+          "Hongos"
+        ]
+      ]
+    },
+    "cactus": {
+      "title": "Un cactus guarda agua",
+      "sentence": "Un cactus guarda agua en su tallo.",
+      "how": "Los científicos miden el agua guardada en el tallo grueso.",
+      "extra": "Las espinas ayudan a que los animales no se coman esa agua.",
+      "unsure": "",
+      "quiz": [
+        [
+          "¿Dónde guarda el agua un cactus?",
+          "En su tallo",
+          "En su sombra",
+          "En una nube",
+          "Solo en sus espinas"
+        ],
+        [
+          "¿Cuál oración es verdadera?",
+          "Un cactus guarda agua en su tallo",
+          "Un cactus es un metal",
+          "Un cactus es una luna",
+          "Un cactus es un hueso fósil"
+        ]
+      ]
+    },
+    "bird-bones": {
+      "title": "Huesos de ave ligeros",
+      "sentence": "Muchos huesos de las aves son huecos, y eso ayuda a que se mantengan ligeras.",
+      "how": "Los científicos miran dentro de los huesos de las aves y encuentran espacios de aire.",
+      "extra": "No todas las aves vuelan.",
+      "unsure": "",
+      "quiz": [
+        [
+          "¿Por qué muchos huesos de ave son huecos?",
+          "Para que el ave se mantenga ligera",
+          "Para guardar oro",
+          "Para hervir agua",
+          "Para hacer truenos"
+        ],
+        [
+          "¿Cuál oración es verdadera?",
+          "No todas las aves vuelan",
+          "Todas las aves son mamíferos",
+          "Las aves están hechas de vidrio",
+          "Las aves no tienen huesos"
+        ]
+      ]
+    },
+    "coral": {
+      "title": "El coral son animales",
+      "sentence": "Los arrecifes de coral los construyen animales diminutos.",
+      "how": "Con una lente puedes ver los animalitos de coral en sus copitas.",
+      "extra": "La parte dura del arrecife está hecha de sus esqueletos.",
+      "unsure": "",
+      "quiz": [
+        [
+          "¿Qué construye un arrecife de coral?",
+          "Animales diminutos",
+          "Nubes",
+          "Imanes de herradura",
+          "Anillos de hielo"
+        ],
+        [
+          "La parte dura de un arrecife viene de",
+          "Esqueletos de coral",
+          "Mina de lápiz",
+          "Aliento de ballena",
+          "Polvo de la Luna"
+        ]
+      ]
+    },
+    "chimp-tools": {
+      "title": "Los chimpancés usan herramientas",
+      "sentence": "Algunos chimpancés usan palos como herramientas.",
+      "how": "Jane Goodall vio a un chimpancé pelar una ramita y usarla para sacar insectos.",
+      "extra": "Ella anotó lo que vio, día tras día.",
+      "unsure": "",
+      "quiz": [
+        [
+          "¿Quién vio a un chimpancé usar un palo como herramienta?",
+          "Jane Goodall",
+          "Isaac Newton",
+          "Mae Jemison",
+          "Marie Curie"
+        ],
+        [
+          "¿Qué hizo ese chimpancé con el palo?",
+          "Lo usó para sacar insectos",
+          "Lo hizo volar hasta la Luna",
+          "Lo derritió hasta hacerlo hierro",
+          "Congeló el océano con él"
+        ]
+      ]
+    },
+    "dna": {
+      "title": "El DNA es una escalera",
+      "sentence": "El DNA es una escalera larga y torcida que guarda las instrucciones de un ser vivo.",
+      "how": "Una foto de rayos X y muchas pruebas después mostraron esa forma torcida.",
+      "extra": "Rosalind Franklin tomó una foto clave del DNA.",
+      "unsure": "",
+      "quiz": [
+        [
+          "¿Qué forma tiene el DNA?",
+          "Una escalera torcida",
+          "Un plato plano",
+          "Un imán de herradura",
+          "Una rueda cuadrada"
+        ],
+        [
+          "¿Quién tomó una foto clave de rayos X del DNA?",
+          "Rosalind Franklin",
+          "Mary Anning",
+          "Galileo Galilei",
+          "Michael Faraday"
+        ]
+      ]
+    },
+    "evolution": {
+      "title": "Los seres vivos cambian",
+      "sentence": "Los seres vivos cambian a lo largo de muchísimo tiempo.",
+      "how": "Los fósiles y los árboles de familia de los seres vivos son formas de probar esta idea.",
+      "extra": "En la ciencia, una teoría es una idea grande que pasó muchas pruebas.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Los seres vivos cambian a lo largo de muchísimo tiempo. Esa idea es",
+          "Una teoría que los científicos prueban",
+          "Una adivinanza loca, sin pruebas",
+          "Un tipo de metal",
+          "Una fase de la Luna"
+        ],
+        [
+          "¿Cuál es una forma de probar esa idea?",
+          "Los fósiles",
+          "Un solo deseo",
+          "El color de un imán",
+          "El nombre de un barco"
+        ]
+      ]
+    },
+    "water-h2o": {
+      "title": "El agua es H2O",
+      "sentence": "El agua es H2O, dos átomos de hidrógeno y un átomo de oxígeno.",
+      "how": "Cuando los científicos separan el agua, obtienen esa misma receta cada vez.",
+      "extra": "El hielo es agua sólida, y flota sobre el agua líquida.",
+      "unsure": "",
+      "quiz": [
+        [
+          "¿Qué receta nombra al agua?",
+          "H2O",
+          "CO2",
+          "NaCl",
+          "Fe"
+        ],
+        [
+          "¿Cuántos átomos de hidrógeno hay en un pedacito de agua?",
+          "Dos",
+          "Cero",
+          "Diez",
+          "Cien"
+        ]
+      ]
+    },
+    "states": {
+      "title": "Tres estados",
+      "sentence": "La materia puede ser un sólido, un líquido o un gas.",
+      "how": "Puedes ver la misma agua como hielo, luego líquido y luego vapor.",
+      "extra": "Los pedacitos diminutos se mueven con más libertad cuando se calienta.",
+      "unsure": "",
+      "quiz": [
+        [
+          "El hielo, el agua líquida y el vapor son",
+          "La misma materia en tres estados",
+          "Tres metales distintos",
+          "Tres planetas",
+          "Tres huesos"
+        ],
+        [
+          "¿Qué lista nombra tres estados de la materia?",
+          "Sólido, líquido, gas",
+          "Norte, sur, este",
+          "Hoja, raíz, pico",
+          "Día, año, marea"
+        ]
+      ]
+    },
+    "ice-floats": {
+      "title": "El hielo flota",
+      "sentence": "El hielo flota sobre el agua líquida.",
+      "how": "Pon un pedazo de hielo en un vaso de agua y se queda arriba.",
+      "extra": "El hielo ocupa más espacio que la misma agua en líquido.",
+      "unsure": "",
+      "quiz": [
+        [
+          "¿Qué hace el hielo en un vaso de agua?",
+          "Flota",
+          "Siempre se hunde como una piedra",
+          "Se convierte en hierro",
+          "Se vuelve un imán"
+        ],
+        [
+          "¿Por qué puede flotar el hielo?",
+          "Ocupa más espacio que la misma agua líquida",
+          "Es más pesado que el oro",
+          "Tiene dos polos",
+          "Es un fósil"
+        ]
+      ]
+    },
+    "water-boil": {
+      "title": "El agua hierve",
+      "sentence": "Al nivel del mar, el agua hierve a 100 grados Celsius.",
+      "how": "Un termómetro marca 100 grados cuando el agua burbujea fuerte al nivel del mar.",
+      "extra": "Alto en una montaña, el agua hierve a una temperatura más baja.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Al nivel del mar, el agua hierve a",
+          "100 grados Celsius",
+          "0 grados Celsius",
+          "10 grados Celsius",
+          "1000 grados Celsius"
+        ],
+        [
+          "En una montaña alta, el agua hierve",
+          "A una temperatura más baja",
+          "Solo como hielo",
+          "Nunca",
+          "Tan caliente como el Sol"
+        ]
+      ]
+    },
+    "salt-dissolves": {
+      "title": "La sal se disuelve",
+      "sentence": "La sal puede disolverse en el agua y parecer que desaparece.",
+      "how": "La sal se pierde de vista, pero el agua sabe a sal, así que la sal sigue ahí.",
+      "extra": "Si el agua se seca, la sal vuelve a verse.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cuando la sal se disuelve,",
+          "Sigue en el agua",
+          "Se vuelve oro",
+          "Se va de la Tierra",
+          "Se vuelve DNA"
+        ],
+        [
+          "¿Cómo puede volver a verse la sal disuelta?",
+          "Deja que el agua se seque",
+          "Agrega un telescopio",
+          "Haz girar la Luna",
+          "Siembra un cactus"
+        ]
+      ]
+    },
+    "rust": {
+      "title": "El hierro se oxida",
+      "sentence": "El hierro se oxida cuando se junta con agua y aire.",
+      "how": "Un clavo de hierro seco sigue brillante más tiempo que uno mojado al aire.",
+      "extra": "El óxido es una capa nueva, no el hierro brillante.",
+      "unsure": "",
+      "quiz": [
+        [
+          "El hierro se oxida cuando se junta con",
+          "Agua y aire",
+          "Solo luz de la Luna",
+          "Solo polen",
+          "Espacio vacío"
+        ],
+        [
+          "¿Qué clavo sigue brillante más tiempo?",
+          "Un clavo seco, lejos del agua",
+          "Un clavo mojado dejado al aire",
+          "Un clavo hecho de vapor",
+          "Un clavo sin ninguna prueba"
+        ]
+      ]
+    },
+    "glass-sand": {
+      "title": "Vidrio a partir de arena",
+      "sentence": "Las personas hacen vidrio calentando arena con algunos otros minerales hasta que se derrite.",
+      "how": "Los talleres de vidrio derriten la mezcla y luego la enfrían hasta un sólido claro.",
+      "extra": "Algunas ventanas viejas son más gruesas abajo por cómo se hizo el vidrio, no porque el vidrio gotee.",
+      "unsure": "",
+      "quiz": [
+        [
+          "El vidrio se hace",
+          "Calentando arena hasta que se derrite",
+          "Congelando ranas",
+          "Apilando polen",
+          "Doblando polos de imán"
+        ],
+        [
+          "¿Por qué algunos vidrios viejos son más gruesos abajo?",
+          "Por cómo se hicieron",
+          "Porque el vidrio gotea despacio como miel",
+          "Porque las ranas se sientan encima",
+          "Porque el sonido se amontona"
+        ]
+      ]
+    },
+    "diamond-graphite": {
+      "title": "Carbono de dos formas",
+      "sentence": "El diamante y el grafito del lápiz son carbono, acomodado de formas distintas.",
+      "how": "Las pruebas muestran que los dos son átomos de carbono trabados en patrones distintos.",
+      "extra": "Por eso uno es duro y claro, y el otro es blando y oscuro.",
+      "unsure": "",
+      "quiz": [
+        [
+          "El diamante y el grafito del lápiz son los dos",
+          "Carbono",
+          "Agua",
+          "Óxido de hierro",
+          "Hueso de ballena"
+        ],
+        [
+          "¿Por qué el carbono puede ser duro o blando?",
+          "Los átomos están acomodados de otra forma",
+          "Uno de ellos es un planeta",
+          "Uno de ellos está vivo",
+          "Uno de ellos es una teoría"
+        ]
+      ]
+    },
+    "oil-floats": {
+      "title": "El aceite flota",
+      "sentence": "El aceite flota en el agua porque es menos denso.",
+      "how": "Vierte aceite con cuidado sobre el agua y el aceite se queda arriba.",
+      "extra": "Una capa fina de aceite puede quedar sobre un charco por la misma razón.",
+      "unsure": "",
+      "quiz": [
+        [
+          "¿Qué hace el aceite sobre el agua?",
+          "Flota",
+          "Siempre se hunde bajo la roca",
+          "Se vuelve hielo al instante",
+          "Se convierte en una estrella"
+        ],
+        [
+          "El aceite flota porque es",
+          "Menos denso que el agua",
+          "Más pesado que el hierro",
+          "Un tipo de hueso",
+          "Una luna"
+        ]
+      ]
+    },
+    "plastic": {
+      "title": "Cadenas de plástico",
+      "sentence": "Casi todo el plástico está hecho de cadenas largas de moléculas, y mucho empieza como petróleo.",
+      "how": "Los químicos unen moléculas pequeñas en cadenas largas y luego les dan forma.",
+      "extra": "Algunos plásticos más nuevos se hacen a partir de plantas.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Casi todo el plástico está hecho de",
+          "Cadenas largas de moléculas",
+          "Solo arena suelta",
+          "Huesos huecos de ave",
+          "Luz de la Luna"
+        ],
+        [
+          "Mucho plástico empieza como",
+          "Petróleo",
+          "Cantos de ballena",
+          "Anillos de Saturn",
+          "Solo sal de mesa"
+        ]
+      ]
+    },
+    "gold": {
+      "title": "El oro no se oxida",
+      "sentence": "El oro no se oxida como el hierro.",
+      "how": "Las monedas de oro viejas pueden seguir brillantes en el aire y el agua por muchísimo tiempo.",
+      "extra": "El oro sigue siendo un metal, y se puede martillar muy fino.",
+      "unsure": "",
+      "quiz": [
+        [
+          "¿Qué hace el oro en el aire húmedo?",
+          "No se oxida como el hierro",
+          "Se convierte en madera",
+          "Hierve a 0 grados",
+          "Se vuelve un cactus"
+        ],
+        [
+          "¿Cuál oración es verdadera?",
+          "El oro puede seguir brillante muchísimo tiempo",
+          "El oro es un gas en el cuarto",
+          "El oro es un tipo de DNA",
+          "El oro tiene tres corazones"
+        ]
+      ]
+    },
+    "periodic": {
+      "title": "La tabla de los elementos",
+      "sentence": "La tabla periódica ordena los elementos según patrones de sus átomos.",
+      "how": "En ese orden, los elementos que actúan parecido quedan en familias.",
+      "extra": "Dmitri Mendeleev dejó huecos para elementos que aún no se habían encontrado.",
+      "unsure": "",
+      "quiz": [
+        [
+          "¿Qué ordena la tabla periódica?",
+          "Los elementos",
+          "Solo los planetas",
+          "Solo los huesos",
+          "Solo los océanos"
+        ],
+        [
+          "¿Quién dejó huecos para elementos aún no encontrados?",
+          "Dmitri Mendeleev",
+          "Jane Goodall",
+          "Mae Jemison",
+          "Mary Anning"
+        ]
+      ]
+    },
+    "force-push": {
+      "title": "Una fuerza es un empujón",
+      "sentence": "Una fuerza es un empujón o un tirón.",
+      "how": "Una pesa de resorte se estira cuando tiras, y ese estirón mide la fuerza.",
+      "extra": "Las fuerzas pueden arrancar, parar o girar una cosa.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Una fuerza es",
+          "Un empujón o un tirón",
+          "Un tipo de fósil",
+          "Una fase de la Luna",
+          "Un hueso"
+        ],
+        [
+          "Una pesa de resorte mide una fuerza porque",
+          "El resorte se estira",
+          "El resorte se vuelve agua",
+          "El resorte da vueltas alrededor del Sol",
+          "El resorte sabe salado"
+        ]
+      ]
+    },
+    "magnet-poles": {
+      "title": "Dos polos",
+      "sentence": "Un imán tiene dos polos, llamados norte y sur.",
+      "how": "Cuelga un imán de barra para que pueda girar, y el mismo extremo sigue señalando al norte.",
+      "extra": "Cada imán que probamos tiene los dos polos, no uno solo.",
+      "unsure": "",
+      "quiz": [
+        [
+          "¿Cuántos polos tiene un imán?",
+          "Dos",
+          "Uno",
+          "Ocho",
+          "206"
+        ],
+        [
+          "Los polos de un imán se llaman",
+          "Norte y sur",
+          "Hielo y vapor",
+          "Abeja y ballena",
+          "Arriba y DNA"
+        ]
+      ]
+    },
+    "magnet-iron": {
+      "title": "Los imanes atraen hierro",
+      "sentence": "Un imán atrae el hierro, pero no atrae la madera, el plástico ni el cobre.",
+      "how": "Prueba un imán en un clavo de hierro, un palo de madera, un vaso de plástico y una moneda de cobre.",
+      "extra": "Solo atrae algunos metales.",
+      "unsure": "",
+      "quiz": [
+        [
+          "¿Cuál atrae un imán?",
+          "Un clavo de hierro",
+          "Un palo de madera",
+          "Un vaso de plástico",
+          "Un calcetín de algodón"
+        ],
+        [
+          "¿Un imán atrae todos los metales?",
+          "No",
+          "Sí, hasta el agua",
+          "Sí, hasta la madera",
+          "Solo en la Luna"
+        ]
+      ]
+    },
+    "poles-push": {
+      "title": "Los polos empujan o atraen",
+      "sentence": "Los polos opuestos se atraen, y los polos iguales se empujan.",
+      "how": "Junta dos puntas de imán y puedes sentir un tirón o un empujón.",
+      "extra": "No puedes saber los polos por el color. Los sabes por cómo actúan.",
+      "unsure": "",
+      "quiz": [
+        [
+          "¿Qué hacen dos polos norte?",
+          "Se empujan y se alejan",
+          "Siempre se derriten",
+          "Hacen miel",
+          "Se vuelven plantas"
+        ],
+        [
+          "¿Qué hacen un polo norte y un polo sur?",
+          "Se atraen y se juntan",
+          "Desaparecen",
+          "Se vuelven vidrio",
+          "Hierven al instante"
+        ]
+      ]
+    },
+    "gravity": {
+      "title": "Las cosas caen",
+      "sentence": "Lo que sueltas cae hacia la Tierra, y una teoría de la gravedad explica ese tirón.",
+      "how": "Medimos cosas que caen, pesos y el camino de la Luna, y la teoría los predice bien.",
+      "extra": "Los científicos todavía prueban la gravedad de formas nuevas.",
+      "unsure": "",
+      "quiz": [
+        [
+          "¿Qué hacen las cosas que sueltas?",
+          "Caen hacia la Tierra",
+          "Siempre se van flotando",
+          "Se vuelven aceite",
+          "Se vuelven fósiles al instante"
+        ],
+        [
+          "La idea profunda de este tirón es",
+          "Una teoría que los científicos siguen probando",
+          "Una adivinanza sin pruebas",
+          "Un tipo de plástico",
+          "Una ballena"
+        ]
+      ]
+    },
+    "sound-medium": {
+      "title": "El sonido necesita algo",
+      "sentence": "El sonido necesita algo por donde viajar, así que no puede cruzar el espacio vacío.",
+      "how": "Una campana dentro de un frasco se oye más bajito mientras se saca el aire.",
+      "extra": "El sonido va más rápido en el agua que en el aire.",
+      "unsure": "",
+      "quiz": [
+        [
+          "El sonido no puede viajar por",
+          "El espacio vacío",
+          "El aire",
+          "El agua",
+          "Un riel de metal"
+        ],
+        [
+          "¿Dónde va más rápido el sonido?",
+          "En el agua",
+          "En el espacio vacío",
+          "En un vacío total",
+          "En ningún lado, nunca"
+        ]
+      ]
+    },
+    "light-space": {
+      "title": "La luz cruza el espacio",
+      "sentence": "La luz puede viajar por el espacio vacío.",
+      "how": "La luz del Sol llega a la Tierra cruzando el espacio, donde casi no hay aire.",
+      "extra": "Las gotas de agua pueden doblar la luz y hacer un arcoíris.",
+      "unsure": "",
+      "quiz": [
+        [
+          "La luz del Sol nos llega al cruzar",
+          "El espacio vacío",
+          "Solo un tubo de hierro sólido",
+          "Tus huesos",
+          "Una caja de madera cerrada"
+        ],
+        [
+          "¿Qué puede doblar la luz y hacer un arcoíris?",
+          "Gotas de agua",
+          "Un fósil seco",
+          "Un armario oscuro sin luz",
+          "El nombre de un imán"
+        ]
+      ]
+    },
+    "friction": {
+      "title": "La fricción frena",
+      "sentence": "La fricción es una fuerza que frena lo que roza o se desliza.",
+      "how": "El mismo carrito rueda más lejos en un suelo liso que en una alfombra áspera.",
+      "extra": "La fricción también deja que tus zapatos agarren el suelo.",
+      "unsure": "",
+      "quiz": [
+        [
+          "¿Qué hace la fricción con lo que se desliza?",
+          "Lo frena",
+          "Borra la gravedad",
+          "Lo convierte en estrellas",
+          "Le quita los dos polos"
+        ],
+        [
+          "Un carrito rueda más lejos en",
+          "Un suelo liso",
+          "Alfombra áspera",
+          "Lodo espeso",
+          "Miel pegajosa"
+        ]
+      ]
+    },
+    "lever": {
+      "title": "Una palanca ayuda a levantar",
+      "sentence": "Una palanca puede ayudarte a levantar algo pesado con un empujón más chico.",
+      "how": "Una barra firme sobre un punto de apoyo te deja levantar un libro con menos empujón.",
+      "extra": "Un sube y baja es una palanca.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Una palanca te ayuda a",
+          "Levantar algo pesado con un empujón más chico",
+          "Parar toda la fricción para siempre",
+          "Hervir agua sin calor",
+          "Quitar un polo del imán"
+        ],
+        [
+          "Un sube y baja es un tipo de",
+          "Palanca",
+          "Planeta",
+          "Fósil",
+          "Germen"
+        ]
+      ]
+    },
+    "inertia": {
+      "title": "Lo quieto sigue quieto",
+      "sentence": "Un objeto quieto sigue quieto hasta que una fuerza lo mueve.",
+      "how": "Un disco sobre hielo liso sigue y sigue hasta que un roce o un golpe cambia su movimiento.",
+      "extra": "Esta regla es una de las reglas del movimiento que escribió Newton.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Un libro quieto sigue quieto hasta que",
+          "Una fuerza lo mueve",
+          "Decide volar",
+          "La Luna lo llama por su nombre",
+          "Se vuelve DNA"
+        ],
+        [
+          "¿Quién escribió reglas de cómo las fuerzas mueven las cosas?",
+          "Isaac Newton",
+          "Wangari Maathai",
+          "Tu Youyou",
+          "Mary Anning"
+        ]
+      ]
+    },
+    "hot-air": {
+      "title": "El aire caliente sube",
+      "sentence": "El aire caliente sube por encima del aire más frío.",
+      "how": "El aire tibio de un calentador sube, y el aire más frío baja.",
+      "extra": "Por eso arriba el cuarto puede sentirse más cálido.",
+      "unsure": "",
+      "quiz": [
+        [
+          "¿Qué hace el aire caliente?",
+          "Sube por encima del aire más frío",
+          "Siempre se hunde bajo el hielo",
+          "Se convierte en roca",
+          "Pierde los dos polos"
+        ],
+        [
+          "¿Por qué arriba puede sentirse más cálido?",
+          "El aire caliente sube",
+          "Las escaleras hacen oxígeno",
+          "Las alfombras hierven",
+          "Los imanes calientan el techo"
+        ]
+      ]
+    },
+    "earth-sun": {
+      "title": "La Tierra da vueltas al Sol",
+      "sentence": "La Tierra da vueltas alrededor del Sol.",
+      "how": "Cómo se mueven los planetas, y las fotos del espacio, encajan con un camino alrededor del Sol.",
+      "extra": "Hace mucho, la gente probó esto contra la idea de que todo giraba alrededor de la Tierra.",
+      "unsure": "",
+      "quiz": [
+        [
+          "¿Alrededor de qué da vueltas la Tierra?",
+          "El Sol",
+          "Solo la Luna",
+          "Una ballena",
+          "Un imán"
+        ],
+        [
+          "¿Quién escribió que la Tierra y los planetas dan vueltas alrededor del Sol?",
+          "Nicolaus Copernicus",
+          "Jane Goodall",
+          "Alice Ball",
+          "Percy Julian"
+        ]
+      ]
+    },
+    "year-trip": {
+      "title": "Un año es un viaje",
+      "sentence": "Un año es un viaje de la Tierra alrededor del Sol.",
+      "how": "Medimos unos 365 días desde una marca de estación hasta la misma marca.",
+      "extra": "Algunos años del calendario agregan un día bisiesto para que la cuenta siga alineada.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Un año es",
+          "Un viaje de la Tierra alrededor del Sol",
+          "Un parpadeo",
+          "Una marea",
+          "Un giro de un trompo"
+        ],
+        [
+          "¿Cuántos días dura, más o menos, un viaje de la Tierra alrededor del Sol?",
+          "365",
+          "8",
+          "12",
+          "2"
+        ]
+      ]
+    },
+    "day-spin": {
+      "title": "Un día es un giro",
+      "sentence": "Un día es cerca de un giro completo de la Tierra.",
+      "how": "El Sol parece cruzar el cielo una vez cada vez que la Tierra gira.",
+      "extra": "Los lugares se turnan de cara al Sol, y eso hace el día y la noche.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Un día es cerca de",
+          "Un giro completo de la Tierra",
+          "Un viaje alrededor de la galaxia",
+          "Un invierno de una rana",
+          "Un hueso"
+        ],
+        [
+          "El día y la noche pasan porque",
+          "La Tierra gira, así que los lugares se turnan de cara al Sol",
+          "El Sol se apaga cada noche",
+          "La Luna tapa al Sol cada noche",
+          "La Tierra deja de moverse"
+        ]
+      ]
+    },
+    "seasons": {
+      "title": "Por qué hay estaciones",
+      "sentence": "Las estaciones pasan porque la Tierra está inclinada mientras da vueltas alrededor del Sol.",
+      "how": "La inclinación cambia qué tan directa llega la luz del Sol a un lugar durante el año.",
+      "extra": "Las estaciones no pasan porque la Tierra se acerque mucho al Sol.",
+      "unsure": "",
+      "quiz": [
+        [
+          "¿Qué causa las estaciones?",
+          "La inclinación de la Tierra",
+          "Que la Tierra se acerque mucho al Sol",
+          "Imanes en los zapatos",
+          "Cantos de ballena"
+        ],
+        [
+          "¿Cuál oración es verdadera?",
+          "La inclinación de la Tierra cambia qué tan directa nos llega la luz del Sol",
+          "El verano llega porque la Luna hierve",
+          "El invierno significa que la Tierra salió del sistema solar",
+          "Las estaciones son un tipo de metal"
+        ]
+      ]
+    },
+    "earth-layers": {
+      "title": "La Tierra tiene capas",
+      "sentence": "La Tierra tiene corteza, manto y núcleo.",
+      "how": "Las ondas de los terremotos cambian de velocidad dentro de la Tierra, y eso muestra las capas.",
+      "extra": "La corteza es la capa delgada de afuera, donde vivimos.",
+      "unsure": "",
+      "quiz": [
+        [
+          "¿Qué lista nombra capas de la Tierra?",
+          "Corteza, manto, núcleo",
+          "Hoja, raíz, abeja",
+          "Hielo, aceite, oro",
+          "Norte, sur, cobre"
+        ],
+        [
+          "¿Cómo sabemos que la Tierra tiene capas?",
+          "Las ondas de los terremotos cambian de velocidad adentro",
+          "Alguien cavó hasta el centro",
+          "Una adivinanza sin prueba",
+          "El vidrio goteó hacia abajo"
+        ]
+      ]
+    },
+    "fossils": {
+      "title": "Fósiles en la roca",
+      "sentence": "Los fósiles son restos o huellas de seres vivos guardados en la roca.",
+      "how": "La gente encuentra huesos, conchas y huellas vueltos piedra en capas de roca.",
+      "extra": "Los fósiles son una forma de saber que la vida ha cambiado.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Un fósil puede ser",
+          "Un hueso o una huella guardados en la roca",
+          "Una ballena viva",
+          "Una nube de lluvia",
+          "Un polo de imán"
+        ],
+        [
+          "¿Quién encontró famosos animales marinos fósiles en acantilados de England?",
+          "Mary Anning",
+          "Katherine Johnson",
+          "Ada Lovelace",
+          "Chien-Shiung Wu"
+        ]
+      ]
+    },
+    "ocean-cover": {
+      "title": "El océano cubre casi todo",
+      "sentence": "El océano cubre la mayor parte de la Tierra.",
+      "how": "Los mapas y las fotos del espacio muestran mucha más agua que tierra.",
+      "extra": "Unos siete décimos de la superficie de la Tierra son océano.",
+      "unsure": "",
+      "quiz": [
+        [
+          "¿Qué cubre la mayor parte de la Tierra?",
+          "El océano",
+          "Las ciudades",
+          "Solo arena de desierto",
+          "Solo hielo"
+        ],
+        [
+          "¿Qué tanto de la superficie de la Tierra es océano?",
+          "Siete décimos",
+          "Un décimo",
+          "Nada",
+          "Toda la Luna"
+        ]
+      ]
+    },
+    "volcano": {
+      "title": "Volcanes",
+      "sentence": "Un volcán puede dejar salir roca derretida de la Tierra.",
+      "how": "La gente ha visto salir lava y luego enfriarse hasta volverse roca.",
+      "extra": "No toda montaña es un volcán.",
+      "unsure": "",
+      "quiz": [
+        [
+          "¿Qué puede salir de un volcán?",
+          "Roca derretida",
+          "Una tabla de elementos ya lista",
+          "Luz de la Luna",
+          "Ranas líquidas"
+        ],
+        [
+          "¿Toda montaña es un volcán?",
+          "No",
+          "Sí",
+          "Solo los martes",
+          "Solo si tiene huesos"
+        ]
+      ]
+    },
+    "quake": {
+      "title": "Terremotos",
+      "sentence": "Un terremoto pasa cuando la roca bajo nuestros pies se desliza.",
+      "how": "Los instrumentos anotan el temblor, y las grietas del suelo muestran dónde se movió la roca.",
+      "extra": "El temblor puede viajar muy lejos a través de la roca.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Un terremoto empieza cuando",
+          "La roca bajo nuestros pies se desliza",
+          "Una nube prueba la sal",
+          "Brota una semilla",
+          "El oro se oxida"
+        ],
+        [
+          "¿Qué anota el temblor de un terremoto?",
+          "Instrumentos",
+          "Una espina de cactus",
+          "Un arcoíris",
+          "Un día bisiesto"
+        ]
+      ]
+    },
+    "soil": {
+      "title": "Qué es el suelo",
+      "sentence": "El suelo es roca rota mezclada con aire, agua y pedacitos de seres vivos.",
+      "how": "Una lupa muestra granos, raíces y pedacitos oscuros de plantas viejas.",
+      "extra": "Las lombrices y seres vivos diminutos ayudan a mezclar el suelo.",
+      "unsure": "",
+      "quiz": [
+        [
+          "El suelo es sobre todo",
+          "Roca rota, más aire, agua y pedacitos de vida",
+          "Oro puro",
+          "Solo hielo",
+          "Solo plástico"
+        ],
+        [
+          "¿Quién estudió cultivos que ayudan al suelo cansado?",
+          "George Washington Carver",
+          "Galileo Galilei",
+          "Isaac Newton",
+          "Ada Lovelace"
+        ]
+      ]
+    },
+    "tides": {
+      "title": "La Luna y las mareas",
+      "sentence": "El tirón de la Luna ayuda a hacer las mareas del océano.",
+      "how": "Las horas de las mareas coinciden con el lugar de la Luna en el cielo, una y otra vez.",
+      "extra": "El tirón del Sol también participa.",
+      "unsure": "",
+      "quiz": [
+        [
+          "¿Qué ayuda a hacer las mareas?",
+          "El tirón de la Luna",
+          "El latido de una rana",
+          "Grafito de lápiz",
+          "Una sola abeja"
+        ],
+        [
+          "Las horas de las mareas coinciden con",
+          "La Luna",
+          "El color del oro",
+          "Tu número de zapato",
+          "Un cactus"
+        ]
+      ]
+    },
+    "weather-climate": {
+      "title": "Tiempo y clima",
+      "sentence": "El tiempo es lo que hace el aire hoy, y el clima es el patrón de muchos años.",
+      "how": "Un día de lluvia es tiempo. Los registros de muchos años muestran el clima.",
+      "extra": "Un día frío no borra un patrón largo de calor.",
+      "unsure": "",
+      "quiz": [
+        [
+          "El tiempo es",
+          "Lo que hace el aire hoy",
+          "La forma del DNA",
+          "Un polo de imán",
+          "Un acantilado con fósiles"
+        ],
+        [
+          "El clima es",
+          "El patrón de muchos años",
+          "Una nube",
+          "Un solo charco",
+          "El almuerzo de hoy"
+        ]
+      ]
+    },
+    "sun-star": {
+      "title": "El Sol es una estrella",
+      "sentence": "El Sol es una estrella.",
+      "how": "Su luz y de qué está hecho coinciden con otras estrellas. Solo está mucho más cerca.",
+      "extra": "Las otras estrellas se ven chicas porque están muy lejos.",
+      "unsure": "",
+      "quiz": [
+        [
+          "El Sol es",
+          "Una estrella",
+          "Una roca fría",
+          "Una ballena",
+          "Un fósil"
+        ],
+        [
+          "¿Por qué las otras estrellas se ven diminutas?",
+          "Están muy lejos",
+          "Son bacterias",
+          "Están bajo la tierra",
+          "No tienen nada de luz"
+        ]
+      ]
+    },
+    "eight-planets": {
+      "title": "Ocho planetas",
+      "sentence": "Ocho planetas dan vueltas alrededor del Sol.",
+      "how": "Los telescopios siguen ocho mundos grandes en caminos claros alrededor del Sol.",
+      "extra": "Plutón se llama planeta enano, no uno de los ocho.",
+      "unsure": "",
+      "quiz": [
+        [
+          "¿Cuántos planetas dan vueltas alrededor del Sol?",
+          "Ocho",
+          "Dos",
+          "206",
+          "Un millón"
+        ],
+        [
+          "Plutón es",
+          "Un planeta enano",
+          "Uno de los ocho planetas",
+          "El océano más grande",
+          "Un tipo de hueso"
+        ]
+      ]
+    },
+    "moon-light": {
+      "title": "La Luna refleja",
+      "sentence": "La Luna no hace su propia luz. Refleja la del Sol.",
+      "how": "La parte brillante de la Luna siempre mira hacia la luz del Sol.",
+      "extra": "El lado en sombra se ve oscuro.",
+      "unsure": "",
+      "quiz": [
+        [
+          "La luz de la Luna viene de",
+          "El Sol, que rebota en ella",
+          "Un fuego dentro de la Luna",
+          "Faroles de la ciudad",
+          "Ranas en la Luna"
+        ],
+        [
+          "La parte oscura de la Luna es",
+          "El lado en sombra",
+          "Un hoyo sin roca",
+          "Un océano de tinta",
+          "Un imán"
+        ]
+      ]
+    },
+    "moon-phases": {
+      "title": "Fases de la Luna",
+      "sentence": "La Luna se ve distinta cada noche porque vemos distintas partes de su lado soleado.",
+      "how": "Dibuja la Luna durante un mes y la parte brillante crece y se encoge en orden.",
+      "extra": "Un ciclo completo de fases dura cerca de un mes.",
+      "unsure": "",
+      "quiz": [
+        [
+          "¿Por qué la forma de la Luna parece cambiar?",
+          "Vemos distintas partes de su lado soleado",
+          "La Luna se derrite cada noche",
+          "Las nubes se la comen",
+          "Le salen huesos"
+        ],
+        [
+          "Un ciclo completo de fases de la Luna dura cerca de",
+          "Un mes",
+          "Un minuto",
+          "Ocho años",
+          "Un segundo"
+        ]
+      ]
+    },
+    "saturn-rings": {
+      "title": "Los anillos de Saturn",
+      "sentence": "Los anillos de Saturn están hechos sobre todo de pedazos de hielo y roca.",
+      "how": "Las naves y los telescopios muestran muchísimos pedazos que dan vueltas alrededor de Saturn.",
+      "extra": "Los anillos son muy anchos, pero también muy delgados.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Los anillos de Saturn son sobre todo",
+          "Hielo y roca",
+          "Hojas de árbol",
+          "Hueso",
+          "Océanos de oro líquido"
+        ],
+        [
+          "Los anillos son",
+          "Anchos, pero muy delgados",
+          "Una sola placa de metal sólido",
+          "Un camino por donde puedes caminar",
+          "Hechos de ballenas"
+        ]
+      ]
+    },
+    "milky-way": {
+      "title": "La Vía Láctea",
+      "sentence": "Nuestra galaxia se llama la Vía Láctea.",
+      "how": "Vivimos dentro de ella, y en una noche oscura sus estrellas pueden verse como una banda pálida.",
+      "extra": "Una galaxia es una familia enorme de estrellas.",
+      "unsure": "",
+      "quiz": [
+        [
+          "¿Cómo se llama nuestra galaxia?",
+          "La Vía Láctea",
+          "El Mar Rojo",
+          "La tabla periódica",
+          "La corteza"
+        ],
+        [
+          "Una galaxia es",
+          "Una familia enorme de estrellas",
+          "Una rana",
+          "Un tipo de sal",
+          "Una palanca"
+        ]
+      ]
+    },
+    "rockets": {
+      "title": "Los cohetes empujan gas",
+      "sentence": "Un cohete avanza empujando gas hacia atrás.",
+      "how": "Suelta un globo: el aire sale por un lado y el globo sale disparado por el otro.",
+      "extra": "Ese mismo empujón manda los cohetes de verdad hacia arriba.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Un cohete avanza",
+          "Empujando gas hacia atrás",
+          "Tirando de las estrellas con una cuerda",
+          "Soltando arena hacia arriba",
+          "Apagando la gravedad"
+        ],
+        [
+          "Un globo suelto sale disparado porque",
+          "El aire sale rápido por el otro lado",
+          "Se vuelve hielo",
+          "La Luna tira del nudo",
+          "La fricción desaparece para siempre"
+        ]
+      ]
+    },
+    "orbit-float": {
+      "title": "Flotar en órbita",
+      "sentence": "Las personas en órbita flotan porque están cayendo alrededor de la Tierra, no porque la gravedad se haya ido.",
+      "how": "La nave y las personas caen juntas, así que adentro se sienten sin peso.",
+      "extra": "La gravedad sigue tirando. Dobla su camino alrededor de la Tierra.",
+      "unsure": "",
+      "quiz": [
+        [
+          "¿Por qué flotan las personas en órbita?",
+          "Están cayendo alrededor de la Tierra",
+          "La gravedad se fue del espacio",
+          "La nave les quita toda la masa",
+          "Son globos"
+        ],
+        [
+          "¿La gravedad desaparece en órbita?",
+          "No",
+          "Sí",
+          "Solo los martes",
+          "Solo para las plantas"
+        ]
+      ]
+    },
+    "telescope": {
+      "title": "Los telescopios juntan luz",
+      "sentence": "Un telescopio junta luz para que lo tenue se vea más brillante.",
+      "how": "Una lente grande o un espejo junta más luz que tu ojo solo.",
+      "extra": "Galileo usó un telescopio para estudiar el cielo.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Un telescopio ayuda a ver cosas tenues porque",
+          "Junta más luz",
+          "Hace el sonido más fuerte",
+          "Derrite arena",
+          "Cuenta huesos"
+        ],
+        [
+          "¿Quién usó un telescopio y vio lunas alrededor de Júpiter?",
+          "Galileo Galilei",
+          "George Washington Carver",
+          "Tu Youyou",
+          "Barbara McClintock"
+        ]
+      ]
+    },
+    "universe-stretch": {
+      "title": "El espacio puede estirarse",
+      "sentence": "Muchas galaxias lejanas se ven más rojas, y una teoría dice que el espacio mismo se estira.",
+      "how": "Ese cambio hacia el rojo coincide con la distancia en muchísimas galaxias.",
+      "extra": "Es una teoría que los científicos siguen probando, no una adivinanza loca.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Una teoría sobre galaxias lejanas dice que",
+          "El espacio se está estirando",
+          "Las ranas son planetas",
+          "El vidrio es un líquido lento",
+          "El sonido cruza el espacio vacío"
+        ],
+        [
+          "El color más rojo de las galaxias lejanas es",
+          "Una pista que los científicos siguen probando",
+          "Una adivinanza que nadie puede probar",
+          "Prueba de que los imanes tienen un solo polo",
+          "Una marea"
+        ]
+      ]
+    },
+    "life-beyond": {
+      "title": "Vida más allá de la Tierra",
+      "sentence": "La idea de que hay seres vivos más allá de la Tierra es una adivinanza hasta que una prueba los muestre.",
+      "how": "Las naves han revisado algunos lugares, como Marte, y todavía no han encontrado vida ahí.",
+      "extra": "Una adivinanza solo se vuelve un hecho después de que una prueba lo muestre.",
+      "unsure": "",
+      "quiz": [
+        [
+          "¿Hemos encontrado seres vivos más allá de la Tierra?",
+          "Todavía no",
+          "Sí, una ciudad en el Sol",
+          "Sí, ballenas en la Luna",
+          "Sí, bosques en los anillos de Saturn"
+        ],
+        [
+          "La idea de vida más allá de la Tierra es",
+          "Una adivinanza hasta que una prueba la muestre",
+          "Ya un hecho medido",
+          "Lo mismo que H2O",
+          "Una de las reglas de movimiento de Newton"
+        ]
+      ]
+    },
+    "heart": {
+      "title": "Tu corazón bombea",
+      "sentence": "Tu corazón bombea sangre por todo tu cuerpo.",
+      "how": "Puedes sentir el latido como pulso, y las imágenes pueden ver cómo el corazón se aprieta.",
+      "extra": "El latido se pone más rápido después de correr.",
+      "unsure": "",
+      "quiz": [
+        [
+          "¿Qué hace tu corazón?",
+          "Bombea sangre",
+          "Hace luz del Sol",
+          "Guarda rocas",
+          "Es un imán de barra"
+        ],
+        [
+          "¿Cuándo suele latir más rápido tu corazón?",
+          "Después de correr",
+          "Cuando eres un fósil",
+          "Cuando estás hecho de vidrio",
+          "Nunca"
+        ]
+      ]
+    },
+    "lungs": {
+      "title": "Pulmones y oxígeno",
+      "sentence": "Tus pulmones toman aire para que tu sangre pueda llevar oxígeno.",
+      "how": "Las pruebas muestran que la sangre recoge oxígeno en los pulmones.",
+      "extra": "Al respirar sueltas dióxido de carbono.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Los pulmones ayudan a tu sangre a recoger",
+          "Oxígeno",
+          "Arena",
+          "Óxido de hierro",
+          "Solo polen"
+        ],
+        [
+          "Al respirar sueltas",
+          "Dióxido de carbono",
+          "Oro líquido",
+          "Rocas de la Luna",
+          "Imanes"
+        ]
+      ]
+    },
+    "bones": {
+      "title": "206 huesos",
+      "sentence": "El esqueleto de una persona adulta tiene 206 huesos.",
+      "how": "Los doctores los cuentan en fotos cuidadosas y en esqueletos de laboratorio.",
+      "extra": "Los bebés tienen más huesos, y algunos se unen después.",
+      "unsure": "",
+      "quiz": [
+        [
+          "¿Cuántos huesos tiene el esqueleto de una persona adulta?",
+          "206",
+          "8",
+          "2",
+          "3"
+        ],
+        [
+          "Los bebés tienen",
+          "Más huesos que luego pueden unirse",
+          "Ningún hueso",
+          "Solo un cráneo de vidrio",
+          "Huesos hechos de miel"
+        ]
+      ]
+    },
+    "muscles": {
+      "title": "Los músculos tiran",
+      "sentence": "Los músculos tiran de los huesos. No empujan.",
+      "how": "Cuando doblas el brazo, un músculo se acorta y tira.",
+      "extra": "Otro músculo tira hacia el otro lado para enderezar el brazo.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Los músculos mueven los huesos",
+          "Tirando de ellos",
+          "Empujándolos como un palo",
+          "Derretiéndolos",
+          "Congelándolos"
+        ],
+        [
+          "Para enderezar el brazo,",
+          "Otro músculo tira hacia el otro lado",
+          "El mismo músculo empuja",
+          "El hueso sale flotando",
+          "La gravedad se va"
+        ]
+      ]
+    },
+    "germs": {
+      "title": "Gérmenes y manos",
+      "sentence": "Algunos gérmenes pueden causar enfermedad, y lavarse las manos con jabón ayuda a frenar su paso.",
+      "how": "Las pruebas muestran que el jabón y el agua levantan gérmenes de la piel.",
+      "extra": "El jabón y el agua funcionan mejor que un enjuague rápido solo con agua.",
+      "unsure": "",
+      "quiz": [
+        [
+          "¿Qué ayuda a frenar el paso de gérmenes en las manos?",
+          "Lavarse con jabón y agua",
+          "Frotarse solo con arena",
+          "No usar jabón jamás",
+          "Esconder las manos en un fósil"
+        ],
+        [
+          "¿Cuál oración es verdadera?",
+          "Algunos gérmenes pueden causar enfermedad",
+          "Todos los gérmenes son rocas",
+          "Los gérmenes son planetas",
+          "El jabón es un planeta"
+        ]
+      ]
+    },
+    "senses": {
+      "title": "Cinco sentidos",
+      "sentence": "Puedes ver, oír, oler, gustar y tocar.",
+      "how": "Cada sentido usa sus propias partes del cuerpo, como ojos, orejas, nariz, lengua y piel.",
+      "extra": "También sientes el equilibrio y el calor.",
+      "unsure": "",
+      "quiz": [
+        [
+          "¿Qué lista nombra cinco sentidos?",
+          "Ver, oír, oler, gustar, tocar",
+          "Norte, sur, este, oeste, arriba",
+          "Sólido, líquido, gas, óxido, oro",
+          "Corteza, manto, núcleo, marea, año"
+        ],
+        [
+          "Además de esos cinco, también puedes sentir",
+          "Equilibrio y calor",
+          "Programas de radio con las rodillas",
+          "Sonido en el espacio vacío",
+          "Un imán en cada dedo"
+        ]
+      ]
+    },
+    "enamel": {
+      "title": "Capa dura del diente",
+      "sentence": "Los dientes tienen una capa dura llamada esmalte.",
+      "how": "Los dentistas ven el esmalte como la cubierta fuerte, y es más duro que el interior del diente.",
+      "extra": "Las golosinas y no cepillarse pueden dañar esa capa.",
+      "unsure": "",
+      "quiz": [
+        [
+          "La capa dura de un diente se llama",
+          "Esmalte",
+          "Una hoja",
+          "Un anillo de Saturn",
+          "Óxido"
+        ],
+        [
+          "El esmalte es",
+          "Más duro que el interior del diente",
+          "Un metal líquido",
+          "Un tipo de nube",
+          "Una luna"
+        ]
+      ]
+    },
+    "brain": {
+      "title": "Tu cerebro",
+      "sentence": "Tu cerebro te ayuda a pensar, sentir y moverte.",
+      "how": "Las imágenes muestran partes del cerebro trabajando cuando miras, hablas o te mueves.",
+      "extra": "Usas muchas partes de tu cerebro cada día.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Tu cerebro te ayuda a",
+          "Pensar, sentir y moverte",
+          "Oxidarte como el hierro",
+          "Dar vueltas como un planeta",
+          "Flotar como el aceite"
+        ],
+        [
+          "¿Cuál oración es verdadera?",
+          "Usas muchas partes de tu cerebro cada día",
+          "Las personas usan solo un puntito y lo demás está apagado",
+          "El cerebro es un hueso del pie",
+          "El cerebro está hecho de vidrio de ventana"
+        ]
+      ]
+    },
+    "skin": {
+      "title": "La piel es la más grande",
+      "sentence": "La piel es el órgano más grande de tu cuerpo.",
+      "how": "Extendida, la piel de una persona adulta cubre más área que cualquier otro órgano.",
+      "extra": "La piel ayuda a guardar el agua adentro y a dejar los gérmenes afuera.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Tu órgano más grande es",
+          "La piel",
+          "Un solo diente",
+          "Un pelo",
+          "Una pestaña"
+        ],
+        [
+          "La piel ayuda a",
+          "Guardar el agua adentro y los gérmenes afuera",
+          "Bombear sangre como un segundo corazón",
+          "Hacer anillos alrededor de Saturn",
+          "Hervir agua"
+        ]
+      ]
+    },
+    "sleep": {
+      "title": "Dormir ayuda",
+      "sentence": "Dormir te ayuda a recordar y le da a tu cuerpo tiempo para crecer.",
+      "how": "Los estudios comparan a las personas después de dormir toda la noche y después de dormir muy poco.",
+      "extra": "Los niños necesitan más sueño que los adultos.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Dormir te ayuda a",
+          "Recordar y crecer",
+          "Volverte un imán",
+          "Perder todos tus huesos",
+          "Dejar de necesitar aire"
+        ],
+        [
+          "¿Quién necesita más sueño?",
+          "Los niños",
+          "Las rocas",
+          "Los fósiles",
+          "Las monedas de oro"
+        ]
+      ]
+    },
+    "stomach": {
+      "title": "Ácido del estómago",
+      "sentence": "Tu estómago hace un ácido fuerte que ayuda a deshacer la comida.",
+      "how": "Los doctores pueden medir ese ácido, y la comida cambia después de estar en el estómago.",
+      "extra": "El estómago tiene un forro que aguanta su propio ácido.",
+      "unsure": "",
+      "quiz": [
+        [
+          "El estómago hace",
+          "Ácido que ayuda a deshacer la comida",
+          "Luz del Sol",
+          "Anillos de hielo",
+          "Un polo norte"
+        ],
+        [
+          "¿Por qué el estómago aguanta su propio ácido?",
+          "Tiene un forro fuerte",
+          "Está hecho solo de diamante",
+          "No tiene ácido",
+          "Es espacio vacío"
+        ]
+      ]
+    },
+    "helpful-germs": {
+      "title": "Algunos gérmenes ayudan",
+      "sentence": "Algunos gérmenes nos ayudan, como los que vuelven la leche yogur.",
+      "how": "La gente cultiva esos gérmenes a propósito, y la leche se espesa hasta ser yogur.",
+      "extra": "Muchos gérmenes útiles también viven en el suelo.",
+      "unsure": "",
+      "quiz": [
+        [
+          "El yogur recibe ayuda de",
+          "Gérmenes útiles",
+          "Mercurio líquido",
+          "Un telescopio",
+          "Un terremoto"
+        ],
+        [
+          "¿Todos los gérmenes hacen daño?",
+          "No",
+          "Sí",
+          "Solo los gérmenes del espacio son de verdad",
+          "Los gérmenes no existen"
+        ]
+      ]
+    },
+    "mercury": {
+      "title": "Metal líquido",
+      "sentence": "Un metal puede ser líquido a la temperatura de un cuarto, y ese metal es el mercurio.",
+      "how": "En un tubo cerrado de laboratorio, el mercurio queda como un líquido brillante en un cuarto tibio normal.",
+      "extra": "El mercurio es venenoso. Es para mirar, no para tocar.",
+      "unsure": "",
+      "quiz": [
+        [
+          "¿Qué metal es líquido a la temperatura de un cuarto?",
+          "Mercurio",
+          "Hierro",
+          "Madera",
+          "Hielo"
+        ],
+        [
+          "¿Qué debes hacer con el mercurio?",
+          "Déjalo cerrado y no lo toques",
+          "Bébelo",
+          "Póntelo en la piel",
+          "Mézclalo con la comida"
+        ]
+      ]
+    },
+    "wood-frog": {
+      "title": "Una rana puede congelarse",
+      "sentence": "Algunas ranas de bosque pueden congelarse en invierno, luego descongelarse y saltar.",
+      "how": "Los científicos han visto a estas ranas congelarse y luego moverse otra vez.",
+      "extra": "Sus cuerpos hacen un líquido dulce que ayuda a proteger sus células.",
+      "unsure": "",
+      "quiz": [
+        [
+          "¿Qué pueden hacer algunas ranas de bosque?",
+          "Congelarse y luego saltar otra vez",
+          "Volverse metal",
+          "Volar hasta Saturn",
+          "Dejar de ser animales"
+        ],
+        [
+          "¿Qué ayuda a proteger las células de una rana de bosque?",
+          "Un líquido dulce",
+          "Un imán de barra",
+          "Lava caliente",
+          "Solo arena seca"
+        ]
+      ]
+    },
+    "octopus-hearts": {
+      "title": "Tres corazones",
+      "sentence": "Un pulpo tiene tres corazones.",
+      "how": "Los estudios de pulpos muestran dos corazones junto a las branquias y uno para el resto del cuerpo.",
+      "extra": "Cuando un pulpo nada, el corazón principal puede detenerse.",
+      "unsure": "",
+      "quiz": [
+        [
+          "¿Cuántos corazones tiene un pulpo?",
+          "Tres",
+          "Uno",
+          "Ocho",
+          "206"
+        ],
+        [
+          "Dos corazones del pulpo sirven a",
+          "Las branquias",
+          "Los anillos de Saturn",
+          "Hacer vidrio",
+          "Los polos norte y sur"
+        ]
+      ]
+    },
+    "banana-berry": {
+      "title": "Un plátano es una baya",
+      "sentence": "Un plátano es una baya, y una fresa no lo es.",
+      "how": "Quienes estudian plantas ordenan las frutas por cómo crecen las partes de la flor, no por el nombre de la tienda.",
+      "extra": "Los tomates también son bayas.",
+      "unsure": "",
+      "quiz": [
+        [
+          "¿Cuál es una baya en la ciencia?",
+          "Un plátano",
+          "Una fresa",
+          "Un cono de pino",
+          "Una papa"
+        ],
+        [
+          "Los científicos ordenan las frutas por",
+          "Cómo crecen las partes de la flor",
+          "El color de la bolsa",
+          "Qué tan fuerte suenan",
+          "Qué tanto atraen un imán"
+        ]
+      ]
+    },
+    "butterfly-feet": {
+      "title": "Saborean con las patas",
+      "sentence": "Las mariposas saborean con las patas.",
+      "how": "Partes sensibles de sus patas encuentran jugo dulce de las plantas, y entonces la lengua se desenrolla.",
+      "extra": "La lengua es un tubo largo para beber.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Las mariposas saborean con",
+          "Las patas",
+          "Las orejas",
+          "Las sombras",
+          "Solo los codos"
+        ],
+        [
+          "La lengua de una mariposa es",
+          "Un tubo largo",
+          "Un imán",
+          "Un hueso",
+          "Un anillo de hielo"
+        ]
+      ]
+    },
+    "wombat-cubes": {
+      "title": "Cacas en forma de cubo",
+      "sentence": "Las cacas de un wombat tienen forma de cubo.",
+      "how": "La gente las ha medido, y los estudios del intestino muestran cómo se forman los cubos.",
+      "extra": "Los cubos no ruedan tan fácil como las bolitas redondas.",
+      "unsure": "",
+      "quiz": [
+        [
+          "¿Qué forma tienen las cacas de un wombat?",
+          "Cubos",
+          "Esferas perfectas",
+          "Espadas largas",
+          "Anillos"
+        ],
+        [
+          "Las cacas en forma de cubo",
+          "No ruedan tan fácil",
+          "Se vuelven oro",
+          "Son imanes",
+          "Son estrellas"
+        ]
+      ]
+    },
+    "sharks-trees": {
+      "title": "Tiburones antes que árboles",
+      "sentence": "Los tiburones ya nadaban antes de que crecieran los primeros árboles.",
+      "how": "Los fósiles de tiburón en roca vieja están debajo de los primeros fósiles de árboles.",
+      "extra": "",
+      "unsure": "No estamos seguros de los años exactos.",
+      "quiz": [
+        [
+          "¿Cuál llegó primero?",
+          "Tiburones nadando, y luego árboles",
+          "Árboles, y los primeros tiburones mucho después",
+          "Personas, y luego tiburones",
+          "Vidrio, y luego tiburones"
+        ],
+        [
+          "¿Estamos seguros de los años exactos de tiburones y árboles?",
+          "No. No estamos seguros.",
+          "Sí, hasta el minuto",
+          "Sí, fue el martes pasado",
+          "Nos inventamos las fechas"
+        ]
+      ]
+    },
+    "eiffel-heat": {
+      "title": "Una torre crece",
+      "sentence": "La Torre Eiffel queda un poco más alta en un día de calor.",
+      "how": "El hierro se dilata cuando se calienta, y las medidas de la torre muestran un aumento pequeño.",
+      "extra": "El cambio es un estirón pequeño, no un piso entero de más.",
+      "unsure": "",
+      "quiz": [
+        [
+          "En un día de calor, la Torre Eiffel",
+          "Queda un poco más alta",
+          "Se vuelve hielo",
+          "Sale volando",
+          "Pierde todo su hierro"
+        ],
+        [
+          "¿Por qué la torre puede crecer un poco?",
+          "El hierro se dilata con el calor",
+          "Las ranas la empujan hacia arriba",
+          "La Luna le arranca la punta",
+          "El sonido se junta en la punta"
+        ]
+      ]
+    },
+    "lizard-tail": {
+      "title": "Una cola nueva",
+      "sentence": "Algunos lagartos pueden soltar la cola y crecer una nueva.",
+      "how": "La cola puede soltarse en un lugar especial, y puede crecer una nueva.",
+      "extra": "La cola nueva no es exactamente igual a la vieja.",
+      "unsure": "",
+      "quiz": [
+        [
+          "¿Qué pueden hacer algunos lagartos?",
+          "Soltar la cola y crecer una nueva",
+          "Volverse aves al instante",
+          "Volverse mercurio",
+          "Crecer una cabeza de vidrio"
+        ],
+        [
+          "La cola nueva",
+          "No es exactamente igual a la vieja",
+          "Es un telescopio",
+          "Está hecha solo de diamante",
+          "Es un planeta"
+        ]
+      ]
+    },
+    "venus-day": {
+      "title": "Un día largo en Venus",
+      "sentence": "Un giro completo de Venus dura más que su viaje alrededor del Sol.",
+      "how": "El radar mide el giro lento, y el tiempo de la órbita es más corto.",
+      "extra": "Venus también gira al revés si lo comparas con la Tierra.",
+      "unsure": "",
+      "quiz": [
+        [
+          "¿Qué dura más en Venus?",
+          "Un giro completo",
+          "Su viaje alrededor del Sol",
+          "Un parpadeo de una persona",
+          "Un salto de rana"
+        ],
+        [
+          "¿Cómo medimos el giro lento de Venus?",
+          "Con radar",
+          "Probando el aire",
+          "Con un imán sobre una rana",
+          "Contando huesos de ballena"
+        ]
+      ]
+    }
+  },
+  "people": {
+    "darwin": {
+      "when": "Nació en 1809. Su gran libro salió en 1859.",
+      "lines": [
+        "Charles Darwin comparó animales, plantas y fósiles durante muchos años.",
+        "En 1859 publicó una teoría. Los seres vivos que encajan en su hogar suelen tener más crías, y los grupos cambian en muchísimo tiempo.",
+        "Los fósiles son una forma de probar esa teoría."
+      ],
+      "extra": "Pasó años en su casa estudiando percebes, uno por uno.",
+      "unsure": "",
+      "sceneAlt": "Las copas de la selva en el Amazon",
+      "quiz": [
+        "¿Quién publicó en 1859 una teoría sobre seres vivos que cambian en mucho tiempo?",
+        "Charles Darwin",
+        "Isaac Newton",
+        "Marie Curie",
+        "Mae Jemison"
+      ]
+    },
+    "goodall": {
+      "when": "Empezó sus notas de chimpancés en 1960.",
+      "lines": [
+        "Jane Goodall miró chimpancés salvajes y anotó lo que de verdad hacían.",
+        "En 1960 vio a un chimpancé usar un palo para sacar insectos de un montículo.",
+        "Ese registro mostró que los chimpancés pueden hacer y usar herramientas."
+      ],
+      "extra": "En sus notas, el chimpancé que usaba herramientas se llamaba David Greybeard.",
+      "unsure": "",
+      "sceneAlt": "Un chimpancé en un bosque",
+      "quiz": [
+        "¿Quién vio a un chimpancé salvaje usar un palo como herramienta?",
+        "Jane Goodall",
+        "Michael Faraday",
+        "Nicolaus Copernicus",
+        "Percy Julian"
+      ]
+    },
+    "carver": {
+      "when": "Hizo este trabajo con cultivos a principios de los años 1900.",
+      "lines": [
+        "George Washington Carver estudió cultivos y suelo cansado.",
+        "Mostró a los agricultores que el maní y las papas dulces podían descansar campos que habían tenido algodón demasiado tiempo.",
+        "También encontró formas nuevas de usar esas plantas para desperdiciar menos."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Las copas de la selva en el Amazon",
+      "quiz": [
+        "¿Quién usó maní y papas dulces para ayudar al suelo cansado?",
+        "George Washington Carver",
+        "Galileo Galilei",
+        "Ada Lovelace",
+        "Chien-Shiung Wu"
+      ]
+    },
+    "mcclintock": {
+      "when": "Estudió el maíz por muchos años y compartió la idea de los genes que saltan en los años 1950.",
+      "lines": [
+        "Barbara McClintock estudió los colores de los granos de maíz.",
+        "Descubrió que algunos pedacitos de DNA pueden saltar a un lugar nuevo.",
+        "Pruebas posteriores en otros seres vivos mostraron que tenía razón."
+      ],
+      "extra": "Lo aprendió mirando con cuidado, temporada tras temporada.",
+      "unsure": "",
+      "sceneAlt": "Las copas de la selva en el Amazon",
+      "quiz": [
+        "¿Quién descubrió que algunos pedacitos de DNA pueden saltar?",
+        "Barbara McClintock",
+        "Isaac Newton",
+        "Mary Anning",
+        "Subrahmanyan Chandrasekhar"
+      ]
+    },
+    "just": {
+      "when": "Hizo su trabajo más conocido con células a principios de los años 1900.",
+      "lines": [
+        "Ernest Everett Just estudió las células de animales del mar.",
+        "Mostró que la parte de afuera de una célula ayuda a controlar lo que la célula hace.",
+        "Hizo ese trabajo cuidadoso en la orilla y en el laboratorio."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Un pulpo común",
+      "quiz": [
+        "¿Quién mostró que la parte de afuera de una célula ayuda a controlarla?",
+        "Ernest Everett Just",
+        "Dmitri Mendeleev",
+        "Nicolaus Copernicus",
+        "Michael Faraday"
+      ]
+    },
+    "maathai": {
+      "when": "Estudió seres vivos, y el trabajo de plantar árboles creció desde los años 1970.",
+      "lines": [
+        "Wangari Maathai fue una bióloga que estudió cómo encajan los árboles, el suelo y las personas.",
+        "Guió un movimiento que plantó millones de árboles.",
+        "Los árboles sostienen el suelo y ayudan al aire."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Las copas de la selva en el Amazon",
+      "quiz": [
+        "¿Quién guio a la gente para plantar millones de árboles?",
+        "Wangari Maathai",
+        "Isaac Newton",
+        "Galileo Galilei",
+        "Percy Julian"
+      ]
+    },
+    "curie": {
+      "when": "Nació en 1867. Encontró el polonio y el radio en 1898.",
+      "lines": [
+        "Marie Curie estudió rayos que sueltan algunos átomos.",
+        "Llamó radiactividad a esa acción.",
+        "Encontró dos elementos, el polonio y el radio."
+      ],
+      "extra": "Llamó polonio a uno por Polonia, la tierra donde nació.",
+      "unsure": "",
+      "sceneAlt": "Un edificio de ciencias de una universidad",
+      "quiz": [
+        "¿Quién encontró los elementos polonio y radio?",
+        "Marie Curie",
+        "Jane Goodall",
+        "Mae Jemison",
+        "Mary Anning"
+      ]
+    },
+    "franklin": {
+      "when": "Su foto clave del DNA se hizo en 1952.",
+      "lines": [
+        "Rosalind Franklin tomó fotos cuidadosas de rayos X del DNA.",
+        "En 1952 una foto dio una pista clara de que el DNA tiene una forma torcida.",
+        "Otros científicos usaron su foto cuando armaron un modelo del DNA."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Un microscopio sobre una mesa brillante",
+      "quiz": [
+        "¿Quién tomó la foto de rayos X de 1952 que dio pistas de la forma del DNA?",
+        "Rosalind Franklin",
+        "George Washington Carver",
+        "Nicolaus Copernicus",
+        "Michael Faraday"
+      ]
+    },
+    "julian": {
+      "when": "Su trabajo de química más conocido fue en los años 1930 y 1940.",
+      "lines": [
+        "Percy Julian fue un químico que fabricó sustancias útiles a partir de plantas.",
+        "Encontró formas de convertir sustancias de la soya en medicinas.",
+        "Una de esas medicinas servía para aliviar las articulaciones duras."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Un edificio de ciencias de una universidad",
+      "quiz": [
+        "¿Quién hizo medicinas a partir de sustancias de la soya?",
+        "Percy Julian",
+        "Galileo Galilei",
+        "Jane Goodall",
+        "Chien-Shiung Wu"
+      ]
+    },
+    "tu": {
+      "when": "Su equipo sacó la medicina de la planta en los años 1970.",
+      "lines": [
+        "Tu Youyou guio a un equipo que probó curas viejas de plantas.",
+        "En los años 1970 sacaron una medicina fuerte, la artemisinina, del ajenjo dulce.",
+        "Esa medicina ayuda a las personas que tienen malaria."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Ajenjo dulce, la planta de donde sale la artemisinina",
+      "quiz": [
+        "¿Quién encontró la artemisinina en el ajenjo dulce?",
+        "Tu Youyou",
+        "Isaac Newton",
+        "Mary Anning",
+        "Michael Faraday"
+      ]
+    },
+    "mendeleev": {
+      "when": "Publicó su tabla en 1869.",
+      "lines": [
+        "Dmitri Mendeleev ordenó los elementos según sus patrones.",
+        "En 1869 dejó huecos donde pensaba que debían ir elementos que faltaban.",
+        "Después, la gente encontró elementos que coincidían con sus huecos."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Un edificio de ciencias de una universidad",
+      "quiz": [
+        "¿Quién dejó huecos en la tabla de elementos para los que aún no se encontraban?",
+        "Dmitri Mendeleev",
+        "Mae Jemison",
+        "Jane Goodall",
+        "Ernest Everett Just"
+      ]
+    },
+    "ball": {
+      "when": "Publicó su método en 1916.",
+      "lines": [
+        "Alice Ball fue una química que trabajó con aceite de una semilla de árbol.",
+        "En 1916 encontró una forma de cambiar el aceite para que el cuerpo pudiera tomarlo.",
+        "Su método hizo esa medicina mucho más fácil de usar."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Un edificio de ciencias de una universidad",
+      "quiz": [
+        "¿Quién encontró una forma de volver medicina un aceite de semilla de árbol que el cuerpo podía tomar?",
+        "Alice Ball",
+        "Galileo Galilei",
+        "Nicolaus Copernicus",
+        "Charles Darwin"
+      ]
+    },
+    "newton": {
+      "when": "Su gran libro del movimiento y la gravedad salió en 1687.",
+      "lines": [
+        "Isaac Newton escribió tres reglas que predicen cómo se mueven las cosas cuando las fuerzas las empujan.",
+        "También armó una teoría de la gravedad que cubre una manzana que cae y la Luna.",
+        "Los científicos todavía prueban la gravedad de formas nuevas."
+      ],
+      "extra": "Sí pensó en manzanas que caen y en la Luna. No estamos seguros de que una manzana le pegara en la cabeza.",
+      "unsure": "",
+      "sceneAlt": "La Tierra, fotografiada desde el Apollo 17",
+      "quiz": [
+        "¿Quién escribió tres reglas de cómo las fuerzas mueven las cosas?",
+        "Isaac Newton",
+        "Wangari Maathai",
+        "Tu Youyou",
+        "Mary Anning"
+      ]
+    },
+    "faraday": {
+      "when": "Mostró la prueba del imán y la corriente en 1831.",
+      "lines": [
+        "Michael Faraday descubrió que un imán en movimiento puede hacer una corriente eléctrica.",
+        "Ese hallazgo es cómo muchos generadores hacen electricidad.",
+        "Lo probó con bobinas e imanes en el laboratorio."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Un imán que atrae un pedazo de magnetita",
+      "quiz": [
+        "¿Quién descubrió que un imán en movimiento puede hacer una corriente eléctrica?",
+        "Michael Faraday",
+        "Jane Goodall",
+        "George Washington Carver",
+        "Katherine Johnson"
+      ]
+    },
+    "wu": {
+      "when": "Hizo la prueba del espejo en 1956.",
+      "lines": [
+        "Chien-Shiung Wu hizo una prueba muy cuidadosa con partículas diminutas.",
+        "Mostró que no siempre actúan como su imagen en un espejo.",
+        "Su resultado cambió una regla en la que otros físicos confiaban."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Un edificio de ciencias de una universidad",
+      "quiz": [
+        "¿Quién mostró que las partículas diminutas no siempre coinciden con su imagen en un espejo?",
+        "Chien-Shiung Wu",
+        "Charles Darwin",
+        "Mary Anning",
+        "Nicolaus Copernicus"
+      ]
+    },
+    "lovelace": {
+      "when": "Sus notas se publicaron en 1843.",
+      "lines": [
+        "Ada Lovelace escribió sobre una máquina de calcular planeada, llamada la Máquina Analítica.",
+        "En 1843 publicó un plan paso a paso para que la máquina calculara números.",
+        "La gente llama a ese plan el primer programa de computadora. La máquina no se construyó mientras ella vivía."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Parte de la Máquina Diferencial de Babbage",
+      "quiz": [
+        "¿Quién escribió en 1843 un plan paso a paso para una máquina de calcular?",
+        "Ada Lovelace",
+        "Mae Jemison",
+        "Percy Julian",
+        "Ernest Everett Just"
+      ]
+    },
+    "jackson": {
+      "when": "Se hizo doctora en física en 1973.",
+      "lines": [
+        "Shirley Ann Jackson es una física que estudió partículas diminutas.",
+        "Investigó cómo se portan esas partículas y luego cómo se mueven los electrones en materiales especiales.",
+        "Ese trabajo ayudó a estudios posteriores de materiales usados en la electrónica."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Un edificio de ciencias de una universidad",
+      "quiz": [
+        "¿Quién estudió partículas diminutas y cómo se mueven los electrones en los materiales?",
+        "Shirley Ann Jackson",
+        "Mary Anning",
+        "Jane Goodall",
+        "Charles Darwin"
+      ]
+    },
+    "ibn": {
+      "when": "Probó la luz hace unos mil años.",
+      "lines": [
+        "Hasan Ibn al-Haytham probó cómo funcionan la luz y la vista.",
+        "Mostró que vemos porque la luz entra al ojo, no porque el ojo lance rayos.",
+        "Escribió los pasos para que otra persona pudiera intentar las pruebas."
+      ],
+      "extra": "",
+      "unsure": "No estamos seguros del año exacto en que nació.",
+      "sceneAlt": "Un microscopio sobre una mesa brillante",
+      "quiz": [
+        "¿Quién mostró que vemos porque la luz entra al ojo?",
+        "Hasan Ibn al-Haytham",
+        "George Washington Carver",
+        "Mae Jemison",
+        "Percy Julian"
+      ]
+    },
+    "anning": {
+      "when": "Sus hallazgos famosos en los acantilados fueron a principios de los años 1800.",
+      "lines": [
+        "Mary Anning buscó fósiles en los acantilados de Lyme Regis.",
+        "A principios de los años 1800 encontró esqueletos de animales marinos antiguos, nuevos para la ciencia.",
+        "Sus hallazgos ayudaron a ver que la vida de hace mucho era distinta."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Lyme Regis, England, junto a los acantilados del mar",
+      "quiz": [
+        "¿Quién encontró animales marinos fósiles en los acantilados de Lyme Regis?",
+        "Mary Anning",
+        "Tu Youyou",
+        "Chien-Shiung Wu",
+        "Barbara McClintock"
+      ]
+    },
+    "johnson": {
+      "when": "Revisó las cuentas de las naves en los años 1960.",
+      "lines": [
+        "Katherine Johnson hizo las matemáticas de las rutas de las naves.",
+        "Sus números ayudaron a los astronautas a subir y volver a casa.",
+        "Antes de un vuelo, los astronautas pidieron que ella revisara la computadora a mano."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "La Tierra, fotografiada desde el Apollo 17",
+      "quiz": [
+        "¿Quién revisó las matemáticas de las rutas de las naves?",
+        "Katherine Johnson",
+        "Michael Faraday",
+        "Dmitri Mendeleev",
+        "Ernest Everett Just"
+      ]
+    },
+    "jemison": {
+      "when": "Voló en un transbordador espacial en 1992.",
+      "lines": [
+        "Mae Jemison se preparó como doctora y luego se hizo astronauta.",
+        "En 1992 voló en un transbordador espacial e hizo experimentos en órbita.",
+        "Los experimentos miraban cómo funcionan los cuerpos lejos del tirón normal de la Tierra."
+      ],
+      "extra": "Antes del vuelo trabajó como doctora.",
+      "unsure": "",
+      "sceneAlt": "El telescopio espacial Hubble sobre la Tierra",
+      "quiz": [
+        "¿Quién voló en un transbordador espacial en 1992 e hizo experimentos?",
+        "Mae Jemison",
+        "Isaac Newton",
+        "Ada Lovelace",
+        "Mary Anning"
+      ]
+    },
+    "copernicus": {
+      "when": "Su libro con el Sol en el centro salió en 1543.",
+      "lines": [
+        "Nicolaus Copernicus escribió que la Tierra y los otros planetas dan vueltas alrededor del Sol.",
+        "Su libro salió en 1543.",
+        "Un año es uno de esos viajes alrededor del Sol."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "La Tierra, fotografiada desde el Apollo 17",
+      "quiz": [
+        "¿De quién es el libro de 1543 que decía que la Tierra da vueltas alrededor del Sol?",
+        "Nicolaus Copernicus",
+        "Jane Goodall",
+        "Alice Ball",
+        "Chien-Shiung Wu"
+      ]
+    },
+    "galileo": {
+      "when": "Contó las lunas de Júpiter en 1610.",
+      "lines": [
+        "Galileo Galilei apuntó un telescopio al cielo.",
+        "En 1610 vio cuatro lunas que se movían alrededor de Júpiter.",
+        "También vio que Venus tiene fases, y eso encaja con un sistema con el Sol en el centro."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Las nubes de Júpiter, desde la nave Juno de la NASA",
+      "quiz": [
+        "¿Quién vio cuatro lunas alrededor de Júpiter en 1610?",
+        "Galileo Galilei",
+        "George Washington Carver",
+        "Marie Curie",
+        "Wangari Maathai"
+      ]
+    },
+    "chandra": {
+      "when": "Calculó el límite de las estrellas en los años 1930.",
+      "lines": [
+        "Subrahmanyan Chandrasekhar usó matemáticas para estudiar estrellas chicas y tenues llamadas enanas blancas.",
+        "Encontró un límite de peso. Pasado ese límite, la estrella no puede sostenerse de la misma forma.",
+        "Pruebas posteriores coincidieron con su teoría."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "El telescopio espacial Hubble sobre la Tierra",
+      "quiz": [
+        "¿Quién encontró un límite de peso para las estrellas enanas blancas?",
+        "Subrahmanyan Chandrasekhar",
+        "Jane Goodall",
+        "Alice Ball",
+        "Michael Faraday"
+      ]
+    }
+  },
+  "places": {
+    "rain": {
+      "title": "Estación de campo en la selva",
+      "where": "Tiputini, Ecuador",
+      "lines": [
+        "Esta estación está en la selva del Amazon.",
+        "Los científicos caminan por el bosque y anotan las plantas y los animales que encuentran.",
+        "Una estación de campo es un campamento de trabajo para ver seres vivos de cerca."
+      ],
+      "alt": "Las copas de la selva en el Amazon"
+    },
+    "lab": {
+      "title": "Laboratorio de química",
+      "where": "Edificios de ciencias",
+      "lines": [
+        "Los químicos trabajan en laboratorios dentro de edificios como este.",
+        "Percy Julian hizo ese tipo de trabajo con soya en los Estados Unidos.",
+        "Medir con cuidado, y cambiar una sola cosa a la vez, mantiene justa la prueba."
+      ],
+      "alt": "Un edificio de ciencias de una universidad"
+    },
+    "sky": {
+      "title": "Observatorio",
+      "where": "Mauna Kea, Hawaii",
+      "lines": [
+        "Cúpulas blancas de telescopios están sobre una montaña muy alta.",
+        "El aire allá arriba es delgado y a menudo está sobre las nubes, así que el cielo se ve más oscuro y más claro.",
+        "Los telescopios juntan luz de estrellas y galaxias tenues."
+      ],
+      "alt": "Cúpulas de telescopios en Mauna Kea"
+    },
+    "cliff": {
+      "title": "Acantilado de fósiles",
+      "where": "Lyme Regis, England",
+      "lines": [
+        "Las capas de roca de estos acantilados del mar guardan fósiles.",
+        "Mary Anning encontró aquí esqueletos de animales marinos antiguos a principios de los años 1800.",
+        "Un fósil es un resto, o una huella, guardado en la roca."
+      ],
+      "alt": "Lyme Regis, England, junto a los acantilados del mar"
+    },
+    "hospital": {
+      "title": "Laboratorio del hospital",
+      "where": "St Mary's Hospital en London",
+      "lines": [
+        "Este es el St Mary's Hospital en London.",
+        "En 1928 Alexander Fleming notó un moho que detenía gérmenes en un plato.",
+        "Ese moho llevó a la penicilina, una medicina que ayuda al cuerpo a combatir algunas enfermedades."
+      ],
+      "alt": "St Mary's Hospital en London"
+    },
+    "ocean": {
+      "title": "El océano",
+      "where": "Barcos desde Woods Hole, Massachusetts",
+      "lines": [
+        "Los barcos de investigación salen del puerto y estudian el mar.",
+        "Miden el agua, dibujan el fondo y encuentran animales que viven lejos de la costa.",
+        "La mayor parte de la Tierra es océano, así que un barco es un laboratorio que se mueve."
+      ],
+      "alt": "Un pulpo común"
+    }
+  },
+  "time": {
+    "stars": {
+      "title": "Quienes miraban las estrellas",
+      "when": "Hace muchísimo tiempo",
+      "sentence": "Las personas miraban las estrellas y aprendían los patrones del cielo.",
+      "more": "Esos patrones les ayudaban a seguir las estaciones.",
+      "unsure": "No estamos seguros de quién lo hizo primero.",
+      "alt": "Stonehenge, un círculo viejo de piedras usado para seguir el cielo"
+    },
+    "microscopes": {
+      "title": "Microscopios",
+      "when": "Los años 1600",
+      "sentence": "Los microscopios dejaron ver cosas diminutas que ningún ojo podía ver solo.",
+      "more": "Una lente pequeña dobla la luz para que una manchita se vea grande.",
+      "unsure": "",
+      "alt": "Un microscopio sobre una mesa brillante"
+    },
+    "germs": {
+      "title": "Gérmenes",
+      "when": "Los años 1800",
+      "sentence": "Los científicos probaron la idea de que algunos gérmenes pueden causar enfermedad.",
+      "more": "Louis Pasteur y otros hicieron pruebas que apoyaron la teoría de los gérmenes. Lavarse las manos todavía ayuda.",
+      "unsure": "",
+      "alt": "Un plato de laboratorio con manchas de gérmenes"
+    },
+    "flight": {
+      "title": "El vuelo",
+      "when": "1903",
+      "sentence": "Un avión con motor voló, y las personas pudieron viajar por el aire.",
+      "more": "El avión de los hermanos Wright despegó en 1903.",
+      "unsure": "",
+      "alt": "Una réplica del Wright Flyer colgada en un museo"
+    },
+    "dna": {
+      "title": "DNA",
+      "when": "1953",
+      "sentence": "Los científicos mostraron que el DNA es una escalera torcida.",
+      "more": "La foto de rayos X de Rosalind Franklin les ayudó a ver la forma.",
+      "unsure": "",
+      "alt": "Un modelo de museo de la escalera torcida del DNA"
+    },
+    "telescope": {
+      "title": "Un telescopio en el espacio",
+      "when": "1990",
+      "sentence": "Un telescopio en el espacio miró más allá de lo borroso del aire de la Tierra.",
+      "more": "El telescopio espacial Hubble se lanzó en 1990. Telescopios espaciales más nuevos siguen mirando.",
+      "unsure": "",
+      "alt": "El telescopio espacial Hubble sobre la Tierra"
+    }
+  },
+  "work": {
+    "p1-leaves": {
+      "title": "Ordena las hojas",
+      "time": "15 minutos",
+      "need": [
+        "6 hojas del suelo",
+        "Una mesa"
+      ],
+      "steps": [
+        "Pon las hojas en una fila.",
+        "Sepáralas en dos grupos. Tú eliges la regla.",
+        "Di la regla en voz alta. Grande y chica está bien. Lisa y áspera está bien."
+      ],
+      "done": "Tienes dos grupos y puedes decir cómo los ordenaste."
+    },
+    "p1-float": {
+      "title": "Se hunde o flota",
+      "time": "20 minutos",
+      "need": [
+        "Un tazón con agua",
+        "6 objetos seguros",
+        "Un adulto"
+      ],
+      "steps": [
+        "Pide a un adulto que llene un tazón.",
+        "Adivina si cada objeto se hunde o flota antes de probarlo.",
+        "Baja un objeto a la vez. Escribe lo que pasó."
+      ],
+      "done": "El equipo tiene una lista de lo que se hundió y lo que flotó."
+    },
+    "p2-shadow": {
+      "title": "Marca una sombra",
+      "time": "Dos revisiones en un día",
+      "need": [
+        "Un lugar con sol",
+        "Tiza o una piedra",
+        "Un palo o una botella"
+      ],
+      "steps": [
+        "Pon un palo parado en suelo plano, al sol.",
+        "Marca la punta de la sombra.",
+        "Vuelve más tarde y márcala otra vez. Di qué cambió."
+      ],
+      "done": "Tienes dos marcas y una oración sobre el cambio."
+    },
+    "p2-magnets": {
+      "title": "Búsqueda con imán",
+      "time": "20 minutos",
+      "need": [
+        "Un imán",
+        "8 objetos de la casa",
+        "Papel"
+      ],
+      "steps": [
+        "Toca cada objeto con el imán.",
+        "Haz dos listas: se pega, y no se pega.",
+        "Encierra los que son de hierro o de acero."
+      ],
+      "done": "El equipo puede señalar algo que el imán atrae y algo que no."
+    },
+    "p3-sugar": {
+      "title": "Cuál agua gana",
+      "time": "15 minutos",
+      "need": [
+        "Dos vasos",
+        "Agua fría y agua tibia",
+        "Azúcar",
+        "Un adulto"
+      ],
+      "steps": [
+        "Pide a un adulto agua tibia, no agua hirviendo.",
+        "Pon la misma cantidad de azúcar en cada vaso.",
+        "Revuelve los dos de la misma forma. Mira qué azúcar desaparece primero."
+      ],
+      "done": "Cambiaste solo el calor, y puedes decir qué vaso fue más rápido."
+    },
+    "p3-ramp": {
+      "title": "Qué tan lejos rueda",
+      "time": "25 minutos",
+      "need": [
+        "Una rampa de libros",
+        "Una pelota o un carrito",
+        "Una cinta de medir o un cordel"
+      ],
+      "steps": [
+        "Suelta el carrito desde arriba. Mide qué tan lejos rueda.",
+        "Hazlo tres veces de la misma forma.",
+        "Luego cambia una sola cosa, como la altura de la rampa, y prueba otra vez."
+      ],
+      "done": "El equipo tiene dos distancias y puede nombrar la única cosa que cambió."
+    },
+    "p4-celery": {
+      "title": "Mira subir el agua",
+      "time": "Una revisión ahora y mañana",
+      "need": [
+        "Un tallo de apio",
+        "Un vaso de agua",
+        "Colorante de comida",
+        "Un adulto"
+      ],
+      "steps": [
+        "Pide a un adulto que le ponga color al agua.",
+        "Pon el apio parado en el vaso.",
+        "Mira al día siguiente. ¿Adónde se fue el color?"
+      ],
+      "done": "Puedes señalar el camino que tomó el agua con color."
+    },
+    "p4-pulse": {
+      "title": "Cuenta los latidos",
+      "time": "15 minutos",
+      "need": [
+        "Un cronómetro",
+        "Un lugar tranquilo",
+        "Papel"
+      ],
+      "steps": [
+        "Siéntate quieto. Cuenta los latidos del corazón por 30 segundos.",
+        "Salta por 30 segundos y luego cuenta otra vez.",
+        "Escribe los dos números. Di qué cambió y qué dejaste igual."
+      ],
+      "done": "El equipo tiene dos conteos y una oración sobre la diferencia."
+    },
+    "p5-friction": {
+      "title": "Tres superficies",
+      "time": "20 minutos",
+      "need": [
+        "Un juguete pequeño",
+        "Un suelo de madera o una mesa",
+        "Una tela",
+        "Una baldosa lisa o un libro"
+      ],
+      "steps": [
+        "Dale al juguete el mismo empujón en cada superficie.",
+        "Mira cuál deslizamiento llega más lejos.",
+        "Nombra la fuerza que lo frenó. Esa fuerza es la fricción."
+      ],
+      "done": "Puedes ordenar las tres superficies y decir por qué una fue más lenta."
+    },
+    "p5-drop": {
+      "title": "Paracaídas de un solo cambio",
+      "time": "40 minutos",
+      "need": [
+        "Papel",
+        "Cuerda",
+        "Un sujetapapeles",
+        "Un cronómetro"
+      ],
+      "steps": [
+        "Haz dos paracaídas de papel iguales.",
+        "Suéltalos desde la misma altura y toma el tiempo de la caída.",
+        "Cambia una sola cosa en un paracaídas, como el tamaño del papel. Prueba otra vez."
+      ],
+      "done": "El equipo puede decir cuál único cambio hizo distinta la caída."
+    },
+    "p6-moon": {
+      "title": "Diario de la Luna",
+      "time": "7 noches cortas",
+      "need": [
+        "Papel",
+        "Un lápiz",
+        "Una vista despejada del cielo"
+      ],
+      "steps": [
+        "Busca la Luna a la misma hora cada noche.",
+        "Dibuja la parte brillante. Si las nubes la tapan, escribe nubes.",
+        "Después de una semana, di cómo cambió la parte brillante."
+      ],
+      "done": "Tienes siete cuadros y una oración sobre el lado soleado de la Luna."
+    },
+    "p6-planets": {
+      "title": "Orden de los planetas",
+      "time": "30 minutos",
+      "need": [
+        "8 objetos pequeños",
+        "Etiquetas de papel",
+        "Una mesa larga o el suelo"
+      ],
+      "steps": [
+        "Pon el Sol en un extremo.",
+        "Coloca ocho planetas en orden desde el Sol. Revisa un dato de planetas que hayas leído.",
+        "Di un hecho medido que usaste y una cosa que todavía es una teoría."
+      ],
+      "done": "El modelo está en orden, y el equipo puede nombrar el dato que revisó."
+    },
+    "p7-ice": {
+      "title": "Qué envoltura guarda el hielo",
+      "time": "30 minutos",
+      "need": [
+        "3 cubos de hielo del mismo tamaño",
+        "Tela",
+        "Papel",
+        "Un plato",
+        "Un cronómetro"
+      ],
+      "steps": [
+        "Deja un cubo sin cubrir. Envuelve uno en papel. Envuelve uno en tela.",
+        "Mantén el cuarto igual para los tres.",
+        "Revisa cada 5 minutos. ¿Qué cubo dura más?"
+      ],
+      "done": "Cambiaste solo la envoltura, y puedes decir qué mantuvo el hielo más tiempo."
+    },
+    "p7-question": {
+      "title": "Tu propia prueba justa",
+      "time": "45 minutos",
+      "need": [
+        "Un dato que hayas leído",
+        "Papel",
+        "Materiales simples y seguros",
+        "Un adulto si usas agua"
+      ],
+      "steps": [
+        "Elige una pregunta que puedas probar hoy.",
+        "Cambia una sola cosa. Deja lo demás igual. Mide el resultado.",
+        "Escribe qué cambiaría el resultado si no tuvieras cuidado."
+      ],
+      "done": "El equipo tiene un resultado, una unidad y una oración sobre qué echaría a perder la prueba."
+    },
+    "print-fair": {
+      "title": "Página de la prueba justa",
+      "time": "20 minutos",
+      "need": [
+        "Esta página",
+        "Un lápiz"
+      ],
+      "steps": [
+        "Escribe la pregunta.",
+        "Escribe la única cosa que vas a cambiar.",
+        "Escribe qué vas a dejar igual y qué vas a medir."
+      ],
+      "done": "Cada cuadro tiene una respuesta de verdad, no queda en blanco."
+    },
+    "print-fact": {
+      "title": "Notas de un dato",
+      "time": "15 minutos",
+      "need": [
+        "Esta página",
+        "Un dato que hayas leído"
+      ],
+      "steps": [
+        "Copia una oración clara.",
+        "Copia la línea de cómo lo sabemos.",
+        "Márcalo: hecho medido, teoría o adivinanza."
+      ],
+      "done": "Quien lea puede ver qué tipo de oración copiaste."
+    },
+    "print-measure": {
+      "title": "Registro de medidas",
+      "time": "15 minutos",
+      "need": [
+        "Esta página",
+        "Una regla, un vaso o un cronómetro"
+      ],
+      "steps": [
+        "Elige una cosa para medir.",
+        "Mídela tres veces de la misma forma.",
+        "Escribe la unidad cada vez."
+      ],
+      "done": "Tres números comparten una unidad."
+    },
+    "print-scientist": {
+      "title": "Notas de un científico",
+      "time": "15 minutos",
+      "need": [
+        "Esta página",
+        "Un científico que hayas leído"
+      ],
+      "steps": [
+        "Escribe el nombre del científico.",
+        "Escribe qué probó o qué descubrió.",
+        "Escribe una pregunta que todavía tengas."
+      ],
+      "done": "La página habla de su ciencia, con tus oraciones cortas."
+    }
+  },
+  "quiz": {
+    "time-stars": [
+      "¿Estamos seguros de quién miró primero las estrellas con cuidado?",
+      "No. No estamos seguros.",
+      "Sí. Fue Galileo en 1610.",
+      "Sí. Fue Jane Goodall.",
+      "Sí. Fue el año pasado."
+    ],
+    "time-scope": [
+      "¿Qué dejaron ver los microscopios de los años 1600?",
+      "Cosas diminutas",
+      "El centro de la Tierra a simple vista",
+      "Sonido en el espacio vacío",
+      "Los pensamientos de un imán"
+    ],
+    "time-germs": [
+      "¿En qué años crecieron las pruebas fuertes de que los gérmenes pueden causar enfermedad?",
+      "Los años 1800",
+      "Solo el año 1610",
+      "Antes de que se formara la Tierra, y estamos seguros",
+      "Solo la semana pasada"
+    ],
+    "time-flight": [
+      "¿Cuándo voló por primera vez un avión con motor?",
+      "1903",
+      "1543",
+      "1610",
+      "1992"
+    ],
+    "time-dna": [
+      "El modelo de escalera torcida del DNA se mostró en",
+      "1953",
+      "1650",
+      "1903",
+      "965"
+    ],
+    "time-space": [
+      "¿Por qué poner un telescopio en el espacio?",
+      "Para quedar encima de lo borroso del aire",
+      "Para escapar de toda la luz",
+      "Para congelar ranas",
+      "Para minar el Sol"
+    ],
+    "place-rain": [
+      "La estación de la selva en el mapa está en",
+      "Ecuador",
+      "Los anillos de Saturn",
+      "La Luna",
+      "Solo un glaciar"
+    ],
+    "place-lab": [
+      "La parada de química trata de",
+      "Convertir sustancias de plantas en materiales nuevos",
+      "Volar un transbordador",
+      "Solo acantilados de fósiles",
+      "Mareas de la Luna"
+    ],
+    "place-sky": [
+      "¿Por qué una montaña alta es buena para un telescopio?",
+      "Queda por encima de muchas nubes",
+      "Está bajo el océano",
+      "No tiene cielo",
+      "Ahí el aire es sólido"
+    ],
+    "place-cliff": [
+      "Los acantilados de fósiles de Mary Anning están en",
+      "England",
+      "Hawaii",
+      "Ecuador",
+      "La órbita"
+    ],
+    "place-hospital": [
+      "El laboratorio del hospital en el mapa está en",
+      "London",
+      "El Amazon",
+      "El espacio lejano",
+      "Un glaciar"
+    ],
+    "place-ocean": [
+      "Los barcos de Woods Hole salen a estudiar",
+      "El océano",
+      "El interior del Sol",
+      "Solo tiza del salón",
+      "Vidrio de ventana"
+    ],
+    "idea-fair": [
+      "Una prueba justa cambia",
+      "Una sola cosa",
+      "Todas las cosas a la vez",
+      "Nada, jamás",
+      "La respuesta antes de empezar"
+    ],
+    "idea-two": [
+      "Cambias el agua y la luz en una prueba con plantas. ¿Cuál es el problema?",
+      "No sabrás qué cambio importó",
+      "La prueba es más justa",
+      "Las plantas dejan de estar vivas a propósito",
+      "El Sol se apaga"
+    ],
+    "idea-gravity": [
+      "¿Qué palabra encaja con la idea profunda de la gravedad?",
+      "Teoría",
+      "Una adivinanza sin pruebas",
+      "Hueso",
+      "Baya"
+    ],
+    "idea-science": [
+      "La ciencia es la forma en que",
+      "Probamos ideas sobre el mundo natural",
+      "Elegimos las creencias de una familia por ella",
+      "Nos saltamos medir",
+      "Llamamos hecho a una adivinanza"
+    ]
+  },
+  "photos": {
+    "frog": "Una rana de bosque",
+    "bee": "Una abeja de miel sobre una flor",
+    "mushroom": "Un champiñón",
+    "chimp": "Un chimpancé en un bosque",
+    "amazon": "Las copas de la selva en el Amazon",
+    "wormwood": "Ajenjo dulce, la planta de donde sale la artemisinina",
+    "lab": "Un edificio de ciencias de una universidad",
+    "magnet": "Un imán que atrae un pedazo de magnetita",
+    "earth": "La Tierra, fotografiada desde el Apollo 17",
+    "jupiter": "Las nubes de Júpiter, desde la nave Juno de la NASA",
+    "hubble": "El telescopio espacial Hubble sobre la Tierra",
+    "keck": "Cúpulas de telescopios en Mauna Kea",
+    "heart": "Un modelo de un corazón humano",
+    "octopus": "Un pulpo común",
+    "stonehenge": "Stonehenge, un círculo viejo de piedras usado para seguir el cielo",
+    "scope": "Un microscopio sobre una mesa brillante",
+    "petri": "Un plato de laboratorio con manchas de gérmenes",
+    "flight": "Una réplica del Wright Flyer colgada en un museo",
+    "dna": "Un modelo de museo de la escalera torcida del DNA",
+    "engine": "Parte de la Máquina Diferencial de Babbage",
+    "lyme": "Lyme Regis, England, junto a los acantilados del mar",
+    "hospital": "St Mary's Hospital en London"
+  }
+}

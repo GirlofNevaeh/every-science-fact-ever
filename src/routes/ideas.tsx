@@ -1,5 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Shell } from "@/components/shell";
+import { useI18n, usePageTitle } from "@/i18n";
 
 export const Route = createFileRoute("/ideas")({
   head: () => ({ meta: [{ title: "Ideas · Every Science Fact Ever" }] }),
@@ -7,75 +8,72 @@ export const Route = createFileRoute("/ideas")({
 });
 
 function IdeasPage() {
+  const { t } = useI18n();
+  usePageTitle(t("ideas"));
   return (
     <Shell>
       <div className="mx-auto max-w-3xl px-4 py-6">
-        <h1 className="font-display text-4xl font-bold">Ideas</h1>
-        <p className="mt-3 text-xl">Science is how we test ideas about the natural world.</p>
+        <h1 className="font-display text-4xl font-bold">{t("ideas")}</h1>
+        <p className="mt-3 text-xl">{t("ideasIntro")}</p>
 
         <section className="stamp mt-6 bg-leaf-soft p-5">
-          <p className="text-sm font-extrabold uppercase">Bench 1</p>
-          <h2 className="font-display text-3xl font-bold">A fair test</h2>
-          <p className="mt-2 text-lg">Change one thing. Keep the rest the same.</p>
-          <p className="mt-2 text-lg">
-            If you change the water and the light at the same time, you will not know which change mattered.
-          </p>
+          <p className="text-sm font-extrabold uppercase">{t("bench", { n: 1 })}</p>
+          <h2 className="font-display text-3xl font-bold">{t("fair")}</h2>
+          <p className="mt-2 text-lg">{t("fair1")}</p>
+          <p className="mt-2 text-lg">{t("fair2")}</p>
         </section>
 
         <section className="stamp mt-4 bg-paper p-5">
-          <p className="text-sm font-extrabold uppercase">Bench 2</p>
-          <h2 className="font-display text-3xl font-bold">Measuring</h2>
-          <p className="mt-2 text-lg">Use the same tool the same way each time.</p>
-          <p className="mt-2 text-lg">Write the unit. Centimeters, minutes, or degrees. A number with no unit is hard to trust.</p>
-          <p className="mt-2 text-lg">Measure more than once. If the numbers jump around, check your steps.</p>
+          <p className="text-sm font-extrabold uppercase">{t("bench", { n: 2 })}</p>
+          <h2 className="font-display text-3xl font-bold">{t("measuring")}</h2>
+          <p className="mt-2 text-lg">{t("measure1")}</p>
+          <p className="mt-2 text-lg">{t("measure2")}</p>
+          <p className="mt-2 text-lg">{t("measure3")}</p>
         </section>
 
         <section className="stamp mt-4 bg-cobalt p-5 text-lab">
-          <p className="text-sm font-extrabold uppercase">Bench 3</p>
-          <h2 className="font-display text-3xl font-bold">What would change the result?</h2>
+          <p className="text-sm font-extrabold uppercase">{t("bench", { n: 3 })}</p>
+          <h2 className="font-display text-3xl font-bold">{t("changeTitle")}</h2>
           <ul className="mt-3 list-disc space-y-2 pl-5 text-lg">
-            <li>A different amount, even a little one.</li>
-            <li>A warmer room, or a darker one.</li>
-            <li>Starting the timer late.</li>
-            <li>Comparing two things that were not the same at the start.</li>
+            <li>{t("change1")}</li>
+            <li>{t("change2")}</li>
+            <li>{t("change3")}</li>
+            <li>{t("change4")}</li>
           </ul>
         </section>
 
-        <h2 className="mt-8 font-display text-3xl font-bold">Three big ideas</h2>
+        <h2 className="mt-8 font-display text-3xl font-bold">{t("threeIdeas")}</h2>
         <article className="mt-3 border-[3px] border-dashed border-ink bg-chalk p-5">
-          <p className="text-sm font-extrabold uppercase">A theory</p>
-          <h3 className="font-display text-2xl font-bold">Gravity</h3>
-          <p className="mt-2 text-lg">Dropped things fall toward Earth. We can measure that pull.</p>
-          <p className="mt-2 text-lg">The deep story of how gravity works is a theory. It has passed many tests. Scientists still test it.</p>
+          <p className="text-sm font-extrabold uppercase">{t("kindTheory")}</p>
+          <h3 className="font-display text-2xl font-bold">{t("gravity")}</h3>
+          <p className="mt-2 text-lg">{t("gravity1")}</p>
+          <p className="mt-2 text-lg">{t("gravity2")}</p>
           <Link to="/facts/$slug" params={{ slug: "gravity" }} className="btn btn-paper mt-3">
-            The gravity card
+            {t("gravityCard")}
           </Link>
         </article>
         <article className="mt-3 border-[3px] border-dashed border-ink bg-chalk p-5">
-          <p className="text-sm font-extrabold uppercase">A theory</p>
-          <h3 className="font-display text-2xl font-bold">Germs</h3>
-          <p className="mt-2 text-lg">Germ theory says tiny living things can make us ill. Tests back it up.</p>
-          <p className="mt-2 text-lg">Washing hands with soap helps. Some germs help us too, like the ones in yogurt.</p>
+          <p className="text-sm font-extrabold uppercase">{t("kindTheory")}</p>
+          <h3 className="font-display text-2xl font-bold">{t("germsTitle")}</h3>
+          <p className="mt-2 text-lg">{t("germs1")}</p>
+          <p className="mt-2 text-lg">{t("germs2")}</p>
           <Link to="/facts/$slug" params={{ slug: "germs" }} className="btn btn-paper mt-3">
-            The germ card
+            {t("germsCard")}
           </Link>
         </article>
         <article className="mt-3 border-[3px] border-dashed border-ink bg-chalk p-5">
-          <p className="text-sm font-extrabold uppercase">A theory</p>
-          <h3 className="font-display text-2xl font-bold">Evolution</h3>
-          <p className="mt-2 text-lg">Living things change over a very long time.</p>
-          <p className="mt-2 text-lg">Fossils are one way we know. Family trees of living things are another.</p>
-          <p className="mt-2 text-lg">This is a theory, not a wild guess. A theory is a big idea that has passed many tests.</p>
+          <p className="text-sm font-extrabold uppercase">{t("kindTheory")}</p>
+          <h3 className="font-display text-2xl font-bold">{t("evolution")}</h3>
+          <p className="mt-2 text-lg">{t("evo1")}</p>
+          <p className="mt-2 text-lg">{t("evo2")}</p>
+          <p className="mt-2 text-lg">{t("evo3")}</p>
           <Link to="/facts/$slug" params={{ slug: "evolution" }} className="btn btn-paper mt-3">
-            The evolution card
+            {t("evoCard")}
           </Link>
         </article>
 
         <aside className="stamp mt-6 bg-paper p-5">
-          <p className="text-lg">
-            Your family may have other ideas about life. Science does not tell you what to believe at home.
-            Science is how we test ideas about the natural world.
-          </p>
+          <p className="text-lg">{t("family")}</p>
         </aside>
       </div>
     </Shell>

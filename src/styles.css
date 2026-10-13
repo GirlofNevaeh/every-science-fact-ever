@@ -109,7 +109,9 @@
     color: var(--color-ink);
     font-size: var(--text-nav);
     font-weight: 800;
-    line-height: 1;
+    line-height: 1.1;
+    text-align: center;
+    white-space: normal;
     text-align: center;
     white-space: nowrap;
   }

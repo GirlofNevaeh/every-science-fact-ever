@@ -1,0 +1,2802 @@
+{
+  "facts": {
+    "plants-food": {
+      "title": "Mae planhigion yn gwneud bwyd",
+      "sentence": "Mae planhigion yn gwneud eu bwyd o olau'r haul, aer, a dŵr.",
+      "how": "Os nad yw deilen yn cael golau, ni all hi barhau i wneud bwyd.",
+      "extra": "Mae'r gwyrdd mewn deilen yn dal y golau.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Beth mae planhigion yn ei ddefnyddio i wneud bwyd?",
+          "Golau'r haul, aer, a dŵr",
+          "Creigiau yn unig",
+          "Halen yn unig",
+          "Metel yn unig"
+        ],
+        [
+          "Beth sy'n digwydd os nad yw deilen yn cael golau?",
+          "Ni all hi barhau i wneud bwyd",
+          "Mae hi'n troi'n haearn",
+          "Mae hi'n troi'n fagnet",
+          "Mae hi'n hedfan i'r Lleuad"
+        ]
+      ]
+    },
+    "plants-oxygen": {
+      "title": "Mae planhigion yn rhyddhau ocsigen",
+      "sentence": "Yn yr haul, mae planhigion yn rhyddhau ocsigen.",
+      "how": "Gall pobl gasglu'r nwy o blanhigion dŵr mewn golau cryf a phrofi mai ocsigen ydyw.",
+      "extra": "Mae planhigion hefyd yn defnyddio peth ocsigen, ond mewn haul cryf maen nhw'n gwneud mwy nag y maen nhw'n ei ddefnyddio.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Pa nwy mae planhigion yn ei ryddhau yn yr haul?",
+          "Ocsigen",
+          "Tywod",
+          "Mercwri",
+          "Rhwd"
+        ],
+        [
+          "Pryd mae planhigion yn gwneud mwy o ocsigen nag y maen nhw'n ei ddefnyddio?",
+          "Mewn haul cryf",
+          "Mewn bocs tywyll",
+          "Fel ffosilau yn unig",
+          "Byth"
+        ]
+      ]
+    },
+    "bees-pollen": {
+      "title": "Mae gwenyn yn cario paill",
+      "sentence": "Mae gwenyn yn cario paill o flodyn i flodyn.",
+      "how": "Gelli di weld llwch melyn ar wenynen yn symud o flodyn i flodyn.",
+      "extra": "Mae pryfed eraill yn cario paill hefyd.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Beth mae gwenyn yn ei gario rhwng blodau?",
+          "Paill",
+          "Magnetau",
+          "Ffosiliau",
+          "Cymylau glaw"
+        ],
+        [
+          "Pa frawddeg sy'n wir?",
+          "Mae gwenyn yn symud paill o flodyn i flodyn",
+          "Mae gwenyn yn fath o fetel",
+          "Mae gwenyn yn cylchdroi Saturn",
+          "Mae gwenyn yn gwneud golau'r lleuad"
+        ]
+      ]
+    },
+    "seeds-water": {
+      "title": "Mae angen dŵr ar hadau",
+      "sentence": "Mae llawer o hadau yn dechrau tyfu pan gânt ddŵr a chynhesrwydd.",
+      "how": "Rho ddŵr i un had a dim i un arall, a gelli di weld pa un sy'n egino.",
+      "extra": "Mae rhai hadau hefyd angen cyfnod oer yn gyntaf.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Beth sy'n helpu llawer o hadau i ddechrau tyfu?",
+          "Dŵr a chynhesrwydd",
+          "Magnet yn unig",
+          "Sain uchel yn unig",
+          "Silff sych am byth"
+        ],
+        [
+          "Sut gelli di brofi beth mae had ei angen?",
+          "Rho ddŵr i un had a gadael un arall yn sych",
+          "Paentia'r ddau had a dyfalu",
+          "Cuddia nhw rhag pob prawf",
+          "Rhewa graig wrth eu hymyl"
+        ]
+      ]
+    },
+    "fungi": {
+      "title": "Ffyngau yw madarch",
+      "sentence": "Ffwng yw madarchen, nid planhigyn.",
+      "how": "Nid yw madarch yn gwneud bwyd o olau'r haul fel planhigion gwyrdd.",
+      "extra": "Mae ffyngau yn cael bwyd o bethau byw neu bethau a fu'n fyw.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Mae madarchen yn perthyn i",
+          "Ffyngau",
+          "Pysgod",
+          "Planedau",
+          "Magnetau"
+        ],
+        [
+          "Pam nad yw madarchen yn blanhigyn?",
+          "Nid yw'n gwneud bwyd o olau'r haul fel planhigyn gwyrdd",
+          "Mae ganddo blu",
+          "Mae wedi'i wneud o wydr",
+          "Mae'n cylchdroi'r Haul"
+        ]
+      ]
+    },
+    "whales": {
+      "title": "Mae morfilod yn anadlu aer",
+      "sentence": "Mamaliaid yw morfilod, felly maen nhw'n anadlu aer.",
+      "how": "Mae gwylwyr yn gweld morfilod yn dod i fyny ac yn chwythu hen aer allan.",
+      "extra": "Ni allan nhw aros o dan y môr fel pysgod.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Rhaid i forfilod ddod i fyny i gael",
+          "Aer",
+          "Lafa",
+          "Tywod",
+          "Llwch y Lleuad"
+        ],
+        [
+          "Morfilod yw",
+          "Mamaliaid",
+          "Pryfed",
+          "Creigiau",
+          "Ffyngau"
+        ]
+      ]
+    },
+    "cactus": {
+      "title": "Mae cactws yn storio dŵr",
+      "sentence": "Mae cactws yn storio dŵr yn ei goesyn.",
+      "how": "Mae gwyddonwyr yn mesur y dŵr yn y coesyn trwchus.",
+      "extra": "Mae pigau yn helpu i gadw anifeiliaid rhag bwyta'r dŵr hwnnw.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Ble mae cactws yn storio dŵr?",
+          "Yn ei goesyn",
+          "Yn ei gysgod",
+          "Mewn cwmwl",
+          "Yn ei bigau yn unig"
+        ],
+        [
+          "Pa frawddeg sy'n wir?",
+          "Mae cactws yn storio dŵr yn ei goesyn",
+          "Metel yw cactws",
+          "Lleuad yw cactws",
+          "Asgwrn ffosil yw cactws"
+        ]
+      ]
+    },
+    "bird-bones": {
+      "title": "Esgyrn adar ysgafn",
+      "sentence": "Mae llawer o esgyrn adar yn wag, ac mae hynny'n helpu adar i aros yn ysgafn.",
+      "how": "Mae gwyddonwyr yn edrych y tu mewn i esgyrn adar ac yn gweld bylchau aer.",
+      "extra": "Nid yw pob aderyn yn hedfan.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Pam mae llawer o esgyrn adar yn wag?",
+          "I helpu'r aderyn i aros yn ysgafn",
+          "I storio aur",
+          "I ferwi dŵr",
+          "I wneud taranau"
+        ],
+        [
+          "Pa frawddeg sy'n wir?",
+          "Nid yw pob aderyn yn hedfan",
+          "Mae pob aderyn yn famal",
+          "Mae adar wedi'u gwneud o wydr",
+          "Nid oes esgyrn gan adar"
+        ]
+      ]
+    },
+    "coral": {
+      "title": "Anifeiliaid yw cwrel",
+      "sentence": "Mae anifeiliaid bach yn adeiladu riffiau cwrel.",
+      "how": "O dan lens, gelli di weld yr anifeiliaid cwrel bach yn eu cwpanau.",
+      "extra": "Mae'r riff caled wedi'i wneud o'u sgerbydau.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Beth sy'n adeiladu riff cwrel?",
+          "Anifeiliaid bach",
+          "Cymylau",
+          "Magnetau pedol",
+          "Modrwyau iâ"
+        ],
+        [
+          "Mae rhan galed riff yn dod o",
+          "Sgerbydau cwrel",
+          "Plwm pensil",
+          "Anadl morfil",
+          "Llwch y Lleuad"
+        ]
+      ]
+    },
+    "chimp-tools": {
+      "title": "Mae tsimpansîaid yn defnyddio offer",
+      "sentence": "Mae rhai tsimpansîaid yn defnyddio ffyn fel offer.",
+      "how": "Gwyliodd Jane Goodall tsimpansî yn plicio brigyn ac yn ei ddefnyddio i dynnu pryfed allan.",
+      "extra": "Ysgrifennodd hi beth welodd hi, dydd ar ôl dydd.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Pwy wylodd tsimpansî yn defnyddio ffon fel teclyn?",
+          "Jane Goodall",
+          "Isaac Newton",
+          "Mae Jemison",
+          "Marie Curie"
+        ],
+        [
+          "Beth wnaeth y tsimpansî hwnnw gyda'r ffon?",
+          "Ei defnyddio i dynnu pryfed allan",
+          "Ei hedfan i'r Lleuad",
+          "Ei doddi'n haearn",
+          "Rhewi'r cefnfor gyda hi"
+        ]
+      ]
+    },
+    "dna": {
+      "title": "Ysgol yw DNA",
+      "sentence": "Ysgol hir ddirdro yw DNA sy'n dal cyfarwyddiadau ar gyfer peth byw.",
+      "how": "Dangosodd llun pelydr-X a llawer o brofion diweddarach y siâp dirdro hwnnw.",
+      "extra": "Tynnodd Rosalind Franklin lun pwysig o DNA.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Pa siâp yw DNA?",
+          "Ysgol ddirdro",
+          "Plât gwastad",
+          "Magnet pedol",
+          "Olwyn sgwâr"
+        ],
+        [
+          "Pwy dynnodd lun pelydr-X pwysig o DNA?",
+          "Rosalind Franklin",
+          "Mary Anning",
+          "Galileo Galilei",
+          "Michael Faraday"
+        ]
+      ]
+    },
+    "evolution": {
+      "title": "Mae pethau byw yn newid",
+      "sentence": "Mae pethau byw yn newid dros amser hir iawn.",
+      "how": "Ffosiliau, a choed teulu pethau byw, yw ffyrdd o brofi'r syniad hwn.",
+      "extra": "Mewn gwyddoniaeth, syniad mawr sydd wedi pasio llawer o brofion yw damcaniaeth.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Mae pethau byw yn newid dros amser hir iawn. Y syniad hwnnw yw",
+          "Damcaniaeth y mae gwyddonwyr yn ei phrofi",
+          "Dyfalu gwyllt heb brofion",
+          "Math o fetel",
+          "Cyfnod o'r Lleuad"
+        ],
+        [
+          "Pa un yw un ffordd o brofi'r syniad hwnnw?",
+          "Ffosiliau",
+          "Un dymuniad",
+          "Lliw magnet",
+          "Enw cwch"
+        ]
+      ]
+    },
+    "water-h2o": {
+      "title": "Dŵr yw H2O",
+      "sentence": "Dŵr yw H2O, dau atom hydrogen ac un atom ocsigen.",
+      "how": "Pan mae gwyddonwyr yn hollti dŵr, maen nhw'n cael yr un rysáit bob tro.",
+      "extra": "Dŵr solet yw iâ, ac mae'n arnofio ar ddŵr hylifol.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Pa rysáit sy'n enwi dŵr?",
+          "H2O",
+          "CO2",
+          "NaCl",
+          "Fe"
+        ],
+        [
+          "Sawl atom hydrogen sydd mewn un darn o ddŵr?",
+          "Dau",
+          "Dim",
+          "Deg",
+          "Cant"
+        ]
+      ]
+    },
+    "states": {
+      "title": "Tri chyflwr",
+      "sentence": "Gall mater fod yn solet, yn hylif, neu'n nwy.",
+      "how": "Gelli di wylio'r un dŵr yn iâ, yna'n hylif, yna'n ager.",
+      "extra": "Mae'r darnau bach yn symud yn rhyddach wrth iddo gynhesu.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Iâ, dŵr hylifol, ac ager yw",
+          "Yr un mater mewn tri chyflwr",
+          "Tri metel gwahanol",
+          "Tair phlaned",
+          "Tri asgwrn"
+        ],
+        [
+          "Pa restr sy'n enwi tri chyflwr mater?",
+          "Solet, hylif, nwy",
+          "Gogledd, de, dwyrain",
+          "Deilen, gwreiddyn, pig",
+          "Diwrnod, blwyddyn, llanw"
+        ]
+      ]
+    },
+    "ice-floats": {
+      "title": "Mae iâ yn arnofio",
+      "sentence": "Mae iâ yn arnofio ar ddŵr hylifol.",
+      "how": "Rho ddarn o iâ mewn gwydr o ddŵr, ac mae'n aros ar y top.",
+      "extra": "Mae iâ yn cymryd mwy o le na'r un dŵr fel hylif.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Beth mae iâ yn ei wneud mewn gwydr o ddŵr?",
+          "Mae'n arnofio",
+          "Mae bob amser yn suddo fel carreg",
+          "Mae'n troi'n haearn",
+          "Mae'n troi'n fagnet"
+        ],
+        [
+          "Pam gall iâ arnofio?",
+          "Mae'n cymryd mwy o le na'r un dŵr hylifol",
+          "Mae'n drymach nag aur",
+          "Mae ganddo ddau begwn",
+          "Ffosil ydyw"
+        ]
+      ]
+    },
+    "water-boil": {
+      "title": "Mae dŵr yn berwi",
+      "sentence": "Ar lefel y môr, mae dŵr yn berwi ar 100 gradd Celsius.",
+      "how": "Mae thermomedr yn dangos 100 gradd pan mae'r dŵr yn byrlymu'n galed ar lefel y môr.",
+      "extra": "Yn uchel ar fynydd, mae dŵr yn berwi ar dymheredd is.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Ar lefel y môr, mae dŵr yn berwi ar",
+          "100 gradd Celsius",
+          "0 gradd Celsius",
+          "10 gradd Celsius",
+          "1000 gradd Celsius"
+        ],
+        [
+          "Ar fynydd uchel, mae dŵr yn berwi",
+          "Ar dymheredd is",
+          "Fel iâ yn unig",
+          "Byth",
+          "Mor boeth â'r Haul"
+        ]
+      ]
+    },
+    "salt-dissolves": {
+      "title": "Mae halen yn hydoddi",
+      "sentence": "Gall halen hydoddi mewn dŵr ac edrych fel petai'n diflannu.",
+      "how": "Mae'r halen yn diflannu o'r golwg, ond mae'r dŵr yn blasu'n hallt, felly mae'r halen yno o hyd.",
+      "extra": "Os yw'r dŵr yn sychu, mae'r halen yn ymddangos eto.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Pan mae halen yn hydoddi, mae'n",
+          "Dal yn y dŵr",
+          "Yn troi'n aur",
+          "Yn gadael y Ddaear",
+          "Yn troi'n DNA"
+        ],
+        [
+          "Sut gall halen toddedig ymddangos eto?",
+          "Gadael i'r dŵr sychu",
+          "Ychwanegu telesgop",
+          "Troelli'r Lleuad",
+          "Plannu cactws"
+        ]
+      ]
+    },
+    "rust": {
+      "title": "Mae haearn yn rhydu",
+      "sentence": "Mae haearn yn rhydu pan mae'n cwrdd â dŵr ac aer.",
+      "how": "Mae hoelen haearn sych yn aros yn sgleiniog yn hirach nag un wlyb yn yr aer.",
+      "extra": "Cot newydd yw rhwd, nid yr haearn sgleiniog ei hun.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Mae haearn yn rhydu pan mae'n cwrdd â",
+          "Dŵr ac aer",
+          "Golau'r lleuad yn unig",
+          "Paill yn unig",
+          "Gofod gwag"
+        ],
+        [
+          "Pa hoelen sy'n aros yn sgleiniog yn hirach?",
+          "Hoelen sych heb ddŵr",
+          "Hoelen wlyb yn yr aer",
+          "Hoelen wedi'i gwneud o ager",
+          "Hoelen heb unrhyw brawf"
+        ]
+      ]
+    },
+    "glass-sand": {
+      "title": "Gwydr o dywod",
+      "sentence": "Mae pobl yn gwneud gwydr drwy wresogi tywod gyda rhai mwynau eraill nes ei fod yn toddi.",
+      "how": "Mae gweithdai gwydr yn toddi'r cymysgedd, yna'n ei oeri'n solet clir.",
+      "extra": "Mae rhai ffenestri hen yn fwy trwchus ar y gwaelod oherwydd sut y gwnaed y gwydr, nid oherwydd bod gwydr yn diferu.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Mae gwydr yn cael ei wneud drwy",
+          "Wresogi tywod nes ei fod yn toddi",
+          "Rhewi brogaod",
+          "Pentyrru paill",
+          "Plygu pegynau magnet"
+        ],
+        [
+          "Pam mae gwydr rhai ffenestri hen yn fwy trwchus ar y gwaelod?",
+          "Oherwydd sut y cafodd ei wneud",
+          "Oherwydd bod gwydr yn diferu'n araf fel mêl",
+          "Oherwydd bod brogaod yn eistedd arno",
+          "Oherwydd bod sain yn pentyrru"
+        ]
+      ]
+    },
+    "diamond-graphite": {
+      "title": "Carbon mewn dwy ffordd",
+      "sentence": "Carbon yw diemwnt a graffit pensil, wedi'u gosod mewn ffyrdd gwahanol.",
+      "how": "Mae profion yn dangos mai atomau carbon yw'r ddau, wedi'u cloi mewn patrymau gwahanol.",
+      "extra": "Dyna pam mae un yn galed ac yn glir a'r llall yn feddal ac yn dywyll.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Diemwnt a graffit pensil yw'r ddau",
+          "Carbon",
+          "Dŵr",
+          "Rhwd haearn",
+          "Asgwrn morfil"
+        ],
+        [
+          "Pam gall carbon fod yn galed neu'n feddal?",
+          "Mae'r atomau wedi'u gosod yn wahanol",
+          "Planed yw un ohonyn nhw",
+          "Mae un ohonyn nhw'n fyw",
+          "Damcaniaeth yw un ohonyn nhw"
+        ]
+      ]
+    },
+    "oil-floats": {
+      "title": "Mae olew yn arnofio",
+      "sentence": "Mae olew yn arnofio ar ddŵr oherwydd ei fod yn llai dwys.",
+      "how": "Arllwys olew yn ysgafn ar ddŵr, ac mae'r olew yn aros ar y top.",
+      "extra": "Gall haen denau o olew eistedd ar bwll am yr un rheswm.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Beth mae olew yn ei wneud ar ddŵr?",
+          "Mae'n arnofio",
+          "Mae bob amser yn suddo o dan graig",
+          "Mae'n troi'n iâ ar unwaith",
+          "Mae'n troi'n seren"
+        ],
+        [
+          "Mae olew yn arnofio oherwydd ei fod",
+          "Yn llai dwys na dŵr",
+          "Yn drymach na haearn",
+          "Yn fath o asgwrn",
+          "Yn lleuad"
+        ]
+      ]
+    },
+    "plastic": {
+      "title": "Cadwyni plastig",
+      "sentence": "Mae'r rhan fwyaf o blastig wedi'i wneud o gadwyni hir o foleciwlau, ac mae llawer ohono'n dechrau fel olew.",
+      "how": "Mae cemegwyr yn cysylltu moleciwlau bach yn gadwyni hir ac yna'n rhoi siâp iddyn nhw.",
+      "extra": "Mae rhai plastigion newydd yn cael eu gwneud o blanhigion yn lle hynny.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Mae'r rhan fwyaf o blastig wedi'i wneud o",
+          "Cadwyni hir o foleciwlau",
+          "Tywod rhydd yn unig",
+          "Esgyrn adar gwag",
+          "Golau'r lleuad"
+        ],
+        [
+          "Mae llawer o blastig yn dechrau fel",
+          "Olew",
+          "Caneuon morfilod",
+          "Modrwyau Saturn",
+          "Halen bwrdd yn unig"
+        ]
+      ]
+    },
+    "gold": {
+      "title": "Nid yw aur yn rhydu",
+      "sentence": "Nid yw aur yn rhydu fel haearn.",
+      "how": "Gall hen ddarnau arian aur aros yn sgleiniog mewn aer a dŵr am amser hir iawn.",
+      "extra": "Metel yw aur o hyd, a gellir ei forthwylio'n denau iawn.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Beth mae aur yn ei wneud mewn aer llaith?",
+          "Nid yw'n rhydu fel haearn",
+          "Mae'n troi'n bren",
+          "Mae'n berwi ar 0 gradd",
+          "Mae'n troi'n gactws"
+        ],
+        [
+          "Pa frawddeg sy'n wir?",
+          "Gall aur aros yn sgleiniog am amser hir iawn",
+          "Nwy yn yr ystafell yw aur",
+          "Math o DNA yw aur",
+          "Mae gan aur dair chalon"
+        ]
+      ]
+    },
+    "periodic": {
+      "title": "Tabl yr elfennau",
+      "sentence": "Mae'r tabl cyfnodol yn rhoi'r elfennau mewn rhes yn ôl patrymau yn eu hatomau.",
+      "how": "Yn y drefn honno, mae elfennau sy'n ymddwyn yn debyg yn eistedd mewn teuluoedd.",
+      "extra": "Gadawodd Dmitri Mendeleev fylchau ar gyfer elfennau nad oedd pobl wedi'u darganfod eto.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Beth mae'r tabl cyfnodol yn ei roi mewn rhes?",
+          "Yr elfennau",
+          "Y planedau yn unig",
+          "Yr esgyrn yn unig",
+          "Y cefnforoedd yn unig"
+        ],
+        [
+          "Pwy adawodd fylchau ar gyfer elfennau heb eu darganfod eto?",
+          "Dmitri Mendeleev",
+          "Jane Goodall",
+          "Mae Jemison",
+          "Mary Anning"
+        ]
+      ]
+    },
+    "force-push": {
+      "title": "Grym yw gwthio",
+      "sentence": "Grym yw gwthio neu dynnu.",
+      "how": "Mae clorian sbring yn ymestyn pan wyt ti'n tynnu, ac mae'r ymestyn yn mesur y grym.",
+      "extra": "Gall grymoedd ddechrau, stopio, neu droi peth.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Grym yw",
+          "Gwthio neu dynnu",
+          "Math o ffosil",
+          "Cyfnod o'r Lleuad",
+          "Asgwrn"
+        ],
+        [
+          "Mae clorian sbring yn mesur grym oherwydd",
+          "Mae'r sbring yn ymestyn",
+          "Mae'r sbring yn troi'n ddŵr",
+          "Mae'r sbring yn cylchdroi'r Haul",
+          "Mae'r sbring yn blasu'n hallt"
+        ]
+      ]
+    },
+    "magnet-poles": {
+      "title": "Dau begwn",
+      "sentence": "Mae gan fagnet ddau begwn, o'r enw gogledd a de.",
+      "how": "Croga fagnet gwialen fel y gall droi, ac mae'r un pen yn dal i bwyntio i'r gogledd.",
+      "extra": "Mae gan bob magnet rydyn ni'n ei brofi'r ddau begwn, nid un yn unig.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Sawl pegwn sydd gan fagnet?",
+          "Dau",
+          "Un",
+          "Wyth",
+          "206"
+        ],
+        [
+          "Enwau pegynau magnet yw",
+          "Gogledd a de",
+          "Iâ ac ager",
+          "Gwenynen a morfil",
+          "I fyny a DNA"
+        ]
+      ]
+    },
+    "magnet-iron": {
+      "title": "Mae magnetau yn tynnu haearn",
+      "sentence": "Mae magnet yn tynnu haearn, ond nid yw'n tynnu pren, plastig, na chopr.",
+      "how": "Profa un magnet ar hoelen haearn, ffon bren, cwpan plastig, a darn arian copr.",
+      "extra": "Dim ond rhai metelau sy'n cael eu tynnu.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Pa un mae magnet yn ei dynnu?",
+          "Hoelen haearn",
+          "Ffon bren",
+          "Cwpan plastig",
+          "Hosan gotwm"
+        ],
+        [
+          "A yw magnet yn tynnu pob metel?",
+          "Na",
+          "Ie, hyd yn oed dŵr",
+          "Ie, hyd yn oed pren",
+          "Ar y Lleuad yn unig"
+        ]
+      ]
+    },
+    "poles-push": {
+      "title": "Mae pegynau yn gwthio neu'n tynnu",
+      "sentence": "Mae pegynau gwahanol yn tynnu at ei gilydd, ac mae'r un pegynau yn gwthio oddi wrth ei gilydd.",
+      "how": "Dod â dau ben magnet at ei gilydd, a gelli di deimlo tynnu neu wthio.",
+      "extra": "Ni elli di adnabod y pegynau wrth eu lliw. Rwyt ti'n eu hadnabod wrth sut maen nhw'n gweithredu.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Beth mae dau begwn gogledd yn ei wneud?",
+          "Maen nhw'n gwthio oddi wrth ei gilydd",
+          "Maen nhw bob amser yn toddi",
+          "Maen nhw'n gwneud mêl",
+          "Maen nhw'n troi'n blanhigion"
+        ],
+        [
+          "Beth mae pegwn gogledd a phegwn de yn ei wneud?",
+          "Maen nhw'n tynnu at ei gilydd",
+          "Maen nhw'n diflannu",
+          "Maen nhw'n troi'n wydr",
+          "Maen nhw'n berwi ar unwaith"
+        ]
+      ]
+    },
+    "gravity": {
+      "title": "Mae pethau yn disgyn",
+      "sentence": "Mae pethau sy'n cael eu gollwng yn disgyn tuag at y Ddaear, ac mae damcaniaeth disgyrchiant yn esbonio'r tynnu hwnnw.",
+      "how": "Rydyn ni'n mesur pethau'n disgyn, pwysau, a llwybr y Lleuad, ac mae'r ddamcaniaeth yn eu rhagweld yn dda.",
+      "extra": "Mae gwyddonwyr yn dal i brofi disgyrchiant mewn ffyrdd newydd.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Beth mae pethau sy'n cael eu gollwng yn ei wneud?",
+          "Maen nhw'n disgyn tuag at y Ddaear",
+          "Maen nhw bob amser yn arnofio i ffwrdd",
+          "Maen nhw'n troi'n olew",
+          "Maen nhw'n troi'n ffosilau ar unwaith"
+        ],
+        [
+          "Syniad dwfn y tynnu hwn yw",
+          "Damcaniaeth y mae gwyddonwyr yn dal i'w phrofi",
+          "Dyfaliad heb brofion",
+          "Math o blastig",
+          "Morfil"
+        ]
+      ]
+    },
+    "sound-medium": {
+      "title": "Mae angen rhywbeth ar sain",
+      "sentence": "Mae angen rhywbeth ar sain i deithio drwyddo, felly ni all hi groesi gofod gwag.",
+      "how": "Mae cloch mewn jar yn mynd yn dawelach wrth i'r aer gael ei bwmpio allan.",
+      "extra": "Mae sain yn symud yn gyflymach mewn dŵr nag mewn aer.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Ni all sain deithio drwy",
+          "Ofod gwag",
+          "Aer",
+          "Dŵr",
+          "Rheilen fetel"
+        ],
+        [
+          "Ble mae sain yn symud yn gyflymach?",
+          "Mewn dŵr",
+          "Mewn gofod gwag",
+          "Mewn gwactod perffaith",
+          "Yn unman, byth"
+        ]
+      ]
+    },
+    "light-space": {
+      "title": "Mae golau yn croesi gofod",
+      "sentence": "Gall golau deithio drwy ofod gwag.",
+      "how": "Mae golau'r haul yn cyrraedd y Ddaear ar draws gofod, lle nad oes bron ddim aer.",
+      "extra": "Gall diferion dŵr blygu golau'n enfys.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Mae golau'r haul yn ein cyrraedd drwy groesi",
+          "Gofod gwag",
+          "Tiwb haearn solet yn unig",
+          "Dy esgyrn",
+          "Blwch pren caeedig"
+        ],
+        [
+          "Beth all blygu golau'n enfys?",
+          "Diferion dŵr",
+          "Ffosil sych",
+          "Cwpwrdd tywyll heb olau",
+          "Enw magnet"
+        ]
+      ]
+    },
+    "friction": {
+      "title": "Mae ffrithiant yn arafu llithro",
+      "sentence": "Grym sy'n arafu pethau sy'n rhwbio neu'n llithro yw ffrithiant.",
+      "how": "Mae'r un car tegan yn rholio ymhellach ar lawr llyfn nag ar garped garw.",
+      "extra": "Mae ffrithiant hefyd yn gadael i dy esgidiau afael yn y ddaear.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Beth mae ffrithiant yn ei wneud i bethau sy'n llithro?",
+          "Mae'n eu harafu",
+          "Mae'n dileu disgyrchiant",
+          "Mae'n eu troi'n sêr",
+          "Mae'n tynnu'r ddau begwn"
+        ],
+        [
+          "Mae car tegan yn rholio ymhellach ar",
+          "Lawr llyfn",
+          "Carped garw",
+          "Mwd trwchus",
+          "Mêl gludiog"
+        ]
+      ]
+    },
+    "lever": {
+      "title": "Mae lifer yn helpu i godi",
+      "sentence": "Gall lifer dy helpu i godi llwyth trwm gyda gwthio llai.",
+      "how": "Mae gwialen galed ar bwynt troi yn gadael i ti godi llyfr gyda llai o wthio.",
+      "extra": "Lifer yw si-so.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Mae lifer yn dy helpu i",
+          "Godi llwyth trwm gyda gwthio llai",
+          "Stopio pob ffrithiant am byth",
+          "Berwi dŵr heb wres",
+          "Tynnu pegwn magnet"
+        ],
+        [
+          "Math o beth yw si-so",
+          "Lifer",
+          "Planed",
+          "Ffosil",
+          "Microb"
+        ]
+      ]
+    },
+    "inertia": {
+      "title": "Mae peth llonydd yn aros yn llonydd",
+      "sentence": "Mae gwrthrych llonydd yn aros yn llonydd nes bod grym yn ei symud.",
+      "how": "Mae disg ar iâ llyfn yn dal i fynd nes bod rhwbio neu daro yn newid ei symudiad.",
+      "extra": "Un o reolau symudiad a ysgrifennodd Newton yw'r rheol hon.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Mae llyfr llonydd yn aros yn llonydd nes",
+          "Bod grym yn ei symud",
+          "Iddo benderfynu hedfan",
+          "Bod y Lleuad yn galw ei enw",
+          "Iddo droi'n DNA"
+        ],
+        [
+          "Pwy ysgrifennodd reolau am sut mae grymoedd yn symud pethau?",
+          "Isaac Newton",
+          "Wangari Maathai",
+          "Tu Youyou",
+          "Mary Anning"
+        ]
+      ]
+    },
+    "hot-air": {
+      "title": "Mae aer poeth yn codi",
+      "sentence": "Mae aer poeth yn codi uwchlaw aer oerach.",
+      "how": "Mae aer cynnes o wresogydd yn codi, tra mae aer oerach yn suddo.",
+      "extra": "Dyna pam gall ystafell deimlo'n gynhesach i fyny'r grisiau.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Beth mae aer poeth yn ei wneud?",
+          "Mae'n codi uwchlaw aer oerach",
+          "Mae bob amser yn suddo o dan iâ",
+          "Mae'n troi'n graig",
+          "Mae'n colli'r ddau begwn"
+        ],
+        [
+          "Pam gall y llawr uchaf deimlo'n gynhesach?",
+          "Mae aer cynnes yn codi",
+          "Mae grisiau yn gwneud ocsigen",
+          "Mae carpedi yn berwi",
+          "Mae magnetau yn gwresogi'r to"
+        ]
+      ]
+    },
+    "earth-sun": {
+      "title": "Mae'r Ddaear yn mynd o amgylch yr Haul",
+      "sentence": "Mae'r Ddaear yn mynd o amgylch yr Haul.",
+      "how": "Mae'r ffordd y mae planedau'n symud, a lluniau o'r gofod, yn ffitio llwybr o amgylch yr Haul.",
+      "extra": "Amser maith yn ôl, profodd pobl hyn yn erbyn y syniad bod popeth yn cylchdroi'r Ddaear.",
+      "unsure": "",
+      "quiz": [
+        [
+          "O amgylch beth mae'r Ddaear yn mynd?",
+          "Yr Haul",
+          "Y Lleuad yn unig",
+          "Morfil",
+          "Magnet"
+        ],
+        [
+          "Pwy ysgrifennodd fod y Ddaear a'r planedau yn mynd o amgylch yr Haul?",
+          "Nicolaus Copernicus",
+          "Jane Goodall",
+          "Alice Ball",
+          "Percy Julian"
+        ]
+      ]
+    },
+    "year-trip": {
+      "title": "Un daith yw blwyddyn",
+      "sentence": "Un daith o'r Ddaear o amgylch yr Haul yw blwyddyn.",
+      "how": "Rydyn ni'n mesur tua 365 diwrnod o un marc tymor yn ôl i'r un marc.",
+      "extra": "Mae rhai blynyddoedd calendr yn ychwanegu diwrnod naid fel bod y cyfrif yn aros yn gywir.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Blwyddyn yw",
+          "Un daith o'r Ddaear o amgylch yr Haul",
+          "Un amrant",
+          "Un llanw",
+          "Un tro o dop tegan"
+        ],
+        [
+          "Tua sawl diwrnod yw un daith o'r Ddaear o amgylch yr Haul?",
+          "365",
+          "8",
+          "12",
+          "2"
+        ]
+      ]
+    },
+    "day-spin": {
+      "title": "Tro yw diwrnod",
+      "sentence": "Mae diwrnod tua un tro llawn o'r Ddaear.",
+      "how": "Mae'r Haul yn ymddangos fel pe bai'n croesi'r awyr unwaith bob tro mae'r Ddaear yn troi.",
+      "extra": "Mae lleoedd yn cymryd eu tro i wynebu'r Haul, ac mae hynny'n gwneud dydd a nos.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Mae diwrnod tua",
+          "Un tro llawn o'r Ddaear",
+          "Un daith o amgylch y galaeth",
+          "Un gaeaf broga",
+          "Un asgwrn"
+        ],
+        [
+          "Mae dydd a nos yn digwydd oherwydd",
+          "Mae'r Ddaear yn troi, felly mae lleoedd yn cymryd eu tro i wynebu'r Haul",
+          "Mae'r Haul yn diffodd bob nos",
+          "Mae'r Lleuad yn gorchuddio'r Haul bob nos",
+          "Mae'r Ddaear yn stopio symud"
+        ]
+      ]
+    },
+    "seasons": {
+      "title": "Pam mae tymhorau yn digwydd",
+      "sentence": "Mae tymhorau yn digwydd oherwydd bod y Ddaear ar ogwydd wrth iddi fynd o amgylch yr Haul.",
+      "how": "Mae'r gogwydd yn newid pa mor uniongyrchol mae golau'r haul yn taro lle drwy'r flwyddyn.",
+      "extra": "Nid yw tymhorau yn digwydd oherwydd bod y Ddaear yn dod yn llawer agosach at yr Haul.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Beth sy'n gwneud y tymhorau?",
+          "Gogwydd y Ddaear",
+          "Y Ddaear yn dod yn llawer agosach at yr Haul",
+          "Magnetau mewn esgidiau",
+          "Caneuon morfilod"
+        ],
+        [
+          "Pa frawddeg sy'n wir?",
+          "Mae gogwydd y Ddaear yn newid pa mor uniongyrchol mae golau'r haul yn ein taro",
+          "Mae haf yn digwydd oherwydd bod y Lleuad yn berwi",
+          "Mae gaeaf yn golygu bod y Ddaear wedi gadael cysawd yr haul",
+          "Math o fetel yw tymhorau"
+        ]
+      ]
+    },
+    "earth-layers": {
+      "title": "Mae gan y Ddaear haenau",
+      "sentence": "Mae gan y Ddaear gramen, mantell, a chraidd.",
+      "how": "Mae tonnau daeargryn yn newid cyflymder y tu mewn i'r Ddaear, ac mae hynny'n dangos yr haenau.",
+      "extra": "Yr haen allanol denau rydyn ni'n byw arni yw'r gramen.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Pa restr sy'n enwi haenau'r Ddaear?",
+          "Cramen, mantell, craidd",
+          "Deilen, gwreiddyn, gwenynen",
+          "Iâ, olew, aur",
+          "Gogledd, de, copr"
+        ],
+        [
+          "Sut rydyn ni'n gwybod bod gan y Ddaear haenau?",
+          "Mae tonnau daeargryn yn newid cyflymder y tu mewn iddi",
+          "Cloddiodd rhywun i'r canol",
+          "Dyfaliad heb brawf",
+          "Diferoedd gwydr i lawr"
+        ]
+      ]
+    },
+    "fossils": {
+      "title": "Ffosiliau mewn craig",
+      "sentence": "Gweddillion neu olion pethau byw a gedwir mewn craig yw ffosilau.",
+      "how": "Mae pobl yn dod o hyd i esgyrn, cregyn, ac olion traed wedi troi'n garreg mewn haenau craig.",
+      "extra": "Un ffordd rydyn ni'n gwybod bod bywyd wedi newid yw ffosilau.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Gall ffosil fod yn",
+          "Asgwrn neu ôl troed a gedwir mewn craig",
+          "Morfil byw",
+          "Cwmwl glaw",
+          "Pegwn magnet"
+        ],
+        [
+          "Pwy ddarganfu anifeiliaid môr ffosil enwog mewn clogwyni yn England?",
+          "Mary Anning",
+          "Katherine Johnson",
+          "Ada Lovelace",
+          "Chien-Shiung Wu"
+        ]
+      ]
+    },
+    "ocean-cover": {
+      "title": "Mae'r cefnfor yn gorchuddio'r rhan fwyaf",
+      "sentence": "Mae'r cefnfor yn gorchuddio'r rhan fwyaf o'r Ddaear.",
+      "how": "Mae mapiau a lluniau o'r gofod yn dangos llawer mwy o ddŵr na thir.",
+      "extra": "Mae tua saith rhan o ddeg o wyneb y Ddaear yn gefnfor.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Beth sy'n gorchuddio'r rhan fwyaf o'r Ddaear?",
+          "Y cefnfor",
+          "Dinasoedd",
+          "Tywod anialwch yn unig",
+          "Iâ yn unig"
+        ],
+        [
+          "Tua faint o wyneb y Ddaear yw cefnfor?",
+          "Saith rhan o ddeg",
+          "Un rhan o ddeg",
+          "Dim",
+          "Y Lleuad i gyd"
+        ]
+      ]
+    },
+    "volcano": {
+      "title": "Llosgfynyddoedd",
+      "sentence": "Gall llosgfynydd adael i graig wedi toddi ddod allan o'r Ddaear.",
+      "how": "Mae pobl wedi gwylio lafa yn llifo allan ac yna'n oeri'n graig.",
+      "extra": "Nid yw pob mynydd yn losgfynydd.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Beth all ddod allan o losgfynydd?",
+          "Craig wedi toddi",
+          "Tabl elfennau gorffenedig",
+          "Golau'r lleuad",
+          "Brogaod hylifol"
+        ],
+        [
+          "A yw pob mynydd yn losgfynydd?",
+          "Na",
+          "Ie",
+          "Ar ddydd Mawrth yn unig",
+          "Dim ond os oes ganddo esgyrn"
+        ]
+      ]
+    },
+    "quake": {
+      "title": "Daeargrynfeydd",
+      "sentence": "Mae daeargryn yn digwydd pan mae craig o dan ein traed yn llithro.",
+      "how": "Mae offerynnau yn cofnodi'r ysgwyd, ac mae craciau yn y ddaear yn dangos lle symudodd y graig.",
+      "extra": "Gall yr ysgwyd deithio'n bell drwy graig.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Mae daeargryn yn dechrau pan",
+          "Mae craig o dan ein traed yn llithro",
+          "Mae cwmwl yn blasu halen",
+          "Mae had yn egino",
+          "Mae aur yn rhydu"
+        ],
+        [
+          "Beth sy'n cofnodi ysgwyd daeargryn?",
+          "Offerynnau",
+          "Pigyn cactws",
+          "Enfys",
+          "Diwrnod naid"
+        ]
+      ]
+    },
+    "soil": {
+      "title": "Beth yw pridd",
+      "sentence": "Craig wedi torri wedi'i chymysgu ag aer, dŵr, a darnau o bethau byw yw pridd.",
+      "how": "Mae chwyddwydr llaw yn dangos gronynnau, gwreiddiau, a darnau tywyll o hen blanhigion.",
+      "extra": "Mae mwydod a phethau byw bach yn helpu i gymysgu pridd.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Pridd yn bennaf yw",
+          "Craig wedi torri ynghyd ag aer, dŵr, a darnau o fywyd",
+          "Aur pur",
+          "Iâ yn unig",
+          "Plastig yn unig"
+        ],
+        [
+          "Pwy astudiodd gnydau sy'n helpu pridd blinedig?",
+          "George Washington Carver",
+          "Galileo Galilei",
+          "Isaac Newton",
+          "Ada Lovelace"
+        ]
+      ]
+    },
+    "tides": {
+      "title": "Y Lleuad a'r llanw",
+      "sentence": "Mae tynnu'r Lleuad yn helpu i wneud llanw'r cefnfor.",
+      "how": "Mae amseroedd y llanw yn cyd-fynd â lle mae'r Lleuad yn yr awyr, dro ar ôl tro.",
+      "extra": "Mae tynnu'r Haul yn chwarae rhan hefyd.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Beth sy'n helpu i wneud y llanw?",
+          "Tynnu'r Lleuad",
+          "Curiad calon broga",
+          "Graffit pensil",
+          "Un wenynen"
+        ],
+        [
+          "Mae amseroedd y llanw yn cyd-fynd â",
+          "Y Lleuad",
+          "Lliw aur",
+          "Maint dy esgid",
+          "Cactws"
+        ]
+      ]
+    },
+    "weather-climate": {
+      "title": "Tywydd a hinsawdd",
+      "sentence": "Beth mae'r aer yn ei wneud heddiw yw'r tywydd, a'r patrwm dros lawer o flynyddoedd yw'r hinsawdd.",
+      "how": "Tywydd yw un diwrnod glawog, tra mae cofnodion a gedwir am flynyddoedd yn dangos yr hinsawdd.",
+      "extra": "Nid yw diwrnod oer yn dileu patrwm cynnes hir.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Y tywydd yw",
+          "Beth mae'r aer yn ei wneud heddiw",
+          "Siâp DNA",
+          "Pegwn magnet",
+          "Clogwyn ffosil"
+        ],
+        [
+          "Yr hinsawdd yw",
+          "Y patrwm dros lawer o flynyddoedd",
+          "Un cwmwl",
+          "Un pwll",
+          "Cinio heddiw"
+        ]
+      ]
+    },
+    "sun-star": {
+      "title": "Seren yw'r Haul",
+      "sentence": "Seren yw'r Haul.",
+      "how": "Mae ei olau a'i gyfansoddiad yn cyd-fynd â sêr eraill, dim ond ei fod yn llawer agosach.",
+      "extra": "Mae sêr eraill yn edrych yn fach oherwydd eu bod yn bell iawn i ffwrdd.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Yr Haul yw",
+          "Seren",
+          "Craig oer",
+          "Morfil",
+          "Ffosil"
+        ],
+        [
+          "Pam mae sêr eraill yn edrych yn fychan?",
+          "Maen nhw'n bell iawn i ffwrdd",
+          "Microbau ydyn nhw",
+          "Maen nhw o dan y ddaear",
+          "Nid oes ganddyn nhw olau o gwbl"
+        ]
+      ]
+    },
+    "eight-planets": {
+      "title": "Wyth planed",
+      "sentence": "Mae wyth planed yn mynd o amgylch yr Haul.",
+      "how": "Mae telesgopau yn dilyn wyth byd mawr ar lwybrau clir o amgylch yr Haul.",
+      "extra": "Planed gorrach yw Pluto, nid un o'r wyth.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Sawl planed sy'n mynd o amgylch yr Haul?",
+          "Wyth",
+          "Dau",
+          "206",
+          "Un miliwn"
+        ],
+        [
+          "Pluto yw",
+          "Planed gorrach",
+          "Un o'r wyth planed",
+          "Y cefnfor mwyaf",
+          "Math o asgwrn"
+        ]
+      ]
+    },
+    "moon-light": {
+      "title": "Mae'r Lleuad yn adlewyrchu",
+      "sentence": "Nid yw'r Lleuad yn gwneud ei golau ei hun. Mae'n adlewyrchu'r Haul.",
+      "how": "Mae rhan lachar y Lleuad bob amser yn wynebu golau'r Haul.",
+      "extra": "Mae'r ochr yn y cysgod yn edrych yn dywyll.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Mae golau'r Lleuad yn dod o",
+          "Yr Haul yn adlamu oddi arni",
+          "Tân y tu mewn i'r Lleuad",
+          "Lampau dinas",
+          "Brogaod ar y Lleuad"
+        ],
+        [
+          "Rhan dywyll y Lleuad yw",
+          "Yr ochr yn y cysgod",
+          "Twll heb graig",
+          "Cefnfor o inc",
+          "Magnet"
+        ]
+      ]
+    },
+    "moon-phases": {
+      "title": "Cyfnodau'r Lleuad",
+      "sentence": "Mae'r Lleuad yn edrych yn wahanol bob nos oherwydd ein bod yn gweld gwahanol symiau o'i hochr heulog.",
+      "how": "Tynna lun y Lleuad am fis, ac mae'r rhan lachar yn tyfu ac yn crebachu yn eu trefn.",
+      "extra": "Mae cylch llawn o gyfnodau yn cymryd tua mis.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Pam mae siâp y Lleuad yn ymddangos fel pe bai'n newid?",
+          "Rydyn ni'n gweld gwahanol symiau o'i hochr heulog",
+          "Mae'r Lleuad yn toddi bob nos",
+          "Mae cymylau yn ei bwyta",
+          "Mae'n tyfu esgyrn"
+        ],
+        [
+          "Mae cylch llawn o gyfnodau'r Lleuad yn cymryd tua",
+          "Un mis",
+          "Un funud",
+          "Wyth mlynedd",
+          "Un eiliad"
+        ]
+      ]
+    },
+    "saturn-rings": {
+      "title": "Modrwyau Saturn",
+      "sentence": "Mae modrwyau Saturn wedi'u gwneud yn bennaf o dalpiau o iâ a chraig.",
+      "how": "Mae llongau gofod a thelesgopau yn dangos torfeydd enfawr o dalpiau yn cylchu Saturn.",
+      "extra": "Mae'r modrwyau'n llydan iawn, ond maen nhw hefyd yn denau iawn.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Mae modrwyau Saturn yn bennaf",
+          "Iâ a chraig",
+          "Dail coed",
+          "Asgwrn",
+          "Cefnforoedd aur hylifol"
+        ],
+        [
+          "Mae'r modrwyau",
+          "Yn llydan ond yn denau iawn",
+          "Un plât metel solet",
+          "Ffordd y gelli di gerdded arni",
+          "Wedi'u gwneud o forfilod"
+        ]
+      ]
+    },
+    "milky-way": {
+      "title": "Y Llwybr Llaethog",
+      "sentence": "Y Llwybr Llaethog yw enw ein galaeth.",
+      "how": "Rydyn ni'n byw y tu mewn iddi, ac ar noson dywyll gall ei sêr edrych fel band gwelw.",
+      "extra": "Teulu enfawr o sêr yw galaeth.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Beth yw enw ein galaeth?",
+          "Y Llwybr Llaethog",
+          "Y Môr Coch",
+          "Y Tabl Cyfnodol",
+          "Y Gramen"
+        ],
+        [
+          "Galaeth yw",
+          "Teulu enfawr o sêr",
+          "Un broga",
+          "Math o halen",
+          "Lifer"
+        ]
+      ]
+    },
+    "rockets": {
+      "title": "Mae rocedi yn gwthio nwy",
+      "sentence": "Mae roced yn symud ymlaen drwy wthio nwy yn ôl.",
+      "how": "Gollwng balŵn, ac mae'r aer yn rhuthro allan un ffordd tra mae'r balŵn yn saethu'r ffordd arall.",
+      "extra": "Mae'r un math o wthio yn anfon rocedi go iawn i fyny.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Mae roced yn mynd ymlaen drwy",
+          "Wthio nwy yn ôl",
+          "Dynnu'r sêr gyda rhaff",
+          "Gollwng tywod i fyny",
+          "Diffodd disgyrchiant"
+        ],
+        [
+          "Mae balŵn a ollyngwyd yn saethu oherwydd",
+          "Mae aer yn rhuthro allan y ffordd arall",
+          "Mae'n troi'n iâ",
+          "Mae'r Lleuad yn tynnu'r cwlwm",
+          "Mae ffrithiant yn diflannu am byth"
+        ]
+      ]
+    },
+    "orbit-float": {
+      "title": "Arnofio mewn cylchdro",
+      "sentence": "Mae pobl mewn cylchdro yn arnofio oherwydd eu bod yn disgyn o amgylch y Ddaear, nid oherwydd bod disgyrchiant wedi mynd.",
+      "how": "Mae'r llong a'r bobl yn disgyn gyda'i gilydd, felly maen nhw'n teimlo'n ddi-bwysau y tu mewn.",
+      "extra": "Mae disgyrchiant yn dal i dynnu. Mae'n plygu eu llwybr o amgylch y Ddaear.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Pam mae pobl mewn cylchdro yn arnofio?",
+          "Maen nhw'n disgyn o amgylch y Ddaear",
+          "Mae disgyrchiant wedi gadael y gofod",
+          "Mae'r llong yn tynnu pob màs",
+          "Balwnau ydyn nhw"
+        ],
+        [
+          "A yw disgyrchiant wedi mynd mewn cylchdro?",
+          "Na",
+          "Ie",
+          "Ar ddydd Mawrth yn unig",
+          "Ar gyfer planhigion yn unig"
+        ]
+      ]
+    },
+    "telescope": {
+      "title": "Mae telesgopau yn casglu golau",
+      "sentence": "Mae telesgop yn casglu golau fel bod pethau gwan yn edrych yn fwy disglair.",
+      "how": "Mae lens neu ddrych mawr yn casglu mwy o olau na dy lygad ar ei ben ei hun.",
+      "extra": "Defnyddiodd Galileo delesgop i astudio'r awyr.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Mae telesgop yn ein helpu i weld pethau gwan oherwydd ei fod yn",
+          "Casglu mwy o olau",
+          "Gwneud sain yn uwch",
+          "Toddi tywod",
+          "Cyfrif esgyrn"
+        ],
+        [
+          "Pwy ddefnyddiodd delesgop a gweld lleuadau o amgylch Jupiter?",
+          "Galileo Galilei",
+          "George Washington Carver",
+          "Tu Youyou",
+          "Barbara McClintock"
+        ]
+      ]
+    },
+    "universe-stretch": {
+      "title": "Efallai bod gofod yn ymestyn",
+      "sentence": "Mae llawer o alaethau pell yn edrych yn fwy coch, ac mae damcaniaeth yn dweud bod gofod ei hun yn ymestyn.",
+      "how": "Mae'r symudiad coch hwnnw yn cyd-fynd â phellter ar gyfer nifer enfawr o alaethau.",
+      "extra": "Damcaniaeth y mae gwyddonwyr yn dal i'w phrofi yw hon, nid dyfalu gwyllt.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Mae damcaniaeth am alaethau pell yn dweud",
+          "Mae gofod yn ymestyn",
+          "Planedau yw brogaod",
+          "Hylif araf yw gwydr",
+          "Mae sain yn croesi gofod gwag"
+        ],
+        [
+          "Golwg fwy coch alaethau pell yw",
+          "Tystiolaeth y mae gwyddonwyr yn dal i'w phrofi",
+          "Dyfaliad na all neb ei brofi",
+          "Prawf bod gan fagnetau un pegwn",
+          "Llanw"
+        ]
+      ]
+    },
+    "life-beyond": {
+      "title": "Bywyd y tu hwnt i'r Ddaear",
+      "sentence": "Dyfaliad yw'r syniad bod pethau byw y tu hwnt i'r Ddaear nes bod prawf yn eu dangos.",
+      "how": "Mae llongau gofod wedi gwirio rhai lleoedd, fel Mars, ac nid ydyn nhw wedi dod o hyd i fywyd yno eto.",
+      "extra": "Gall dyfaliad droi'n ffaith dim ond ar ôl i brawf ei ddangos.",
+      "unsure": "",
+      "quiz": [
+        [
+          "A ydyn ni wedi dod o hyd i bethau byw y tu hwnt i'r Ddaear?",
+          "Dim eto",
+          "Ie, dinas ar yr Haul",
+          "Ie, morfilod ar y Lleuad",
+          "Ie, coedwigoedd ar fodrwyau Saturn"
+        ],
+        [
+          "Syniad bywyd y tu hwnt i'r Ddaear yw",
+          "Dyfaliad nes bod prawf yn ei ddangos",
+          "Ffaith wedi'i mesur eisoes",
+          "Yr un peth â H2O",
+          "Un o reolau symudiad Newton"
+        ]
+      ]
+    },
+    "heart": {
+      "title": "Mae dy galon yn pwmpio",
+      "sentence": "Mae dy galon yn pwmpio gwaed o amgylch dy gorff.",
+      "how": "Gelli di deimlo'r curiad fel pwls, a gall sganiau wylio'r galon yn gwasgu.",
+      "extra": "Mae'r curiad yn mynd yn gyflymach ar ôl i ti redeg.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Beth mae dy galon yn ei wneud?",
+          "Mae'n pwmpio gwaed",
+          "Mae'n gwneud golau'r haul",
+          "Mae'n storio creigiau",
+          "Magnet gwialen ydyw"
+        ],
+        [
+          "Pryd mae dy galon fel arfer yn curo'n gyflymach?",
+          "Ar ôl i ti redeg",
+          "Pan wyt ti'n ffosil",
+          "Pan wyt ti wedi dy wneud o wydr",
+          "Byth"
+        ]
+      ]
+    },
+    "lungs": {
+      "title": "Ysgyfaint ac ocsigen",
+      "sentence": "Mae dy ysgyfaint yn cymryd aer i mewn fel y gall dy waed gario ocsigen.",
+      "how": "Mae profion yn dangos bod gwaed yn codi ocsigen yn yr ysgyfaint.",
+      "extra": "Rwyt ti'n anadlu carbon deuocsid allan.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Mae ysgyfaint yn helpu dy waed i godi",
+          "Ocsigen",
+          "Tywod",
+          "Rhwd haearn",
+          "Paill yn unig"
+        ],
+        [
+          "Rwyt ti'n anadlu allan",
+          "Carbon deuocsid",
+          "Aur hylifol",
+          "Creigiau'r Lleuad",
+          "Magnetau"
+        ]
+      ]
+    },
+    "bones": {
+      "title": "206 o esgyrn",
+      "sentence": "Mae gan sgerbwd person sydd wedi tyfu 206 o esgyrn.",
+      "how": "Mae meddygon yn eu cyfrif ar luniau gofalus ac ar sgerbydau mewn labordai.",
+      "extra": "Mae gan fabanod fwy o esgyrn, ac mae rhai yn ymuno yn ddiweddarach.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Sawl asgwrn sydd yn sgerbwd person sydd wedi tyfu?",
+          "206",
+          "8",
+          "2",
+          "3"
+        ],
+        [
+          "Mae gan fabanod",
+          "Fwy o esgyrn a all ymuno yn ddiweddarach",
+          "Dim esgyrn o gwbl",
+          "Penglog gwydr yn unig",
+          "Esgyrn wedi'u gwneud o fêl"
+        ]
+      ]
+    },
+    "muscles": {
+      "title": "Mae cyhyrau yn tynnu",
+      "sentence": "Mae cyhyrau yn tynnu ar esgyrn. Nid ydyn nhw'n gwthio.",
+      "how": "Pan mae dy fraich yn plygu, mae cyhyr yn mynd yn fyrrach ac yn tynnu.",
+      "extra": "Mae cyhyr arall yn tynnu'r ffordd arall i sythu'r fraich.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Mae cyhyrau yn symud esgyrn drwy",
+          "Dynnu",
+          "Eu gwthio fel polyn",
+          "Eu toddi",
+          "Eu rhewi"
+        ],
+        [
+          "I sythu dy fraich",
+          "Mae cyhyr arall yn tynnu'r ffordd arall",
+          "Mae'r un cyhyr yn gwthio",
+          "Mae'r asgwrn yn arnofio i ffwrdd",
+          "Mae disgyrchiant yn gadael"
+        ]
+      ]
+    },
+    "germs": {
+      "title": "Germau a dwylo",
+      "sentence": "Gall rhai germau achosi salwch, ac mae golchi dwylo gyda sebon yn helpu i stopio eu lledaeniad.",
+      "how": "Mae profion yn dangos bod sebon a dŵr yn codi germau oddi ar y croen.",
+      "extra": "Mae sebon a dŵr yn gweithio'n well na rinsiad cyflym â dŵr yn unig.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Beth sy'n helpu i stopio germau rhag lledaenu ar ddwylo?",
+          "Golchi gyda sebon a dŵr",
+          "Rhwbio tywod yn unig",
+          "Hepgor sebon am byth",
+          "Cuddio dwylo mewn ffosil"
+        ],
+        [
+          "Pa frawddeg sy'n wir?",
+          "Gall rhai germau achosi salwch",
+          "Creigiau yw pob microb",
+          "Planedau yw germau",
+          "Planed yw sebon"
+        ]
+      ]
+    },
+    "senses": {
+      "title": "Pum synnwyr",
+      "sentence": "Gelli di weld, clywed, arogli, blasu, a chyffwrdd.",
+      "how": "Mae pob un o'r synhwyrau hyn yn defnyddio ei rannau corff ei hun, fel llygaid, clustiau, trwyn, tafod, a chroen.",
+      "extra": "Rwyt ti hefyd yn synhwyro cydbwysedd a gwres.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Pa restr sy'n enwi pum synnwyr?",
+          "Gweld, clywed, arogli, blasu, cyffwrdd",
+          "Gogledd, de, dwyrain, gorllewin, i fyny",
+          "Solet, hylif, nwy, rhwd, aur",
+          "Cramen, mantell, craidd, llanw, blwyddyn"
+        ],
+        [
+          "Ar wahân i'r pump hynny, gelli di hefyd synhwyro",
+          "Cydbwysedd a gwres",
+          "Sioeau radio gyda dy bengliniau",
+          "Sain mewn gofod gwag",
+          "Magnet ym mhob bys"
+        ]
+      ]
+    },
+    "enamel": {
+      "title": "Cot galed dant",
+      "sentence": "Mae gan ddannedd gôt galed o'r enw gwydredd.",
+      "how": "Mae deintyddion yn gweld gwydredd fel y gorchudd caled, ac mae'n galetach na thu mewn y dant.",
+      "extra": "Gall byrbrydau melys a hepgor y brwsh brifo'r gôt honno.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Enw'r gôt galed ar ddant yw",
+          "Gwydredd",
+          "Deilen",
+          "Modrwy o Saturn",
+          "Rhwd"
+        ],
+        [
+          "Mae gwydredd",
+          "Yn galetach na thu mewn y dant",
+          "Yn fetel hylifol",
+          "Yn fath o gwmwl",
+          "Yn lleuad"
+        ]
+      ]
+    },
+    "brain": {
+      "title": "Dy ymennydd",
+      "sentence": "Mae dy ymennydd yn dy helpu i feddwl, teimlo, a symud.",
+      "how": "Mae sganiau yn dangos rhannau o'r ymennydd yn gweithio pan wyt ti'n edrych, yn siarad, neu'n symud.",
+      "extra": "Rwyt ti'n defnyddio llawer o rannau o dy ymennydd bob dydd.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Mae dy ymennydd yn dy helpu i",
+          "Feddwl, teimlo, a symud",
+          "Ryddu fel haearn",
+          "Gylchdroi fel planed",
+          "Arnofio fel olew"
+        ],
+        [
+          "Pa frawddeg sy'n wir?",
+          "Rwyt ti'n defnyddio llawer o rannau o dy ymennydd bob dydd",
+          "Mae pobl yn defnyddio dim ond mymryn bach a'r gweddill wedi'i ddiffodd",
+          "Asgwrn yn y droed yw'r ymennydd",
+          "Mae'r ymennydd wedi'i wneud o wydr ffenestr"
+        ]
+      ]
+    },
+    "skin": {
+      "title": "Y croen yw'r mwyaf",
+      "sentence": "Croen yw organ fwyaf dy gorff.",
+      "how": "Wedi'i wasgaru, mae croen person sydd wedi tyfu yn gorchuddio mwy o arwynebedd nag unrhyw organ arall.",
+      "extra": "Mae croen yn helpu i gadw dŵr i mewn a germau allan.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Dy organ fwyaf yw",
+          "Croen",
+          "Un dant",
+          "Un blewyn",
+          "Blewyn amrant"
+        ],
+        [
+          "Mae croen yn helpu",
+          "Gadw dŵr i mewn a germau allan",
+          "Bwmpio gwaed fel ail galon",
+          "Wneud modrwyau o amgylch Saturn",
+          "Ferwi dŵr"
+        ]
+      ]
+    },
+    "sleep": {
+      "title": "Mae cwsg yn helpu",
+      "sentence": "Mae cwsg yn dy helpu i gofio ac yn rhoi amser i dy gorff dyfu.",
+      "how": "Mae astudiaethau yn cymharu pobl ar ôl noson lawn o gwsg ac ar ôl rhy ychydig o gwsg.",
+      "extra": "Mae angen mwy o gwsg ar blant nag ar oedolion.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Mae cwsg yn dy helpu i",
+          "Gofio a thyfu",
+          "Droi'n fagnet",
+          "Golli dy holl esgyrn",
+          "Stopio angen aer"
+        ],
+        [
+          "Pwy sydd angen mwy o gwsg?",
+          "Plant",
+          "Creigiau",
+          "Ffosiliau",
+          "Darnau arian aur"
+        ]
+      ]
+    },
+    "stomach": {
+      "title": "Asid y stumog",
+      "sentence": "Mae dy stumog yn gwneud asid cryf sy'n helpu i dorri bwyd i lawr.",
+      "how": "Gall meddygon fesur yr asid hwnnw, ac mae bwyd yn newid ar ôl iddo eistedd yn y stumog.",
+      "extra": "Mae gan y stumog leinin sy'n gwrthsefyll ei asid ei hun.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Mae'r stumog yn gwneud",
+          "Asid sy'n helpu i dorri bwyd i lawr",
+          "Golau'r haul",
+          "Modrwyau iâ",
+          "Pegwn gogledd"
+        ],
+        [
+          "Pam mae'r stumog yn gwrthsefyll ei asid ei hun?",
+          "Mae ganddo leinin caled",
+          "Mae wedi'i wneud o ddiemwnt yn unig",
+          "Nid oes ganddo asid",
+          "Gofod gwag ydyw"
+        ]
+      ]
+    },
+    "helpful-germs": {
+      "title": "Mae rhai germau yn helpu",
+      "sentence": "Mae rhai germau yn ein helpu, fel y rhai sy'n troi llaeth yn iogwrt.",
+      "how": "Mae pobl yn tyfu'r germau hynny ar bwrpas, ac mae'r llaeth yn tewhau'n iogwrt.",
+      "extra": "Mae llawer o germau defnyddiol yn byw yn y pridd hefyd.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Mae iogwrt yn cael help gan",
+          "Germau defnyddiol",
+          "Mercwri hylifol",
+          "Telesgop",
+          "Daeargryn"
+        ],
+        [
+          "A yw pob microb yn niweidiol?",
+          "Na",
+          "Ie",
+          "Dim ond germau yn y gofod sy'n go iawn",
+          "Nid yw germau'n wir"
+        ]
+      ]
+    },
+    "mercury": {
+      "title": "Metel hylifol",
+      "sentence": "Gall metel fod yn hylif ar dymheredd ystafell, a mercwri yw'r metel hwnnw.",
+      "how": "Mewn tiwb labordy wedi'i selio, mae mercwri yn eistedd fel hylif sgleiniog mewn ystafell gynnes gyffredin.",
+      "extra": "Mae mercwri yn wenwynig. I edrych ydyw, nid i gyffwrdd.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Pa fetel sy'n hylif ar dymheredd ystafell?",
+          "Mercwri",
+          "Haearn",
+          "Pren",
+          "Iâ"
+        ],
+        [
+          "Beth ddylit ti ei wneud gyda mercwri?",
+          "Ei adael wedi'i selio a phaid â chyffwrdd ag ef",
+          "Ei yfed",
+          "Ei roi ar dy groen",
+          "Ei droi i mewn i fwyd"
+        ]
+      ]
+    },
+    "wood-frog": {
+      "title": "Gall broga rewi",
+      "sentence": "Gall rhai brogaod coed rewi yn y gaeaf, yna dadmer a neidio.",
+      "how": "Mae gwyddonwyr wedi gwylio'r brogaod hyn yn rhewi ac yna'n dechrau symud eto.",
+      "extra": "Mae eu cyrff yn gwneud hylif siwgraidd sy'n helpu i amddiffyn eu celloedd.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Beth all rhai brogaod coed ei wneud?",
+          "Rewi ac yna neidio eto",
+          "Troi'n fetel",
+          "Hedfan i Saturn",
+          "Stopio bod yn anifeiliaid"
+        ],
+        [
+          "Beth sy'n helpu i amddiffyn celloedd broga coed?",
+          "Hylif siwgraidd",
+          "Magnet gwialen",
+          "Lafa poeth",
+          "Tywod sych yn unig"
+        ]
+      ]
+    },
+    "octopus-hearts": {
+      "title": "Tair chalon",
+      "sentence": "Mae gan octopws dair chalon.",
+      "how": "Mae astudiaethau o octopysau yn dangos dwy galon ger y tagellau ac un ar gyfer gweddill y corff.",
+      "extra": "Pan mae octopws yn nofio, gall y galon bennaf oedi.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Sawl calon sydd gan octopws?",
+          "Tair",
+          "Un",
+          "Wyth",
+          "206"
+        ],
+        [
+          "Mae dwy o galonnau octopws yn gwasanaethu",
+          "Y tagellau",
+          "Modrwyau Saturn",
+          "Gwneud gwydr",
+          "Pegynau gogledd a de"
+        ]
+      ]
+    },
+    "banana-berry": {
+      "title": "Aeron yw banana",
+      "sentence": "Aeron yw banana, ac nid yw mefus yn aeron.",
+      "how": "Mae gwyddonwyr planhigion yn didoli ffrwythau yn ôl sut mae rhannau'r blodyn yn tyfu, nid yn ôl yr enw yn y siop.",
+      "extra": "Aeron yw tomatos hefyd.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Pa un yw aeron mewn gwyddoniaeth?",
+          "Banana",
+          "Mefus",
+          "Côn pinwydd",
+          "Tatws"
+        ],
+        [
+          "Mae gwyddonwyr yn didoli ffrwythau yn ôl",
+          "Sut mae rhannau'r blodyn yn tyfu",
+          "Lliw y bag",
+          "Pa mor uchel ydyn nhw",
+          "Pa mor fagnetig ydyn nhw"
+        ]
+      ]
+    },
+    "butterfly-feet": {
+      "title": "Blasu gyda thraed",
+      "sentence": "Mae pili-palaod yn blasu gyda'u traed.",
+      "how": "Mae synwyryddion ar eu traed yn dod o hyd i sudd planhigyn melys, ac yna mae'r tafod yn dadrolio.",
+      "extra": "Tiwb yfed hir yw'r tafod.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Mae pili-palaod yn blasu gyda'u",
+          "Traed",
+          "Clustiau",
+          "Cysgodion",
+          "Penelinoedd yn unig"
+        ],
+        [
+          "Tafod pili-pala yw",
+          "Tiwb hir",
+          "Magnet",
+          "Asgwrn",
+          "Modrwy o iâ"
+        ]
+      ]
+    },
+    "wombat-cubes": {
+      "title": "Baw ciwb",
+      "sentence": "Mae baw wombat ar siâp ciwb.",
+      "how": "Mae pobl wedi eu mesur, ac mae astudiaethau o'r perfedd yn dangos sut mae'r ciwbiau yn ffurfio.",
+      "extra": "Nid yw ciwbiau yn rholio i ffwrdd mor hawdd â pheledi crwn.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Pa siâp yw baw wombat?",
+          "Ciwbiau",
+          "Sfferau perffaith",
+          "Cleddyfau hir",
+          "Modrwyau"
+        ],
+        [
+          "Baw ar siâp ciwb",
+          "Nid yw'n rholio i ffwrdd mor hawdd",
+          "Yn troi'n aur",
+          "Yn fagnetau",
+          "Yn sêr"
+        ]
+      ]
+    },
+    "sharks-trees": {
+      "title": "Siarcod cyn coed",
+      "sentence": "Roedd siarcod yn nofio cyn i'r coed cyntaf dyfu.",
+      "how": "Mae ffosilau siarc mewn hen graig yn eistedd o dan y ffosilau coed cyntaf.",
+      "extra": "",
+      "unsure": "Nid ydyn ni'n siŵr o'r blynyddoedd union.",
+      "quiz": [
+        [
+          "Pa un ddaeth gyntaf?",
+          "Siarcod yn nofio, yna coed",
+          "Coed, yna'r siarcod cyntaf lawer yn ddiweddarach",
+          "Pobl, yna siarcod",
+          "Gwydr, yna siarcod"
+        ],
+        [
+          "A ydyn ni'n siŵr o'r blynyddoedd union ar gyfer siarcod a choed?",
+          "Na. Nid ydyn ni'n siŵr.",
+          "Ie, i'r funud",
+          "Ie, dydd Mawrth diwethaf oedd hi",
+          "Rydyn ni'n dyfeisio'r dyddiadau"
+        ]
+      ]
+    },
+    "eiffel-heat": {
+      "title": "Mae tŵr yn tyfu",
+      "sentence": "Mae Tŵr Eiffel yn sefyll ychydig yn dalach ar ddiwrnod poeth.",
+      "how": "Mae haearn yn ehangu pan mae'n cynhesu, ac mae mesuriadau o'r tŵr yn dangos cynnydd bach.",
+      "extra": "Ymestyniad bach yw'r newid, nid llawr ychwanegol cyfan.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Ar ddiwrnod poeth, mae Tŵr Eiffel",
+          "Yn sefyll ychydig yn dalach",
+          "Yn troi'n iâ",
+          "Yn hedfan i ffwrdd",
+          "Yn colli ei holl haearn"
+        ],
+        [
+          "Pam gall y tŵr dyfu ychydig?",
+          "Mae haearn yn ehangu pan mae'n cynhesu",
+          "Mae brogaod yn ei wthio i fyny",
+          "Mae'r Lleuad yn tynnu'r top i ffwrdd",
+          "Mae sain yn pentyrru ar y blaen"
+        ]
+      ]
+    },
+    "lizard-tail": {
+      "title": "Cynffon newydd",
+      "sentence": "Gall rhai madfallod ollwng cynffon a thyfu un newydd.",
+      "how": "Gall y gynffon ddod i ffwrdd mewn man arbennig, a gall un newydd dyfu.",
+      "extra": "Nid yw'r gynffon newydd yn union yr un fath â'r hen un.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Beth all rhai madfallod ei wneud?",
+          "Gollwng cynffon a thyfu un newydd",
+          "Troi'n adar ar unwaith",
+          "Troi'n fercwri",
+          "Tyfu pen gwydr"
+        ],
+        [
+          "Mae'r gynffon newydd",
+          "Ddim yn union yr un fath â'r hen un",
+          "Yn delesgop",
+          "Wedi'i gwneud o ddiemwnt yn unig",
+          "Yn blaned"
+        ]
+      ]
+    },
+    "venus-day": {
+      "title": "Diwrnod hir ar Venus",
+      "sentence": "Mae un tro llawn o Venus yn cymryd mwy o amser na'i daith o amgylch yr Haul.",
+      "how": "Mae radar yn mesur y tro araf, ac mae amser y cylchdro yn fyrrach.",
+      "extra": "Mae Venus hefyd yn troi tuag yn ôl o'i gymharu â'r Ddaear.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Pa un sy'n para'n hirach ar Venus?",
+          "Un tro llawn",
+          "Ei daith o amgylch yr Haul",
+          "Amrant dynol",
+          "Naid broga"
+        ],
+        [
+          "Sut rydyn ni'n mesur tro araf Venus?",
+          "Gyda radar",
+          "Drwy flasu'r aer",
+          "Gyda magnet ar froga",
+          "Drwy gyfrif esgyrn morfilod"
+        ]
+      ]
+    }
+  },
+  "people": {
+    "darwin": {
+      "when": "Ganwyd ef yn 1809. Daeth ei lyfr mawr allan yn 1859.",
+      "lines": [
+        "Cymharodd Charles Darwin anifeiliaid, planhigion, a ffosilau am flynyddoedd lawer.",
+        "Yn 1859 cyhoeddodd ddamcaniaeth. Mae pethau byw sy'n ffitio eu cartrefi yn tueddu i gael mwy o rai ifanc, ac mae grwpiau yn newid dros amser hir iawn.",
+        "Un ffordd rydyn ni'n profi'r ddamcaniaeth honno yw ffosilau."
+      ],
+      "extra": "Treuliodd flynyddoedd gartref yn astudio gwichiaid, un ar un.",
+      "unsure": "",
+      "sceneAlt": "Canopi coedwig law yn yr Amazon",
+      "quiz": [
+        "Pwy gyhoeddodd ddamcaniaeth yn 1859 am bethau byw yn newid dros amser hir?",
+        "Charles Darwin",
+        "Isaac Newton",
+        "Marie Curie",
+        "Mae Jemison"
+      ]
+    },
+    "goodall": {
+      "when": "Dechreuodd ei nodiadau tsimpansî yn 1960.",
+      "lines": [
+        "Gwyliodd Jane Goodall tsimpansîaid gwyllt ac ysgrifennodd beth roedden nhw'n ei wneud mewn gwirionedd.",
+        "Yn 1960 gwelodd tsimpansî yn defnyddio ffon i dynnu pryfed o dwmpath.",
+        "Dangosodd y cofnod hwnnw y gall tsimpansîaid wneud a defnyddio offer."
+      ],
+      "extra": "Yn ei nodiadau, David Greybeard oedd enw'r tsimpansî a ddefnyddiodd yr offeryn.",
+      "unsure": "",
+      "sceneAlt": "Tsimpansî mewn coedwig",
+      "quiz": [
+        "Pwy welodd tsimpansî gwyllt yn defnyddio ffon fel teclyn?",
+        "Jane Goodall",
+        "Michael Faraday",
+        "Nicolaus Copernicus",
+        "Percy Julian"
+      ]
+    },
+    "carver": {
+      "when": "Gwnaeth y gwaith cnydau hwn ar ddechrau'r 1900au.",
+      "lines": [
+        "Astudiodd George Washington Carver gnydau a phridd blinedig.",
+        "Dangosodd i ffermwyr y gallai pysgnau a thatws melys orffwys caeau a oedd wedi tyfu cotwm am rhy hir.",
+        "Daeth o hyd hefyd i ffyrdd newydd o ddefnyddio'r planhigion hynny fel bod llai yn cael ei wastraffu."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Canopi coedwig law yn yr Amazon",
+      "quiz": [
+        "Pwy ddefnyddiodd bysgnau a thatws melys i helpu pridd blinedig?",
+        "George Washington Carver",
+        "Galileo Galilei",
+        "Ada Lovelace",
+        "Chien-Shiung Wu"
+      ]
+    },
+    "mcclintock": {
+      "when": "Astudiodd india-corn am flynyddoedd lawer, a rhannodd y syniad genynnau neidio yn y 1950au.",
+      "lines": [
+        "Astudiodd Barbara McClintock liwiau cnewyll india-corn.",
+        "Gweithiodd hi allan y gall rhai darnau o DNA neidio i le newydd.",
+        "Dangosodd profion diweddarach mewn pethau byw eraill ei bod hi'n iawn."
+      ],
+      "extra": "Dysgodd hi hynny drwy edrych yn ofalus, tymor ar ôl tymor.",
+      "unsure": "",
+      "sceneAlt": "Canopi coedwig law yn yr Amazon",
+      "quiz": [
+        "Pwy ddarganfu y gall rhai darnau o DNA neidio?",
+        "Barbara McClintock",
+        "Isaac Newton",
+        "Mary Anning",
+        "Subrahmanyan Chandrasekhar"
+      ]
+    },
+    "just": {
+      "when": "Gwnaeth ei waith celloedd mwyaf adnabyddus ar ddechrau'r 1900au.",
+      "lines": [
+        "Astudiodd Ernest Everett Just gelloedd anifeiliaid y môr.",
+        "Dangosodd fod rhan allanol cell yn helpu i reoli beth mae'r gell yn ei wneud.",
+        "Gwnaeth y gwaith gofalus hwnnw ar y lan ac yn y labordy."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Octopws cyffredin",
+      "quiz": [
+        "Pwy ddangosodd fod tu allan cell yn helpu i reoli'r gell?",
+        "Ernest Everett Just",
+        "Dmitri Mendeleev",
+        "Nicolaus Copernicus",
+        "Michael Faraday"
+      ]
+    },
+    "maathai": {
+      "when": "Astudiodd bethau byw, a thyfodd y gwaith plannu coed o'r 1970au ymlaen.",
+      "lines": [
+        "Biolegydd oedd Wangari Maathai a astudiodd sut mae coed, pridd, a phobl yn ffitio gyda'i gilydd.",
+        "Arweiniodd symudiad a blannodd filiynau o goed.",
+        "Mae coed yn dal pridd ac yn helpu'r aer."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Canopi coedwig law yn yr Amazon",
+      "quiz": [
+        "Pwy arweiniodd bobl i blannu miliynau o goed?",
+        "Wangari Maathai",
+        "Isaac Newton",
+        "Galileo Galilei",
+        "Percy Julian"
+      ]
+    },
+    "curie": {
+      "when": "Ganwyd hi yn 1867. Darganfu poloniwm a radiwm yn 1898.",
+      "lines": [
+        "Astudiodd Marie Curie belydrau y mae rhai atomau yn eu rhyddhau.",
+        "Enwodd yr weithred honno yn ymbelydredd.",
+        "Darganfu ddwy elfen, poloniwm a radiwm."
+      ],
+      "extra": "Enwodd poloniwm ar ôl Gwlad Pwyl, y wlad lle cafodd ei geni.",
+      "unsure": "",
+      "sceneAlt": "Adeilad gwyddoniaeth prifysgol",
+      "quiz": [
+        "Pwy ddarganfu'r elfennau poloniwm a radiwm?",
+        "Marie Curie",
+        "Jane Goodall",
+        "Mae Jemison",
+        "Mary Anning"
+      ]
+    },
+    "franklin": {
+      "when": "Gwnaed ei llun DNA pwysig yn 1952.",
+      "lines": [
+        "Tynnodd Rosalind Franklin luniau pelydr-X gofalus o DNA.",
+        "Yn 1952 rhoddodd un llun gliw clir bod DNA ar siâp dirdro.",
+        "Defnyddiodd gwyddonwyr eraill ei llun pan wnaethon nhw fodel o DNA."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Microsgop ar fwrdd llachar",
+      "quiz": [
+        "Pwy dynnodd y llun pelydr-X o 1952 a ddangosodd gliwiau am siâp DNA?",
+        "Rosalind Franklin",
+        "George Washington Carver",
+        "Nicolaus Copernicus",
+        "Michael Faraday"
+      ]
+    },
+    "julian": {
+      "when": "Roedd ei waith cemeg mwyaf adnabyddus yn y 1930au a'r 1940au.",
+      "lines": [
+        "Cemegydd oedd Percy Julian a wnaeth gemegau defnyddiol o blanhigion.",
+        "Daeth o hyd i ffyrdd o droi cemegau ffa soia yn feddyginiaethau.",
+        "Defnyddiwyd un o'r meddyginiaethau hynny i leddfu cymalau anystwyth."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Adeilad gwyddoniaeth prifysgol",
+      "quiz": [
+        "Pwy wnaeth feddyginiaethau o gemegau ffa soia?",
+        "Percy Julian",
+        "Galileo Galilei",
+        "Jane Goodall",
+        "Chien-Shiung Wu"
+      ]
+    },
+    "tu": {
+      "when": "Tynnodd ei thîm y feddyginiaeth allan o'r planhigyn yn y 1970au.",
+      "lines": [
+        "Arweiniodd Tu Youyou dîm a brofodd hen iachâd planhigion.",
+        "Yn y 1970au tynnon nhw feddyginiaeth gref, artemisinin, allan o wermod felys.",
+        "Mae'r feddyginiaeth honno yn helpu pobl sydd â malaria."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Wermod felys, y planhigyn y daw artemisinin ohono",
+      "quiz": [
+        "Pwy ddarganfu artemisinin mewn wermod felys?",
+        "Tu Youyou",
+        "Isaac Newton",
+        "Mary Anning",
+        "Michael Faraday"
+      ]
+    },
+    "mendeleev": {
+      "when": "Cyhoeddodd ei dabl yn 1869.",
+      "lines": [
+        "Rhoddodd Dmitri Mendeleev yr elfennau mewn rhes yn ôl eu patrymau.",
+        "Yn 1869 gadawodd fylchau lle roedd yn meddwl y dylai elfennau coll ffitio.",
+        "Yn ddiweddarach, daeth pobl o hyd i elfennau a oedd yn cyd-fynd â'i fylchau."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Adeilad gwyddoniaeth prifysgol",
+      "quiz": [
+        "Pwy adawodd fylchau yn nhabl yr elfennau ar gyfer elfennau heb eu darganfod eto?",
+        "Dmitri Mendeleev",
+        "Mae Jemison",
+        "Jane Goodall",
+        "Ernest Everett Just"
+      ]
+    },
+    "ball": {
+      "when": "Cyhoeddodd ei dull yn 1916.",
+      "lines": [
+        "Cemegydd oedd Alice Ball a weithiodd ar olew o had coeden.",
+        "Yn 1916 daeth o hyd i ffordd o newid yr olew fel y gallai'r corff ei gymryd i mewn.",
+        "Gwnaeth ei dull y feddyginiaeth honno yn llawer haws i'w defnyddio."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Adeilad gwyddoniaeth prifysgol",
+      "quiz": [
+        "Pwy ddarganfu ffordd o droi olew had coeden yn feddyginiaeth y gallai'r corff ei chymryd?",
+        "Alice Ball",
+        "Galileo Galilei",
+        "Nicolaus Copernicus",
+        "Charles Darwin"
+      ]
+    },
+    "newton": {
+      "when": "Daeth ei lyfr mawr am symudiad a disgyrchiant allan yn 1687.",
+      "lines": [
+        "Ysgrifennodd Isaac Newton dair rheol sy'n rhagweld sut mae pethau'n symud pan mae grymoedd yn eu gwthio.",
+        "Adeiladodd hefyd ddamcaniaeth disgyrchiant sy'n cynnwys afal yn disgyn a'r Lleuad.",
+        "Mae gwyddonwyr yn dal i brofi disgyrchiant mewn ffyrdd newydd."
+      ],
+      "extra": "Roedd yn meddwl am afalau'n disgyn a'r Lleuad. Nid ydyn ni'n siŵr i afal ei daro ar ei ben.",
+      "unsure": "",
+      "sceneAlt": "Y Ddaear, wedi'i ffotograffu o Apollo 17",
+      "quiz": [
+        "Pwy ysgrifennodd dair rheol am sut mae grymoedd yn symud pethau?",
+        "Isaac Newton",
+        "Wangari Maathai",
+        "Tu Youyou",
+        "Mary Anning"
+      ]
+    },
+    "faraday": {
+      "when": "Dangosodd y prawf magnet a cherrynt yn 1831.",
+      "lines": [
+        "Darganfu Michael Faraday y gall magnet sy'n symud wneud cerrynt trydan.",
+        "Dyna sut mae llawer o eneraduron yn gwneud trydan.",
+        "Profodd ef gyda choiliau a magnetau yn y labordy."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Magnet yn tynnu darn o fagnetit",
+      "quiz": [
+        "Pwy ddarganfu y gall magnet sy'n symud wneud cerrynt trydan?",
+        "Michael Faraday",
+        "Jane Goodall",
+        "George Washington Carver",
+        "Katherine Johnson"
+      ]
+    },
+    "wu": {
+      "when": "Cynhaliodd y prawf drych yn 1956.",
+      "lines": [
+        "Cynhaliodd Chien-Shiung Wu brawf gofalus iawn ar ronynnau bach.",
+        "Dangosodd nad ydyn nhw bob amser yn gweithredu fel eu delwedd ddrych.",
+        "Newidiodd ei chanlyniad reol yr oedd ffisegwyr eraill wedi ymddiried ynddi."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Adeilad gwyddoniaeth prifysgol",
+      "quiz": [
+        "Pwy ddangosodd nad yw gronynnau bach bob amser yn cyd-fynd â'u delwedd ddrych?",
+        "Chien-Shiung Wu",
+        "Charles Darwin",
+        "Mary Anning",
+        "Nicolaus Copernicus"
+      ]
+    },
+    "lovelace": {
+      "when": "Cyhoeddwyd ei nodiadau yn 1843.",
+      "lines": [
+        "Ysgrifennodd Ada Lovelace am beiriant cyfrifo a gynlluniwyd o'r enw'r Analytical Engine.",
+        "Yn 1843 cyhoeddodd gynllun cam wrth gam i'r peiriant gyfrifo rhifau.",
+        "Mae pobl yn galw'r cynllun hwnnw y rhaglen gyfrifiadur gyntaf. Ni chafodd y peiriant ei adeiladu yn ystod ei hoes."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Rhan o Difference Engine Babbage",
+      "quiz": [
+        "Pwy ysgrifennodd gynllun cam wrth gam ar gyfer peiriant cyfrifo yn 1843?",
+        "Ada Lovelace",
+        "Mae Jemison",
+        "Percy Julian",
+        "Ernest Everett Just"
+      ]
+    },
+    "jackson": {
+      "when": "Enillodd ei doethuriaeth ffiseg yn 1973.",
+      "lines": [
+        "Ffisegydd yw Shirley Ann Jackson a astudiodd ronynnau bach.",
+        "Ymchwiliodd sut mae'r gronynnau hynny yn ymddwyn, yna sut mae electronau yn symud mewn defnyddiau arbennig.",
+        "Helpodd y gwaith hwnnw astudiaethau diweddarach o ddefnyddiau a ddefnyddir mewn electroneg."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Adeilad gwyddoniaeth prifysgol",
+      "quiz": [
+        "Pwy astudiodd ronynnau bach a sut mae electronau yn symud mewn defnyddiau?",
+        "Shirley Ann Jackson",
+        "Mary Anning",
+        "Jane Goodall",
+        "Charles Darwin"
+      ]
+    },
+    "ibn": {
+      "when": "Profodd olau tua mil o flynyddoedd yn ôl.",
+      "lines": [
+        "Profodd Hasan Ibn al-Haytham sut mae golau a gweld yn gweithio.",
+        "Dangosodd ein bod yn gweld oherwydd bod golau yn mynd i mewn i'r llygad, nid oherwydd bod y llygad yn anfon pelydrau allan.",
+        "Ysgrifennodd y camau fel y gallai rhywun arall roi cynnig ar y profion."
+      ],
+      "extra": "",
+      "unsure": "Nid ydyn ni'n siŵr o'r flwyddyn union y cafodd ei eni.",
+      "sceneAlt": "Microsgop ar fwrdd llachar",
+      "quiz": [
+        "Pwy ddangosodd ein bod yn gweld oherwydd bod golau yn mynd i mewn i'r llygad?",
+        "Hasan Ibn al-Haytham",
+        "George Washington Carver",
+        "Mae Jemison",
+        "Percy Julian"
+      ]
+    },
+    "anning": {
+      "when": "Roedd ei darganfyddiadau clogwyn enwog ar ddechrau'r 1800au.",
+      "lines": [
+        "Chwiliodd Mary Anning y clogwyni yn Lyme Regis am ffosilau.",
+        "Ar ddechrau'r 1800au daeth o hyd i sgerbydau anifeiliaid môr hynafol a oedd yn newydd i wyddoniaeth.",
+        "Helpodd ei darganfyddiadau bobl i weld bod bywyd amser maith yn ôl yn wahanol."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Lyme Regis, England, wrth ymyl clogwyni'r môr",
+      "quiz": [
+        "Pwy ddarganfu anifeiliaid môr ffosil yn y clogwyni yn Lyme Regis?",
+        "Mary Anning",
+        "Tu Youyou",
+        "Chien-Shiung Wu",
+        "Barbara McClintock"
+      ]
+    },
+    "johnson": {
+      "when": "Gwiriodd fathemateg llongau gofod yn y 1960au.",
+      "lines": [
+        "Gwnaeth Katherine Johnson y fathemateg ar gyfer llwybrau llongau gofod.",
+        "Helpodd ei rhifau ofodwyr i fynd i fyny a dod adref.",
+        "Cyn un hediad, gofynnodd gofodwyr iddi wirio'r cyfrifiadur â llaw."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Y Ddaear, wedi'i ffotograffu o Apollo 17",
+      "quiz": [
+        "Pwy wiriodd y fathemateg ar gyfer llwybrau llongau gofod?",
+        "Katherine Johnson",
+        "Michael Faraday",
+        "Dmitri Mendeleev",
+        "Ernest Everett Just"
+      ]
+    },
+    "jemison": {
+      "when": "Hedfanodd ar wennol ofod yn 1992.",
+      "lines": [
+        "Hyfforddodd Mae Jemison fel meddyg, yna daeth yn ofodwraig.",
+        "Yn 1992 hedfanodd ar wennol ofod a chynnal arbrofion mewn cylchdro.",
+        "Edrychodd yr arbrofion ar sut mae cyrff yn gweithio i ffwrdd o dynnu arferol y Ddaear."
+      ],
+      "extra": "Cyn yr hediad gweithiodd fel meddyg.",
+      "unsure": "",
+      "sceneAlt": "Telesgop Gofod Hubble uwchben y Ddaear",
+      "quiz": [
+        "Pwy hedfanodd ar wennol ofod yn 1992 a chynnal arbrofion?",
+        "Mae Jemison",
+        "Isaac Newton",
+        "Ada Lovelace",
+        "Mary Anning"
+      ]
+    },
+    "copernicus": {
+      "when": "Daeth ei lyfr gyda'r Haul yn y canol allan yn 1543.",
+      "lines": [
+        "Ysgrifennodd Nicolaus Copernicus fod y Ddaear a'r planedau eraill yn mynd o amgylch yr Haul.",
+        "Daeth ei lyfr allan yn 1543.",
+        "Un o'r teithiau hynny o amgylch yr Haul yw blwyddyn."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Y Ddaear, wedi'i ffotograffu o Apollo 17",
+      "quiz": [
+        "Llyfr pwy yn 1543 a ddywedodd fod y Ddaear yn mynd o amgylch yr Haul?",
+        "Nicolaus Copernicus",
+        "Jane Goodall",
+        "Alice Ball",
+        "Chien-Shiung Wu"
+      ]
+    },
+    "galileo": {
+      "when": "Adroddodd leuadau Jupiter yn 1610.",
+      "lines": [
+        "Pwyntiodd Galileo Galilei delesgop at yr awyr.",
+        "Yn 1610 gwelodd bedair lleuad yn symud o amgylch Jupiter.",
+        "Gwelodd hefyd fod gan Venus gyfnodau, sy'n ffitio cysawd gyda'r Haul yn y canol."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Cymylau Jupiter, o long ofod Juno NASA",
+      "quiz": [
+        "Pwy welodd bedair lleuad o amgylch Jupiter yn 1610?",
+        "Galileo Galilei",
+        "George Washington Carver",
+        "Marie Curie",
+        "Wangari Maathai"
+      ]
+    },
+    "chandra": {
+      "when": "Gweithiodd allan derfyn y sêr yn y 1930au.",
+      "lines": [
+        "Defnyddiodd Subrahmanyan Chandrasekhar fathemateg i astudio sêr bach gwan o'r enw corrachod gwyn.",
+        "Darganfu derfyn pwysau. Y tu hwnt i'r terfyn hwnnw, ni all y seren ddal ei hun i fyny yn yr un ffordd.",
+        "Cytunodd profion diweddarach â'i ddamcaniaeth."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Telesgop Gofod Hubble uwchben y Ddaear",
+      "quiz": [
+        "Pwy ddarganfu derfyn pwysau ar gyfer sêr corrach gwyn?",
+        "Subrahmanyan Chandrasekhar",
+        "Jane Goodall",
+        "Alice Ball",
+        "Michael Faraday"
+      ]
+    }
+  },
+  "places": {
+    "rain": {
+      "title": "Gorsaf faes coedwig law",
+      "where": "Tiputini, Ecuador",
+      "lines": [
+        "Mae'r orsaf hon yn y coedwig law Amazon.",
+        "Mae gwyddonwyr yn cerdded y goedwig ac yn ysgrifennu'r planhigion a'r anifeiliaid y maen nhw'n eu darganfod.",
+        "Gwersyll gwaith ar gyfer gwylio pethau byw yn agos yw gorsaf faes."
+      ],
+      "alt": "Canopi coedwig law yn yr Amazon"
+    },
+    "lab": {
+      "title": "Labordy cemeg",
+      "where": "Adeiladau gwyddoniaeth",
+      "lines": [
+        "Mae cemegwyr yn gweithio mewn labordai y tu mewn i adeiladau fel hwn.",
+        "Gwnaeth Percy Julian y math hwnnw o waith gyda ffa soia yn yr Unol Daleithiau.",
+        "Mae mesur gofalus, ac un newid ar y tro, yn cadw prawf yn deg."
+      ],
+      "alt": "Adeilad gwyddoniaeth prifysgol"
+    },
+    "sky": {
+      "title": "Arsyllfa",
+      "where": "Mauna Kea, Hawaii",
+      "lines": [
+        "Mae cromenni telesgop gwyn yn eistedd ar fynydd uchel iawn.",
+        "Mae'r aer i fyny yno yn denau ac yn aml uwchlaw'r cymylau, felly mae'r awyr yn edrych yn dywyllach ac yn gliriach.",
+        "Mae telesgopau yn casglu golau o sêr a galaethau gwan."
+      ],
+      "alt": "Cromenni telesgop ar Mauna Kea"
+    },
+    "cliff": {
+      "title": "Clogwyn ffosil",
+      "where": "Lyme Regis, England",
+      "lines": [
+        "Mae haenau o graig yn y clogwyni môr hyn yn dal ffosilau.",
+        "Daeth Mary Anning o hyd i sgerbydau anifeiliaid môr hynafol yma ar ddechrau'r 1800au.",
+        "Gweddill, neu ôl, a gedwir mewn craig yw ffosil."
+      ],
+      "alt": "Lyme Regis, England, wrth ymyl clogwyni'r môr"
+    },
+    "hospital": {
+      "title": "Labordy ysbyty",
+      "where": "Ysbyty St Mary's, London",
+      "lines": [
+        "Dyma Ysbyty St Mary's yn London.",
+        "Yn 1928 sylwodd Alexander Fleming ar lwydni a stopiodd germau mewn dysgl.",
+        "Arweiniodd y llwydni hwnnw at benisilin, meddyginiaeth sy'n helpu'r corff i ymladd rhai salwch."
+      ],
+      "alt": "Ysbyty St Mary's yn London"
+    },
+    "ocean": {
+      "title": "Y cefnfor",
+      "where": "Llongau o Woods Hole, Massachusetts",
+      "lines": [
+        "Mae llongau ymchwil yn gadael yr harbwr ac yn astudio'r môr.",
+        "Maen nhw'n mesur dŵr, yn mapio'r gwaelod, ac yn cwrdd ag anifeiliaid sy'n byw ymhell o'r lan.",
+        "Cefnfor yw'r rhan fwyaf o'r Ddaear, felly labordy symudol yw llong."
+      ],
+      "alt": "Octopws cyffredin"
+    }
+  },
+  "time": {
+    "stars": {
+      "title": "Gwylwyr sêr",
+      "when": "Amser maith yn ôl",
+      "sentence": "Gwylodd pobl y sêr a dysgu'r patrymau yn yr awyr.",
+      "more": "Helpodd y patrymau hynny nhw i ddilyn y tymhorau.",
+      "unsure": "Nid ydyn ni'n siŵr pwy wnaeth hyn gyntaf.",
+      "alt": "Stonehenge, hen gylch cerrig a ddefnyddiwyd i ddilyn yr awyr"
+    },
+    "microscopes": {
+      "title": "Microsgopau",
+      "when": "Yr 1600au",
+      "sentence": "Mae microsgopau yn gadael i bobl weld pethau bach na allai unrhyw lygad eu gweld ar ei ben ei hun.",
+      "more": "Mae lens fach yn plygu golau fel bod brycheuyn yn edrych yn fawr.",
+      "unsure": "",
+      "alt": "Microsgop ar fwrdd llachar"
+    },
+    "germs": {
+      "title": "Germau",
+      "when": "Yr 1800au",
+      "sentence": "Profodd gwyddonwyr y syniad y gall rhai germau achosi salwch.",
+      "more": "Cynhaliodd Louis Pasteur ac eraill brofion a gefnogodd ddamcaniaeth germau. Mae golchi dwylo yn helpu o hyd.",
+      "unsure": "",
+      "alt": "Dysgl labordy gyda smotiau o germau"
+    },
+    "flight": {
+      "title": "Hedfan",
+      "when": "1903",
+      "sentence": "Hedfanodd awyren ag injan, a gallai pobl deithio drwy'r awyr.",
+      "more": "Cododd awyren y brodyr Wright yn 1903.",
+      "unsure": "",
+      "alt": "Copi o Wright Flyer yn hongian mewn amgueddfa"
+    },
+    "dna": {
+      "title": "DNA",
+      "when": "1953",
+      "sentence": "Dangosodd gwyddonwyr mai ysgol ddirdro yw DNA.",
+      "more": "Helpodd llun pelydr-X Rosalind Franklin nhw i weld y siâp.",
+      "unsure": "",
+      "alt": "Model amgueddfa o ysgol ddirdro DNA"
+    },
+    "telescope": {
+      "title": "Telesgop gofod",
+      "when": "1990",
+      "sentence": "Edrychodd telesgop yn y gofod heibio i niwl aer y Ddaear.",
+      "more": "Lansiwyd Telesgop Gofod Hubble yn 1990. Mae telesgopau gofod mwy newydd yn dal i edrych.",
+      "unsure": "",
+      "alt": "Telesgop Gofod Hubble uwchben y Ddaear"
+    }
+  },
+  "work": {
+    "p1-leaves": {
+      "title": "Didoli'r dail",
+      "time": "15 munud",
+      "need": [
+        "6 deilen o'r ddaear",
+        "Bwrdd"
+      ],
+      "steps": [
+        "Gosod y dail mewn rhes.",
+        "Rho nhw mewn dau grŵp. Ti sy'n dewis y rheol.",
+        "Dwed y rheol yn uchel. Mawr a bach yn iawn. Llyfn a garw yn iawn."
+      ],
+      "done": "Mae gen ti ddau grŵp, a gelli di ddweud sut y gwnaethost eu didoli."
+    },
+    "p1-float": {
+      "title": "Suddo neu arnofio",
+      "time": "20 munud",
+      "need": [
+        "Bowlen o ddŵr",
+        "6 gwrthrych diogel",
+        "Oedolyn"
+      ],
+      "steps": [
+        "Gofyn i oedolyn lenwi bowlen.",
+        "Dyfala suddo neu arnofio ar gyfer pob gwrthrych cyn i ti roi cynnig arni.",
+        "Gostwng un gwrthrych ar y tro. Ysgrifenna beth ddigwyddodd."
+      ],
+      "done": "Mae gan y tîm restr o beth suddodd a beth arnofiodd."
+    },
+    "p2-shadow": {
+      "title": "Marcio cysgod",
+      "time": "Dau wiriad mewn un diwrnod",
+      "need": [
+        "Man heulog",
+        "Sialc neu garreg",
+        "Ffon neu botel"
+      ],
+      "steps": [
+        "Saf ffon ar dir gwastad yn yr haul.",
+        "Marcia flaen y cysgod.",
+        "Tyrd yn ôl yn ddiweddarach a'i farcio eto. Dwed beth newidiodd."
+      ],
+      "done": "Mae gen ti ddau farc a brawddeg am y newid."
+    },
+    "p2-magnets": {
+      "title": "Helfa magnet",
+      "time": "20 munud",
+      "need": [
+        "Un magnet",
+        "8 gwrthrych o'r tŷ",
+        "Papur"
+      ],
+      "steps": [
+        "Cyffwrdda'r magnet â phob gwrthrych.",
+        "Gwna ddwy restr: yn glynu, ac nid yw'n glynu.",
+        "Cylcha'r rhai wedi'u gwneud o haearn neu ddur."
+      ],
+      "done": "Gall y tîm bwyntio at rywbeth mae'r magnet yn ei dynnu a rhywbeth nad yw."
+    },
+    "p3-sugar": {
+      "title": "Pa ddŵr sy'n ennill",
+      "time": "15 munud",
+      "need": [
+        "Dau gwpan",
+        "Dŵr oer a dŵr cynnes",
+        "Siwgr",
+        "Oedolyn"
+      ],
+      "steps": [
+        "Gofyn i oedolyn am ddŵr cynnes, nid dŵr berw.",
+        "Rho'r un faint o siwgr ym mhob cwpan.",
+        "Troe'r ddau yr un ffordd. Gwylia pa siwgr sy'n diflannu gyntaf."
+      ],
+      "done": "Newidiaist y cynhesrwydd yn unig, a gelli di ddweud pa gwpan oedd yn gyflymach."
+    },
+    "p3-ramp": {
+      "title": "Pa mor bell mae'n rholio",
+      "time": "25 munud",
+      "need": [
+        "Llethr llyfrau",
+        "Pêl neu gar tegan",
+        "Tâp mesur neu linyn"
+      ],
+      "steps": [
+        "Gollwng y car o'r top. Mesura pa mor bell mae'n rholio.",
+        "Gwna hynny deirgwaith yr un ffordd.",
+        "Yna newidia un peth yn unig, fel uchder y llethr, a rho gynnig arall arni."
+      ],
+      "done": "Mae gan y tîm ddau bellter a gallant enwi'r un peth a newidion nhw."
+    },
+    "p4-celery": {
+      "title": "Gwylio dŵr yn dringo",
+      "time": "Gwirio nawr ac yfory",
+      "need": [
+        "Coesyn seleri",
+        "Cwpan o ddŵr",
+        "Lliw bwyd",
+        "Oedolyn"
+      ],
+      "steps": [
+        "Gofyn i oedolyn liwio'r dŵr.",
+        "Saf y seleri yn y cwpan.",
+        "Edrycha'r diwrnod nesaf. I ble aeth y lliw?"
+      ],
+      "done": "Gelli di bwyntio at y llwybr a gymerodd y dŵr lliw."
+    },
+    "p4-pulse": {
+      "title": "Cyfrif y curiadau",
+      "time": "15 munud",
+      "need": [
+        "Amserydd",
+        "Man tawel",
+        "Papur"
+      ],
+      "steps": [
+        "Eistedda'n llonydd. Cyfrifa guriadau calon am 30 eiliad.",
+        "Neidia am 30 eiliad, yna cyfrifa eto.",
+        "Ysgrifenna'r ddau rif. Dwed beth newidiodd a beth gadwaist yr un fath."
+      ],
+      "done": "Mae gan y tîm ddau gyfrif a brawddeg am y gwahaniaeth."
+    },
+    "p5-friction": {
+      "title": "Tri arwyneb",
+      "time": "20 munud",
+      "need": [
+        "Tegan bach",
+        "Llawr pren neu fwrdd",
+        "Brethyn",
+        "Teisen lyfn neu lyfr"
+      ],
+      "steps": [
+        "Rho'r un gwthio i'r tegan ar bob wyneb.",
+        "Gweld pa lithro sy'n mynd bellaf.",
+        "Enwa'r grym a'i arafodd. Ffrithiant yw'r grym hwnnw."
+      ],
+      "done": "Gelli di roi'r tri arwyneb mewn trefn a dweud pam roedd un yn arafach."
+    },
+    "p5-drop": {
+      "title": "Parasiwt un newid",
+      "time": "40 munud",
+      "need": [
+        "Papur",
+        "Llinyn",
+        "Clipyn papur",
+        "Amserydd"
+      ],
+      "steps": [
+        "Gwna ddau barasiwt papur sy'n cyd-fynd.",
+        "Gollwng nhw o'r un uchder ac amseru'r cwymp.",
+        "Newidia un peth ar un parasiwt, fel maint y papur. Profa eto."
+      ],
+      "done": "Gall y tîm ddweud pa un newid a wnaeth y cwymp yn wahanol."
+    },
+    "p6-moon": {
+      "title": "Dyddlyfr y Lleuad",
+      "time": "7 noson fer",
+      "need": [
+        "Papur",
+        "Pensil",
+        "Golygfa glir o'r awyr"
+      ],
+      "steps": [
+        "Chwilia am y Lleuad ar yr un amser bob nos.",
+        "Tynna lun y rhan lachar. Os yw cymylau yn ei chuddio, ysgrifenna cymylau.",
+        "Ar ôl wythnos, dwed sut newidiodd y rhan lachar."
+      ],
+      "done": "Mae gen ti saith blwch a brawddeg am ochr heulog y Lleuad."
+    },
+    "p6-planets": {
+      "title": "Trefn y planedau",
+      "time": "30 munud",
+      "need": [
+        "8 gwrthrych bach",
+        "Labeli papur",
+        "Bwrdd hir neu lawr"
+      ],
+      "steps": [
+        "Rho'r Haul ar un pen.",
+        "Gosod wyth planed mewn trefn o'r Haul. Gwira ffaith planed rwyt ti wedi'i darllen.",
+        "Dwed un ffaith wedi'i mesur a ddefnyddiaist, ac un peth sy'n ddamcaniaeth o hyd."
+      ],
+      "done": "Mae'r model mewn trefn, a gall y tîm enwi'r ffaith a wirion nhw."
+    },
+    "p7-ice": {
+      "title": "Pa lap sy'n cadw iâ",
+      "time": "30 munud",
+      "need": [
+        "3 ciwb iâ o'r un maint",
+        "Brethyn",
+        "Papur",
+        "Plât",
+        "Amserydd"
+      ],
+      "steps": [
+        "Gadael un ciwb yn noeth. Lap un mewn papur. Lap un mewn brethyn.",
+        "Cadw'r ystafell yr un fath ar gyfer y tri.",
+        "Gwira bob 5 munud. Pa giwb sy'n para hiraf?"
+      ],
+      "done": "Newidiaist y lap yn unig, a gelli di ddweud beth gadwodd yr iâ yn hirach."
+    },
+    "p7-question": {
+      "title": "Dy brawf teg dy hun",
+      "time": "45 munud",
+      "need": [
+        "Ffaith rwyt ti wedi'i darllen",
+        "Papur",
+        "Cyflenwadau syml diogel",
+        "Oedolyn os wyt ti'n defnyddio dŵr"
+      ],
+      "steps": [
+        "Dewis gwestiwn y gelli di ei brofi heddiw.",
+        "Newidia un peth. Cadw'r gweddill yr un fath. Mesura'r canlyniad.",
+        "Ysgrifenna beth fyddai'n newid y canlyniad pe bait ti'n ddiofal."
+      ],
+      "done": "Mae gan y tîm ganlyniad, uned, ac un frawddeg am beth fyddai'n difetha'r prawf."
+    },
+    "print-fair": {
+      "title": "Tudalen prawf teg",
+      "time": "20 munud",
+      "need": [
+        "Y dudalen hon",
+        "Pensil"
+      ],
+      "steps": [
+        "Ysgrifenna'r cwestiwn.",
+        "Ysgrifenna'r un peth y byddi di'n ei newid.",
+        "Ysgrifenna beth fyddi di'n ei gadw yr un fath, a beth fyddi di'n ei fesur."
+      ],
+      "done": "Mae gan bob blwch ateb go iawn, nid un gwag."
+    },
+    "print-fact": {
+      "title": "Nodiadau ffaith",
+      "time": "15 munud",
+      "need": [
+        "Y dudalen hon",
+        "Ffaith rwyt ti wedi'i darllen"
+      ],
+      "steps": [
+        "Copïa un frawddeg glir.",
+        "Copïa'r llinell sut rydyn ni'n gwybod.",
+        "Marcia hi: ffaith wedi'i mesur, damcaniaeth, neu ddyfaliad."
+      ],
+      "done": "Gall darllenydd ddweud pa fath o frawddeg a gopiaist."
+    },
+    "print-measure": {
+      "title": "Cofnod mesur",
+      "time": "15 munud",
+      "need": [
+        "Y dudalen hon",
+        "Pren mesur, cwpan, neu amserydd"
+      ],
+      "steps": [
+        "Dewis un peth i'w fesur.",
+        "Mesura ef deirgwaith yr un ffordd.",
+        "Ysgrifenna'r uned bob tro."
+      ],
+      "done": "Mae tri rhif yn rhannu un uned."
+    },
+    "print-scientist": {
+      "title": "Nodiadau gwyddonydd",
+      "time": "15 munud",
+      "need": [
+        "Y dudalen hon",
+        "Gwyddonydd rwyt ti wedi darllen amdano"
+      ],
+      "steps": [
+        "Ysgrifenna enw'r gwyddonydd.",
+        "Ysgrifenna beth brofon nhw neu weithion nhw allan.",
+        "Ysgrifenna un cwestiwn sydd gen ti o hyd."
+      ],
+      "done": "Mae'r dudalen am eu gwyddoniaeth, yn dy frawddegau byr dy hun."
+    }
+  },
+  "quiz": {
+    "time-stars": [
+      "A ydyn ni'n siŵr pwy wylodd y sêr yn ofalus gyntaf?",
+      "Na. Nid ydyn ni'n siŵr.",
+      "Ie. Galileo yn 1610 oedd hi.",
+      "Ie. Jane Goodall oedd hi.",
+      "Ie. Y llynedd oedd hi."
+    ],
+    "time-scope": [
+      "Beth roedd microsgopau yn yr 1600au yn gadael i bobl ei weld?",
+      "Pethau bach",
+      "Canol y Ddaear gyda'r llygad",
+      "Sain mewn gofod gwag",
+      "Meddyliau magnet"
+    ],
+    "time-germs": [
+      "Ym mha flynyddoedd tyfodd profion cryf y gall germau achosi salwch?",
+      "Yr 1800au",
+      "Y flwyddyn 1610 yn unig",
+      "Cyn i'r Ddaear ffurfio, ac rydyn ni'n siŵr",
+      "Yr wythnos diwethaf yn unig"
+    ],
+    "time-flight": [
+      "Pryd hedfanodd awyren ag injan gyntaf?",
+      "1903",
+      "1543",
+      "1610",
+      "1992"
+    ],
+    "time-dna": [
+      "Dangoswyd model ysgol ddirdro DNA yn",
+      "1953",
+      "1650",
+      "1903",
+      "965"
+    ],
+    "time-space": [
+      "Pam rhoi telesgop yn y gofod?",
+      "I fynd uwchlaw niwl yr aer",
+      "I ddianc rhag pob golau",
+      "I rewi brogaod",
+      "I gloddio'r Haul"
+    ],
+    "place-rain": [
+      "Mae'r orsaf faes coedwig law ar y map yn",
+      "Ecuador",
+      "Modrwyau Saturn",
+      "Y Lleuad",
+      "Rhewlif yn unig"
+    ],
+    "place-lab": [
+      "Mae'r safle cemeg yn ymwneud â",
+      "Troi cemegau planhigion yn ddefnyddiau newydd",
+      "Hedfan gwennol",
+      "Clogwyni ffosil yn unig",
+      "Llanw'r Lleuad"
+    ],
+    "place-sky": [
+      "Pam mae mynydd uchel yn dda ar gyfer telesgop?",
+      "Mae'n eistedd uwchlaw llawer o gymylau",
+      "Mae o dan y cefnfor",
+      "Nid oes ganddo awyr",
+      "Mae'r aer yn solet yno"
+    ],
+    "place-cliff": [
+      "Mae clogwyni ffosil Mary Anning yn",
+      "England",
+      "Hawaii",
+      "Ecuador",
+      "Cylchdro"
+    ],
+    "place-hospital": [
+      "Mae labordy'r ysbyty ar y map yn",
+      "London",
+      "Yr Amazon",
+      "Gofod dwfn",
+      "Rhewlif"
+    ],
+    "place-ocean": [
+      "Mae llongau o Woods Hole yn mynd allan i astudio",
+      "Y cefnfor",
+      "Tu mewn yr Haul",
+      "Sialc ystafell ddosbarth yn unig",
+      "Gwydr ffenestr"
+    ],
+    "idea-fair": [
+      "Mae prawf teg yn newid",
+      "Un peth",
+      "Pob peth ar unwaith",
+      "Dim byd, byth",
+      "Yr ateb cyn i ti ddechrau"
+    ],
+    "idea-two": [
+      "Rwyt ti'n newid y dŵr a'r golau mewn prawf planhigyn. Beth yw'r broblem?",
+      "Ni fyddi di'n gwybod pa newid oedd yn bwysig",
+      "Mae'r prawf yn decach",
+      "Mae planhigion yn stopio bod yn fyw ar bwrpas",
+      "Mae'r Haul yn diffodd"
+    ],
+    "idea-gravity": [
+      "Pa air sy'n ffitio syniad dwfn disgyrchiant?",
+      "Damcaniaeth",
+      "Dyfaliad heb brofion",
+      "Asgwrn",
+      "Aeron"
+    ],
+    "idea-science": [
+      "Gwyddoniaeth yw sut rydyn ni'n",
+      "Profi syniadau am y byd naturiol",
+      "Dewis credoau teulu drostyn nhw",
+      "Hepgor mesur",
+      "Galw dyfaliad yn ffaith"
+    ]
+  },
+  "photos": {
+    "frog": "Broga coed",
+    "bee": "Gwenynen fêl ar flodyn",
+    "mushroom": "Madarchen fotwm",
+    "chimp": "Tsimpansî mewn coedwig",
+    "amazon": "Canopi coedwig law yn yr Amazon",
+    "wormwood": "Wermod felys, y planhigyn y daw artemisinin ohono",
+    "lab": "Adeilad gwyddoniaeth prifysgol",
+    "magnet": "Magnet yn tynnu darn o fagnetit",
+    "earth": "Y Ddaear, wedi'i ffotograffu o Apollo 17",
+    "jupiter": "Cymylau Jupiter, o long ofod Juno NASA",
+    "hubble": "Telesgop Gofod Hubble uwchben y Ddaear",
+    "keck": "Cromenni telesgop ar Mauna Kea",
+    "heart": "Model o galon ddynol",
+    "octopus": "Octopws cyffredin",
+    "stonehenge": "Stonehenge, hen gylch cerrig a ddefnyddiwyd i ddilyn yr awyr",
+    "scope": "Microsgop ar fwrdd llachar",
+    "petri": "Dysgl labordy gyda smotiau o germau",
+    "flight": "Copi o Wright Flyer yn hongian mewn amgueddfa",
+    "dna": "Model amgueddfa o ysgol ddirdro DNA",
+    "engine": "Rhan o Difference Engine Babbage",
+    "lyme": "Lyme Regis, England, wrth ymyl clogwyni'r môr",
+    "hospital": "Ysbyty St Mary's yn London"
+  }
+}

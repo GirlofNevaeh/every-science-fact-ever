@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import { Art, Shell } from "@/components/shell";
 import { PLACES } from "@/data/places";
+import { localizePlace, useI18n, usePageTitle } from "@/i18n";
 
 export const Route = createFileRoute("/places")({
   head: () => ({ meta: [{ title: "Places · Every Science Fact Ever" }] }),
@@ -9,13 +10,16 @@ export const Route = createFileRoute("/places")({
 });
 
 function PlacesPage() {
-  const [id, setId] = useState(PLACES[0]?.id ?? "rain");
-  const place = PLACES.find((item) => item.id === id) ?? PLACES[0];
+  const { t, lang } = useI18n();
+  usePageTitle(t("places"));
+  const places = PLACES.map((place) => localizePlace(place, lang));
+  const [id, setId] = useState(places[0]?.id ?? "rain");
+  const place = places.find((item) => item.id === id) ?? places[0];
   return (
     <Shell>
       <div className="mx-auto max-w-6xl px-4 py-5">
-        <h1 className="font-display text-4xl font-bold">Places</h1>
-        <p className="mt-2 text-lg">Tap a stop.</p>
+        <h1 className="font-display text-4xl font-bold">{t("places")}</h1>
+        <p className="mt-2 text-lg">{t("tapStop")}</p>
         <div className="world mt-4">
           <div className="land" style={{ left: "14%", top: "26%", width: "18%", height: "24%", borderRadius: "46% 54% 42% 58%" }} />
           <div className="land" style={{ left: "24%", top: "52%", width: "12%", height: "28%", borderRadius: "40% 60% 45% 55%" }} />
@@ -24,7 +28,7 @@ function PlacesPage() {
           <div className="land" style={{ left: "58%", top: "20%", width: "28%", height: "32%", borderRadius: "42% 58% 48% 52%" }} />
           <div className="land" style={{ left: "78%", top: "58%", width: "12%", height: "14%", borderRadius: "50% 40% 50% 60%" }} />
           <div className="absolute right-6 bottom-3 left-6 h-4 rounded-full bg-lab" />
-          {PLACES.map((item) => (
+          {places.map((item) => (
             <button
               key={item.id}
               type="button"
@@ -53,7 +57,7 @@ function PlacesPage() {
           </article>
         ) : null}
         <ul className="mt-4 grid gap-2 sm:grid-cols-3">
-          {PLACES.map((item) => (
+          {places.map((item) => (
             <li key={item.id}>
               <button
                 type="button"

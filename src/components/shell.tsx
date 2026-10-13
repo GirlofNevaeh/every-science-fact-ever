@@ -1,19 +1,22 @@
 import { Link, useNavigate } from "@tanstack/react-router";
 import { createContext, useContext, useEffect, useRef, useState, type FormEvent, type ReactNode } from "react";
-import { PHOTO_LIST, shotBySrc } from "@/data/photos";
+import { PHOTO_LIST, SHOTS, shotBySrc } from "@/data/photos";
 import type { Look } from "@/data/types";
 import { Portrait } from "@/components/portrait";
+import { LANGS, photoAlt, useI18n } from "@/i18n";
+import { photoKeyBySrc } from "@/i18n/content";
+import type { UiKey } from "@/i18n/ui";
 
 const NAV = [
-  { to: "/", label: "Home", exact: true },
-  { to: "/facts", label: "Facts", exact: false },
-  { to: "/people", label: "People", exact: false },
-  { to: "/places", label: "Places", exact: true },
-  { to: "/ideas", label: "Ideas", exact: true },
-  { to: "/time", label: "Time", exact: true },
-  { to: "/quiz", label: "Quiz", exact: true },
-  { to: "/work", label: "Projects", exact: false },
-] as const;
+  { to: "/", key: "home", exact: true },
+  { to: "/facts", key: "facts", exact: false },
+  { to: "/people", key: "people", exact: false },
+  { to: "/places", key: "places", exact: true },
+  { to: "/ideas", key: "ideas", exact: true },
+  { to: "/time", key: "time", exact: true },
+  { to: "/quiz", key: "quiz", exact: true },
+  { to: "/work", key: "projects", exact: false },
+] as const satisfies readonly { to: string; key: UiKey; exact: boolean }[];
 
 function PreloadPhotos() {
   useEffect(() => {
@@ -33,6 +36,7 @@ export function useInstall(): () => void {
 }
 
 function InstallDialog({ open, onClose }: { open: boolean; onClose: () => void }) {
+  const { t } = useI18n();
   const ref = useRef<HTMLDialogElement>(null);
   useEffect(() => {
     const dialog = ref.current;
@@ -50,21 +54,70 @@ function InstallDialog({ open, onClose }: { open: boolean; onClose: () => void }
       }}
     >
       <div className="p-5">
-        <h2 className="font-display text-2xl font-bold">Add to iPhone or iPad</h2>
+        <h2 className="font-display text-2xl font-bold">{t("install")}</h2>
         <ol className="mt-3 list-decimal space-y-2 pl-5 text-lg">
-          <li>Use Safari.</li>
-          <li>Tap Share.</li>
-          <li>Tap Add to Home Screen.</li>
+          <li>{t("install1")}</li>
+          <li>{t("install2")}</li>
+          <li>{t("install3")}</li>
         </ol>
         <button type="button" className="btn btn-chalk mt-5 w-full" onClick={onClose}>
-          Close
+          {t("close")}
         </button>
       </div>
     </dialog>
   );
 }
 
+function LanguageButton() {
+  const { lang, setLang, t } = useI18n();
+  const [open, setOpen] = useState(false);
+  const ref = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    if (!open) return;
+    function close(event: MouseEvent) {
+      if (!ref.current?.contains(event.target as Node)) setOpen(false);
+    }
+    document.addEventListener("mousedown", close);
+    return () => document.removeEventListener("mousedown", close);
+  }, [open]);
+  const current = LANGS.find((item) => item.id === lang) ?? LANGS[0];
+  return (
+    <div ref={ref} className="relative">
+      <button
+        type="button"
+        className="btn btn-chalk h-10 px-3"
+        aria-haspopup="listbox"
+        aria-expanded={open}
+        onClick={() => setOpen((value) => !value)}
+      >
+        {t("langPick")}: {current.name}
+      </button>
+      {open ? (
+        <ul role="listbox" aria-label={t("langPick")} className="absolute right-0 z-50 mt-1 w-48 rounded-card border-[3px] border-ink bg-paper p-1">
+          {LANGS.map((item) => (
+            <li key={item.id}>
+              <button
+                type="button"
+                role="option"
+                aria-selected={item.id === lang}
+                className={`w-full rounded-full px-3 py-2 text-left text-base font-extrabold ${item.id === lang ? "bg-leaf text-lab" : ""}`}
+                onClick={() => {
+                  setLang(item.id);
+                  setOpen(false);
+                }}
+              >
+                {item.name}
+              </button>
+            </li>
+          ))}
+        </ul>
+      ) : null}
+    </div>
+  );
+}
+
 function SiteHeader() {
+  const { t } = useI18n();
   const navigate = useNavigate();
   const [q, setQ] = useState("");
   function go(event: FormEvent) {
@@ -73,30 +126,35 @@ function SiteHeader() {
   }
   return (
     <header className="no-print sticky top-0 z-40 border-b-[3px] border-ink bg-lab">
+      <div className="border-b-[3px] border-ink bg-paper">
+        <div className="mx-auto flex max-w-6xl items-center justify-end px-3 py-1.5">
+          <LanguageButton />
+        </div>
+      </div>
       <div className="mx-auto flex max-w-6xl items-center px-3 pt-2">
         <Link to="/" className="truncate font-display text-lg leading-none font-bold text-ink sm:text-xl">
-          Every Science Fact Ever
+          {t("site")}
         </Link>
       </div>
       <form className="mx-auto flex max-w-6xl gap-2 px-3 py-2" onSubmit={go}>
         <label className="sr-only" htmlFor="site-search">
-          Search facts and people
+          {t("searchLabel")}
         </label>
         <input
           id="site-search"
           value={q}
           onChange={(event) => setQ(event.target.value)}
-          placeholder="Try frog, magnet, or Curie"
+          placeholder={t("searchTry")}
           className="h-11 min-w-0 flex-1 rounded-full border-[3px] border-ink bg-paper px-4 text-base text-ink"
         />
         <button type="submit" className="btn btn-chalk shrink-0 px-3 sm:px-5">
-          SEARCH
+          {t("searchBtn")}
         </button>
       </form>
-      <nav className="mx-auto grid max-w-6xl grid-cols-8 gap-1 px-2 pb-2" aria-label="Pages">
+      <nav className="mx-auto flex max-w-6xl flex-wrap gap-1 px-2 pb-2" aria-label={t("langPick")}>
         {NAV.map((item) => (
           <Link
-            key={item.label}
+            key={item.key}
             to={item.to}
             search={
               item.to === "/facts"
@@ -106,10 +164,10 @@ function SiteHeader() {
                   : undefined
             }
             activeOptions={{ exact: item.exact }}
-            className="nav-link"
-            activeProps={{ className: "nav-link is-on" }}
+            className="nav-link min-w-16 flex-1 px-1"
+            activeProps={{ className: "nav-link is-on min-w-16 flex-1 px-1" }}
           >
-            {item.label}
+            {t(item.key)}
           </Link>
         ))}
       </nav>
@@ -118,30 +176,31 @@ function SiteHeader() {
 }
 
 export function Shell({ children }: { children: ReactNode }) {
+  const { t, lang } = useI18n();
   const [open, setOpen] = useState(false);
   return (
     <InstallContext.Provider value={() => setOpen(true)}>
       <PreloadPhotos />
       <div className="min-h-dvh bg-lab text-ink">
         <a href="#content" className="sr-only">
-          Skip to content
+          {t("skip")}
         </a>
         <SiteHeader />
         <main id="content">{children}</main>
         <footer className="no-print mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-4 py-8 text-base">
-          <p>For ages 5 to 12.</p>
+          <p>{t("ages")}</p>
           <button type="button" className="btn btn-paper" onClick={() => setOpen(true)}>
-            Add to iPhone or iPad
+            {t("install")}
           </button>
         </footer>
         <details className="no-print mx-auto max-w-6xl px-4 pb-8">
-          <summary className="cursor-pointer font-extrabold">Photo credits</summary>
-          <p className="mt-2 text-base">Pictures were resized to fit. The heart model was cropped to the front view. Nothing else was changed.</p>
+          <summary className="cursor-pointer font-extrabold">{t("credits")}</summary>
+          <p className="mt-2 text-base">{t("creditNote")}</p>
           <ul className="mt-3 space-y-2 text-sm">
             {PHOTO_LIST.map((shot) => (
               <li key={shot.src}>
                 <a href={shot.href} className="font-extrabold underline" target="_blank" rel="noreferrer">
-                  {shot.alt}
+                  {photoAlt(photoKeyBySrc(shot.src, SHOTS) ?? "", shot.alt, lang)}
                 </a>
                 <span>. {shot.credit}</span>
               </li>
@@ -165,9 +224,11 @@ export function Art({
   className?: string;
   credit?: "overlay" | "off";
 }) {
+  const { lang } = useI18n();
   const shot = shotBySrc(src);
   const line = shot?.credit;
-  const label = alt || shot?.alt || "";
+  const key = photoKeyBySrc(src, SHOTS);
+  const label = photoAlt(key ?? "", alt || shot?.alt || "", lang);
   return (
     <figure className={`m-0 overflow-hidden bg-chalk ${className ?? ""}`}>
       <img
@@ -198,9 +259,10 @@ export function Face({
   name: string;
   className?: string;
 }) {
+  const { t } = useI18n();
   return (
     <div className={`overflow-hidden rounded-full border-[3px] border-ink bg-chalk ${className ?? ""}`}>
-      <Portrait look={look} label={`Cartoon portrait of ${name}`} className="h-full w-full" />
+      <Portrait look={look} label={t("portrait", { name })} className="h-full w-full" />
     </div>
   );
 }

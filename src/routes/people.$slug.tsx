@@ -4,7 +4,7 @@ import { FACTS } from "@/data/facts";
 import { getPerson } from "@/data/people";
 import { sceneFor } from "@/data/photos";
 import { Portrait } from "@/components/portrait";
-import { fieldLabel } from "@/data/types";
+import { localizeFact, localizePerson, useFieldLabel, useI18n, usePageTitle } from "@/i18n";
 
 export const Route = createFileRoute("/people/$slug")({
   loader: ({ params }) => getPerson(params.slug) ?? null,
@@ -19,20 +19,24 @@ export const Route = createFileRoute("/people/$slug")({
 });
 
 function PersonPage() {
-  const person = Route.useLoaderData();
+  const raw = Route.useLoaderData();
+  const { t, lang } = useI18n();
+  const fieldName = useFieldLabel();
+  const person = raw ? localizePerson(raw, lang) : null;
+  usePageTitle(person ? person.name : t("people"));
   if (!person) {
     return (
       <Shell>
         <div className="mx-auto max-w-3xl px-4 py-8">
-          <p className="text-xl">That person is not here.</p>
+          <p className="text-xl">{t("personMissing")}</p>
           <Link to="/people" className="btn btn-chalk mt-4">
-            All people
+            {t("allPeople")}
           </Link>
         </div>
       </Shell>
     );
   }
-  const related = FACTS.filter((fact) => fact.person === person.slug);
+  const related = FACTS.filter((fact) => fact.person === person.slug).map((fact) => localizeFact(fact, lang));
   const scene = sceneFor(person.slug);
   return (
     <Shell>
@@ -40,10 +44,10 @@ function PersonPage() {
         <div className="stamp bg-chalk p-4">
           <Portrait
             look={person.look}
-            label={`Cartoon portrait of ${person.name}`}
+            label={t("portrait", { name: person.name })}
             className="mx-auto h-64 w-full"
           />
-          <p className="mt-3 text-center text-sm font-extrabold uppercase">{fieldLabel(person.field)}</p>
+          <p className="mt-3 text-center text-sm font-extrabold uppercase">{fieldName(person.field)}</p>
         </div>
         <div>
           <h1 className="font-display text-4xl font-bold">{person.name}</h1>
@@ -61,7 +65,7 @@ function PersonPage() {
         <Art src={scene.src} alt={scene.alt} className="stamp w-full lg:col-span-2" />
         {related.length > 0 ? (
           <section className="lg:col-span-2">
-            <h2 className="font-display text-2xl font-bold">Related</h2>
+            <h2 className="font-display text-2xl font-bold">{t("related")}</h2>
             <ul className="mt-2 space-y-2">
               {related.map((fact) => (
                 <li key={fact.slug}>

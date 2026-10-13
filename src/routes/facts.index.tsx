@@ -1,7 +1,8 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Face, Shell } from "@/components/shell";
 import { matchingFacts, matchingPeople, topicCounts } from "@/data/search";
-import { TOPICS, kindLabel, type TopicId } from "@/data/types";
+import { TOPICS, type TopicId } from "@/data/types";
+import { localizeFact, localizePerson, useI18n, useKindLabel, usePageTitle, useTopicLabel } from "@/i18n";
 
 type FactsSearch = { q: string; topic: string };
 
@@ -16,16 +17,20 @@ export const Route = createFileRoute("/facts/")({
 
 function FactsPage() {
   const { q, topic } = Route.useSearch();
-  const counts = topicCounts(q);
-  const facts = matchingFacts(q, topic);
-  const people = matchingPeople(q);
+  const { t, lang } = useI18n();
+  const kindName = useKindLabel();
+  const topicName = useTopicLabel();
+  usePageTitle(t("facts"));
+  const counts = topicCounts(q, lang);
+  const facts = matchingFacts(q, topic, lang).map((fact) => localizeFact(fact, lang));
+  const people = matchingPeople(q, lang).map((person) => localizePerson(person, lang));
   return (
     <Shell>
       <div className="mx-auto max-w-6xl px-4 py-5">
-        <h1 className="font-display text-4xl font-bold">Facts</h1>
+        <h1 className="font-display text-4xl font-bold">{t("facts")}</h1>
         <div className="mt-4 flex flex-wrap gap-2">
           <Link to="/facts" search={{ q, topic: "all" }} className={topic === "all" ? "chip is-on" : "chip"}>
-            All
+            {t("all")}
           </Link>
           {TOPICS.map((item) => {
             const count = counts[item.id] ?? 0;
@@ -33,7 +38,7 @@ function FactsPage() {
             if (empty) {
               return (
                 <button key={item.id} type="button" className="chip" disabled>
-                  {item.label}
+                  {topicName(item.id)}
                 </button>
               );
             }
@@ -44,14 +49,14 @@ function FactsPage() {
                 search={{ q, topic: item.id }}
                 className={topic === item.id ? "chip is-on" : "chip"}
               >
-                {item.label}
+                {topicName(item.id)}
               </Link>
             );
           })}
         </div>
         {people.length > 0 ? (
           <section className="mt-6">
-            <h2 className="font-display text-2xl font-bold">People</h2>
+            <h2 className="font-display text-2xl font-bold">{t("people")}</h2>
             <ul className="mt-3 grid gap-3 sm:grid-cols-2">
               {people.map((person) => (
                 <li key={person.slug}>
@@ -70,15 +75,15 @@ function FactsPage() {
         <section className="mt-6">
           {q ? (
             <h2 className="font-display text-2xl font-bold">
-              {facts.length} matching {facts.length === 1 ? "card" : "cards"}
+              {t(facts.length === 1 ? "matchOne" : "matchMany", { n: facts.length })}
             </h2>
           ) : null}
-          {facts.length === 0 ? <p className="mt-3 text-lg">No facts or people match that.</p> : null}
+          {facts.length === 0 ? <p className="mt-3 text-lg">{t("noMatch")}</p> : null}
           <ul className="mt-3 divide-y-2 divide-ink border-y-2 border-ink">
             {facts.map((fact) => (
               <li key={fact.slug}>
                 <Link to="/facts/$slug" params={{ slug: fact.slug }} className="grid gap-1 py-3 sm:grid-cols-[8rem_1fr] sm:items-baseline">
-                  <span className={badgeClass(fact.kind)}>{kindLabel(fact.kind)}</span>
+                  <span className={badgeClass(fact.kind)}>{kindName(fact.kind)}</span>
                   <span>
                     <span className="block font-extrabold">{fact.title}</span>
                     <span className="block text-base">{fact.sentence}</span>

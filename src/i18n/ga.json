@@ -1,0 +1,2802 @@
+{
+  "facts": {
+    "plants-food": {
+      "title": "Déanann plandaí bia",
+      "sentence": "Déanann plandaí a mbia as solas na gréine, aer agus uisce.",
+      "how": "Mura bhfaigheann duilleog solas, ní féidir léi bia a dhéanamh fós.",
+      "extra": "Gabhann an dath glas sa duilleog an solas.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cad a úsáideann plandaí chun bia a dhéanamh?",
+          "Solas na gréine, aer agus uisce",
+          "Carraigeacha amháin",
+          "Salann amháin",
+          "Miotal amháin"
+        ],
+        [
+          "Cad a tharlaíonn mura bhfaigheann duilleog solas?",
+          "Ní féidir léi bia a dhéanamh fós",
+          "Iompaíonn sí ina hiarann",
+          "Éiríonn sí ina maighnéad",
+          "Eitlíonn sí go dtí an Ghealach"
+        ]
+      ]
+    },
+    "plants-oxygen": {
+      "title": "Scaoileann plandaí ocsaigin",
+      "sentence": "I solas na gréine, scaoileann plandaí ocsaigin.",
+      "how": "Is féidir an gás a bhailiú ó phlandaí uisce i solas geal agus a thástáil gur ocsaigin é.",
+      "extra": "Úsáideann plandaí roinnt ocsaigine freisin, ach i ngrian gheal déanann siad níos mó ná mar a úsáideann siad.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cén gás a scaoileann plandaí i solas na gréine?",
+          "Ocsaigin",
+          "Gaineamh",
+          "Mearcair",
+          "Meirg"
+        ],
+        [
+          "Cathain a dhéanann plandaí níos mó ocsaigine ná mar a úsáideann siad?",
+          "I ngrian gheal",
+          "I mbosca dorcha",
+          "Mar iontaisí amháin",
+          "Choíche"
+        ]
+      ]
+    },
+    "bees-pollen": {
+      "title": "Iompraíonn beacha pailin",
+      "sentence": "Iompraíonn beacha pailin ó bhláth go bláth.",
+      "how": "Is féidir leat an deannach buí ar bheach a fheiceáil ag bogadh ó bhláth go bláth.",
+      "extra": "Iompraíonn feithidí eile pailin freisin.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cad a iompraíonn beacha idir bláthanna?",
+          "Pailin",
+          "Maighnéid",
+          "Iontaisí",
+          "Scamaill bháistí"
+        ],
+        [
+          "Cén abairt atá fíor?",
+          "Bogann beacha pailin ó bhláth go bláth",
+          "Is cineál miotail iad na beacha",
+          "Téann beacha i bhfithis timpeall Saturn",
+          "Déanann beacha solas na gealaí"
+        ]
+      ]
+    },
+    "seeds-water": {
+      "title": "Teastaíonn uisce ó shíolta",
+      "sentence": "Tosaíonn go leor síolta ag fás nuair a fhaigheann siad uisce agus teas.",
+      "how": "Tabhair uisce do shíol amháin agus gan aon uisce do shíol eile, agus feicfidh tú cé acu a fhásann.",
+      "extra": "Teastaíonn tréimhse fhuar ar dtús ó roinnt síolta freisin.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cad a chabhraíonn le go leor síolta tosú ag fás?",
+          "Uisce agus teas",
+          "Maighnéad amháin",
+          "Fuaim ard amháin",
+          "Seilf thirim go deo"
+        ],
+        [
+          "Conas is féidir leat a thástáil cad a theastaíonn ó shíol?",
+          "Cuir uisce ar shíol amháin agus fág ceann eile tirim",
+          "Péinteáil an dá shíol agus déan buille faoi thuairim",
+          "Cuir i bhfolach iad ó gach tástáil",
+          "Reoigh carraig in aice leo"
+        ]
+      ]
+    },
+    "fungi": {
+      "title": "Is fungais iad na beacáin",
+      "sentence": "Is fungas é beacán, ní planda.",
+      "how": "Ní dhéanann beacáin bia as solas na gréine mar a dhéanann plandaí glasa.",
+      "extra": "Faigheann fungais bia ó rudaí beo nó ó rudaí a bhí beo.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Baineann beacán le",
+          "Fungais",
+          "Iasc",
+          "Pláinéid",
+          "Maighnéid"
+        ],
+        [
+          "Cén fáth nach planda é beacán?",
+          "Ní dhéanann sé bia as solas na gréine mar a dhéanann planda glas",
+          "Tá cleití air",
+          "Tá sé déanta as gloine",
+          "Téann sé i bhfithis timpeall na Gréine"
+        ]
+      ]
+    },
+    "whales": {
+      "title": "Análaíonn míolta móra aer",
+      "sentence": "Is mamaigh iad na míolta móra, mar sin análann siad aer.",
+      "how": "Feiceann daoine na míolta móra ag teacht aníos agus aer úsáidte á séideadh amach acu.",
+      "extra": "Ní féidir leo fanacht faoin bhfarraige mar a dhéanann iasc.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Caithfidh míolta móra teacht aníos chun seo a fháil",
+          "Aer",
+          "Laibhe",
+          "Gaineamh",
+          "Deannach na Gealaí"
+        ],
+        [
+          "Is iad na míolta móra",
+          "Mamaigh",
+          "Feithidí",
+          "Carraigeacha",
+          "Fungais"
+        ]
+      ]
+    },
+    "cactus": {
+      "title": "Stórálann cactas uisce",
+      "sentence": "Stórálann cactas uisce ina ghas.",
+      "how": "Tomhaiseann eolaithe an t-uisce atá sa ghas tiubh.",
+      "extra": "Coinníonn na dealga ainmhithe ó ithe an uisce sin.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cá stórálann cactas uisce?",
+          "Ina ghas",
+          "Ina scáth",
+          "I scamall",
+          "Ina dhealga amháin"
+        ],
+        [
+          "Cén abairt atá fíor?",
+          "Stórálann cactas uisce ina ghas",
+          "Is miotal é cactas",
+          "Is gealach é cactas",
+          "Is cnámh iontaise é cactas"
+        ]
+      ]
+    },
+    "bird-bones": {
+      "title": "Cnámha éadroma éan",
+      "sentence": "Tá go leor cnámha éan log, agus cabhraíonn sé sin leis na héin fanacht éadrom.",
+      "how": "Féachann eolaithe isteach i gcnámha éan agus faigheann siad spásanna aeir.",
+      "extra": "Ní eitlíonn gach éan.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cén fáth a bhfuil go leor cnámha éan log?",
+          "Chun cabhrú leis an éan fanacht éadrom",
+          "Chun ór a stóráil",
+          "Chun uisce a fhiuchadh",
+          "Chun toirneach a dhéanamh"
+        ],
+        [
+          "Cén abairt atá fíor?",
+          "Ní eitlíonn gach éan",
+          "Is mamaigh iad na héin go léir",
+          "Tá éin déanta as gloine",
+          "Níl cnámha ar bith ag éin"
+        ]
+      ]
+    },
+    "coral": {
+      "title": "Is ainmhithe é coiréal",
+      "sentence": "Tógann ainmhithe beaga bídeacha sceireacha coiréil.",
+      "how": "Faoi lionsa, feiceann tú na hainmhithe beaga coiréil ina gcupáin.",
+      "extra": "Tá an sceir chrua déanta as a gcnámharlaigh.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cad a thógann sceir choiréil?",
+          "Ainmhithe beaga bídeacha",
+          "Scamaill",
+          "Maighnéid crú capaill",
+          "Fáinní oighir"
+        ],
+        [
+          "Tagann an chuid chrua de sceir ó",
+          "Cnámharlaigh coiréil",
+          "Luaidhe phinn",
+          "Anáil míol mhóir",
+          "Deannach na Gealaí"
+        ]
+      ]
+    },
+    "chimp-tools": {
+      "title": "Úsáideann simpansaithe uirlisí",
+      "sentence": "Úsáideann roinnt simpansaithe maidí mar uirlisí.",
+      "how": "D'fhéach Jane Goodall ar shimpansé ag baint craiceann de sprigín agus á úsáid chun feithidí a tharraingt amach.",
+      "extra": "Scríobh sí síos an méid a chonaic sí, lá i ndiaidh lae.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cé a d'fhéach ar shimpansé ag úsáid maide mar uirlis?",
+          "Jane Goodall",
+          "Isaac Newton",
+          "Mae Jemison",
+          "Marie Curie"
+        ],
+        [
+          "Cad a rinne an simpansé sin leis an maide?",
+          "D'úsáid sé é chun feithidí a tharraingt amach",
+          "D'eitil sé é go dtí an Ghealach",
+          "Leáigh sé é ina iarann",
+          "Reoigh sé an t-aigéan leis"
+        ]
+      ]
+    },
+    "dna": {
+      "title": "Is dréimire é DNA",
+      "sentence": "Is dréimire fada casta é DNA a choinníonn treoracha do rud beo.",
+      "how": "Thaispeáin pictiúr X-gha agus go leor tástálacha ina dhiaidh sin an cruth casta sin.",
+      "extra": "Thóg Rosalind Franklin pictiúr tábhachtach de DNA.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cén cruth atá ar DNA?",
+          "Dréimire casta",
+          "Pláta cothrom",
+          "Maighnéad crú capaill",
+          "Roth cearnógach"
+        ],
+        [
+          "Cé a thóg pictiúr tábhachtach X-gha de DNA?",
+          "Rosalind Franklin",
+          "Mary Anning",
+          "Galileo Galilei",
+          "Michael Faraday"
+        ]
+      ]
+    },
+    "evolution": {
+      "title": "Athraíonn rudaí beo",
+      "sentence": "Athraíonn rudaí beo thar am an-fhada.",
+      "how": "Is bealaí iad iontaisí, agus crainn teaghlaigh na rudaí beo, chun an smaoineamh seo a thástáil.",
+      "extra": "San eolaíocht, is smaoineamh mór í teoiric a rinne go leor tástálacha.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Athraíonn rudaí beo thar am an-fhada. Is é an smaoineamh sin",
+          "Teoiric a thástálann eolaithe",
+          "Buille faoi thuairim gan tástáil ar bith",
+          "Cineál miotail",
+          "Céim den ghealach"
+        ],
+        [
+          "Cén bealach amháin a thástálaimid an smaoineamh sin?",
+          "Iontaisí",
+          "Mian amháin",
+          "Dath maighnéid",
+          "Ainm báid"
+        ]
+      ]
+    },
+    "water-h2o": {
+      "title": "Is H2O é uisce",
+      "sentence": "Is H2O é uisce, dhá adamh hidrigine agus adamh ocsaigine amháin.",
+      "how": "Nuair a scoilteann eolaithe uisce, faigheann siad an t-oideas céanna gach uair.",
+      "extra": "Is uisce soladach é oighear, agus snámhann sé ar uisce leachtach.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cén t-oideas a ainmníonn uisce?",
+          "H2O",
+          "CO2",
+          "NaCl",
+          "Fe"
+        ],
+        [
+          "Cé mhéad adamh hidrigine atá i ngiotán amháin uisce?",
+          "Dhá cheann",
+          "Náid",
+          "Deich",
+          "Céad"
+        ]
+      ]
+    },
+    "states": {
+      "title": "Trí staid",
+      "sentence": "Is féidir le hábhar a bheith ina sholad, ina leacht, nó ina ghás.",
+      "how": "Is féidir leat an t-uisce céanna a fheiceáil mar oighear, ansin mar leacht, ansin mar ghal.",
+      "extra": "Bogann na giotáin bheaga níos saoire de réir mar a théann sé.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Is iad oighear, uisce leachtach agus gal",
+          "An t-ábhar céanna i dtrí staid",
+          "Trí mhiotal éagsúla",
+          "Trí phláinéad",
+          "Trí chnámh"
+        ],
+        [
+          "Cén liosta a ainmníonn trí staid ábhair?",
+          "Solad, leacht, gás",
+          "Thuaidh, theas, soir",
+          "Duilleog, fréamh, gob",
+          "Lá, bliain, taoide"
+        ]
+      ]
+    },
+    "ice-floats": {
+      "title": "Snámhann oighear",
+      "sentence": "Snámhann oighear ar uisce leachtach.",
+      "how": "Cuir píosa oighir i ngloine uisce agus fanann sé ar bharr.",
+      "extra": "Tógann oighear níos mó spáis ná an t-uisce céanna mar leacht.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cad a dhéanann oighear i ngloine uisce?",
+          "Snámhann sé",
+          "Téann sé go tóin i gcónaí mar chloch",
+          "Iompaíonn sé ina iarann",
+          "Éiríonn sé ina mhaighnéad"
+        ],
+        [
+          "Cén fáth a bhféadann oighear snámh?",
+          "Tógann sé níos mó spáis ná an t-uisce leachtach céanna",
+          "Tá sé níos troime ná ór",
+          "Tá dhá phol aige",
+          "Is iontaise é"
+        ]
+      ]
+    },
+    "water-boil": {
+      "title": "Fiuchann uisce",
+      "sentence": "Ag leibhéal na farraige, fiuchann uisce ag 100 céim Celsius.",
+      "how": "Léann teirmiméadar 100 céim nuair a bhíonn an t-uisce ag fiuchadh go láidir ag leibhéal na farraige.",
+      "extra": "Ard ar shliabh, fiuchann uisce ag teocht níos ísle.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Ag leibhéal na farraige, fiuchann uisce ag",
+          "100 céim Celsius",
+          "0 céim Celsius",
+          "10 céim Celsius",
+          "1000 céim Celsius"
+        ],
+        [
+          "Ar shliabh ard, fiuchann uisce",
+          "Ag teocht níos ísle",
+          "Mar oighear amháin",
+          "Choíche",
+          "Chomh te leis an nGhrian"
+        ]
+      ]
+    },
+    "salt-dissolves": {
+      "title": "Tuaslagann salann",
+      "sentence": "Is féidir le salann tuaslagadh in uisce agus é ag breathnú amhail is dá n-imeodh sé.",
+      "how": "Imíonn an salann as radharc, ach tá blas salainn ar an uisce, mar sin tá an salann fós ann.",
+      "extra": "Má thriomaíonn an t-uisce, feictear an salann arís.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Nuair a thuaslagann salann,",
+          "Tá sé fós san uisce",
+          "Iompaíonn sé ina ór",
+          "Fágann sé an Domhan",
+          "Éiríonn sé ina DNA"
+        ],
+        [
+          "Conas is féidir le salann tuaslagtha teacht ar ais?",
+          "Lig don uisce triomú",
+          "Cuir teileascóp leis",
+          "Cas an Ghealach",
+          "Cuir cactas"
+        ]
+      ]
+    },
+    "rust": {
+      "title": "Meirgíonn iarann",
+      "sentence": "Meirgíonn iarann nuair a bhuaileann sé le huisce agus le haer le chéile.",
+      "how": "Fanann tairne iarainn tirim lonrach níos faide ná ceann fliuch a fhágtar san aer.",
+      "extra": "Is cóta nua í an mheirg, ní hé an t-iarann lonrach féin.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Meirgíonn iarann nuair a bhuaileann sé le",
+          "Uisce agus aer",
+          "Solas na gealaí amháin",
+          "Pailin amháin",
+          "Spás folamh"
+        ],
+        [
+          "Cén tairne a fhanann lonrach níos faide?",
+          "Tairne tirim a choinnítear ó uisce",
+          "Tairne a fhágtar fliuch san aer",
+          "Tairne déanta as gal",
+          "Tairne gan tástáil ar bith"
+        ]
+      ]
+    },
+    "glass-sand": {
+      "title": "Gloine as gaineamh",
+      "sentence": "Déanann daoine gloine trí ghaineamh a théamh le cúpla mianra eile go dtí go leánn sé.",
+      "how": "Leánn siopaí gloine an meascán, ansin fuaraíonn siad é ina sholad soiléir.",
+      "extra": "Tá roinnt seanfhuinneoga níos tibhe ag bun mar gheall ar an gcaoi a ndearnadh an ghloine, ní toisc go sileann gloine.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Déantar gloine trí",
+          "Gaineamh a théamh go dtí go leánn sé",
+          "Loscainn a reo",
+          "Pailin a chruachadh",
+          "Poil mhaighnéid a lúbadh"
+        ],
+        [
+          "Cén fáth a bhfuil roinnt sean-ghloine fuinneoige níos tibhe ag bun?",
+          "Mar gheall ar an gcaoi a ndearnadh í",
+          "Toisc go sileann gloine go mall mar mhil",
+          "Toisc go suíonn loscainn uirthi",
+          "Toisc go gcruachann fuaim"
+        ]
+      ]
+    },
+    "diamond-graphite": {
+      "title": "Carbón ar dhá bhealach",
+      "sentence": "Is carbón iad diamant agus graifít pinn luaidhe araon, pacáilte ar bhealaí éagsúla.",
+      "how": "Taispeánann tástálacha gur adaimh charbóin iad araon, faoi ghlas i bpatrúin éagsúla.",
+      "extra": "Sin an fáth a bhfuil ceann amháin crua agus soiléir agus an ceann eile bog agus dorcha.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Is iad diamant agus graifít pinn luaidhe araon",
+          "Carbón",
+          "Uisce",
+          "Meirg iarainn",
+          "Cnámh míol mhóir"
+        ],
+        [
+          "Cén fáth a bhféadann carbón a bheith crua nó bog?",
+          "Tá na hadaimh pacáilte ar bhealaí éagsúla",
+          "Is pláinéad ceann acu",
+          "Tá ceann acu beo",
+          "Is teoiric ceann acu"
+        ]
+      ]
+    },
+    "oil-floats": {
+      "title": "Snámhann ola",
+      "sentence": "Snámhann ola ar uisce toisc nach bhfuil sí chomh dlúth.",
+      "how": "Doirt ola go réidh ar uisce agus fanann an ola ar bharr.",
+      "extra": "Is féidir le scannán tanaí ola suí ar lochán ar an gcúis chéanna.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cad a dhéanann ola ar uisce?",
+          "Snámhann sí",
+          "Téann sí go tóin faoi charraig i gcónaí",
+          "Éiríonn sí ina hoighear láithreach",
+          "Iompaíonn sí ina réalta"
+        ],
+        [
+          "Snámhann ola toisc go bhfuil sí",
+          "Níos lú dlúis ná uisce",
+          "Níos troime ná iarann",
+          "Cineál cnámh",
+          "Gealach"
+        ]
+      ]
+    },
+    "plastic": {
+      "title": "Slabhraí plaisteacha",
+      "sentence": "Tá an chuid is mó den phlaisteach déanta as slabhraí fada móilíní, agus tosaíonn cuid mhór de mar ola.",
+      "how": "Ceanglaíonn ceimiceoirí móilíní beaga i slabhraí fada agus ansin cruthaíonn siad iad.",
+      "extra": "Déantar roinnt plaistigh nua as plandaí ina ionad.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Tá an chuid is mó den phlaisteach déanta as",
+          "Slabhraí fada móilíní",
+          "Gaineamh scaoilte amháin",
+          "Cnámha éan laga",
+          "Solas na gealaí"
+        ],
+        [
+          "Tosaíonn cuid mhór den phlaisteach mar",
+          "Ola",
+          "Amhráin míolta móra",
+          "Fáinní Saturn",
+          "Salann boird amháin"
+        ]
+      ]
+    },
+    "gold": {
+      "title": "Ní mheirgíonn ór",
+      "sentence": "Ní mheirgíonn ór mar a mheirgíonn iarann.",
+      "how": "Is féidir le seanbhoinn óir fanacht lonrach in aer agus in uisce ar feadh tréimhse an-fhada.",
+      "extra": "Is miotal é ór fós, agus is féidir é a bhualadh an-tanaí.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cad a dhéanann ór in aer tais?",
+          "Ní mheirgíonn sé mar iarann",
+          "Iompaíonn sé ina adhmad",
+          "Fiuchann sé ag 0 céim",
+          "Éiríonn sé ina chactas"
+        ],
+        [
+          "Cén abairt atá fíor?",
+          "Is féidir le hór fanacht lonrach ar feadh tréimhse an-fhada",
+          "Is gás é ór sa seomra",
+          "Is cineál DNA é ór",
+          "Tá trí chroí ag ór"
+        ]
+      ]
+    },
+    "periodic": {
+      "title": "Tábla na ndúl",
+      "sentence": "Cuireann an tábla peiriadach na dúile in ord de réir patrún ina n-adaimh.",
+      "how": "San ord sin, suíonn dúile a oibríonn mar a chéile i dteaghlaigh.",
+      "extra": "D'fhág Dmitri Mendeleev bearnaí do dhúile nach raibh aimsithe fós ag daoine.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cad a chuireann an tábla peiriadach in ord?",
+          "Na dúile",
+          "Na pláinéid amháin",
+          "Na cnámha amháin",
+          "Na haigéin amháin"
+        ],
+        [
+          "Cé a d'fhág bearnaí do dhúile nach raibh aimsithe fós?",
+          "Dmitri Mendeleev",
+          "Jane Goodall",
+          "Mae Jemison",
+          "Mary Anning"
+        ]
+      ]
+    },
+    "force-push": {
+      "title": "Is brú é fórsa",
+      "sentence": "Is brú nó tarraingt é fórsa.",
+      "how": "Síneann scála sprionga nuair a tharraingíonn tú, agus tomhaiseann an síneadh an fórsa.",
+      "extra": "Is féidir le fórsaí rud a thosú, a stopadh, nó a chasadh.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Is éard is fórsa ann",
+          "Brú nó tarraingt",
+          "Cineál iontaise",
+          "Céim den ghealach",
+          "Cnámh"
+        ],
+        [
+          "Tomhaiseann scála sprionga fórsa toisc",
+          "Go síneann an sprionga",
+          "Go n-iompaíonn an sprionga ina uisce",
+          "Go dtéann an sprionga i bhfithis timpeall na Gréine",
+          "Go bhfuil blas salainn ar an sprionga"
+        ]
+      ]
+    },
+    "magnet-poles": {
+      "title": "Dhá phol",
+      "sentence": "Tá dhá phol ag maighnéad, ar a dtugtar thuaidh agus theas.",
+      "how": "Croch maighnéad barra ionas gur féidir leis casadh, agus coinníonn an taobh céanna ag díriú ó thuaidh.",
+      "extra": "Tá an dá phol ag gach maighnéad a thástálaimid, ní pol amháin.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cé mhéad pol atá ag maighnéad?",
+          "Dhá cheann",
+          "Ceann amháin",
+          "Ocht gcinn",
+          "206"
+        ],
+        [
+          "Tugtar ar phoill an mhaighnéid",
+          "Thuaidh agus theas",
+          "Oighear agus gal",
+          "Beach agus míol mór",
+          "Suas agus DNA"
+        ]
+      ]
+    },
+    "magnet-iron": {
+      "title": "Tarraingíonn maighnéid iarann",
+      "sentence": "Tarraingíonn maighnéad iarann, ach ní tharraingíonn sé adhmad, plaisteach ná copar.",
+      "how": "Tástáil maighnéad amháin ar thairne iarainn, maide adhmaid, cupán plaisteach agus bonn copair.",
+      "extra": "Ní tharraingítear ach roinnt miotal.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cé acu a tharraingíonn maighnéad?",
+          "Tairne iarainn",
+          "Maide adhmaid",
+          "Cupán plaisteach",
+          "Stoca cadáis"
+        ],
+        [
+          "An dtarraingíonn maighnéad gach miotal?",
+          "Ní tharraingíonn",
+          "Tarraingíonn, fiú uisce",
+          "Tarraingíonn, fiú adhmad",
+          "Ar an nGealach amháin"
+        ]
+      ]
+    },
+    "poles-push": {
+      "title": "Brúnn nó tarraingíonn poil",
+      "sentence": "Tarraingíonn poil urchomhaireacha le chéile, agus brúnn na poil chéanna óna chéile.",
+      "how": "Tabhair dhá cheann maighnéid le chéile agus mothóidh tú tarraingt nó brú.",
+      "extra": "Ní féidir leat na poil a aithint ón dath. Aithníonn tú iad ón gcaoi a n-oibríonn siad.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cad a dhéanann dhá phol thuaidh?",
+          "Brúnn siad óna chéile",
+          "Leánn siad i gcónaí",
+          "Déanann siad mil",
+          "Éiríonn siad ina bplandaí"
+        ],
+        [
+          "Cad a dhéanann pol thuaidh agus pol theas?",
+          "Tarraingíonn siad le chéile",
+          "Imíonn siad",
+          "Iompaíonn siad ina ngloine",
+          "Fiuchann siad láithreach"
+        ]
+      ]
+    },
+    "gravity": {
+      "title": "Titeann rudaí",
+      "sentence": "Titeann rudaí a scaoiltear i dtreo an Domhain, agus míníonn teoiric na himtharraingthe an tarraingt sin.",
+      "how": "Tomhaisimid rudaí ag titim, meáchain, agus cosán na Gealaí, agus tuarann an teoiric go maith iad.",
+      "extra": "Tástálann eolaithe an imtharraingt fós ar bhealaí nua.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cad a dhéanann rudaí a scaoiltear?",
+          "Titeann siad i dtreo an Domhain",
+          "Snámhann siad ar shiúl i gcónaí",
+          "Iompaíonn siad ina n-ola",
+          "Éiríonn siad ina n-iontaisí láithreach"
+        ],
+        [
+          "Is é an smaoineamh domhain faoin tarraingt seo",
+          "Teoiric a thástálann eolaithe fós",
+          "Buille faoi thuairim gan tástálacha",
+          "Cineál plaisteach",
+          "Míol mór"
+        ]
+      ]
+    },
+    "sound-medium": {
+      "title": "Teastaíonn ábhar ó fhuaim",
+      "sentence": "Teastaíonn rud éigin ó fhuaim chun taisteal tríd, mar sin ní féidir léi spás folamh a thrasnú.",
+      "how": "Éiríonn clog i bpróca níos ciúine de réir mar a phumpáiltear an t-aer amach.",
+      "extra": "Bogann fuaim níos tapúla in uisce ná in aer.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Ní féidir le fuaim taisteal trí",
+          "Spás folamh",
+          "Aer",
+          "Uisce",
+          "Ráille miotail"
+        ],
+        [
+          "Cá mbogann fuaim níos tapúla?",
+          "In uisce",
+          "I spás folamh",
+          "I bhfolús iomlán",
+          "In aon áit, riamh"
+        ]
+      ]
+    },
+    "light-space": {
+      "title": "Téann solas trasna an spáis",
+      "sentence": "Is féidir le solas taisteal trí spás folamh.",
+      "how": "Sroicheann solas na gréine an Domhan trasna an spáis, áit nach bhfuil beagnach aon aer.",
+      "extra": "Is féidir le braonta uisce solas a lúbadh ina thuar ceatha.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Sroicheann solas na gréine sinn trí",
+          "Spás folamh",
+          "Feadán soladach iarainn amháin",
+          "Do chnámha",
+          "Bosca adhmaid dúnta"
+        ],
+        [
+          "Cad a fhéadann solas a lúbadh ina thuar ceatha?",
+          "Braonta uisce",
+          "Iontaise thirim",
+          "Clóiséad dorcha gan solas",
+          "Ainm maighnéid"
+        ]
+      ]
+    },
+    "friction": {
+      "title": "Moillíonn frithchuimilt sleamhnú",
+      "sentence": "Is fórsa í an fhrithchuimilt a mhoillíonn rudaí a chuimlíonn nó a shleamhnaíonn.",
+      "how": "Rollann an carr bréagáin céanna níos faide ar urlár mín ná ar chairpéad garbh.",
+      "extra": "Ligeann frithchuimilt do do bhróga greim a fháil ar an talamh freisin.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cad a dhéanann frithchuimilt do rudaí atá ag sleamhnú?",
+          "Moillíonn sí iad",
+          "Scriosann sí an imtharraingt",
+          "Iompaíonn sí iad ina réaltaí",
+          "Baineann sí an dá phol"
+        ],
+        [
+          "Rollann carr bréagáin níos faide ar",
+          "Urlár mín",
+          "Cairpéad garbh",
+          "Láib thiubh",
+          "Mil ghreamaitheach"
+        ]
+      ]
+    },
+    "lever": {
+      "title": "Cabhraíonn luamhán le hardú",
+      "sentence": "Is féidir le luamhán cabhrú leat ualach trom a ardú le brú níos lú.",
+      "how": "Ligeann barra righin ar thaca duit leabhar a ardú le níos lú brú.",
+      "extra": "Is luamhán é clár luascáin.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cabhraíonn luamhán leat",
+          "Ualach trom a ardú le brú níos lú",
+          "Gach frithchuimilt a stopadh go deo",
+          "Uisce a fhiuchadh gan teas",
+          "Pol maighnéid a bhaint"
+        ],
+        [
+          "Is cineál é clár luascáin",
+          "Luamhán",
+          "Pláinéad",
+          "Iontaise",
+          "Frídín"
+        ]
+      ]
+    },
+    "inertia": {
+      "title": "Fanann rud socair socair",
+      "sentence": "Fanann rud socair socair go dtí go mbogann fórsa é.",
+      "how": "Leanann puc ar oighear mín ag dul go dtí go n-athraíonn cuimilt nó buille a ghluaiseacht.",
+      "extra": "Is ceann de rialacha na gluaiseachta a scríobh Newton í an riail seo.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Fanann leabhar socair socair go dtí",
+          "Go mbogann fórsa é",
+          "Go gcinnfidh sé eitilt",
+          "Go nglaonn an Ghealach a ainm",
+          "Go n-éiríonn sé ina DNA"
+        ],
+        [
+          "Cé a scríobh rialacha faoin gcaoi a mbogann fórsaí rudaí?",
+          "Isaac Newton",
+          "Wangari Maathai",
+          "Tu Youyou",
+          "Mary Anning"
+        ]
+      ]
+    },
+    "hot-air": {
+      "title": "Ardaíonn aer te",
+      "sentence": "Ardaíonn aer te os cionn aeir níos fuaire.",
+      "how": "Éiríonn aer te ó théitheoir, agus téann aer níos fuaire síos.",
+      "extra": "Sin an fáth a mbíonn seomra níos teo thuas staighre uaireanta.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cad a dhéanann aer te?",
+          "Ardaíonn sé os cionn aeir níos fuaire",
+          "Téann sé síos faoi oighear i gcónaí",
+          "Iompaíonn sé ina charraig",
+          "Cailleann sé an dá phol"
+        ],
+        [
+          "Cén fáth a mbíonn sé níos teo thuas staighre?",
+          "Ardaíonn aer te",
+          "Déanann staighrí ocsaigin",
+          "Fiuchann cairpéid",
+          "Téann maighnéid an díon"
+        ]
+      ]
+    },
+    "earth-sun": {
+      "title": "Téann an Domhan timpeall na Gréine",
+      "sentence": "Téann an Domhan timpeall na Gréine.",
+      "how": "Oireann gluaiseacht na bpláinéad, agus pictiúir ón spás, do chosán timpeall na Gréine.",
+      "extra": "Fadó, thástáil daoine é seo in aghaidh an smaoinimh go raibh gach rud ag timpeallú an Domhain.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cad a dtimpeallaíonn an Domhan?",
+          "An Ghrian",
+          "An Ghealach amháin",
+          "Míol mór",
+          "Maighnéad"
+        ],
+        [
+          "Cé a scríobh go dtéann an Domhan agus na pláinéid timpeall na Gréine?",
+          "Nicolaus Copernicus",
+          "Jane Goodall",
+          "Alice Ball",
+          "Percy Julian"
+        ]
+      ]
+    },
+    "year-trip": {
+      "title": "Is turas amháin í bliain",
+      "sentence": "Is turas amháin den Domhan timpeall na Gréine í bliain.",
+      "how": "Tomhaisimid thart ar 365 lá ó mharc séasúir amháin ar ais go dtí an marc céanna.",
+      "extra": "Cuireann roinnt blianta féilire lá bisigh leis ionas go bhfanann an comhaireamh ailínithe.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Is í bliain",
+          "Turas amháin den Domhan timpeall na Gréine",
+          "Caochadh amháin",
+          "Taoide amháin",
+          "Casadh amháin de bharr bréagáin"
+        ],
+        [
+          "Cé mhéad lá, thart air, atá i dturas amháin den Domhan timpeall na Gréine?",
+          "365",
+          "8",
+          "12",
+          "2"
+        ]
+      ]
+    },
+    "day-spin": {
+      "title": "Is casadh é lá",
+      "sentence": "Is thart ar chasadh iomlán amháin den Domhan é lá.",
+      "how": "Is cosúil go dtrasnaíonn an Ghrian an spéir uair amháin gach uair a chasann an Domhan.",
+      "extra": "Sealaíonn áiteanna ag breathnú i dtreo na Gréine, agus déanann sé sin lá agus oíche.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Is thart air é lá",
+          "Casadh iomlán amháin den Domhan",
+          "Turas amháin timpeall an réaltra",
+          "Geimhreadh loscaín amháin",
+          "Cnámh amháin"
+        ],
+        [
+          "Tarlaíonn lá agus oíche toisc",
+          "Go gcasann an Domhan, mar sin sealaíonn áiteanna ag breathnú i dtreo na Gréine",
+          "Go múchtar an Ghrian gach oíche",
+          "Go gclúdaíonn an Ghealach an Ghrian gach oíche",
+          "Go stopann an Domhan ag bogadh"
+        ]
+      ]
+    },
+    "seasons": {
+      "title": "Cén fáth a dtarlaíonn séasúir",
+      "sentence": "Tarlaíonn séasúir toisc go bhfuil an Domhan claonta agus é ag dul timpeall na Gréine.",
+      "how": "Athraíonn an claonadh cé chomh díreach is a bhuaileann solas na gréine áit i rith na bliana.",
+      "extra": "Ní hé is cúis leis na séasúir go dtagann an Domhan i bhfad níos gaire don Ghrian.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cad a dhéanann na séasúir?",
+          "Claonadh an Domhain",
+          "An Domhan ag teacht i bhfad níos gaire don Ghrian",
+          "Maighnéid i mbróga",
+          "Amhráin míolta móra"
+        ],
+        [
+          "Cén abairt atá fíor?",
+          "Athraíonn claonadh an Domhain cé chomh díreach is a bhuaileann solas na gréine sinn",
+          "Tarlaíonn an samhradh toisc go bhfiuchann an Ghealach",
+          "Ciallaíonn an geimhreadh gur fhág an Domhan an grianchóras",
+          "Is cineál miotail iad na séasúir"
+        ]
+      ]
+    },
+    "earth-layers": {
+      "title": "Tá sraitheanna ag an Domhan",
+      "sentence": "Tá screamh, maintlín agus croíleacán ag an Domhan.",
+      "how": "Athraíonn tonnta crith talún luas istigh sa Domhan, agus taispeánann sé sin na sraitheanna.",
+      "extra": "Is í an screamh an tsraith thanaí lasmuigh a mairimid uirthi.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cén liosta a ainmníonn sraitheanna an Domhain?",
+          "Screamh, maintlín, croíleacán",
+          "Duilleog, fréamh, beach",
+          "Oighear, ola, ór",
+          "Thuaidh, theas, copar"
+        ],
+        [
+          "Conas a bhfuil a fhios againn go bhfuil sraitheanna ag an Domhan?",
+          "Athraíonn tonnta crith talún luas istigh ann",
+          "Chladhaigh duine éigin go dtí an lár",
+          "Buille faoi thuairim gan tástáil",
+          "Shil gloine síos"
+        ]
+      ]
+    },
+    "fossils": {
+      "title": "Iontaisí i gcarraig",
+      "sentence": "Is iarsmaí nó rianta de rudaí beo iad iontaisí a choinnítear i gcarraig.",
+      "how": "Faigheann daoine cnámha, sliogáin agus lorg coise iompaithe ina gcloch i sraitheanna carraige.",
+      "extra": "Is bealach amháin iad iontaisí a bhfuil a fhios againn gur athraigh an saol.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Is féidir le hiontaise a bheith",
+          "Cnámh nó lorg coise a choinnítear i gcarraig",
+          "Míol mór beo",
+          "Scamall báistí",
+          "Pol maighnéid"
+        ],
+        [
+          "Cé a d'aimsigh ainmhithe farraige iontaise cáiliúla i haillte in England?",
+          "Mary Anning",
+          "Katherine Johnson",
+          "Ada Lovelace",
+          "Chien-Shiung Wu"
+        ]
+      ]
+    },
+    "ocean-cover": {
+      "title": "Clúdaíonn aigéan an chuid is mó",
+      "sentence": "Clúdaíonn aigéan an chuid is mó den Domhan.",
+      "how": "Taispeánann léarscáileanna agus pictiúir ón spás i bhfad níos mó uisce ná talamh.",
+      "extra": "Is aigéan é thart ar sheacht ndeichiú de dhromchla an Domhain.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cad a chlúdaíonn an chuid is mó den Domhan?",
+          "Aigéan",
+          "Cathracha",
+          "Gaineamh fásaigh amháin",
+          "Oighear amháin"
+        ],
+        [
+          "Cé mhéad de dhromchla an Domhain is aigéan, thart air?",
+          "Seacht ndeichiú",
+          "Deichiú amháin",
+          "Dada",
+          "An Ghealach ar fad"
+        ]
+      ]
+    },
+    "volcano": {
+      "title": "Bolcáin",
+      "sentence": "Is féidir le bolcán carraig leáite a ligean amach as an Domhan.",
+      "how": "Tá féachta ag daoine ar laibhe ag sreabhadh amach agus ansin ag fuarú ina carraig.",
+      "extra": "Ní bolcán gach sliabh.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cad a fhéadann teacht amach as bolcán?",
+          "Carraig leáite",
+          "Tábla dúile críochnaithe",
+          "Solas na gealaí",
+          "Loscainn leachtacha"
+        ],
+        [
+          "An bolcán gach sliabh?",
+          "Ní hea",
+          "Is ea",
+          "Dé Máirt amháin",
+          "Más amhlaidh go bhfuil cnámha aige amháin"
+        ]
+      ]
+    },
+    "quake": {
+      "title": "Creathanna talún",
+      "sentence": "Tarlaíonn crith talún nuair a shleamhnaíonn carraig faoinár gcosa.",
+      "how": "Taifeadann ionstraimí an crith, agus taispeánann scoilteanna sa talamh cá ndeachaigh an charraig.",
+      "extra": "Is féidir leis an gcrith taisteal i bhfad trí charraig.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Tosaíonn crith talún nuair",
+          "A shleamhnaíonn carraig faoinár gcosa",
+          "A bhfuil blas salainn ar scamall",
+          "A bhfásann síol",
+          "A mheirgíonn ór"
+        ],
+        [
+          "Cad a thaifeadann crith an talún?",
+          "Ionstraimí",
+          "Dealg cactais",
+          "Tuar ceatha",
+          "Lá bisigh"
+        ]
+      ]
+    },
+    "soil": {
+      "title": "Cad is ithir ann",
+      "sentence": "Is carraig bhriste í ithir measctha le haer, uisce, agus giotáin de rudaí beo.",
+      "how": "Taispeánann lionsa láimhe gráinní, fréamhacha, agus giotáin dhorcha de sheanphlandaí.",
+      "extra": "Cabhraíonn péisteanna agus rudaí beaga beo leis an ithir a mheascadh.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Is éard is ithir den chuid is mó",
+          "Carraig bhriste móide aer, uisce, agus giotáin den saol",
+          "Ór glan",
+          "Oighear amháin",
+          "Plaisteach amháin"
+        ],
+        [
+          "Cé a rinne staidéar ar bharra a chabhraíonn le hithir thuirseach?",
+          "George Washington Carver",
+          "Galileo Galilei",
+          "Isaac Newton",
+          "Ada Lovelace"
+        ]
+      ]
+    },
+    "tides": {
+      "title": "An Ghealach agus na taoidí",
+      "sentence": "Cabhraíonn tarraingt na Gealaí le taoidí an aigéin a dhéanamh.",
+      "how": "Ailíníonn amanna na dtaoidí leis an áit a bhfuil an Ghealach sa spéir, arís agus arís eile.",
+      "extra": "Tá páirt ag tarraingt na Gréine freisin.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cad a chabhraíonn leis na taoidí a dhéanamh?",
+          "Tarraingt na Gealaí",
+          "Buille croí loscaín",
+          "Graifít pinn luaidhe",
+          "Beach amháin"
+        ],
+        [
+          "Ailíníonn amanna na dtaoidí le",
+          "An Ghealach",
+          "Dath an óir",
+          "Méid do bhróige",
+          "Cactas"
+        ]
+      ]
+    },
+    "weather-climate": {
+      "title": "Aimsir agus aeráid",
+      "sentence": "Is í an aimsir an méid a dhéanann an t-aer inniu, agus is í an aeráid an patrún thar blianta fada.",
+      "how": "Is aimsir í lá báistí amháin, agus taispeánann taifid a choinnítear le blianta an aeráid.",
+      "extra": "Ní scriosann lá fuar patrún te fada.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Is í an aimsir",
+          "An méid a dhéanann an t-aer inniu",
+          "Cruth DNA",
+          "Pol maighnéid",
+          "Aill iontaise"
+        ],
+        [
+          "Is í an aeráid",
+          "An patrún thar blianta fada",
+          "Scamall amháin",
+          "Lochán amháin",
+          "Lón an lae inniu"
+        ]
+      ]
+    },
+    "sun-star": {
+      "title": "Is réalta í an Ghrian",
+      "sentence": "Is réalta í an Ghrian.",
+      "how": "Oireann a solas agus a comhdhéanamh do réaltaí eile, ach tá sí i bhfad níos gaire.",
+      "extra": "Breathnaíonn réaltaí eile beag toisc go bhfuil siad an-fhada uainn.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Is í an Ghrian",
+          "Réalta",
+          "Carraig fhuar",
+          "Míol mór",
+          "Iontaise"
+        ],
+        [
+          "Cén fáth a mbreathnaíonn réaltaí eile an-bheag?",
+          "Tá siad an-fhada uainn",
+          "Is baictéir iad",
+          "Tá siad faoin talamh",
+          "Níl solas ar bith acu"
+        ]
+      ]
+    },
+    "eight-planets": {
+      "title": "Ocht bpláinéad",
+      "sentence": "Téann ocht bpláinéad timpeall na Gréine.",
+      "how": "Leanann teileascóip ocht saol mór ar chosáin shoiléire timpeall na Gréine.",
+      "extra": "Tugtar abhacphláinéad ar Pluto, ní ceann de na hocht gcinn.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cé mhéad pláinéad a théann timpeall na Gréine?",
+          "Ocht gcinn",
+          "Dhá cheann",
+          "206",
+          "Milliún amháin"
+        ],
+        [
+          "Is é Pluto",
+          "Abhacphláinéad",
+          "Ceann de na hocht bpláinéad",
+          "An t-aigéan is mó",
+          "Cineál cnámh"
+        ]
+      ]
+    },
+    "moon-light": {
+      "title": "Frithchaitheann an Ghealach",
+      "sentence": "Ní dhéanann an Ghealach a solas féin. Frithchaitheann sí an Ghrian.",
+      "how": "Breathnaíonn an chuid gheal den Ghealach i dtreo sholas na Gréine i gcónaí.",
+      "extra": "Breathnaíonn an taobh sa scáth dorcha.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Tagann solas na Gealaí ó",
+          "An Ghrian ag preabadh di",
+          "Tine istigh sa Ghealach",
+          "Lampaí cathrach",
+          "Loscainn ar an nGealach"
+        ],
+        [
+          "Is í an chuid dhorcha den Ghealach",
+          "An taobh sa scáth",
+          "Poll gan charraig",
+          "Aigéan dúigh",
+          "Maighnéad"
+        ]
+      ]
+    },
+    "moon-phases": {
+      "title": "Céimeanna na Gealaí",
+      "sentence": "Breathnaíonn an Ghealach éagsúil gach oíche toisc go bhfeicimid méideanna éagsúla dá taobh gréine.",
+      "how": "Tarraing an Ghealach ar feadh míosa agus fásann agus crapann an chuid gheal in ord.",
+      "extra": "Tógann lúb iomlán de chéimeanna thart ar mhí amháin.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cén fáth is cosúil go n-athraíonn cruth na Gealaí?",
+          "Feicimid méideanna éagsúla dá taobh gréine",
+          "Leánn an Ghealach gach oíche",
+          "Itheann scamaill í",
+          "Fásann cnámha uirthi"
+        ],
+        [
+          "Tógann lúb iomlán de chéimeanna na Gealaí thart ar",
+          "Mí amháin",
+          "Nóiméad amháin",
+          "Ocht mbliana",
+          "Soicind amháin"
+        ]
+      ]
+    },
+    "saturn-rings": {
+      "title": "Fáinní Saturn",
+      "sentence": "Tá fáinní Saturn déanta den chuid is mó as smutáin oighir agus carraige.",
+      "how": "Taispeánann spásárthaí agus teileascóip sluaite ollmhóra smután ag timpeallú Saturn.",
+      "extra": "Tá na fáinní an-leathan, ach tá siad an-tanaí freisin.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Is iad fáinní Saturn den chuid is mó",
+          "Oighear agus carraig",
+          "Duilleoga crainn",
+          "Cnámh",
+          "Aigéin óir leachtacha"
+        ],
+        [
+          "Tá na fáinní",
+          "Leathan ach an-tanaí",
+          "Pláta miotail soladach amháin",
+          "Bóthar ar féidir leat siúl air",
+          "Déanta as míolta móra"
+        ]
+      ]
+    },
+    "milky-way": {
+      "title": "Bealach na Bó Finne",
+      "sentence": "Tugtar Bealach na Bó Finne ar ár réaltra.",
+      "how": "Mairimid istigh ann, agus ar oíche dhorcha is féidir lena réaltaí breathnú mar bhanda fann.",
+      "extra": "Is teaghlach ollmhór réaltaí é réaltra.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cad is ainm dár réaltra?",
+          "Bealach na Bó Finne",
+          "An Mhuir Rua",
+          "An Tábla Peiriadach",
+          "An Screamh"
+        ],
+        [
+          "Is éard is réaltra ann",
+          "Teaghlach ollmhór réaltaí",
+          "Loscaín amháin",
+          "Cineál salainn",
+          "Luamhán"
+        ]
+      ]
+    },
+    "rockets": {
+      "title": "Brúnn roicéid gás",
+      "sentence": "Bogann roicéad ar aghaidh trí ghás a bhrú siar.",
+      "how": "Scaoil balún agus réabann an t-aer amach slí amháin agus an balún ag sciurdadh an tslí eile.",
+      "extra": "Seolann an cineál céanna brú roicéid fíor in airde.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Téann roicéad ar aghaidh trí",
+          "Gás a bhrú siar",
+          "Na réaltaí a tharraingt le rópa",
+          "Gaineamh a scaoileadh in airde",
+          "An imtharraingt a mhúchadh"
+        ],
+        [
+          "Sciurdann balún a scaoiltear toisc",
+          "Go réabann aer amach an tslí eile",
+          "Go n-éiríonn sé ina oighear",
+          "Go dtarraingíonn an Ghealach an snaidhm",
+          "Go n-imíonn an fhrithchuimilt go deo"
+        ]
+      ]
+    },
+    "orbit-float": {
+      "title": "Ag snámh i bhfithis",
+      "sentence": "Snámhann daoine i bhfithis toisc go bhfuil siad ag titim timpeall an Domhain, ní toisc go bhfuil an imtharraingt imithe.",
+      "how": "Titeann an long agus na daoine le chéile, mar sin mothaíonn siad gan mheáchan istigh.",
+      "extra": "Tá an imtharraingt ag tarraingt fós. Lúbann sí a gcosán timpeall an Domhain.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cén fáth a snámhann daoine i bhfithis?",
+          "Tá siad ag titim timpeall an Domhain",
+          "Tá an imtharraingt imithe as an spás",
+          "Baineann an long an mhais ar fad",
+          "Is balúin iad"
+        ],
+        [
+          "An bhfuil an imtharraingt imithe i bhfithis?",
+          "Níl",
+          "Tá",
+          "Dé Máirt amháin",
+          "Do phlandaí amháin"
+        ]
+      ]
+    },
+    "telescope": {
+      "title": "Bailíonn teileascóip solas",
+      "sentence": "Bailíonn teileascóp solas ionas go mbreathnaíonn rudaí fanna níos gile.",
+      "how": "Bailíonn lionsa mór nó scáthán níos mó solais ná do shúil féin.",
+      "extra": "D'úsáid Galileo teileascóp chun an spéir a staidéar.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cabhraíonn teileascóp linn rudaí fanna a fheiceáil toisc go",
+          "Mbailíonn sé níos mó solais",
+          "Ndénann sé fuaim níos airde",
+          "Leánn sé gaineamh",
+          "Gcomhaireann sé cnámha"
+        ],
+        [
+          "Cé a d'úsáid teileascóp agus a chonaic gealacha timpeall Jupiter?",
+          "Galileo Galilei",
+          "George Washington Carver",
+          "Tu Youyou",
+          "Barbara McClintock"
+        ]
+      ]
+    },
+    "universe-stretch": {
+      "title": "B'fhéidir go síneann an spás",
+      "sentence": "Breathnaíonn go leor réaltraí i bhfad uainn níos deirge, agus deir teoiric go bhfuil an spás féin ag síneadh.",
+      "how": "Ailíníonn an t-aistriú dearg sin leis an bhfad do líon ollmhór réaltraí.",
+      "extra": "Is teoiric í seo a thástálann eolaithe fós, ní buille faoi thuairim fiáin.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Deir teoiric faoi réaltraí i bhfad uainn",
+          "Go bhfuil an spás ag síneadh",
+          "Gur pláinéid iad loscainn",
+          "Gur leacht mall í gloine",
+          "Go dtrasnaíonn fuaim spás folamh"
+        ],
+        [
+          "Is í cuma níos deirge na réaltraí i bhfad uainn",
+          "Fianaise a thástálann eolaithe fós",
+          "Buille faoi thuairim nach féidir le duine ar bith a thástáil",
+          "Cruthúnas go bhfuil pol amháin ag maighnéid",
+          "Taoide"
+        ]
+      ]
+    },
+    "life-beyond": {
+      "title": "Saol lasmuigh den Domhan",
+      "sentence": "Is buille faoi thuairim é an smaoineamh go bhfuil rudaí beo lasmuigh den Domhan go dtí go dtaispeánann tástáil iad.",
+      "how": "Tá spásárthaí tar éis roinnt áiteanna a sheiceáil, mar Mars, agus níl saol aimsithe acu ansin fós.",
+      "extra": "Ní féidir le buille faoi thuairim a bheith ina fhíric go dtí go dtaispeánann tástáil é.",
+      "unsure": "",
+      "quiz": [
+        [
+          "An bhfuil rudaí beo aimsithe againn lasmuigh den Domhan?",
+          "Níl go fóill",
+          "Tá, cathair ar an nGhrian",
+          "Tá, míolta móra ar an nGealach",
+          "Tá, foraoisí ar fháinní Saturn"
+        ],
+        [
+          "Is é an smaoineamh faoi shaol lasmuigh den Domhan",
+          "Buille faoi thuairim go dtí go dtaispeánann tástáil é",
+          "Fíric thomhaiste cheana",
+          "An rud céanna le H2O",
+          "Ceann de rialacha gluaiseachta Newton"
+        ]
+      ]
+    },
+    "heart": {
+      "title": "Caidéalann do chroí",
+      "sentence": "Caidéalann do chroí fuil timpeall do choirp.",
+      "how": "Is féidir leat an buille a mhothú mar chuisle, agus is féidir le pictiúir speisialta an croí a fheiceáil ag fáscadh.",
+      "extra": "Éiríonn an buille níos tapúla tar éis duit rith.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cad a dhéanann do chroí?",
+          "Caidéalann sé fuil",
+          "Déanann sé solas na gréine",
+          "Stórálann sé carraigeacha",
+          "Is maighnéad barra é"
+        ],
+        [
+          "Cathain a bhíonn do chroí ag bualadh níos tapúla de ghnáth?",
+          "Tar éis duit rith",
+          "Nuair is iontaise thú",
+          "Nuair atá tú déanta as gloine",
+          "Choíche"
+        ]
+      ]
+    },
+    "lungs": {
+      "title": "Scamhóga agus ocsaigin",
+      "sentence": "Glacann do scamhóga aer isteach ionas gur féidir le do chuid fola ocsaigin a iompar.",
+      "how": "Taispeánann tástálacha go mbailíonn fuil ocsaigin sna scamhóga.",
+      "extra": "Análaíonn tú dé-ocsaíd charbóin amach.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cabhraíonn scamhóga le do chuid fola seo a bhailiú",
+          "Ocsaigin",
+          "Gaineamh",
+          "Meirg iarainn",
+          "Pailin amháin"
+        ],
+        [
+          "Análaíonn tú amach",
+          "Dé-ocsaíd charbóin",
+          "Ór leachtach",
+          "Carraigeacha na Gealaí",
+          "Maighnéid"
+        ]
+      ]
+    },
+    "bones": {
+      "title": "206 cnámh",
+      "sentence": "Tá 206 cnámh i gcnámharlach duine fásta.",
+      "how": "Comhaireann dochtúirí iad ar phictiúir chúramacha agus ar chnámharlaigh i saotharlanna.",
+      "extra": "Tá níos mó cnámha ag babaithe, agus ceanglaíonn cuid acu níos déanaí.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cé mhéad cnámh atá i gcnámharlach duine fásta?",
+          "206",
+          "8",
+          "2",
+          "3"
+        ],
+        [
+          "Tá ag babaithe",
+          "Níos mó cnámha ar féidir leo ceangal níos déanaí",
+          "Gan cnámh ar bith",
+          "Cloigeann gloine amháin",
+          "Cnámha déanta as mil"
+        ]
+      ]
+    },
+    "muscles": {
+      "title": "Tarraingíonn matáin",
+      "sentence": "Tarraingíonn matáin ar chnámha. Ní bhrúnn siad.",
+      "how": "Nuair a lúbann do lámh, éiríonn matán níos giorra agus tarraingíonn sé.",
+      "extra": "Tarraingíonn matán eile an tslí eile chun an lámh a dhíriú.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Bogann matáin cnámha trí",
+          "Tarraingt",
+          "Iad a bhrú mar phol",
+          "Iad a leá",
+          "Iad a reo"
+        ],
+        [
+          "Chun do lámh a dhíriú",
+          "Tarraingíonn matán eile an tslí eile",
+          "Brúnn an matán céanna",
+          "Snámhann an chnámh ar shiúl",
+          "Imíonn an imtharraingt"
+        ]
+      ]
+    },
+    "germs": {
+      "title": "Frídíní agus lámha",
+      "sentence": "Is féidir le roinnt frídíní tinneas a chur ort, agus cabhraíonn níochán lámh le gallúnach lena scaipeadh a stopadh.",
+      "how": "Taispeánann tástálacha go dtógann gallúnach agus uisce frídíní den chraiceann.",
+      "extra": "Oibríonn gallúnach agus uisce níos fearr ná sruthlán tapa le huisce amháin.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cad a chabhraíonn le frídíní a stopadh ó scaipeadh ar lámha?",
+          "Níochán le gallúnach agus uisce",
+          "Gaineamh a chuimilt amháin",
+          "Gallúnach a fhágáil ar lár go deo",
+          "Lámha a chur i bhfolach in iontaise"
+        ],
+        [
+          "Cén abairt atá fíor?",
+          "Is féidir le roinnt frídíní tinneas a chur ort",
+          "Is carraigeacha iad na frídíní go léir",
+          "Is pláinéid iad frídíní",
+          "Is pláinéad í gallúnach"
+        ]
+      ]
+    },
+    "senses": {
+      "title": "Cúig chéadfa",
+      "sentence": "Is féidir leat féachaint, éisteacht, boladh, blas, agus teagmháil.",
+      "how": "Úsáideann gach ceann de na céadfaí seo a chodanna coirp féin, mar shúile, cluasa, srón, teanga agus craiceann.",
+      "extra": "Mothaíonn tú cothromaíocht agus teas freisin.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cén liosta a ainmníonn cúig chéadfa?",
+          "Féach, éist, bolaigh, blais, teagmháil",
+          "Thuaidh, theas, soir, siar, suas",
+          "Solad, leacht, gás, meirg, ór",
+          "Screamh, maintlín, croíleacán, taoide, bliain"
+        ],
+        [
+          "Seachas an cúig sin, is féidir leat a mhothú freisin",
+          "Cothromaíocht agus teas",
+          "Cláir raidió le do ghlúine",
+          "Fuaim i spás folamh",
+          "Maighnéad i ngach méar"
+        ]
+      ]
+    },
+    "enamel": {
+      "title": "Cóta crua fiacaile",
+      "sentence": "Tá cóta crua ar fhiacla ar a dtugtar cruan.",
+      "how": "Feiceann fiaclóirí an cruan mar an clúdach crua, agus tá sé níos crua ná an taobh istigh den fhiacail.",
+      "extra": "Is féidir le sneaiceanna milse agus an scuab a fhágáil ar lár an cóta sin a ghortú.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Tugtar seo ar an gcóta crua ar fhiacail",
+          "Cruan",
+          "Duilleog",
+          "Fáinne de Saturn",
+          "Meirg"
+        ],
+        [
+          "Tá cruan",
+          "Níos crua ná an taobh istigh den fhiacail",
+          "Miotal leachtach",
+          "Cineál scamall",
+          "Gealach"
+        ]
+      ]
+    },
+    "brain": {
+      "title": "D'inchinn",
+      "sentence": "Cabhraíonn d'inchinn leat smaoineamh, mothú agus bogadh.",
+      "how": "Taispeánann pictiúir speisialta codanna den inchinn ag obair nuair a fhéachann tú, nuair a labhraíonn tú, nó nuair a bhogann tú.",
+      "extra": "Úsáideann tú go leor codanna de d'inchinn gach lá.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cabhraíonn d'inchinn leat",
+          "Smaoineamh, mothú agus bogadh",
+          "Meirgiú mar iarann",
+          "Fithisiú mar phláinéad",
+          "Snámh mar ola"
+        ],
+        [
+          "Cén abairt atá fíor?",
+          "Úsáideann tú go leor codanna de d'inchinn gach lá",
+          "Ní úsáideann daoine ach spota beag bídeach agus tá an chuid eile múchta",
+          "Is cnámh sa chos í an inchinn",
+          "Tá an inchinn déanta as gloine fuinneoige"
+        ]
+      ]
+    },
+    "skin": {
+      "title": "Is é an craiceann an ceann is mó",
+      "sentence": "Is é an craiceann an t-orgán is mó i do chorp.",
+      "how": "Sínte amach, clúdaíonn craiceann duine fásta níos mó achar ná aon orgán eile.",
+      "extra": "Cabhraíonn craiceann le huisce a choinneáil istigh agus frídíní amuigh.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Is é d'orgán is mó",
+          "Craiceann",
+          "Fiacail amháin",
+          "Ribín gruaige amháin",
+          "Fabhra"
+        ],
+        [
+          "Cabhraíonn craiceann",
+          "Uisce a choinneáil istigh agus frídíní amuigh",
+          "Fuil a chaidéalú mar dhara croí",
+          "Fáinní a dhéanamh timpeall Saturn",
+          "Uisce a fhiuchadh"
+        ]
+      ]
+    },
+    "sleep": {
+      "title": "Cabhraíonn codladh",
+      "sentence": "Cabhraíonn codladh leat cuimhneamh agus tugann sé am do do chorp fás.",
+      "how": "Déanann staidéir comparáid idir daoine tar éis oíche iomlán codlata agus tar éis róbheagán codlata.",
+      "extra": "Teastaíonn níos mó codlata ó pháistí ná ó dhaoine fásta.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cabhraíonn codladh leat",
+          "Cuimhneamh agus fás",
+          "Iompú ina mhaighnéad",
+          "Do chnámha go léir a chailleadh",
+          "Stop a bheith ag teastáil aer uait"
+        ],
+        [
+          "Cé a theastaíonn níos mó codlata uathu?",
+          "Páistí",
+          "Carraigeacha",
+          "Iontaisí",
+          "Boinn óir"
+        ]
+      ]
+    },
+    "stomach": {
+      "title": "Aigéad goile",
+      "sentence": "Déanann do ghoile aigéad láidir a chabhraíonn le bia a bhriseadh síos.",
+      "how": "Is féidir le dochtúirí an t-aigéad sin a thomhas, agus athraíonn bia tar éis dó suí sa ghoile.",
+      "extra": "Tá líneáil ag an ngoile a sheasann lena aigéad féin.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Déanann an goile",
+          "Aigéad a chabhraíonn le bia a bhriseadh síos",
+          "Solas na gréine",
+          "Fáinní oighir",
+          "Pol thuaidh"
+        ],
+        [
+          "Cén fáth a seasann an goile lena aigéad féin?",
+          "Tá líneáil chrua aige",
+          "Tá sé déanta as diamant amháin",
+          "Níl aon aigéad aige",
+          "Is spás folamh é"
+        ]
+      ]
+    },
+    "helpful-germs": {
+      "title": "Cabhraíonn roinnt frídíní",
+      "sentence": "Cabhraíonn roinnt frídíní linn, mar na cinn a iompaíonn bainne ina iógart.",
+      "how": "Fásann daoine na frídíní sin d'aon ghnó, agus tiubhaíonn an bainne ina iógart.",
+      "extra": "Maireann go leor frídíní cabhracha san ithir freisin.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Faigheann iógart cabhair ó",
+          "Frídíní cabhracha",
+          "Mearcair leachtach",
+          "Teileascóp",
+          "Crith talún"
+        ],
+        [
+          "An bhfuil gach frídín dochrach?",
+          "Níl",
+          "Tá",
+          "Níl ach frídíní sa spás fíor",
+          "Níl frídíní fíor"
+        ]
+      ]
+    },
+    "mercury": {
+      "title": "Miotal leachtach",
+      "sentence": "Is féidir le miotal a bheith ina leacht ag teocht an tseomra, agus is é mearcair an miotal sin.",
+      "how": "I bhfeadán saotharlainne séalaithe, suíonn mearcair mar leacht lonrach i seomra te gnáth.",
+      "extra": "Tá mearcair nimhiúil. Is le breathnú é, ní le teagmháil.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cén miotal is leacht ag teocht an tseomra?",
+          "Mearcair",
+          "Iarann",
+          "Adhmad",
+          "Oighear"
+        ],
+        [
+          "Cad ba cheart duit a dhéanamh le mearcair?",
+          "Fág séalaithe é agus ná teagmháil leis",
+          "Ól é",
+          "Cuir ar do chraiceann é",
+          "Corraigh isteach i mbia é"
+        ]
+      ]
+    },
+    "wood-frog": {
+      "title": "Is féidir le loscaín reo",
+      "sentence": "Is féidir le roinnt loscainn adhmaid reo sa gheimhreadh, ansin leá agus preabadh.",
+      "how": "Tá féachta ag eolaithe ar na loscainn seo ag reo agus ag tosú ag bogadh arís níos déanaí.",
+      "extra": "Déanann a gcoirp leacht siúcraí a chabhraíonn lena gcealla a chosaint.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cad is féidir le roinnt loscainn adhmaid a dhéanamh?",
+          "Reo agus preabadh arís níos déanaí",
+          "Iompú ina miotal",
+          "Eitilt go Saturn",
+          "Éirí as a bheith ina n-ainmhithe"
+        ],
+        [
+          "Cad a chabhraíonn le cealla loscaín adhmaid a chosaint?",
+          "Leacht siúcraí",
+          "Maighnéad barra",
+          "Laibhe the",
+          "Gaineamh tirim amháin"
+        ]
+      ]
+    },
+    "octopus-hearts": {
+      "title": "Trí chroí",
+      "sentence": "Tá trí chroí ag ochtapas.",
+      "how": "Taispeánann staidéir ar ochtapais dhá chroí ag na geolbhaigh agus ceann amháin don chuid eile den chorp.",
+      "extra": "Nuair a shnámhann ochtapas, is féidir leis an bpríomhchroí stad.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cé mhéad croí atá ag ochtapas?",
+          "Trí cinn",
+          "Ceann amháin",
+          "Ocht gcinn",
+          "206"
+        ],
+        [
+          "Freastalaíonn dhá chroí de chroíthe an ochtapais ar",
+          "Na geolbhaigh",
+          "Fáinní Saturn",
+          "Déanamh gloine",
+          "Poil thuaidh agus theas"
+        ]
+      ]
+    },
+    "banana-berry": {
+      "title": "Is caor é banana",
+      "sentence": "Is caor é banana, agus ní caor í sú talún.",
+      "how": "Sórtálann eolaithe plandaí torthaí de réir na caoi a bhfásann codanna an bhlátha, ní de réir ainm an tsiopa.",
+      "extra": "Is caora iad trátaí freisin.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cé acu is caor san eolaíocht?",
+          "Banana",
+          "Sú talún",
+          "Cón péine",
+          "Práta"
+        ],
+        [
+          "Sórtálann eolaithe torthaí de réir",
+          "Na caoi a bhfásann codanna an bhlátha",
+          "Dath an mhála",
+          "A n-airde",
+          "A maighnéadacht"
+        ]
+      ]
+    },
+    "butterfly-feet": {
+      "title": "Blas le cosa",
+      "sentence": "Blaisíonn féileacáin lena gcosa.",
+      "how": "Aimsíonn braiteoirí ar a gcosa sú milis planda, agus ansin dífhilleann an teanga.",
+      "extra": "Is feadán fada óil í an teanga.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Blaisíonn féileacáin lena",
+          "Gcosa",
+          "Gcluasa",
+          "Scáthanna",
+          "nUillinneacha amháin"
+        ],
+        [
+          "Is í teanga féileacáin",
+          "Feadán fada",
+          "Maighnéad",
+          "Cnámh",
+          "Fáinne oighir"
+        ]
+      ]
+    },
+    "wombat-cubes": {
+      "title": "Buín ciúbach",
+      "sentence": "Tá buín wombat i gcruth ciúibe.",
+      "how": "Tá siad tomhaiste ag daoine, agus taispeánann staidéir ar an stéig conas a fhoirmíonn na ciúib.",
+      "extra": "Ní rollann ciúib chomh héasca le millíní cruinne.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cén cruth atá ar bhuín wombat?",
+          "Ciúib",
+          "Sféir fhoirfe",
+          "Claimhte fada",
+          "Fáinní"
+        ],
+        [
+          "Buín i gcruth ciúibe",
+          "Ní rollann siad chomh héasca",
+          "Iompaíonn siad ina n-ór",
+          "Is maighnéid iad",
+          "Is réaltaí iad"
+        ]
+      ]
+    },
+    "sharks-trees": {
+      "title": "Siorcanna roimh chrainn",
+      "sentence": "Bhí siorcanna ag snámh sular fhás na chéad chrainn.",
+      "how": "Suíonn iontaisí siorc i seancarraig faoi bhun na gcéad iontaisí crainn.",
+      "extra": "",
+      "unsure": "Níl a fhios againn na blianta cruinn.",
+      "quiz": [
+        [
+          "Cé acu a tháinig ar dtús?",
+          "Siorcanna ag snámh, ansin crainn",
+          "Crainn, ansin na chéad siorcanna i bhfad níos déanaí",
+          "Daoine, ansin siorcanna",
+          "Gloine, ansin siorcanna"
+        ],
+        [
+          "An bhfuil a fhios againn na blianta cruinn do shiorcanna agus do chrainn?",
+          "Níl. Níl a fhios againn.",
+          "Tá, go dtí an nóiméad",
+          "Tá, ba é Dé Máirt seo caite é",
+          "Cumaimid na dátaí"
+        ]
+      ]
+    },
+    "eiffel-heat": {
+      "title": "Fásann túr",
+      "sentence": "Seasann Túr Eiffel beagáinín níos airde ar lá te.",
+      "how": "Leathnaíonn iarann nuair a théitear é, agus taispeánann tomhais an túir méadú beag.",
+      "extra": "Is síneadh beag é an t-athrú, ní urlár breise iomlán.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Ar lá te, Túr Eiffel",
+          "Seasann sé beagáinín níos airde",
+          "Iompaíonn sé ina oighear",
+          "Eitlíonn sé ar shiúl",
+          "Cailleann sé a iarann go léir"
+        ],
+        [
+          "Cén fáth a bhfásann an túr beagáinín?",
+          "Leathnaíonn iarann nuair a théitear é",
+          "Brúnn loscainn suas é",
+          "Tarraingíonn an Ghealach an barr de",
+          "Cruachann fuaim ar an mbarr"
+        ]
+      ]
+    },
+    "lizard-tail": {
+      "title": "Eireaball nua",
+      "sentence": "Is féidir le roinnt laghairteanna eireaball a scaoileadh agus ceann nua a fhás.",
+      "how": "Is féidir leis an eireaball teacht as ag áit speisialta, agus is féidir le ceann nua fás.",
+      "extra": "Ní hionann go díreach an t-eireaball nua agus an seancheann.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cad is féidir le roinnt laghairteanna a dhéanamh?",
+          "Eireaball a scaoileadh agus ceann nua a fhás",
+          "Iompú ina n-éin láithreach",
+          "Éirí ina mearcair",
+          "Ceann gloine a fhás"
+        ],
+        [
+          "Tá an t-eireaball nua",
+          "Nach ionann go díreach é agus an seancheann",
+          "Teileascóp",
+          "Déanta as diamant amháin",
+          "Pláinéad"
+        ]
+      ]
+    },
+    "venus-day": {
+      "title": "Lá fada ar Venus",
+      "sentence": "Tógann casadh iomlán amháin de Venus níos faide ná a thuras timpeall na Gréine.",
+      "how": "Tomhaiseann radar an casadh mall, agus tá am na fithise níos giorra.",
+      "extra": "Casann Venus ar gcúl freisin i gcomparáid leis an Domhan.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cé acu a mhaireann níos faide ar Venus?",
+          "Casadh iomlán amháin",
+          "A thuras timpeall na Gréine",
+          "Caochadh daonna",
+          "Preab loscaín"
+        ],
+        [
+          "Conas a thomhaisimid casadh mall Venus?",
+          "Le radar",
+          "Trí bhlas a chur ar an aer",
+          "Le maighnéad ar loscaín",
+          "Trí chnámha míolta móra a chomhaireamh"
+        ]
+      ]
+    }
+  },
+  "people": {
+    "darwin": {
+      "when": "Rugadh é in 1809. Tháinig a leabhar mór amach in 1859.",
+      "lines": [
+        "Rinne Charles Darwin comparáid idir ainmhithe, plandaí agus iontaisí ar feadh blianta fada.",
+        "In 1859 d'fhoilsigh sé teoiric. Bíonn níos mó óga ag rudaí beo a oireann dá n-áit, agus athraíonn grúpaí thar am an-fhada.",
+        "Is bealach amháin iad iontaisí chun an teoiric sin a thástáil."
+      ],
+      "extra": "Chaith sé blianta sa bhaile ag déanamh staidéir ar ghiúrainn, ceann ar cheann.",
+      "unsure": "",
+      "sceneAlt": "Ceannbhrat foraoise báistí san Amazon",
+      "quiz": [
+        "Cé a d'fhoilsigh teoiric in 1859 faoi rudaí beo ag athrú thar am fada?",
+        "Charles Darwin",
+        "Isaac Newton",
+        "Marie Curie",
+        "Mae Jemison"
+      ]
+    },
+    "goodall": {
+      "when": "Thosaigh sí a nótaí simpansé in 1960.",
+      "lines": [
+        "D'fhéach Jane Goodall ar shimpansaithe fiáine agus scríobh sí síos an méid a rinne siad i ndáiríre.",
+        "In 1960 chonaic sí simpansé ag úsáid maide chun feithidí a tharraingt as cnocán.",
+        "Thaispeáin an taifead sin gur féidir le simpansaithe uirlisí a dhéanamh agus a úsáid."
+      ],
+      "extra": "Ina nótaí, tugadh David Greybeard ar an simpansé a d'úsáid uirlisí.",
+      "unsure": "",
+      "sceneAlt": "Simpansé i bhforaois",
+      "quiz": [
+        "Cé a chonaic simpansé fiáin ag úsáid maide mar uirlis?",
+        "Jane Goodall",
+        "Michael Faraday",
+        "Nicolaus Copernicus",
+        "Percy Julian"
+      ]
+    },
+    "carver": {
+      "when": "Rinne sé an obair bharra seo go luath sna 1900í.",
+      "lines": [
+        "Rinne George Washington Carver staidéar ar bharra agus ar ithir thuirseach.",
+        "Thaispeáin sé d'fheirmeoirí go bhféadfadh piseanna talún agus prátaí milse scíth a thabhairt do pháirceanna a raibh cadás ag fás iontu rófhada.",
+        "D'aimsigh sé bealaí nua freisin chun na plandaí sin a úsáid ionas go gcuirfí níos lú amú."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Ceannbhrat foraoise báistí san Amazon",
+      "quiz": [
+        "Cé a d'úsáid piseanna talún agus prátaí milse chun cabhrú le hithir thuirseach?",
+        "George Washington Carver",
+        "Galileo Galilei",
+        "Ada Lovelace",
+        "Chien-Shiung Wu"
+      ]
+    },
+    "mcclintock": {
+      "when": "Rinne sí staidéar ar arbhar ar feadh blianta fada, agus roinn sí an smaoineamh faoi ghéin léimneach sna 1950í.",
+      "lines": [
+        "Rinne Barbara McClintock staidéar ar dhathanna eithní arbhair.",
+        "D'oibrigh sí amach gur féidir le roinnt giotaí DNA léim go háit nua.",
+        "Thaispeáin tástálacha níos déanaí i rudaí beo eile go raibh an ceart aici."
+      ],
+      "extra": "D'fhoghlaim sí é trí fhéachaint go géar, séasúr i ndiaidh séasúir.",
+      "unsure": "",
+      "sceneAlt": "Ceannbhrat foraoise báistí san Amazon",
+      "quiz": [
+        "Cé a d'aimsigh gur féidir le roinnt giotaí DNA léim?",
+        "Barbara McClintock",
+        "Isaac Newton",
+        "Mary Anning",
+        "Subrahmanyan Chandrasekhar"
+      ]
+    },
+    "just": {
+      "when": "Rinne sé a shaothar cille is cáiliúla go luath sna 1900í.",
+      "lines": [
+        "Rinne Ernest Everett Just staidéar ar chealla ainmhithe mara.",
+        "Thaispeáin sé go gcabhraíonn an chuid lasmuigh de chill le rialú a dhéanamh ar an méid a dhéanann an chill.",
+        "Rinne sé an obair chúramach sin ar an gcladach agus sa tsaotharlann."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Ochtapas coitianta",
+      "quiz": [
+        "Cé a thaispeáin go gcabhraíonn an taobh amuigh de chill leis an gcill a rialú?",
+        "Ernest Everett Just",
+        "Dmitri Mendeleev",
+        "Nicolaus Copernicus",
+        "Michael Faraday"
+      ]
+    },
+    "maathai": {
+      "when": "Rinne sí staidéar ar rudaí beo, agus d'fhás an obair chur crann ó na 1970í ar aghaidh.",
+      "lines": [
+        "Ba bhitheolaí í Wangari Maathai a rinne staidéar ar an gcaoi a n-oireann crainn, ithir agus daoine dá chéile.",
+        "Threoraigh sí gluaiseacht a chuir na milliúin crann.",
+        "Coinníonn crainn ithir agus cabhraíonn siad leis an aer."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Ceannbhrat foraoise báistí san Amazon",
+      "quiz": [
+        "Cé a threoraigh daoine chun na milliúin crann a chur?",
+        "Wangari Maathai",
+        "Isaac Newton",
+        "Galileo Galilei",
+        "Percy Julian"
+      ]
+    },
+    "curie": {
+      "when": "Rugadh í in 1867. D'aimsigh sí polóiniam agus raidiam in 1898.",
+      "lines": [
+        "Rinne Marie Curie staidéar ar ghhathanna a scaoileann roinnt adaimh.",
+        "Thug sí radaighníomhaíocht ar an ngníomh sin.",
+        "D'aimsigh sí dhá dhúil, polóiniam agus raidiam."
+      ],
+      "extra": "D'ainmnigh sí polóiniam i ndiaidh Poland, an tír inar rugadh í.",
+      "unsure": "",
+      "sceneAlt": "Foirgneamh eolaíochta ollscoile",
+      "quiz": [
+        "Cé a d'aimsigh na dúile polóiniam agus raidiam?",
+        "Marie Curie",
+        "Jane Goodall",
+        "Mae Jemison",
+        "Mary Anning"
+      ]
+    },
+    "franklin": {
+      "when": "Rinneadh a pictiúr tábhachtach DNA in 1952.",
+      "lines": [
+        "Thóg Rosalind Franklin pictiúir chúramacha X-gha de DNA.",
+        "In 1952 thug pictiúr amháin leid shoiléir gur cruth casta é DNA.",
+        "D'úsáid eolaithe eile a pictiúr nuair a thóg siad samhail de DNA."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Micreascóp ar bhord geal",
+      "quiz": [
+        "Cé a thóg an pictiúr X-gha in 1952 a thaispeáin leideanna faoi chruth DNA?",
+        "Rosalind Franklin",
+        "George Washington Carver",
+        "Nicolaus Copernicus",
+        "Michael Faraday"
+      ]
+    },
+    "julian": {
+      "when": "Bhí a shaothar ceimice is cáiliúla sna 1930í agus sna 1940í.",
+      "lines": [
+        "Ba cheimiceoir é Percy Julian a rinne ceimiceáin úsáideacha as plandaí.",
+        "D'aimsigh sé bealaí chun ceimiceáin pónaire soighe a iompú ina gcógais.",
+        "Chuidigh ceann de na cógais sin le hailt righne."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Foirgneamh eolaíochta ollscoile",
+      "quiz": [
+        "Cé a rinne cógais as ceimiceáin pónaire soighe?",
+        "Percy Julian",
+        "Galileo Galilei",
+        "Jane Goodall",
+        "Chien-Shiung Wu"
+      ]
+    },
+    "tu": {
+      "when": "Tharraing a foireann an cógas as an bplanda sna 1970í.",
+      "lines": [
+        "Threoraigh Tu Youyou foireann a thástáil seanchógais plandaí.",
+        "Sna 1970í tharraing siad cógas láidir, artemisinin, as lus milis.",
+        "Cabhraíonn an cógas sin le daoine a bhfuil maláire orthu."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Lus milis, an planda a dtagann artemisinin as",
+      "quiz": [
+        "Cé a d'aimsigh artemisinin sa lus milis?",
+        "Tu Youyou",
+        "Isaac Newton",
+        "Mary Anning",
+        "Michael Faraday"
+      ]
+    },
+    "mendeleev": {
+      "when": "D'fhoilsigh sé a thábla in 1869.",
+      "lines": [
+        "Chuir Dmitri Mendeleev na dúile in ord de réir a bpatrún.",
+        "In 1869 d'fhág sé bearnaí san áit a cheap sé go n-oirfeadh dúile a bhí in easnamh.",
+        "Níos déanaí, d'aimsigh daoine dúile a d'oir do na bearnaí sin."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Foirgneamh eolaíochta ollscoile",
+      "quiz": [
+        "Cé a d'fhág bearnaí i dtábla na ndúl do dhúile nach raibh aimsithe fós?",
+        "Dmitri Mendeleev",
+        "Mae Jemison",
+        "Jane Goodall",
+        "Ernest Everett Just"
+      ]
+    },
+    "ball": {
+      "when": "D'fhoilsigh sí a modh in 1916.",
+      "lines": [
+        "Ba cheimiceoir í Alice Ball a d'oibrigh ar ola ó shíol crainn.",
+        "In 1916 d'aimsigh sí bealach chun an ola a athrú ionas go bhféadfadh an corp í a ghlacadh isteach.",
+        "Rinne a modh an cógas sin i bhfad níos fusa le húsáid."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Foirgneamh eolaíochta ollscoile",
+      "quiz": [
+        "Cé a d'aimsigh bealach chun ola síl crainn a iompú ina cógas a d'fhéadfadh an corp a ghlacadh?",
+        "Alice Ball",
+        "Galileo Galilei",
+        "Nicolaus Copernicus",
+        "Charles Darwin"
+      ]
+    },
+    "newton": {
+      "when": "Tháinig a leabhar mór faoi ghluaiseacht agus imtharraingt amach in 1687.",
+      "lines": [
+        "Scríobh Isaac Newton trí riail a thuarann conas a bhogann rudaí nuair a bhrúnn fórsaí iad.",
+        "Thóg sé teoiric imtharraingthe freisin a chlúdaíonn úll ag titim agus an Ghealach araon.",
+        "Tástálann eolaithe an imtharraingt fós ar bhealaí nua."
+      ],
+      "extra": "Rinne sé smaoineamh ar úlla ag titim agus ar an nGealach. Níl a fhios againn ar bhuail úll ar a cheann.",
+      "unsure": "",
+      "sceneAlt": "An Domhan, grianghraf ó Apollo 17",
+      "quiz": [
+        "Cé a scríobh trí riail faoin gcaoi a mbogann fórsaí rudaí?",
+        "Isaac Newton",
+        "Wangari Maathai",
+        "Tu Youyou",
+        "Mary Anning"
+      ]
+    },
+    "faraday": {
+      "when": "Thaispeáin sé an tástáil maighnéid agus srutha in 1831.",
+      "lines": [
+        "D'aimsigh Michael Faraday gur féidir le maighnéad ag bogadh sruth leictreach a dhéanamh.",
+        "Sin an chaoi a ndéanann go leor gineadóirí leictreachas.",
+        "Thástáil sé é le cornaí agus maighnéid sa tsaotharlann."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Maighnéad ag tarraingt píosa maighnéadait",
+      "quiz": [
+        "Cé a d'aimsigh gur féidir le maighnéad ag bogadh sruth leictreach a dhéanamh?",
+        "Michael Faraday",
+        "Jane Goodall",
+        "George Washington Carver",
+        "Katherine Johnson"
+      ]
+    },
+    "wu": {
+      "when": "Rinne sí an tástáil scátháin in 1956.",
+      "lines": [
+        "Rinne Chien-Shiung Wu tástáil an-chúramach ar cháithníní beaga.",
+        "Thaispeáin sí nach n-oibríonn siad mar a n-íomhá scátháin i gcónaí.",
+        "D'athraigh a toradh riail a raibh muinín ag fisicithe eile aisti."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Foirgneamh eolaíochta ollscoile",
+      "quiz": [
+        "Cé a thaispeáin nach n-oireann cáithníní beaga dá n-íomhá scátháin i gcónaí?",
+        "Chien-Shiung Wu",
+        "Charles Darwin",
+        "Mary Anning",
+        "Nicolaus Copernicus"
+      ]
+    },
+    "lovelace": {
+      "when": "Foilsíodh a nótaí in 1843.",
+      "lines": [
+        "Scríobh Ada Lovelace faoi mheaisín ríofa a bhí beartaithe ar a dtugtar an Analytical Engine.",
+        "In 1843 d'fhoilsigh sí plean céim ar chéim don mheaisín chun uimhreacha a ríomh.",
+        "Tugann daoine an chéad chlár ríomhaire ar an bplean sin. Níor tógadh an meaisín le linn a saoil."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Cuid d'Inneall Difríochta Babbage",
+      "quiz": [
+        "Cé a scríobh plean céim ar chéim do mheaisín ríofa in 1843?",
+        "Ada Lovelace",
+        "Mae Jemison",
+        "Percy Julian",
+        "Ernest Everett Just"
+      ]
+    },
+    "jackson": {
+      "when": "Ghnóthaigh sí a dochtúireacht san fhisic in 1973.",
+      "lines": [
+        "Is fisiceoir í Shirley Ann Jackson a rinne staidéar ar cháithníní beaga.",
+        "Rinne sí taighde ar an gcaoi a n-iompraíonn na cáithníní sin, ansin ar an gcaoi a mbogann leictreoin in ábhair speisialta.",
+        "Chabhraigh an obair sin le staidéir níos déanaí ar ábhair a úsáidtear i leictreonaic."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Foirgneamh eolaíochta ollscoile",
+      "quiz": [
+        "Cé a rinne staidéar ar cháithníní beaga agus ar an gcaoi a mbogann leictreoin in ábhair?",
+        "Shirley Ann Jackson",
+        "Mary Anning",
+        "Jane Goodall",
+        "Charles Darwin"
+      ]
+    },
+    "ibn": {
+      "when": "Thástáil sé solas thart ar mhíle bliain ó shin.",
+      "lines": [
+        "Thástáil Hasan Ibn al-Haytham conas a oibríonn solas agus radharc.",
+        "Thaispeáin sé go bhfeicimid toisc go dtéann solas isteach sa tsúil, ní toisc go seolann an tsúil léasacha amach.",
+        "Scríobh sé na céimeanna ionas go bhféadfadh duine eile na tástálacha a thriail."
+      ],
+      "extra": "",
+      "unsure": "Níl a fhios againn an bhliain chruinn inar rugadh é.",
+      "sceneAlt": "Micreascóp ar bhord geal",
+      "quiz": [
+        "Cé a thaispeáin go bhfeicimid toisc go dtéann solas isteach sa tsúil?",
+        "Hasan Ibn al-Haytham",
+        "George Washington Carver",
+        "Mae Jemison",
+        "Percy Julian"
+      ]
+    },
+    "anning": {
+      "when": "Bhí a fionnachtana aille cáiliúla go luath sna 1800í.",
+      "lines": [
+        "Chuardaigh Mary Anning na haillte ag Lyme Regis le haghaidh iontaisí.",
+        "Go luath sna 1800í d'aimsigh sí cnámharlaigh ainmhithe mara ársa a bhí nua don eolaíocht.",
+        "Chabhraigh a fionnachtana le daoine a fheiceáil go raibh an saol fadó difriúil."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Lyme Regis, England, in aice le haillte na farraige",
+      "quiz": [
+        "Cé a d'aimsigh ainmhithe farraige iontaise sna haillte ag Lyme Regis?",
+        "Mary Anning",
+        "Tu Youyou",
+        "Chien-Shiung Wu",
+        "Barbara McClintock"
+      ]
+    },
+    "johnson": {
+      "when": "Sheiceáil sí matamaitic spásárthaí sna 1960í.",
+      "lines": [
+        "Rinne Katherine Johnson an mhatamaitic do chosáin spásárthaí.",
+        "Chabhraigh a huimhreacha le spásairí dul suas agus teacht abhaile.",
+        "Roimh eitilt amháin, d'iarr spásairí uirthi an ríomhaire a sheiceáil de láimh."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "An Domhan, grianghraf ó Apollo 17",
+      "quiz": [
+        "Cé a sheiceáil an mhatamaitic do chosáin spásárthaí?",
+        "Katherine Johnson",
+        "Michael Faraday",
+        "Dmitri Mendeleev",
+        "Ernest Everett Just"
+      ]
+    },
+    "jemison": {
+      "when": "D'eitil sí ar thointeálaí spáis in 1992.",
+      "lines": [
+        "Rinne Mae Jemison traenáil mar dhochtúir, ansin rinneadh spásaire di.",
+        "In 1992 d'eitil sí ar thointeálaí spáis agus rinne sí turgnaimh i bhfithis.",
+        "D'fhéach na turgnaimh ar an gcaoi a n-oibríonn coirp ar shiúl ó ghnáth-tharraingt an Domhain."
+      ],
+      "extra": "Roimh an eitilt d'oibrigh sí mar dhochtúir.",
+      "unsure": "",
+      "sceneAlt": "Teileascóp Spáis Hubble os cionn an Domhain",
+      "quiz": [
+        "Cé a d'eitil ar thointeálaí spáis in 1992 agus a rinne turgnaimh?",
+        "Mae Jemison",
+        "Isaac Newton",
+        "Ada Lovelace",
+        "Mary Anning"
+      ]
+    },
+    "copernicus": {
+      "when": "Tháinig a leabhar faoin nGrian sa lár amach in 1543.",
+      "lines": [
+        "Scríobh Nicolaus Copernicus go dtéann an Domhan agus na pláinéid eile timpeall na Gréine.",
+        "Tháinig a leabhar amach in 1543.",
+        "Is ceann de na turais sin timpeall na Gréine í bliain."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "An Domhan, grianghraf ó Apollo 17",
+      "quiz": [
+        "Cé leis an leabhar ó 1543 a dúirt go dtéann an Domhan timpeall na Gréine?",
+        "Nicolaus Copernicus",
+        "Jane Goodall",
+        "Alice Ball",
+        "Chien-Shiung Wu"
+      ]
+    },
+    "galileo": {
+      "when": "Thuairiscigh sé gealacha Jupiter in 1610.",
+      "lines": [
+        "Dhírigh Galileo Galilei teileascóp ar an spéir.",
+        "In 1610 chonaic sé ceithre ghealach ag bogadh timpeall Jupiter.",
+        "Chonaic sé freisin go bhfuil céimeanna ag Venus, rud a oireann do chóras a bhfuil an Ghrian ina lár."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Scamaill Jupiter, ó spásárthach Juno de chuid NASA",
+      "quiz": [
+        "Cé a chonaic ceithre ghealach timpeall Jupiter in 1610?",
+        "Galileo Galilei",
+        "George Washington Carver",
+        "Marie Curie",
+        "Wangari Maathai"
+      ]
+    },
+    "chandra": {
+      "when": "D'oibrigh sé amach teorainn na réalta sna 1930í.",
+      "lines": [
+        "D'úsáid Subrahmanyan Chandrasekhar matamaitic chun réaltaí beaga fanna ar a dtugtar abhaic bhána a staidéar.",
+        "D'aimsigh sé teorainn meáchain. Thar an teorainn sin, ní féidir leis an réalta í féin a choinneáil suas ar an gcaoi chéanna.",
+        "D'aontaigh tástálacha níos déanaí lena theoiric."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Teileascóp Spáis Hubble os cionn an Domhain",
+      "quiz": [
+        "Cé a d'aimsigh teorainn meáchain do réaltaí abhac bhána?",
+        "Subrahmanyan Chandrasekhar",
+        "Jane Goodall",
+        "Alice Ball",
+        "Michael Faraday"
+      ]
+    }
+  },
+  "places": {
+    "rain": {
+      "title": "Stáisiún páirce sa fhoraois bháistí",
+      "where": "Tiputini, Ecuador",
+      "lines": [
+        "Tá an stáisiún seo sa fhoraois bháistí Amazon.",
+        "Siúlann eolaithe an fhoraois agus scríobhann siad síos na plandaí agus na hainmhithe a aimsíonn siad.",
+        "Is campa oibre é stáisiún páirce chun rudaí beo a fheiceáil go dlúth."
+      ],
+      "alt": "Ceannbhrat foraoise báistí san Amazon"
+    },
+    "lab": {
+      "title": "Saotharlann cheimice",
+      "where": "Foirgnimh eolaíochta",
+      "lines": [
+        "Oibríonn ceimiceoirí i saotharlanna taobh istigh d'fhoirgnimh mar seo.",
+        "Rinne Percy Julian an cineál sin oibre le pónairí soighe sna Stáit Aontaithe.",
+        "Coinníonn tomhas cúramach, agus athrú amháin ag an am, tástáil cóir."
+      ],
+      "alt": "Foirgneamh eolaíochta ollscoile"
+    },
+    "sky": {
+      "title": "Réadlann",
+      "where": "Mauna Kea, Hawaii",
+      "lines": [
+        "Suíonn cruinneacháin bhána teileascóip ar shliabh an-ard.",
+        "Tá an t-aer ansin tanaí agus go minic os cionn na scamall, mar sin breathnaíonn an spéir níos dorcha agus níos soiléire.",
+        "Bailíonn teileascóip solas ó réaltaí agus réaltraí fanna."
+      ],
+      "alt": "Cruinneacháin teileascóip ar Mauna Kea"
+    },
+    "cliff": {
+      "title": "Aill iontaise",
+      "where": "Lyme Regis, England",
+      "lines": [
+        "Coinníonn sraitheanna carraige sna haillte farraige seo iontaisí.",
+        "D'aimsigh Mary Anning cnámharlaigh ainmhithe mara ársa anseo go luath sna 1800í.",
+        "Is iarsma, nó rian, í iontaise a choinnítear i gcarraig."
+      ],
+      "alt": "Lyme Regis, England, in aice le haillte na farraige"
+    },
+    "hospital": {
+      "title": "Saotharlann ospidéil",
+      "where": "Ospidéal St Mary's, London",
+      "lines": [
+        "Seo é St Mary's Hospital i London.",
+        "In 1928 thug Alexander Fleming faoi deara múnla a stop frídíní i mias.",
+        "Threoraigh an múnla sin chuig peinicillin, cógas a chabhraíonn leis an gcorp troid i gcoinne roinnt tinnis."
+      ],
+      "alt": "St Mary's Hospital i London"
+    },
+    "ocean": {
+      "title": "An t-aigéan",
+      "where": "Longa ó Woods Hole, Massachusetts",
+      "lines": [
+        "Fágann longa taighde an cuan agus déanann siad staidéar ar an bhfarraige.",
+        "Tomhaiseann siad uisce, déanann siad léarscáil den ghrinneall, agus buaileann siad le hainmhithe a mhaireann i bhfad ón gcósta.",
+        "Is aigéan an chuid is mó den Domhan, mar sin is saotharlann ag bogadh í long."
+      ],
+      "alt": "Ochtapas coitianta"
+    }
+  },
+  "time": {
+    "stars": {
+      "title": "Faireoirí réaltaí",
+      "when": "An-fhada ó shin",
+      "sentence": "D'fhéach daoine ar na réaltaí agus d'fhoghlaim siad na patrúin sa spéir.",
+      "more": "Chabhraigh na patrúin sin leo na séasúir a rianú.",
+      "unsure": "Níl a fhios againn cé a rinne é seo ar dtús.",
+      "alt": "Stonehenge, sean-chiorcal cloch a úsáideadh chun an spéir a rianú"
+    },
+    "microscopes": {
+      "title": "Micreascóip",
+      "when": "Na 1600í",
+      "sentence": "Ligeann micreascóip do dhaoine rudaí beaga a fheiceáil nach bhféadfadh súil a fheiceáil léi féin.",
+      "more": "Lúbann lionsa beag solas ionas go mbreathnaíonn spota mór.",
+      "unsure": "",
+      "alt": "Micreascóp ar bhord geal"
+    },
+    "germs": {
+      "title": "Frídíní",
+      "when": "Na 1800í",
+      "sentence": "Thástáil eolaithe an smaoineamh gur féidir le roinnt frídíní tinneas a chur ort.",
+      "more": "Rinne Louis Pasteur agus daoine eile tástálacha a thacaigh le teoiric na bhfrídíní. Cabhraíonn níochán lámh fós.",
+      "unsure": "",
+      "alt": "Mias saotharlainne le spotaí frídíní"
+    },
+    "flight": {
+      "title": "Eitilt",
+      "when": "1903",
+      "sentence": "D'eitil eitleán faoi chumhacht, agus d'fhéadfadh daoine an t-aer a mharcaíocht.",
+      "more": "D'ardaigh eitleán na ndeartháireacha Wright in 1903.",
+      "unsure": "",
+      "alt": "Macasamhail den Wright Flyer crochta i músaem"
+    },
+    "dna": {
+      "title": "DNA",
+      "when": "1953",
+      "sentence": "Thaispeáin eolaithe gur dréimire casta é DNA.",
+      "more": "Chabhraigh pictiúr X-gha Rosalind Franklin leo an cruth a fheiceáil.",
+      "unsure": "",
+      "alt": "Samhail i músaem den héilics dhúbailte DNA"
+    },
+    "telescope": {
+      "title": "Teileascóp spáis",
+      "when": "1990",
+      "sentence": "D'fhéach teileascóp sa spás thar cheo aeir an Domhain.",
+      "more": "Seoladh Teileascóp Spáis Hubble in 1990. Leanann teileascóip spáis níos nuaí ag féachaint.",
+      "unsure": "",
+      "alt": "Teileascóp Spáis Hubble os cionn an Domhain"
+    }
+  },
+  "work": {
+    "p1-leaves": {
+      "title": "Sórtáil na duilleoga",
+      "time": "15 nóiméad",
+      "need": [
+        "6 dhuilleog ón talamh",
+        "Bord"
+      ],
+      "steps": [
+        "Leag na duilleoga i ndiaidh a chéile.",
+        "Cuir in dhá ghrúpa iad. Roghnaíonn tusa an riail.",
+        "Abair an riail os ard. Tá mór agus beag ceart go leor. Tá mín agus garbh ceart go leor."
+      ],
+      "done": "Tá dhá ghrúpa agat, agus is féidir leat a rá conas a shórtáil tú iad."
+    },
+    "p1-float": {
+      "title": "Go tóin nó ar snámh",
+      "time": "20 nóiméad",
+      "need": [
+        "Babhla uisce",
+        "6 rud sábháilte",
+        "Duine fásta"
+      ],
+      "steps": [
+        "Iarr ar dhuine fásta babhla a líonadh.",
+        "Déan buille faoi thuairim, go tóin nó ar snámh, do gach rud sula dtriailfidh tú é.",
+        "Ísligh rud amháin ag an am. Scríobh an méid a tharla."
+      ],
+      "done": "Tá liosta ag an bhfoireann den méid a chuaigh go tóin agus den méid a d'fhan ar snámh."
+    },
+    "p2-shadow": {
+      "title": "Marcáil scáth",
+      "time": "Dhá sheiceáil in aon lá amháin",
+      "need": [
+        "Áit ghrianmhar",
+        "Cailc nó cloch",
+        "Maide nó buidéal"
+      ],
+      "steps": [
+        "Seas maide ar thalamh cothrom sa ghrian.",
+        "Marcáil barr an scátha.",
+        "Tar ar ais níos déanaí agus marcáil arís é. Abair cad a d'athraigh."
+      ],
+      "done": "Tá dhá mharc agat agus abairt faoin athrú."
+    },
+    "p2-magnets": {
+      "title": "Cuardach maighnéid",
+      "time": "20 nóiméad",
+      "need": [
+        "Maighnéad amháin",
+        "8 rud tí",
+        "Páipéar"
+      ],
+      "steps": [
+        "Cuir an maighnéad i dteagmháil le gach rud.",
+        "Déan dhá liosta: greamaíonn, agus ní ghreamaíonn.",
+        "Cuir ciorcal timpeall orthu siúd atá déanta as iarann nó as cruach."
+      ],
+      "done": "Is féidir leis an bhfoireann díriú ar rud a tharraingíonn an maighnéad agus ar rud nach dtarraingíonn."
+    },
+    "p3-sugar": {
+      "title": "Cén t-uisce a bhuann",
+      "time": "15 nóiméad",
+      "need": [
+        "Dhá chupán",
+        "Uisce fuar agus uisce te",
+        "Siúcra",
+        "Duine fásta"
+      ],
+      "steps": [
+        "Iarr uisce te ar dhuine fásta, ní uisce fiuchta.",
+        "Cuir an méid céanna siúcra i ngach cupán.",
+        "Corraigh an dá cheann ar an gcaoi chéanna. Féach cén siúcra a imíonn ar dtús."
+      ],
+      "done": "Níor athraigh tú ach an teas, agus is féidir leat a rá cén cupán a bhí níos tapúla."
+    },
+    "p3-ramp": {
+      "title": "Cé chomh fada is a rollann sé",
+      "time": "25 nóiméad",
+      "need": [
+        "Rampa leabhar",
+        "Liathróid nó carr bréagáin",
+        "Téip tomhais nó sreang"
+      ],
+      "steps": [
+        "Scaoil an carr ón mbarr. Tomhais cé chomh fada is a rollann sé.",
+        "Déan é trí huaire ar an gcaoi chéanna.",
+        "Ansin athraigh rud amháin amháin, mar airde an rampa, agus triail arís."
+      ],
+      "done": "Tá dhá fhad ag an bhfoireann agus is féidir leo an t-aon rud a d'athraigh siad a ainmniú."
+    },
+    "p4-celery": {
+      "title": "Féach ar uisce ag dreapadh",
+      "time": "Seiceáil anois agus amárach",
+      "need": [
+        "Maide soilire",
+        "Cupán uisce",
+        "Dath bia",
+        "Duine fásta"
+      ],
+      "steps": [
+        "Iarr ar dhuine fásta an t-uisce a dhathú.",
+        "Seas an soilire sa chupán.",
+        "Féach an lá dár gcionn. Cá ndeachaigh an dath?"
+      ],
+      "done": "Is féidir leat díriú ar an gcosán a ghlac an t-uisce daite."
+    },
+    "p4-pulse": {
+      "title": "Comhair na buillí",
+      "time": "15 nóiméad",
+      "need": [
+        "Amadóir",
+        "Áit chiúin",
+        "Páipéar"
+      ],
+      "steps": [
+        "Suigh socair. Comhair buillí croí ar feadh 30 soicind.",
+        "Léim ar feadh 30 soicind, ansin comhair arís.",
+        "Scríobh an dá uimhir. Abair cad a d'athraigh agus cad a choinnigh tú mar an gcéanna."
+      ],
+      "done": "Tá dhá chomhaireamh ag an bhfoireann agus abairt faoin difríocht."
+    },
+    "p5-friction": {
+      "title": "Trí dhromchla",
+      "time": "20 nóiméad",
+      "need": [
+        "Bréagán beag",
+        "Urlár adhmaid nó bord",
+        "Éadach",
+        "Tíl mhín nó leabhar"
+      ],
+      "steps": [
+        "Tabhair an brú céanna don bhréagán ar gach dromchla.",
+        "Féach cén sleamhnú a théann is faide.",
+        "Ainmnigh an fórsa a mhoilligh é. Is í an fhrithchuimilt an fórsa sin."
+      ],
+      "done": "Is féidir leat na trí dhromchla a rangú agus a rá cén fáth a raibh ceann amháin níos moille."
+    },
+    "p5-drop": {
+      "title": "Paraisiút le hathrú amháin",
+      "time": "40 nóiméad",
+      "need": [
+        "Páipéar",
+        "Sreang",
+        "Gearrthóg páipéir",
+        "Amadóir"
+      ],
+      "steps": [
+        "Déan dhá pharaisiút páipéir atá mar an gcéanna.",
+        "Scaoil iad ón airde chéanna agus tomhais an titim.",
+        "Athraigh rud amháin ar pharaisiút amháin, mar mhéid an pháipéir. Tástáil arís."
+      ],
+      "done": "Is féidir leis an bhfoireann a rá cén t-aon athrú a rinne an titim difriúil."
+    },
+    "p6-moon": {
+      "title": "Dialann na Gealaí",
+      "time": "7 n-oíche ghearra",
+      "need": [
+        "Páipéar",
+        "Peann luaidhe",
+        "Radharc soiléir ar an spéir"
+      ],
+      "steps": [
+        "Cuardaigh an Ghealach ag an am céanna gach oíche.",
+        "Tarraing an chuid gheal. Má chuireann scamaill i bhfolach í, scríobh scamaill.",
+        "Tar éis seachtaine, abair conas a d'athraigh an chuid gheal."
+      ],
+      "done": "Tá seacht mbosca agat agus abairt faoi thaobh gréine na Gealaí."
+    },
+    "p6-planets": {
+      "title": "Ord na bpláinéad",
+      "time": "30 nóiméad",
+      "need": [
+        "8 rud beag",
+        "Lipéid pháipéir",
+        "Bord fada nó urlár"
+      ],
+      "steps": [
+        "Cuir an Ghrian ag ceann amháin.",
+        "Cuir ocht bpláinéad in ord ón nGhrian. Seiceáil fíric pláinéid atá léite agat.",
+        "Abair fíric thomhaiste amháin a d'úsáid tú, agus rud amháin atá fós ina theoiric."
+      ],
+      "done": "Tá an tsamhail in ord, agus is féidir leis an bhfoireann an fhíric a sheiceáil siad a ainmniú."
+    },
+    "p7-ice": {
+      "title": "Cén clúdach a choinníonn oighear",
+      "time": "30 nóiméad",
+      "need": [
+        "3 chiúb oighir den mhéid céanna",
+        "Éadach",
+        "Páipéar",
+        "Pláta",
+        "Amadóir"
+      ],
+      "steps": [
+        "Fág ciúb amháin lom. Fill ceann amháin i bpáipéar. Fill ceann amháin in éadach.",
+        "Coinnigh an seomra mar an gcéanna don triúr.",
+        "Seiceáil gach 5 nóiméad. Cén ciúb a mhaireann is faide?"
+      ],
+      "done": "Níor athraigh tú ach an clúdach, agus is féidir leat a rá cad a choinnigh an t-oighear níos faide."
+    },
+    "p7-question": {
+      "title": "Do thástáil chóir féin",
+      "time": "45 nóiméad",
+      "need": [
+        "Fíric atá léite agat",
+        "Páipéar",
+        "Ábhair shábháilte shimplí",
+        "Duine fásta má úsáideann tú uisce"
+      ],
+      "steps": [
+        "Roghnaigh ceist is féidir leat a thástáil inniu.",
+        "Athraigh rud amháin. Coinnigh an chuid eile mar an gcéanna. Tomhais an toradh.",
+        "Scríobh cad a d'athródh an toradh dá mbeifeá míchúramach."
+      ],
+      "done": "Tá toradh, aonad, agus abairt amháin ag an bhfoireann faoi cad a mhilleadh an tástáil."
+    },
+    "print-fair": {
+      "title": "Leathanach tástála córa",
+      "time": "20 nóiméad",
+      "need": [
+        "An leathanach seo",
+        "Peann luaidhe"
+      ],
+      "steps": [
+        "Scríobh an cheist.",
+        "Scríobh an t-aon rud a athróidh tú.",
+        "Scríobh an méid a choinneoidh tú mar an gcéanna, agus an méid a thomhaisfidh tú."
+      ],
+      "done": "Tá freagra fíor i ngach bosca, ní spás bán."
+    },
+    "print-fact": {
+      "title": "Nótaí fíricí",
+      "time": "15 nóiméad",
+      "need": [
+        "An leathanach seo",
+        "Fíric atá léite agat"
+      ],
+      "steps": [
+        "Cóipeáil abairt shoiléir amháin.",
+        "Cóipeáil an líne faoin gcaoi a bhfuil a fhios againn.",
+        "Marcáil é: fíric thomhaiste, teoiric, nó buille faoi thuairim."
+      ],
+      "done": "Is féidir le léitheoir a rá cén cineál abairte a chóipeáil tú."
+    },
+    "print-measure": {
+      "title": "Dialann tomhais",
+      "time": "15 nóiméad",
+      "need": [
+        "An leathanach seo",
+        "Rialóir, cupán, nó amadóir"
+      ],
+      "steps": [
+        "Roghnaigh rud amháin le tomhas.",
+        "Tomhais é trí huaire ar an gcaoi chéanna.",
+        "Scríobh an t-aonad gach uair."
+      ],
+      "done": "Tá an t-aonad céanna ag na trí uimhir."
+    },
+    "print-scientist": {
+      "title": "Nótaí eolaí",
+      "time": "15 nóiméad",
+      "need": [
+        "An leathanach seo",
+        "Eolaí atá léite agat"
+      ],
+      "steps": [
+        "Scríobh ainm an eolaí.",
+        "Scríobh an méid a thástáil siad nó a d'oibrigh siad amach.",
+        "Scríobh ceist amháin atá agat fós."
+      ],
+      "done": "Tá an leathanach faoina n-eolaíocht, i d'abairtí gearra féin."
+    }
+  },
+  "quiz": {
+    "time-stars": [
+      "An bhfuil a fhios againn cé a d'fhéach ar na réaltaí go cúramach ar dtús?",
+      "Níl. Níl a fhios againn.",
+      "Tá. Ba é Galileo in 1610.",
+      "Tá. Ba í Jane Goodall.",
+      "Tá. Ba é anuraidh é."
+    ],
+    "time-scope": [
+      "Cad a lig micreascóip sna 1600í do dhaoine a fheiceáil?",
+      "Rudaí beaga",
+      "Lár an Domhain leis an tsúil",
+      "Fuaim i spás folamh",
+      "Smaointe maighnéid"
+    ],
+    "time-germs": [
+      "Cé na blianta inar fhás tástálacha láidre gur féidir le frídíní tinneas a chur ort?",
+      "Na 1800í",
+      "An bhliain 1610 amháin",
+      "Sular foirmíodh an Domhan, agus táimid cinnte",
+      "An tseachtain seo caite amháin"
+    ],
+    "time-flight": [
+      "Cathain a d'eitil eitleán faoi chumhacht den chéad uair?",
+      "1903",
+      "1543",
+      "1610",
+      "1992"
+    ],
+    "time-dna": [
+      "Taispeánadh samhail an dréimire chasta de DNA in",
+      "1953",
+      "1650",
+      "1903",
+      "965"
+    ],
+    "time-space": [
+      "Cén fáth a gcuirfí teileascóp sa spás?",
+      "Chun dul os cionn cheo an aeir",
+      "Chun éalú ó gach solas",
+      "Chun loscainn a reo",
+      "Chun an Ghrian a mhianadóireacht"
+    ],
+    "place-rain": [
+      "Tá stáisiún páirce na foraoise báistí ar an léarscáil i",
+      "Ecuador",
+      "Fáinní Saturn",
+      "An Ghealach",
+      "Oighearshruth amháin"
+    ],
+    "place-lab": [
+      "Tá an stad ceimice faoi",
+      "Ceimiceáin plandaí a iompú ina n-ábhair nua",
+      "Tointeálaí a eitilt",
+      "Aillte iontaise amháin",
+      "Taoidí na Gealaí"
+    ],
+    "place-sky": [
+      "Cén fáth a bhfuil sliabh ard maith do theileascóp?",
+      "Suíonn sé os cionn go leor scamall",
+      "Tá sé faoin aigéan",
+      "Níl spéir aige",
+      "Tá an t-aer soladach ansin"
+    ],
+    "place-cliff": [
+      "Tá aillte iontaise Mary Anning i",
+      "England",
+      "Hawaii",
+      "Ecuador",
+      "Fithis"
+    ],
+    "place-hospital": [
+      "Tá saotharlann an ospidéil ar an léarscáil i",
+      "London",
+      "An Amazon",
+      "Spás domhain",
+      "Oighearshruth"
+    ],
+    "place-ocean": [
+      "Téann longa ó Woods Hole amach chun staidéar a dhéanamh ar",
+      "An t-aigéan",
+      "Taobh istigh na Gréine",
+      "Cailc an tseomra ranga amháin",
+      "Gloine fuinneoige"
+    ],
+    "idea-fair": [
+      "Athraíonn tástáil chóir",
+      "Rud amháin",
+      "Gach rud ag an am céanna",
+      "Dada, riamh",
+      "An freagra sula dtosaíonn tú"
+    ],
+    "idea-two": [
+      "Athraíonn tú an t-uisce agus an solas araon i dtástáil planda. Cad é an fhadhb?",
+      "Ní bheidh a fhios agat cén t-athrú a bhí tábhachtach",
+      "Tá an tástáil níos córa",
+      "Éiríonn plandaí as a bheith beo d'aon ghnó",
+      "Múchtar an Ghrian"
+    ],
+    "idea-gravity": [
+      "Cén focal a oireann don smaoineamh domhain faoin imtharraingt?",
+      "Teoiric",
+      "Buille faoi thuairim gan tástálacha",
+      "Cnámh",
+      "Caor"
+    ],
+    "idea-science": [
+      "Is í an eolaíocht an chaoi a ndéanaimid seo",
+      "Smaointe faoin domhan nádúrtha a thástáil",
+      "Creidimh teaghlaigh a roghnú dóibh",
+      "Tomhas a fhágáil ar lár",
+      "Fíric a thabhairt ar bhuille faoi thuairim"
+    ]
+  },
+  "photos": {
+    "frog": "Loscaín adhmaid",
+    "bee": "Beach mheala ar bhláth",
+    "mushroom": "Beacán cnaipe",
+    "chimp": "Simpansé i bhforaois",
+    "amazon": "Ceannbhrat foraoise báistí san Amazon",
+    "wormwood": "Lus milis, an planda a dtagann artemisinin as",
+    "lab": "Foirgneamh eolaíochta ollscoile",
+    "magnet": "Maighnéad ag tarraingt píosa maighnéadait",
+    "earth": "An Domhan, grianghraf ó Apollo 17",
+    "jupiter": "Scamaill Jupiter, ó spásárthach Juno de chuid NASA",
+    "hubble": "Teileascóp Spáis Hubble os cionn an Domhain",
+    "keck": "Cruinneacháin teileascóip ar Mauna Kea",
+    "heart": "Samhail de chroí daonna",
+    "octopus": "Ochtapas coitianta",
+    "stonehenge": "Stonehenge, sean-chiorcal cloch a úsáideadh chun an spéir a rianú",
+    "scope": "Micreascóp ar bhord geal",
+    "petri": "Mias saotharlainne le spotaí frídíní",
+    "flight": "Macasamhail den Wright Flyer crochta i músaem",
+    "dna": "Samhail i músaem den héilics dhúbailte DNA",
+    "engine": "Cuid d'Inneall Difríochta Babbage",
+    "lyme": "Lyme Regis, England, in aice le haillte na farraige",
+    "hospital": "St Mary's Hospital i London"
+  }
+}

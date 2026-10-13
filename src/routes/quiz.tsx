@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { KID_LOOKS, Portrait } from "@/components/portrait";
 import { Shell } from "@/components/shell";
 import { drawQuestions, type QuizQuestion } from "@/data/quiz";
+import { localizeQuestion, useI18n, usePageTitle } from "@/i18n";
 
 export const Route = createFileRoute("/quiz")({
   head: () => ({ meta: [{ title: "Quiz · Every Science Fact Ever" }] }),
@@ -21,10 +22,12 @@ function QuizPage() {
 }
 
 function QuizBody() {
+  const { t, lang } = useI18n();
+  usePageTitle(t("quiz"));
   const [mode, setMode] = useState<"quick" | "mega">("quick");
   const [play, setPlay] = useState<"solo" | "teams">("solo");
   const [count, setCount] = useState(2);
-  const [names, setNames] = useState(() => Array.from({ length: 10 }, (_, i) => `Team ${i + 1}`));
+  const [names, setNames] = useState(() => Array.from({ length: 10 }, () => ""));
   const [phase, setPhase] = useState<Phase>("setup");
   const [queue, setQueue] = useState<QuizQuestion[]>([]);
   const [cursor, setCursor] = useState(0);
@@ -48,8 +51,8 @@ function QuizBody() {
     const size = play === "solo" ? 1 : count;
     const nextTeams =
       play === "solo"
-        ? [{ name: "You", score: 0 }]
-        : names.slice(0, size).map((name, index) => ({ name: name.trim() || `Team ${index + 1}`, score: 0 }));
+        ? [{ name: t("you"), score: 0 }]
+        : names.slice(0, size).map((name, index) => ({ name: name.trim() || t("teamN", { n: index + 1 }), score: 0 }));
     setTeams(nextTeams);
     setActive(nextTeams.map((_, index) => index));
     setQueue(drawQuestions(80));
@@ -65,6 +68,7 @@ function QuizBody() {
   }
 
   const question = queue[cursor];
+  const shown = question ? localizeQuestion(question, lang) : undefined;
   const teamIndex = active[turn] ?? 0;
   const correct = question ? picked === question.answer : false;
 
@@ -153,42 +157,43 @@ function QuizBody() {
       <div className="mx-auto max-w-3xl px-4 py-6">
         {phase === "setup" ? (
           <div>
-            <h1 className="font-display text-4xl font-bold">Class Quiz</h1>
-            <p className="mt-2 text-lg">Quick 10 or Mega 25. Solo, or up to 10 teams of 4.</p>
+            <h1 className="font-display text-4xl font-bold">{t("quizTitle")}</h1>
+            <p className="mt-2 text-lg">{t("quizLead")}</p>
             <div className="mt-4 grid grid-cols-2 gap-3">
               <button type="button" className={mode === "quick" ? "btn btn-chalk" : "btn btn-paper"} onClick={() => setMode("quick")}>
-                Quick 10
+                {t("quick")}
               </button>
               <button type="button" className={mode === "mega" ? "btn btn-chalk" : "btn btn-paper"} onClick={() => setMode("mega")}>
-                Mega 25
+                {t("mega")}
               </button>
               <button type="button" className={play === "solo" ? "btn btn-leaf" : "btn btn-paper"} onClick={() => setPlay("solo")}>
-                Solo
+                {t("soloPlay")}
               </button>
               <button type="button" className={play === "teams" ? "btn btn-leaf" : "btn btn-paper"} onClick={() => setPlay("teams")}>
-                Teams
+                {t("teamsPlay")}
               </button>
             </div>
             {play === "teams" ? (
               <div className="stamp mt-4 bg-paper p-4">
                 <div className="flex items-center justify-between gap-3">
-                  <p className="font-extrabold">Teams: {count}</p>
+                  <p className="font-extrabold">{t("teamsN", { n: count })}</p>
                   <div className="flex gap-2">
                     <button type="button" className="btn btn-paper" onClick={() => setCount((n) => Math.max(2, n - 1))}>
-                      Fewer
+                      {t("fewer")}
                     </button>
                     <button type="button" className="btn btn-paper" onClick={() => setCount((n) => Math.min(10, n + 1))}>
-                      More
+                      {t("moreBtn")}
                     </button>
                   </div>
                 </div>
-                <p className="mt-2 text-base">Each team can have up to 4 kids.</p>
+                <p className="mt-2 text-base">{t("eachTeam")}</p>
                 <div className="mt-3 grid gap-2">
                   {names.slice(0, count).map((name, index) => (
                     <label key={index} className="block text-base font-extrabold">
-                      Team {index + 1}
+                      {t("teamN", { n: index + 1 })}
                       <input
                         value={name}
+                        placeholder={t("teamN", { n: index + 1 })}
                         onChange={(event) =>
                           setNames((prev) => prev.map((item, i) => (i === index ? event.target.value : item)))
                         }
@@ -200,12 +205,12 @@ function QuizBody() {
               </div>
             ) : null}
             <button type="button" className="btn btn-chalk mt-4 w-full" onClick={start}>
-              Start
+              {t("start")}
             </button>
             <ul className="mt-4 space-y-1 text-base">
-              <li>After you answer, wait. Then you see right or wrong.</li>
-              <li>A tie starts a playoff.</li>
-              <li>Three tied rounds in a row make a draw.</li>
+              <li>{t("rule1")}</li>
+              <li>{t("rule2")}</li>
+              <li>{t("rule3")}</li>
             </ul>
           </div>
         ) : null}
@@ -225,18 +230,18 @@ function QuizBody() {
               ))}
             </div>
             <p className="mt-4 text-sm font-extrabold uppercase">
-              {sudden ? "Playoff" : `Question ${answered + 1} of ${limit}`}
+              {sudden ? t("playoff") : t("questionN", { n: answered + 1, total: limit })}
             </p>
             <div className="stamp mt-3 bg-paper p-4">
               <div className="flex items-center gap-3">
                 <Portrait look={KID_LOOKS[cursor % KID_LOOKS.length] ?? KID_LOOKS[0]!} className="h-20 w-20 shrink-0" />
                 <div>
                   <p className="font-extrabold">{teams[teamIndex]?.name}</p>
-                  <h2 className="font-display text-2xl leading-tight font-bold">{question.prompt}</h2>
+                  <h2 className="font-display text-2xl leading-tight font-bold">{shown?.prompt}</h2>
                 </div>
               </div>
               <div className="mt-4 grid gap-2">
-                {question.choices.map((choice, index) => {
+                {shown?.choices.map((choice, index) => {
                   const chosen = picked === index;
                   const reveal = phase === "reveal";
                   const isAnswer = index === question.answer;
@@ -244,14 +249,14 @@ function QuizBody() {
                   let note = "";
                   if (phase === "wait" && chosen) {
                     tone = "btn-chalk";
-                    note = "You picked this.";
+                    note = t("picked");
                   }
                   if (reveal && isAnswer) {
                     tone = "btn-leaf";
-                    note = "Yes";
+                    note = t("yes");
                   } else if (reveal && chosen && !isAnswer) {
                     tone = "btn-chalk";
-                    note = "Not this one";
+                    note = t("notThis");
                   }
                   return (
                     <button
@@ -267,10 +272,10 @@ function QuizBody() {
                   );
                 })}
               </div>
-              {phase === "wait" ? <p className="mt-3 font-extrabold">Hold on.</p> : null}
+              {phase === "wait" ? <p className="mt-3 font-extrabold">{t("hold")}</p> : null}
               {phase === "reveal" ? (
                 <button type="button" className="btn btn-cobalt mt-4 w-full" onClick={next}>
-                  Next
+                  {t("next")}
                 </button>
               ) : null}
             </div>
@@ -280,9 +285,9 @@ function QuizBody() {
         {phase === "win" ? (
           <div className="stamp bg-chalk p-6 text-center">
             {showCongrats ? (
-              <p className="font-display text-4xl font-bold sm:text-5xl">CONGRATULATIONS</p>
+              <p className="font-display text-4xl font-bold sm:text-5xl">{t("congrats")}</p>
             ) : (
-              <p className="font-display text-4xl font-bold">You finished</p>
+              <p className="font-display text-4xl font-bold">{t("finished")}</p>
             )}
             <p className="mt-3 text-2xl font-extrabold">{winner?.name}</p>
             <ul className="mt-4 space-y-1 text-lg">
@@ -293,15 +298,15 @@ function QuizBody() {
               ))}
             </ul>
             <button type="button" className="btn btn-paper mt-5" onClick={() => setPhase("setup")}>
-              Play again
+              {t("again")}
             </button>
           </div>
         ) : null}
 
         {phase === "draw" ? (
           <div className="stamp bg-paper p-6 text-center">
-            <h2 className="font-display text-4xl font-bold">It is a draw.</h2>
-            <p className="mt-2 text-lg">Three playoff rounds stayed tied.</p>
+            <h2 className="font-display text-4xl font-bold">{t("draw")}</h2>
+            <p className="mt-2 text-lg">{t("drawWhy")}</p>
             <ul className="mt-4 space-y-1 text-lg">
               {teams.map((team) => (
                 <li key={team.name}>
@@ -310,7 +315,7 @@ function QuizBody() {
               ))}
             </ul>
             <button type="button" className="btn btn-chalk mt-5" onClick={() => setPhase("setup")}>
-              Play again
+              {t("again")}
             </button>
           </div>
         ) : null}

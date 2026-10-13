@@ -1,40 +1,44 @@
 import { FACTS } from "@/data/facts";
 import { PEOPLE } from "@/data/people";
-import { fieldLabel, type Fact, type Person } from "@/data/types";
+import type { Fact, Person } from "@/data/types";
+import { localizeFact, localizePerson } from "@/i18n/content";
+import type { Lang } from "@/i18n/langs";
 
-function factHay(f: Fact): string {
-  return [f.title, f.sentence, f.how, f.extra ?? "", f.unsure ?? "", f.topic, f.kind]
+function factHay(fact: Fact, lang: Lang): string {
+  const local = localizeFact(fact, lang);
+  return [fact.title, fact.sentence, fact.how, fact.extra ?? "", fact.unsure ?? "", local.title, local.sentence, local.how, local.extra ?? "", local.unsure ?? ""]
     .join(" ")
     .toLowerCase();
 }
 
-function personHay(p: Person): string {
-  return [p.name, p.when, fieldLabel(p.field), ...p.lines, p.extra ?? "", p.unsure ?? ""]
+function personHay(person: Person, lang: Lang): string {
+  const local = localizePerson(person, lang);
+  return [person.name, person.when, ...person.lines, person.extra ?? "", person.unsure ?? "", local.when, ...local.lines, local.extra ?? "", local.unsure ?? ""]
     .join(" ")
     .toLowerCase();
 }
 
-export function matchingFacts(q: string, topic: string): Fact[] {
+export function matchingFacts(q: string, topic: string, lang: Lang = "en"): Fact[] {
   const s = q.trim().toLowerCase();
-  return FACTS.filter((f) => {
-    if (topic !== "all" && f.topic !== topic) return false;
+  return FACTS.filter((fact) => {
+    if (topic !== "all" && fact.topic !== topic) return false;
     if (!s) return true;
-    return factHay(f).includes(s);
+    return factHay(fact, lang).includes(s);
   });
 }
 
-export function topicCounts(q: string): Record<string, number> {
+export function topicCounts(q: string, lang: Lang = "en"): Record<string, number> {
   const s = q.trim().toLowerCase();
   const counts: Record<string, number> = {};
-  for (const f of FACTS) {
-    if (s && !factHay(f).includes(s)) continue;
-    counts[f.topic] = (counts[f.topic] ?? 0) + 1;
+  for (const fact of FACTS) {
+    if (s && !factHay(fact, lang).includes(s)) continue;
+    counts[fact.topic] = (counts[fact.topic] ?? 0) + 1;
   }
   return counts;
 }
 
-export function matchingPeople(q: string): Person[] {
+export function matchingPeople(q: string, lang: Lang = "en"): Person[] {
   const s = q.trim().toLowerCase();
   if (!s) return [];
-  return PEOPLE.filter((p) => personHay(p).includes(s));
+  return PEOPLE.filter((person) => personHay(person, lang).includes(s));
 }

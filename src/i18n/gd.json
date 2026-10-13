@@ -1,0 +1,2806 @@
+{
+  "facts": {
+    "plants-food": {
+      "title": "Bidh lusan a' dèanamh biadh",
+      "sentence": "Bidh lusan a' dèanamh am biadh bho sholas na grèine, adhar, agus uisge.",
+      "how": "Mura faigh duilleag solas, chan urrainn dhi biadh a dhèanamh.",
+      "extra": "Tha an uaine anns an duilleig a' glacadh an t-solais.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Dè bhios lusan a' cleachdadh airson biadh a dhèanamh?",
+          "Solas na grèine, adhar, agus uisge",
+          "Creagan a-mhàin",
+          "Salann a-mhàin",
+          "Meatailt a-mhàin"
+        ],
+        [
+          "Dè thachras mura faigh duilleag solas?",
+          "Chan urrainn dhi biadh a dhèanamh",
+          "Bidh i na h-iarann",
+          "Bidh i na magnaid",
+          "Bidh i a' itealaich dhan Moon"
+        ]
+      ]
+    },
+    "plants-oxygen": {
+      "title": "Bidh lusan a' leigeil a-mach ogsaidean",
+      "sentence": "Ann an solas na grèine, bidh lusan a' leigeil a-mach ogsaidean.",
+      "how": "Faodaidh daoine an gas a chruinneachadh bho lusan uisge ann an solas soilleir agus dearbhadh gur e ogsaidean a th' ann.",
+      "extra": "Bidh lusan a' cleachdadh beagan ogsaidein cuideachd. Ach ann an grian shoilleir bidh iad a' dèanamh barrachd na bhios iad a' cleachdadh.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Dè an gas a bhios lusan a' leigeil a-mach ann an solas na grèine?",
+          "Ogsaidean",
+          "Gainmheach",
+          "Airgead-beò",
+          "Meirg"
+        ],
+        [
+          "Cuin a bhios lusan a' dèanamh barrachd ogsaidein na bhios iad a' cleachdadh?",
+          "Ann an grian shoilleir",
+          "Ann am bogsa dorcha",
+          "Mar fhosailean a-mhàin",
+          "Cha bhi gu bràth"
+        ]
+      ]
+    },
+    "bees-pollen": {
+      "title": "Bidh seilleanan a' giùlan poilean",
+      "sentence": "Bidh seilleanan a' giùlan poilean o fhlùr gu flùr.",
+      "how": "Faodaidh tu duslach buidhe air seillean fhaicinn a' gluasad o bhlàth gu blàth.",
+      "extra": "Bidh biastagan eile a' giùlan poilean cuideachd.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Dè bhios seilleanan a' giùlan eadar flùraichean?",
+          "Poilean",
+          "Magnaidean",
+          "Fosailean",
+          "Neòil uisge"
+        ],
+        [
+          "Dè an abairt a tha fìor?",
+          "Bidh seilleanan a' gluasad poilean o fhlùr gu flùr",
+          "Is e seòrsa de mheatailt a th' ann an seilleanan",
+          "Bidh seilleanan a' cuairteachadh Saturn",
+          "Bidh seilleanan a' dèanamh solas an Moon"
+        ]
+      ]
+    },
+    "seeds-water": {
+      "title": "Tha uisge a dhìth air sìol",
+      "sentence": "Bidh mòran sìl a' tòiseachadh air fàs nuair a gheibh iad uisge agus blàths.",
+      "how": "Thoir uisge do aon sìol agus gun uisge do shìol eile. Chì thu dè am fear a dh'fhàsas.",
+      "extra": "Tha ùine fhuar a dhìth air cuid de shìol an toiseach cuideachd.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Dè a chuidicheas mòran sìl tòiseachadh air fàs?",
+          "Uisge agus blàths",
+          "Magnaid a-mhàin",
+          "Fuaim àrd a-mhàin",
+          "Sgeilp thioram gu bràth"
+        ],
+        [
+          "Ciamar a nì thu deuchainn air na tha a dhìth air sìol?",
+          "Thoir uisge do aon sìol agus fàg sìol eile tioram",
+          "Peant an dà shìol agus dèan tomhas",
+          "Falaich iad bho gach deuchainn",
+          "Reothaich creag ri an taobh"
+        ]
+      ]
+    },
+    "fungi": {
+      "title": "Is e fungasan a th' ann am balgan-buachair",
+      "sentence": "Is e fungas a th' ann am balgan-buachair, chan e lus.",
+      "how": "Chan eil balgan-buachair a' dèanamh biadh bho sholas na grèine mar a bhios lusan uaine.",
+      "extra": "Bidh fungasan a' faighinn biadh bho rudan beò no bho rudan a bha beò.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Tha balgan-buachair còmhla ri",
+          "Fungasan",
+          "Iasg",
+          "Planaidean",
+          "Magnaidean"
+        ],
+        [
+          "Carson nach e lus a th' ann am balgan-buachair?",
+          "Chan eil e a' dèanamh biadh bho sholas na grèine mar lus uaine",
+          "Tha itean aige",
+          "Tha e dèanta de ghlainne",
+          "Tha e a' dol timcheall air a' Ghrian"
+        ]
+      ]
+    },
+    "whales": {
+      "title": "Bidh mucan-mara a' tarraing anail",
+      "sentence": "Is e mamailean a th' ann am mucan-mara, agus mar sin bidh iad a' tarraing anail.",
+      "how": "Bidh daoine a' faicinn mucan-mara a' tighinn suas agus a' sèideadh a-mach seann adhair.",
+      "extra": "Chan urrainn dhaibh fuireach fon mhuir mar a bhios iasg.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Feumaidh mucan-mara tighinn suas airson",
+          "Adhar",
+          "Làbha",
+          "Gainmheach",
+          "Duslach an Moon"
+        ],
+        [
+          "Is e seo a th' ann am mucan-mara",
+          "Mamailean",
+          "Biastagan",
+          "Creagan",
+          "Fungasan"
+        ]
+      ]
+    },
+    "cactus": {
+      "title": "Bidh cactas a' stòradh uisge",
+      "sentence": "Bidh cactas a' stòradh uisge san stoc aige.",
+      "how": "Bidh saidheansairean a' tomhas an uisge anns an stoc thiugh.",
+      "extra": "Bidh bioran a' cumail bheathaichean bho bhith ag ithe an uisge sin.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Càite a stòras cactas uisge?",
+          "San stoc aige",
+          "San sgàil aige",
+          "Ann an neul",
+          "Anns na bioran aige a-mhàin"
+        ],
+        [
+          "Dè an abairt a tha fìor?",
+          "Bidh cactas a' stòradh uisge san stoc aige",
+          "Is e meatailt a th' ann an cactas",
+          "Is e gealach a th' ann an cactas",
+          "Is e cnàimh fosail a th' ann an cactas"
+        ]
+      ]
+    },
+    "bird-bones": {
+      "title": "Cnàmhan eòin aotrom",
+      "sentence": "Tha mòran chnàmhan eòin falamh, agus tha sin a' cuideachadh eòin fuireach aotrom.",
+      "how": "Bidh saidheansairean a' coimhead am broinn chnàmhan eòin agus a' lorg àiteachan adhair.",
+      "extra": "Chan eil a h-uile eun a' itealaich.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Carson a tha mòran chnàmhan eòin falamh?",
+          "Gus an t-eun a chuideachadh fuireach aotrom",
+          "Gus òr a stòradh",
+          "Gus uisge a ghoil",
+          "Gus tàirneanach a dhèanamh"
+        ],
+        [
+          "Dè an abairt a tha fìor?",
+          "Chan eil a h-uile eun a' itealaich",
+          "Is e mamailean a th' anns a h-uile eun",
+          "Tha eòin dèanta de ghlainne",
+          "Chan eil cnàmhan aig eòin"
+        ]
+      ]
+    },
+    "coral": {
+      "title": "Is e beathaichean a th' ann an coireal",
+      "sentence": "Tha beathaichean beaga bìodach a' togail sgeirean coireil.",
+      "how": "Fo lionsa chì thu na beathaichean coireil beaga anns na cupannan aca.",
+      "extra": "Tha an sgeir chruaidh dèanta de na cnàimhnichean aca.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Dè a thogas sgeir choireil?",
+          "Beathaichean beaga bìodach",
+          "Neòil",
+          "Magnaidean crudha-eich",
+          "Fàinneachan deighe"
+        ],
+        [
+          "Tha am pàirt cruaidh de sgeir a' tighinn bho",
+          "Cnàimhnichean coireil",
+          "Luaidhe peansaile",
+          "Anail muice-mara",
+          "Duslach an Moon"
+        ]
+      ]
+    },
+    "chimp-tools": {
+      "title": "Bidh simpansaidhean a' cleachdadh innealan",
+      "sentence": "Bidh cuid de shimpansaidhean a' cleachdadh bhataichean mar innealan.",
+      "how": "Chunnaic Jane Goodall simpansaidh a' rùsgadh meangain agus ga chleachdadh gus biastagan a tharraing a-mach.",
+      "extra": "Sgrìobh i sìos na chunnaic i, latha às dèidh latha.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cò chunnaic simpansaidh a' cleachdadh bata mar inneal?",
+          "Jane Goodall",
+          "Isaac Newton",
+          "Mae Jemison",
+          "Marie Curie"
+        ],
+        [
+          "Dè rinn an simpansaidh sin leis a' bhata?",
+          "Chleachd e e gus biastagan a tharraing a-mach",
+          "Dh'itealaich e e dhan Moon",
+          "Leagh e e gu iarann",
+          "Reothaich e an cuan leis"
+        ]
+      ]
+    },
+    "dna": {
+      "title": "Is e àradh a th' ann an DNA",
+      "sentence": "Is e àradh fada toinnte a th' ann an DNA a tha a' cumail stiùireadh airson rud beò.",
+      "how": "Sheall dealbh X-ghath agus mòran deuchainnean an dèidh sin an cumadh toinnte sin.",
+      "extra": "Thog Rosalind Franklin dealbh cudromach de DNA.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Dè an cumadh a tha air DNA?",
+          "Àradh toinnte",
+          "Plàta rèidh",
+          "Magnaid crudha-eich",
+          "Cuibhle cheàrnach"
+        ],
+        [
+          "Cò thog dealbh X-ghath cudromach de DNA?",
+          "Rosalind Franklin",
+          "Mary Anning",
+          "Galileo Galilei",
+          "Michael Faraday"
+        ]
+      ]
+    },
+    "evolution": {
+      "title": "Bidh nithean beò ag atharrachadh",
+      "sentence": "Bidh nithean beò ag atharrachadh thar ùine glè fhada.",
+      "how": "Tha fosailean, agus craobhan-teaghlaich de nithean beò, nam dòighean air a' bheachd seo a dheuchainn.",
+      "extra": "Ann an saidheans, is e beachd mòr a chaidh tro iomadh deuchainn a th' ann an teòiridh.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Bidh nithean beò ag atharrachadh thar ùine glè fhada. Is e seo a th' anns a' bheachd sin",
+          "Teòiridh a bhios saidheansairean a' deuchainn",
+          "Tomhas fiadhaich gun deuchainnean",
+          "Seòrsa de mheatailt",
+          "Ìre den Moon"
+        ],
+        [
+          "Dè aon dòigh air a' bheachd sin a dheuchainn?",
+          "Fosailean",
+          "Aon mhiann",
+          "Dath magnaid",
+          "Ainm bàta"
+        ]
+      ]
+    },
+    "water-h2o": {
+      "title": "Is e H2O a th' ann an uisge",
+      "sentence": "Is e H2O a th' ann an uisge, dà atam haidridein agus aon atam ogsaidein.",
+      "how": "Nuair a bhios saidheansairean a' sgaradh uisge, gheibh iad an aon reasabaidh gach turas.",
+      "extra": "Is e uisge cruaidh a th' ann an deigh, agus bidh e a' fleòdradh air uisge leaghaidh.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Dè an reasabaidh a tha ag ainmeachadh uisge?",
+          "H2O",
+          "CO2",
+          "NaCl",
+          "Fe"
+        ],
+        [
+          "Cia mheud atam haidridein a tha ann an aon phìos uisge?",
+          "Dhà",
+          "Neoni",
+          "Deich",
+          "Ceud"
+        ]
+      ]
+    },
+    "states": {
+      "title": "Trì stàitean",
+      "sentence": "Faodaidh stuth a bhith cruaidh, na leaghan, no na ghas.",
+      "how": "Faodaidh tu an t-aon uisge fhaicinn mar dheigh, an uair sin mar leaghan, an uair sin mar smùid.",
+      "extra": "Bidh na pìosan beaga bìodach a' gluasad nas saoire mar a bhios e a' blàthachadh.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Is e seo a th' ann an deigh, uisge leaghaidh, agus smùid",
+          "An aon stuth ann an trì stàitean",
+          "Trì meatailtean eadar-dhealaichte",
+          "Trì planaidean",
+          "Trì cnàmhan"
+        ],
+        [
+          "Dè an liosta a tha ag ainmeachadh trì stàitean stuth?",
+          "Cruaidh, leaghan, gas",
+          "Tuath, deas, ear",
+          "Duilleag, freumh, gob",
+          "Latha, bliadhna, làn"
+        ]
+      ]
+    },
+    "ice-floats": {
+      "title": "Bidh deigh a' fleòdradh",
+      "sentence": "Bidh deigh a' fleòdradh air uisge leaghaidh.",
+      "how": "Cuir pìos deighe ann an glainne uisge agus fuirichidh e aig a' mhullach.",
+      "extra": "Bidh deigh a' gabhail barrachd àite na an t-aon uisge mar leaghan.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Dè nì deigh ann an glainne uisge?",
+          "Bidh e a' fleòdradh",
+          "Bidh e an-còmhnaidh a' dol fodha mar chloich",
+          "Bidh e a' tionndadh gu iarann",
+          "Bidh e na mhagnaid"
+        ],
+        [
+          "Carson a dh'fhaodas deigh fleòdradh?",
+          "Bidh e a' gabhail barrachd àite na an t-aon uisge leaghaidh",
+          "Tha e nas truime na òr",
+          "Tha dà phòla aige",
+          "Is e fosail a th' ann"
+        ]
+      ]
+    },
+    "water-boil": {
+      "title": "Bidh uisge a' goil",
+      "sentence": "Aig ìre na mara, bidh uisge a' goil aig 100 ceum Celsius.",
+      "how": "Bidh teirmiméadar a' leughadh 100 ceum nuair a tha an t-uisge a' builgeadh gu cruaidh aig ìre na mara.",
+      "extra": "Àrd air beinn, bidh uisge a' goil aig teòthachd nas ìsle.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Aig ìre na mara, bidh uisge a' goil aig",
+          "100 ceum Celsius",
+          "0 ceum Celsius",
+          "10 ceum Celsius",
+          "1000 ceum Celsius"
+        ],
+        [
+          "Air beinn àrd, bidh uisge a' goil",
+          "Aig teòthachd nas ìsle",
+          "Mar dheigh a-mhàin",
+          "Cha bhi gu bràth",
+          "Cho teth ris a' Ghrian"
+        ]
+      ]
+    },
+    "salt-dissolves": {
+      "title": "Bidh salann a' leaghadh",
+      "sentence": "Faodaidh salann leaghadh ann an uisge agus a bhith coltach gun deach e à sealladh.",
+      "how": "Tha an salann a' falbh à sealladh, ach tha blasad saillte air an uisge. Tha an salann fhathast ann.",
+      "extra": "Ma thiormaicheas an t-uisge, nochdaidh an salann a-rithist.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Nuair a leaghas salann, tha e",
+          "Fhathast anns an uisge",
+          "A' tionndadh gu òr",
+          "A' fàgail an Talamh",
+          "A' fàs na DNA"
+        ],
+        [
+          "Ciamar a nochdas salann leaghte a-rithist?",
+          "Leig leis an uisge tiormachadh",
+          "Cuir teileasgop ris",
+          "Snìomh an Moon",
+          "Cuir cactas"
+        ]
+      ]
+    },
+    "rust": {
+      "title": "Bidh meirg air iarann",
+      "sentence": "Bidh meirg air iarann nuair a choinnicheas e ri uisge agus adhar.",
+      "how": "Fuirichidh tarrag iarainn thioram deàrrsach nas fhaide na tè fhliuch a dh'fhàgar san adhar.",
+      "extra": "Is e còta ùr a th' ann am meirg, chan e an iarann deàrrsach fhèin.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Bidh meirg air iarann nuair a choinnicheas e ri",
+          "Uisge agus adhar",
+          "Solas an Moon a-mhàin",
+          "Poilean a-mhàin",
+          "Fànas falamh"
+        ],
+        [
+          "Dè an tarrag a dh'fhuiricheas deàrrsach nas fhaide?",
+          "Tarrag thioram air a cumail bho uisge",
+          "Tarrag fhliuch air fhàgail san adhar",
+          "Tarrag dèanta de smùid",
+          "Tarrag gun deuchainn idir"
+        ]
+      ]
+    },
+    "glass-sand": {
+      "title": "Glainne bho ghainmheach",
+      "sentence": "Bidh daoine a' dèanamh glainne le bhith a' teasachadh gainmhich le beagan mhèinnearan eile gus an leagh i.",
+      "how": "Bidh bùthan glainne a' leaghadh a' mheasgachaidh. An uair sin fuaraichidh iad e gu cruaidh soilleir.",
+      "extra": "Tha cuid de sheann uinneagan nas tiugha aig a' bhonn air sgàth mar a chaidh a' ghloinne a dhèanamh. Chan ann a chionn 's gu bheil glainne a' driopadh.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Tha glainne air a dhèanamh le",
+          "A' teasachadh gainmhich gus an leagh i",
+          "A' reothadh losgannan",
+          "A' càrnadh poilein",
+          "A' lùbadh phòlaichean magnaid"
+        ],
+        [
+          "Carson a tha cuid de sheann ghloinne uinneig nas tiugha aig a' bhonn?",
+          "Air sgàth mar a chaidh a dhèanamh",
+          "A chionn 's gu bheil glainne a' driopadh gu slaodach mar mhil",
+          "A chionn 's gu bheil losgannan nan suidhe air",
+          "A chionn 's gu bheil fuaim a' càrnadh"
+        ]
+      ]
+    },
+    "diamond-graphite": {
+      "title": "Gualain air dà dhòigh",
+      "sentence": "Is e gualain a th' ann an daoimean agus ann an grafait peansaile, air a phacadh ann an dòighean eadar-dhealaichte.",
+      "how": "Tha deuchainnean a' sealltainn gur e ataman gualain a th' anns an dà chuid, glaiste ann am pàtranan eadar-dhealaichte.",
+      "extra": "Sin as coireach gu bheil aonan cruaidh agus soilleir agus am fear eile bog agus dorcha.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Is e seo a th' ann an daoimean agus ann an grafait peansaile",
+          "Gualain",
+          "Uisge",
+          "Meirg iarainn",
+          "Cnàimh muice-mara"
+        ],
+        [
+          "Carson a dh'fhaodas gualain a bhith cruaidh no bog?",
+          "Tha na h-ataman air am pacadh ann an dòigh eadar-dhealaichte",
+          "Is e planaid a th' ann an aonan",
+          "Tha aonan beò",
+          "Is e teòiridh a th' ann an aonan"
+        ]
+      ]
+    },
+    "oil-floats": {
+      "title": "Bidh ola a' fleòdradh",
+      "sentence": "Bidh ola a' fleòdradh air uisge a chionn 's nach eil i cho dùmhail.",
+      "how": "Dòirt ola gu socair air uisge agus fuirichidh an ola air a' mhullach.",
+      "extra": "Faodaidh sgàil thana ola suidhe air glumag airson an aon adhbhair.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Dè nì ola air uisge?",
+          "Bidh i a' fleòdradh",
+          "Bidh i an-còmhnaidh a' dol fodha fo chreig",
+          "Bidh i na deigh sa mhionaid",
+          "Bidh i na rionnag"
+        ],
+        [
+          "Bidh ola a' fleòdradh a chionn 's gu bheil i",
+          "Nas lugha dùmhail na uisge",
+          "Nas truime na iarann",
+          "Seòrsa de chnàimh",
+          "Gealach"
+        ]
+      ]
+    },
+    "plastic": {
+      "title": "Slabhraidhean plastaig",
+      "sentence": "Tha a' mhòr-chuid de phlastaig dèanta de shlabhraidhean fada de mhoileciuil. Tòisichidh mòran dhith mar ola.",
+      "how": "Bidh ceimigearan a' ceangal mhoileciuil beaga gu slabhraidhean fada. An uair sin cumaidh iad iad.",
+      "extra": "Tha cuid de phlastaig nas ùire air a dhèanamh bho lusan na àite.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Tha a' mhòr-chuid de phlastaig dèanta de",
+          "Slabhraidhean fada de mhoileciuil",
+          "Gainmheach sgaoilte a-mhàin",
+          "Cnàmhan eòin falamh",
+          "Solas an Moon"
+        ],
+        [
+          "Tòisichidh mòran plastaig mar",
+          "Ola",
+          "Òrain mhucan-mara",
+          "Fàinneachan Saturn",
+          "Salann bùird a-mhàin"
+        ]
+      ]
+    },
+    "gold": {
+      "title": "Chan eil meirg air òr",
+      "sentence": "Chan eil meirg air òr mar a bhios air iarann.",
+      "how": "Faodaidh seann bhuinn òir fuireach deàrrsach ann an adhar agus uisge airson ùine glè fhada.",
+      "extra": "Is e meatailt a th' ann an òr fhathast, agus faodar a bhualadh glè thana.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Dè nì òr ann an adhar fliuch?",
+          "Chan eil meirg air mar iarann",
+          "Bidh e a' tionndadh gu fiodh",
+          "Bidh e a' goil aig 0 ceum",
+          "Bidh e na chactas"
+        ],
+        [
+          "Dè an abairt a tha fìor?",
+          "Faodaidh òr fuireach deàrrsach airson ùine glè fhada",
+          "Is e gas san t-seòmar a th' ann an òr",
+          "Is e seòrsa de DNA a th' ann an òr",
+          "Tha trì cridheachan aig òr"
+        ]
+      ]
+    },
+    "periodic": {
+      "title": "Clàr nan eileamaid",
+      "sentence": "Bidh clàr nan eileamaid a' cur nan eileamaidean ann an òrdugh a rèir phàtranan anns na h-ataman aca.",
+      "how": "San òrdugh sin, bidh eileamaidean a tha coltach ri chèile nan suidhe ann an teaghlaichean.",
+      "extra": "Dh'fhàg Dmitri Mendeleev beàrnan airson eileamaidean nach robh daoine air lorg fhathast.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Dè bhios clàr nan eileamaid a' cur ann an òrdugh?",
+          "Na h-eileamaidean",
+          "Na planaidean a-mhàin",
+          "Na cnàmhan a-mhàin",
+          "Na cuantan a-mhàin"
+        ],
+        [
+          "Cò dh'fhàg beàrnan airson eileamaidean nach deach a lorg fhathast?",
+          "Dmitri Mendeleev",
+          "Jane Goodall",
+          "Mae Jemison",
+          "Mary Anning"
+        ]
+      ]
+    },
+    "force-push": {
+      "title": "Is e putadh a th' ann am feachd",
+      "sentence": "Is e putadh no tarraing a th' ann am feachd.",
+      "how": "Bidh sgèile-fhuarain a' sìneadh nuair a tharraingeas tu. Tha an sìneadh a' tomhas na feachd.",
+      "extra": "Faodaidh feachdan rud a thòiseachadh, a stad, no a thionndadh.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Is e seo a th' ann am feachd",
+          "Putadh no tarraing",
+          "Seòrsa de fhosail",
+          "Ìre den Moon",
+          "Cnàimh"
+        ],
+        [
+          "Bidh sgèile-fhuarain a' tomhas feachd a chionn 's",
+          "Gu bheil am fuaran a' sìneadh",
+          "Gu bheil am fuaran a' tionndadh gu uisge",
+          "Gu bheil am fuaran a' dol timcheall air a' Ghrian",
+          "Gu bheil blasad saillte air an fhuaran"
+        ]
+      ]
+    },
+    "magnet-poles": {
+      "title": "Dà phòla",
+      "sentence": "Tha dà phòla aig magnaid, ris an canar tuath agus deas.",
+      "how": "Croch magnaid-bhàr gus an urrainn dhi tionndadh. Cumaidh an aon cheann a' tomhadh gu tuath.",
+      "extra": "Tha an dà phòla aig a h-uile magnaid a dh'fheuchas sinn, chan e aonan a-mhàin.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cia mheud pòla a tha aig magnaid?",
+          "Dhà",
+          "Aon",
+          "Ochd",
+          "206"
+        ],
+        [
+          "Canar seo ri pòlaichean magnaid",
+          "Tuath agus deas",
+          "Deigh agus smùid",
+          "Seillean agus muc-mhara",
+          "Suas agus DNA"
+        ]
+      ]
+    },
+    "magnet-iron": {
+      "title": "Bidh magnaidean a' tarraing iarann",
+      "sentence": "Bidh magnaid a' tarraing iarann, ach chan eil i a' tarraing fiodh, plastaig, no copar.",
+      "how": "Feuch aon mhagnaid air tarrag iarainn, bata fiodha, cupa plastaig, agus bonn copair.",
+      "extra": "Chan eil ach cuid de mheatailtean air an tarraing.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Dè aon a tharraingeas magnaid?",
+          "Tarrag iarainn",
+          "Bata fiodha",
+          "Cupa plastaig",
+          "Soc cotain"
+        ],
+        [
+          "A bheil magnaid a' tarraing a h-uile meatailt?",
+          "Chan eil",
+          "Seadh, eadhon uisge",
+          "Seadh, eadhon fiodh",
+          "Air an Moon a-mhàin"
+        ]
+      ]
+    },
+    "poles-push": {
+      "title": "Bidh pòlaichean a' putadh no a' tarraing",
+      "sentence": "Bidh pòlaichean eadar-dhealaichte a' tarraing còmhla, agus bidh na h-aon phòlaichean a' putadh bho chèile.",
+      "how": "Thoir dà cheann magnaid còmhla agus mothaichidh tu tarraing no putadh.",
+      "extra": "Chan urrainn dhut na pòlaichean aithneachadh bhon dath. Aithnichidh tu iad bho mar a bhios iad ag obair.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Dè nì dà phòla a tuath?",
+          "Bidh iad a' putadh bho chèile",
+          "Bidh iad an-còmhnaidh a' leaghadh",
+          "Bidh iad a' dèanamh mil",
+          "Bidh iad nan lusan"
+        ],
+        [
+          "Dè nì pòla a tuath agus pòla a deas?",
+          "Bidh iad a' tarraing còmhla",
+          "Thèid iad à sealladh",
+          "Bidh iad a' tionndadh gu glainne",
+          "Bidh iad a' goil sa mhionaid"
+        ]
+      ]
+    },
+    "gravity": {
+      "title": "Bidh nithean a' tuiteam",
+      "sentence": "Bidh nithean a thèid a leigeil às a' tuiteam a dh'ionnsaigh na Talmhainn, agus tha teòiridh iom-tharraing a' mìneachadh an tarraing sin.",
+      "how": "Bidh sinn a' tomhas rudan a' tuiteam, cuideaman, agus slighe an Moon. Tha an teòiridh gam fàisneachd gu math.",
+      "extra": "Tha saidheansairean fhathast a' deuchainn iom-tharraing ann an dòighean ùra.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Dè nì nithean a thèid a leigeil às?",
+          "Bidh iad a' tuiteam a dh'ionnsaigh na Talmhainn",
+          "Bidh iad an-còmhnaidh a' fleòdradh air falbh",
+          "Bidh iad a' tionndadh gu ola",
+          "Bidh iad nan fosailean sa mhionaid"
+        ],
+        [
+          "Is e seo a th' anns a' bheachd dhomhainn air an tarraing seo",
+          "Teòiridh a chumas saidheansairean a' deuchainn",
+          "Tomhas gun deuchainnean",
+          "Seòrsa de phlastaig",
+          "Muc-mhara"
+        ]
+      ]
+    },
+    "sound-medium": {
+      "title": "Tha feum aig fuaim air stuth",
+      "sentence": "Tha feum aig fuaim air rudeigin ri shiubhal troimhe, agus mar sin chan urrainn dhi a dhol thar fànais fhalaimh.",
+      "how": "Fàsaidh clag ann an crogan nas sàmhaiche nuair a thèid an t-adhar a tharraing a-mach.",
+      "extra": "Bidh fuaim a' gluasad nas luaithe ann an uisge na ann an adhar.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Chan urrainn do fhuaim siubhal tro",
+          "Fànas falamh",
+          "Adhar",
+          "Uisge",
+          "Rèile meatailt"
+        ],
+        [
+          "Càite a ghluaiseas fuaim nas luaithe?",
+          "Ann an uisge",
+          "Ann am fànas falamh",
+          "Ann am falamh foirfe",
+          "Àite sam bith, a-chaoidh"
+        ]
+      ]
+    },
+    "light-space": {
+      "title": "Bidh solas a' dol thar fànais",
+      "sentence": "Faodaidh solas siubhal tro fhànas falamh.",
+      "how": "Tha solas na grèine a' ruighinn an Talamh thar fànais, far nach eil adhar cha mhòr.",
+      "extra": "Faodaidh boinnean uisge solas a lùbadh gu bogha-froise.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Tha solas na grèine a' ruighinn oirnn le bhith a' dol thar",
+          "Fànas falamh",
+          "Tiùb iarainn cruaidh a-mhàin",
+          "Do chnàmhan",
+          "Bogsa fiodha dùinte"
+        ],
+        [
+          "Dè a dh'fhaodas solas a lùbadh gu bogha-froise?",
+          "Boinnean uisge",
+          "Fosail thioram",
+          "Clòsaid dorcha gun solas",
+          "Ainm magnaid"
+        ]
+      ]
+    },
+    "friction": {
+      "title": "Bidh suathadh a' slaodadh shleamhnachaidhean",
+      "sentence": "Is e feachd a th' ann an suathadh a tha a' slaodadh rudan a tha a' suathadh no a' sleamhnachadh.",
+      "how": "Rolaichidh an aon chàr-dèideag nas fhaide air làr rèidh na air brat-ùrlair garbh.",
+      "extra": "Leigidh suathadh le do bhrògan greim a chumail air an talamh cuideachd.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Dè nì suathadh ri rudan a tha a' sleamhnachadh?",
+          "Bidh e gan slaodadh",
+          "Bidh e a' dubhadh às iom-tharraing",
+          "Bidh e gan tionndadh gu reultan",
+          "Bidh e a' toirt air falbh an dà phòla"
+        ],
+        [
+          "Rolaichidh càr-dèideag nas fhaide air",
+          "Làr rèidh",
+          "Brat-ùrlair garbh",
+          "Poll tiugh",
+          "Mil steigeach"
+        ]
+      ]
+    },
+    "lever": {
+      "title": "Bidh luamhan a' cuideachadh le togail",
+      "sentence": "Faodaidh luamhan do chuideachadh le luchd trom a thogail le putadh nas lugha.",
+      "how": "Leigidh bàr rag air àite-taice leat leabhar a thogail le nas lugha de phutadh.",
+      "extra": "Is e luamhan a th' ann an clàr suas-is-sìos.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Bidh luamhan a' do chuideachadh",
+          "Luchd trom a thogail le putadh nas lugha",
+          "Gach suathadh a stad gu bràth",
+          "Uisge a ghoil gun teas",
+          "Pòla magnaid a thoirt air falbh"
+        ],
+        [
+          "Is e seòrsa de seo a th' ann an clàr suas-is-sìos",
+          "Luamhan",
+          "Planaid",
+          "Fosail",
+          "Bitheag"
+        ]
+      ]
+    },
+    "inertia": {
+      "title": "Fuirichidh rud socair socair",
+      "sentence": "Fuirichidh rud socair socair gus an gluais feachd e.",
+      "how": "Cumaidh puc air deigh rèidh air adhart gus an atharraich suathadh no bualadh a ghluasad.",
+      "extra": "Is e seo aon de na riaghailtean gluasad a sgrìobh Newton.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Fuirichidh leabhar socair socair gus",
+          "An gluais feachd e",
+          "Gun co-dhùin e itealaich",
+          "Gun gairm an Moon air ainm",
+          "Gun fàs e na DNA"
+        ],
+        [
+          "Cò sgrìobh riaghailtean air mar a ghluaiseas feachdan rudan?",
+          "Isaac Newton",
+          "Wangari Maathai",
+          "Tu Youyou",
+          "Mary Anning"
+        ]
+      ]
+    },
+    "hot-air": {
+      "title": "Bidh adhar teth ag èirigh",
+      "sentence": "Bidh adhar teth ag èirigh os cionn adhair nas fhuaire.",
+      "how": "Èirichidh adhar blàth bho theasadair, agus tèarnaidh adhar nas fhuaire.",
+      "extra": "Sin as coireach gum faod seòmar a bhith a' faireachdainn nas blàithe shuas an staidhre.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Dè nì adhar teth?",
+          "Bidh e ag èirigh os cionn adhair nas fhuaire",
+          "Bidh e an-còmhnaidh a' dol fodha fo dheigh",
+          "Bidh e a' tionndadh gu creag",
+          "Caillidh e an dà phòla"
+        ],
+        [
+          "Carson a dh'fhaodas e a bhith nas blàithe shuas an staidhre?",
+          "Bidh adhar blàth ag èirigh",
+          "Bidh staidhrichean a' dèanamh ogsaidean",
+          "Bidh bratan-ùrlair a' goil",
+          "Bidh magnaidean a' teasachadh a' mhullaich"
+        ]
+      ]
+    },
+    "earth-sun": {
+      "title": "Tha an Talamh a' dol timcheall air a' Ghrian",
+      "sentence": "Tha an Talamh a' dol timcheall air a' Ghrian.",
+      "how": "Tha mar a ghluaiseas planaidean, agus dealbhan bhon fhànas, a' freagairt air slighe timcheall air a' Ghrian.",
+      "extra": "O chionn fhada rinn daoine deuchainn air seo an aghaidh a' bheachd gu robh a h-uile càil a' dol timcheall air an Talamh.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Dè tha an Talamh a' dol timcheall air?",
+          "A' Ghrian",
+          "An Moon a-mhàin",
+          "Muc-mhara",
+          "Magnaid"
+        ],
+        [
+          "Cò sgrìobh gu bheil an Talamh agus na planaidean a' dol timcheall air a' Ghrian?",
+          "Nicolaus Copernicus",
+          "Jane Goodall",
+          "Alice Ball",
+          "Percy Julian"
+        ]
+      ]
+    },
+    "year-trip": {
+      "title": "Is e aon chuairt a th' ann am bliadhna",
+      "sentence": "Is e aon chuairt den Talamh timcheall air a' Ghrian a th' ann am bliadhna.",
+      "how": "Bidh sinn a' tomhas mu 365 latha bho chomharra ràithe air ais chun an aon chomharra.",
+      "extra": "Bidh cuid de bhliadhnaichean mìosachain a' cur latha-leum ris gus an cunntas a chumail ceart.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Is e seo a th' ann am bliadhna",
+          "Aon chuairt den Talamh timcheall air a' Ghrian",
+          "Aon phriobadh",
+          "Aon làn",
+          "Aon snìomh de mhullach dèideig"
+        ],
+        [
+          "Mu cia mheud latha a tha ann an aon chuairt den Talamh timcheall air a' Ghrian?",
+          "365",
+          "8",
+          "12",
+          "2"
+        ]
+      ]
+    },
+    "day-spin": {
+      "title": "Is e snìomh a th' ann an latha",
+      "sentence": "Is e mu aon làn-snìomh den Talamh a th' ann an latha.",
+      "how": "Tha coltas air a' Ghrian gun tig i tarsainn air an speur aon uair gach turas a thionndas an Talamh.",
+      "extra": "Bidh àiteachan a' gabhail cuairt a' coimhead air a' Ghrian, agus tha sin a' dèanamh latha agus oidhche.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Tha latha mu",
+          "Aon làn-snìomh den Talamh",
+          "Aon chuairt timcheall air an reul-bhuidheann",
+          "Aon gheamhradh losgainn",
+          "Aon chnàimh"
+        ],
+        [
+          "Tha latha agus oidhche ann a chionn 's",
+          "Gu bheil an Talamh a' snìomh, agus mar sin bidh àiteachan a' gabhail cuairt a' coimhead air a' Ghrian",
+          "Gu bheil a' Ghrian a' dol às gach oidhche",
+          "Gu bheil an Moon a' còmhdach na Grèine gach oidhche",
+          "Gu bheil an Talamh a' stad"
+        ]
+      ]
+    },
+    "seasons": {
+      "title": "Carson a tha ràithean ann",
+      "sentence": "Tha ràithean ann a chionn 's gu bheil an Talamh claon fhad 's a tha e a' dol timcheall air a' Ghrian.",
+      "how": "Bidh an claonadh ag atharrachadh dè cho dìreach 's a bhuaileas solas na grèine air àite tron bhliadhna.",
+      "extra": "Chan ann a chionn 's gu bheil an Talamh a' tighinn mòran nas fhaisge air a' Ghrian a tha ràithean ann.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Dè a tha a' dèanamh nan ràithean?",
+          "Claonadh an Talamh",
+          "An Talamh a' tighinn mòran nas fhaisge air a' Ghrian",
+          "Magnaidean ann am brògan",
+          "Òrain mhucan-mara"
+        ],
+        [
+          "Dè an abairt a tha fìor?",
+          "Bidh claonadh an Talamh ag atharrachadh dè cho dìreach 's a bhuaileas solas na grèine oirnn",
+          "Tha samhradh ann a chionn 's gu bheil an Moon a' goil",
+          "Tha geamhradh a' ciallachadh gun do dh'fhàg an Talamh siostam na grèine",
+          "Is e seòrsa de mheatailt a th' ann an ràithean"
+        ]
+      ]
+    },
+    "earth-layers": {
+      "title": "Tha sreathan aig an Talamh",
+      "sentence": "Tha rùsg, mantal, agus cridhe aig an Talamh.",
+      "how": "Bidh tonnan crith-thalmhainn ag atharrachadh astair am broinn an Talamh, agus tha sin a' sealltainn nan sreathan.",
+      "extra": "Is e an rùsg an ìre tana a-muigh air a bheil sinn beò.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Dè an liosta a tha ag ainmeachadh sreathan an Talamh?",
+          "Rùsg, mantal, cridhe",
+          "Duilleag, freumh, seillean",
+          "Deigh, ola, òr",
+          "Tuath, deas, copar"
+        ],
+        [
+          "Ciamar a tha fios againn gu bheil sreathan aig an Talamh?",
+          "Bidh tonnan crith-thalmhainn ag atharrachadh astair na bhroinn",
+          "Chladhaich cuideigin chun a' mheadhain",
+          "Tomhas gun deuchainn",
+          "Shìl glainne sìos"
+        ]
+      ]
+    },
+    "fossils": {
+      "title": "Fosailean ann an creag",
+      "sentence": "Is e fuigheall no lorgan de nithean beò a tha air an cumail ann an creag a th' ann am fosailean.",
+      "how": "Bidh daoine a' lorg chnàmhan, shligean, agus lorgan-coise a thionndaidh gu clach ann an sreathan creige.",
+      "extra": "Is e fosailean aon dòigh air a bheil fios againn gun do dh'atharraich beatha.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Faodaidh fosail a bhith",
+          "Cnàimh no lorg-coise air a chumail ann an creag",
+          "Muc-mhara bheò",
+          "Neul uisge",
+          "Pòla magnaid"
+        ],
+        [
+          "Cò lorg seann bheathaichean-mara ainmeil ann an creagan ann an England?",
+          "Mary Anning",
+          "Katherine Johnson",
+          "Ada Lovelace",
+          "Chien-Shiung Wu"
+        ]
+      ]
+    },
+    "ocean-cover": {
+      "title": "Tha an cuan a' còmhdach a' mhòr-chuid",
+      "sentence": "Tha an cuan a' còmhdach a' mhòr-chuid den Talamh.",
+      "how": "Tha mapaichean agus dealbhan bhon fhànas a' sealltainn mòran a bharrachd uisge na talamh.",
+      "extra": "Is e cuan a th' ann am mu sheachd deicheamhan de uachdar an Talamh.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Dè a tha a' còmhdach a' mhòr-chuid den Talamh?",
+          "Cuan",
+          "Bailtean",
+          "Gainmheach fàsach a-mhàin",
+          "Deigh a-mhàin"
+        ],
+        [
+          "Mu dè an uiread de uachdar an Talamh a tha na chuan?",
+          "Seachd deicheamhan",
+          "Aon deicheamh",
+          "Chan eil gin",
+          "An Moon air fad"
+        ]
+      ]
+    },
+    "volcano": {
+      "title": "Bholcànothan",
+      "sentence": "Faodaidh bholcàno creag leaghte a leigeil a-mach às an Talamh.",
+      "how": "Tha daoine air làbha fhaicinn a' sruthadh a-mach agus an uair sin a' fuarachadh gu creag.",
+      "extra": "Chan e bholcàno a th' anns a h-uile beinn.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Dè a dh'fhaodas tighinn a-mach à bholcàno?",
+          "Creag leaghte",
+          "Clàr eileamaidean deiseil",
+          "Solas an Moon",
+          "Losgannan leaghaidh"
+        ],
+        [
+          "A bheil a h-uile beinn na bholcàno?",
+          "Chan eil",
+          "Seadh",
+          "Dìreach Dimàirt",
+          "Dìreach ma tha cnàmhan aice"
+        ]
+      ]
+    },
+    "quake": {
+      "title": "Crithean-talmhainn",
+      "sentence": "Tha crith-thalmhainn ann nuair a shleamhnaicheas creag fo ar casan.",
+      "how": "Bidh innealan a' clàradh na crith, agus tha sgoltaidhean san talamh a' sealltainn far an do ghluais creag.",
+      "extra": "Faodaidh a' chrith siubhal astar fada tro chreig.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Tòisichidh crith-thalmhainn nuair",
+          "A shleamhnaicheas creag fo ar casan",
+          "A bhios blasad salainn air neul",
+          "A dh'fhàsas sìol",
+          "A thig meirg air òr"
+        ],
+        [
+          "Dè a chlàras crith crith-thalmhainn?",
+          "Innealan",
+          "Bioran cactais",
+          "Bogha-froise",
+          "Latha-leum"
+        ]
+      ]
+    },
+    "soil": {
+      "title": "Dè th' ann an ùir",
+      "sentence": "Is e creag bhriste measgaichte le adhar, uisge, agus pìosan de nithean beò a th' ann an ùir.",
+      "how": "Tha lionsa-làimhe a' sealltainn gràinnean, freumhan, agus pìosan dorcha de sheann lusan.",
+      "extra": "Bidh cnuimhean agus nithean beò beaga bìodach a' cuideachadh le ùir a mheasgachadh.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Is e seo gu mòr a th' ann an ùir",
+          "Creag bhriste le adhar, uisge, agus pìosan de bheatha",
+          "Òr glan",
+          "Deigh a-mhàin",
+          "Plastaig a-mhàin"
+        ],
+        [
+          "Cò rinn sgrùdadh air bàrr a chuidicheas ùir sgìth?",
+          "George Washington Carver",
+          "Galileo Galilei",
+          "Isaac Newton",
+          "Ada Lovelace"
+        ]
+      ]
+    },
+    "tides": {
+      "title": "An Moon agus làin",
+      "sentence": "Tha tarraing an Moon a' cuideachadh le làin a' chuain a dhèanamh.",
+      "how": "Bidh amannan nan làn a' freagairt air far a bheil an Moon san speur, a-rithist agus a-rithist.",
+      "extra": "Tha pàirt aig tarraing na Grèine cuideachd.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Dè a chuidicheas le làin a dhèanamh?",
+          "Tarraing an Moon",
+          "Bualadh cridhe losgainn",
+          "Grafait peansaile",
+          "Aon seillean"
+        ],
+        [
+          "Bidh amannan nan làn a' freagairt air",
+          "An Moon",
+          "Dath òir",
+          "Meud do bhròige",
+          "Cactas"
+        ]
+      ]
+    },
+    "weather-climate": {
+      "title": "Aimsir agus gnàth-shìde",
+      "sentence": "Is e na nì an t-adhar an-diugh a th' ann an aimsir, agus is e am pàtran thar iomadh bliadhna a th' ann an gnàth-shìde.",
+      "how": "Is e aimsir a th' ann an aon latha fliuch. Tha clàran a chaidh a chumail airson bhliadhnaichean a' sealltainn na gnàth-shìde.",
+      "extra": "Chan eil latha fuar a' dubhadh às pàtran blàth fada.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Is e seo a th' ann an aimsir",
+          "Na nì an t-adhar an-diugh",
+          "Cumadh DNA",
+          "Pòla magnaid",
+          "Creag fhosailean"
+        ],
+        [
+          "Is e seo a th' ann an gnàth-shìde",
+          "Am pàtran thar iomadh bliadhna",
+          "Aon neul",
+          "Aon ghlumag",
+          "Biadh meadhan-latha an-diugh"
+        ]
+      ]
+    },
+    "sun-star": {
+      "title": "Is e rionnag a th' anns a' Ghrian",
+      "sentence": "Is e rionnag a th' anns a' Ghrian.",
+      "how": "Tha a solas agus na tha innte a' freagairt air reultan eile. Tha i dìreach mòran nas fhaisge.",
+      "extra": "Tha reultan eile a' coimhead beag a chionn 's gu bheil iad glè fhada air falbh.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Is e seo a th' anns a' Ghrian",
+          "Rionnag",
+          "Creag fhuar",
+          "Muc-mhara",
+          "Fosail"
+        ],
+        [
+          "Carson a tha reultan eile a' coimhead beag bìodach?",
+          "Tha iad glè fhada air falbh",
+          "Is e bitheagan a th' annta",
+          "Tha iad fon talamh",
+          "Chan eil solas aca idir"
+        ]
+      ]
+    },
+    "eight-planets": {
+      "title": "Ochd planaidean",
+      "sentence": "Tha ochd planaidean a' dol timcheall air a' Ghrian.",
+      "how": "Bidh teileasgopan a' leantainn ochd saoghal mòra air slighean soilleire timcheall air a' Ghrian.",
+      "extra": "Canar planaid-troich ri Pluto, chan e fear de na h-ochd.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cia mheud planaid a tha a' dol timcheall air a' Ghrian?",
+          "Ochd",
+          "Dhà",
+          "206",
+          "Aon mhillean"
+        ],
+        [
+          "Is e seo a th' ann am Pluto",
+          "Planaid-troich",
+          "Aon de na h-ochd planaidean",
+          "An cuan as motha",
+          "Seòrsa de chnàimh"
+        ]
+      ]
+    },
+    "moon-light": {
+      "title": "Tha an Moon a' frith-thilgeil",
+      "sentence": "Chan eil an Moon a' dèanamh a sholais fhèin. Tha e a' frith-thilgeil na Grèine.",
+      "how": "Tha am pàirt soilleir den Moon an-còmhnaidh a' coimhead air solas na Grèine.",
+      "extra": "Tha an taobh anns an dubhar a' coimhead dorcha.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Tha solas an Moon a' tighinn bho",
+          "A' Ghrian a' breabadh dheth",
+          "Teine am broinn an Moon",
+          "Lampaichean baile",
+          "Losgannan air an Moon"
+        ],
+        [
+          "Is e seo am pàirt dorcha den Moon",
+          "An taobh anns an dubhar",
+          "Toll gun chreig",
+          "Cuan de dh'inc",
+          "Magnaid"
+        ]
+      ]
+    },
+    "moon-phases": {
+      "title": "Ìrean an Moon",
+      "sentence": "Tha an Moon a' coimhead eadar-dhealaichte gach oidhche a chionn 's gu bheil sinn a' faicinn diofar uiread den taobh ghrianach aige.",
+      "how": "Tarraing an Moon airson mìos agus fàsaidh am pàirt soilleir agus crìonaidh e ann an òrdugh.",
+      "extra": "Bheir làn-chuairt de dh'ìrean mu aon mhìos.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Carson a tha cumadh an Moon a' coimhead mar gun atharraich e?",
+          "Tha sinn a' faicinn diofar uiread den taobh ghrianach aige",
+          "Bidh an Moon a' leaghadh gach oidhche",
+          "Bidh neòil ga ithe",
+          "Bidh e a' fàs chnàmhan"
+        ],
+        [
+          "Bheir làn-chuairt de dh'ìrean an Moon mu",
+          "Aon mhìos",
+          "Aon mhionaid",
+          "Ochd bliadhna",
+          "Aon diog"
+        ]
+      ]
+    },
+    "saturn-rings": {
+      "title": "Fàinneachan Saturn",
+      "sentence": "Tha fàinneachan Saturn dèanta gu mòr de phìosan deighe agus creige.",
+      "how": "Tha soithichean-fànais agus teileasgopan a' sealltainn sluagh mòr de phìosan a' cuairteachadh Saturn.",
+      "extra": "Tha na fàinneachan glè fharsaing, ach tha iad glè thana cuideachd.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Tha fàinneachan Saturn gu mòr dèanta de",
+          "Deigh agus creag",
+          "Duilleagan craoibhe",
+          "Cnàimh",
+          "Cuantan òir leaghaidh"
+        ],
+        [
+          "Tha na fàinneachan",
+          "Farsaing ach glè thana",
+          "Aon phlàta meatailt cruaidh",
+          "Rathad air an urrainn dhut coiseachd",
+          "Dèanta de mhucan-mara"
+        ]
+      ]
+    },
+    "milky-way": {
+      "title": "Slighe Chlann Uisnich",
+      "sentence": "Canar Slighe Chlann Uisnich ris an reul-bhuidheann againn.",
+      "how": "Tha sinn beò na broinn, agus air oidhche dhorcha faodaidh na reultan aige a bhith coltach ri bann bàn.",
+      "extra": "Is e teaghlach mòr de rionnagan a th' ann an reul-bhuidheann.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Dè an t-ainm a tha air an reul-bhuidheann againn?",
+          "Slighe Chlann Uisnich",
+          "An Cuan Ruadh",
+          "Clàr nan Eileamaid",
+          "An Rùsg"
+        ],
+        [
+          "Is e seo a th' ann an reul-bhuidheann",
+          "Teaghlach mòr de rionnagan",
+          "Aon losgann",
+          "Seòrsa de shalann",
+          "Luamhan"
+        ]
+      ]
+    },
+    "rockets": {
+      "title": "Bidh rocaidean a' putadh gas",
+      "sentence": "Bidh rocaid a' gluasad air adhart le bhith a' putadh gas air ais.",
+      "how": "Leig balùn às agus ruithidh an t-adhar a-mach aon rathad fhad 's a leumas am balùn an rathad eile.",
+      "extra": "Bidh an aon seòrsa putaidh a' cur rocaidean fìor suas.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Bidh rocaid a' dol air adhart le",
+          "A' putadh gas air ais",
+          "A' tarraing nan reultan le ròpa",
+          "A' leigeil gainmhich suas",
+          "A' cur iom-tharraing dheth"
+        ],
+        [
+          "Leumaidh balùn a thèid a leigeil às a chionn 's",
+          "Gu bheil adhar a' ruith a-mach an rathad eile",
+          "Gu bheil e a' fàs na dheigh",
+          "Gu bheil an Moon a' tarraing an snaidhm",
+          "Gu bheil suathadh a' falbh gu bràth"
+        ]
+      ]
+    },
+    "orbit-float": {
+      "title": "A' fleòdradh ann an cuairt",
+      "sentence": "Bidh daoine ann an cuairt a' fleòdradh a chionn 's gu bheil iad a' tuiteam timcheall air an Talamh, chan ann a chionn 's gu bheil iom-tharraing air falbh.",
+      "how": "Bidh an soitheach agus na daoine a' tuiteam còmhla, agus mar sin tha iad a' faireachdainn gun chuideam a-staigh.",
+      "extra": "Tha iom-tharraing fhathast a' tarraing. Tha i a' lùbadh an t-slighe timcheall air an Talamh.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Carson a bhios daoine ann an cuairt a' fleòdradh?",
+          "Tha iad a' tuiteam timcheall air an Talamh",
+          "Tha iom-tharraing air falbh às an fhànas",
+          "Tha an soitheach a' toirt air falbh gach tomad",
+          "Is e balùnaichean a th' annta"
+        ],
+        [
+          "A bheil iom-tharraing air falbh ann an cuairt?",
+          "Chan eil",
+          "Seadh",
+          "Dìreach Dimàirt",
+          "Dìreach airson lusan"
+        ]
+      ]
+    },
+    "telescope": {
+      "title": "Bidh teileasgopan a' cruinneachadh solais",
+      "sentence": "Bidh teileasgop a' cruinneachadh solais gus am bi rudan fann a' coimhead nas soilleire.",
+      "how": "Bidh lionsa mòr no sgàthan a' cruinneachadh barrachd solais na do shùil leatha fhèin.",
+      "extra": "Chleachd Galileo teileasgop gus an speur a sgrùdadh.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Tha teileasgop a' gar cuideachadh le rudan fann fhaicinn a chionn 's",
+          "Gu bheil e a' cruinneachadh barrachd solais",
+          "Gu bheil e a' dèanamh fuaim nas àirde",
+          "Gu bheil e a' leaghadh gainmhich",
+          "Gu bheil e a' cunntadh chnàmhan"
+        ],
+        [
+          "Cò chleachd teileasgop agus a chunnaic gealaichean timcheall air Jupiter?",
+          "Galileo Galilei",
+          "George Washington Carver",
+          "Tu Youyou",
+          "Barbara McClintock"
+        ]
+      ]
+    },
+    "universe-stretch": {
+      "title": "Faodaidh am fànas a bhith a' sìneadh",
+      "sentence": "Tha mòran reul-bhuidhnean fad às a' coimhead nas deirge, agus tha teòiridh ag ràdh gu bheil am fànas fhèin a' sìneadh.",
+      "how": "Tha an deargadh sin a' freagairt air an astar airson àireamh mhòr de reul-bhuidhnean.",
+      "extra": "Is e teòiridh a tha seo a chumas saidheansairean a' deuchainn, chan e tomhas fiadhaich.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Tha teòiridh mu reul-bhuidhnean fad às ag ràdh",
+          "Gu bheil am fànas a' sìneadh",
+          "Gur e planaidean a th' ann an losgannan",
+          "Gur e leaghan slaodach a th' ann an glainne",
+          "Gu bheil fuaim a' dol thar fànais fhalaimh"
+        ],
+        [
+          "Is e seo sealladh nas deirge nan reul-bhuidhnean fad às",
+          "Fianais a chumas saidheansairean a' deuchainn",
+          "Tomhas nach urrainn do dhuine deuchainn a dhèanamh air",
+          "Dearbhadh gu bheil aon phòla aig magnaidean",
+          "Làn"
+        ]
+      ]
+    },
+    "life-beyond": {
+      "title": "Beatha taobh a-muigh an Talamh",
+      "sentence": "Is e tomhas a th' anns a' bheachd gu bheil nithean beò taobh a-muigh an Talamh gus an seall deuchainn iad.",
+      "how": "Tha soithichean-fànais air cuid de dh'àiteachan a sgrùdadh, leithid Mars, agus cha do lorg iad beatha an sin fhathast.",
+      "extra": "Chan fhaod tomhas a bhith na fhìrinn ach às dèidh do dheuchainn a shealltainn.",
+      "unsure": "",
+      "quiz": [
+        [
+          "A bheil sinn air nithean beò a lorg taobh a-muigh an Talamh?",
+          "Chan eil fhathast",
+          "Seadh, baile air a' Ghrian",
+          "Seadh, mucan-mara air an Moon",
+          "Seadh, coilltean air fàinneachan Saturn"
+        ],
+        [
+          "Is e seo a th' anns a' bheachd air beatha taobh a-muigh an Talamh",
+          "Tomhas gus an seall deuchainn e",
+          "Fìrinn thomhais mu thràth",
+          "An aon rud ri H2O",
+          "Aon de riaghailtean gluasad Newton"
+        ]
+      ]
+    },
+    "heart": {
+      "title": "Bidh do chridhe a' cur fuil mun cuairt",
+      "sentence": "Bidh do chridhe a' cur fuil mun cuairt air do chorp.",
+      "how": "Faodaidh tu am bualadh a mhothachadh mar chuisle, agus faodaidh sganaidhean an cridhe fhaicinn a' teannachadh.",
+      "extra": "Fàsaidh am bualadh nas luaithe às do dhèidh ruith.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Dè nì do chridhe?",
+          "Bidh e a' cur fuil mun cuairt",
+          "Bidh e a' dèanamh solas na grèine",
+          "Bidh e a' stòradh chreagan",
+          "Is e magnaid-bhàr a th' ann"
+        ],
+        [
+          "Cuin a bhios do chridhe a' bualadh nas luaithe mar as àbhaist?",
+          "Às do dhèidh ruith",
+          "Nuair a tha thu nad fhosail",
+          "Nuair a tha thu dèanta de ghlainne",
+          "Cha bhi gu bràth"
+        ]
+      ]
+    },
+    "lungs": {
+      "title": "Sgamhanan agus ogsaidean",
+      "sentence": "Bidh do sgamhanan a' gabhail a-steach adhair gus an giùlain do chuid fala ogsaidean.",
+      "how": "Tha deuchainnean a' sealltainn gu bheil fuil a' togail ogsaidean anns na sgamhanan.",
+      "extra": "Bidh thu a' cur a-mach dà-ogsaid gualain.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Bidh sgamhanan a' cuideachadh do chuid fala le bhith a' togail",
+          "Ogsaidean",
+          "Gainmheach",
+          "Meirg iarainn",
+          "Poilean a-mhàin"
+        ],
+        [
+          "Bidh thu a' cur a-mach",
+          "Dà-ogsaid gualain",
+          "Òr leaghaidh",
+          "Creagan an Moon",
+          "Magnaidean"
+        ]
+      ]
+    },
+    "bones": {
+      "title": "206 cnàmhan",
+      "sentence": "Tha 206 cnàmhan ann an cnàimhneach inbheach.",
+      "how": "Bidh dotairean gan cunntadh air dealbhan cùramach agus air cnàimhnichean ann an labaichean.",
+      "extra": "Tha barrachd chnàmhan aig leanaban, agus bidh cuid a' tighinn còmhla an dèidh sin.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cia mheud cnàimh a tha ann an cnàimhneach inbheach?",
+          "206",
+          "8",
+          "2",
+          "3"
+        ],
+        [
+          "Aig leanaban tha",
+          "Barrachd chnàmhan a dh'fhaodas tighinn còmhla an dèidh sin",
+          "Gun chnàimh idir",
+          "Clàigeann glainne a-mhàin",
+          "Cnàmhan dèanta de mhil"
+        ]
+      ]
+    },
+    "muscles": {
+      "title": "Bidh fèithean a' tarraing",
+      "sentence": "Bidh fèithean a' tarraing air cnàmhan. Chan eil iad a' putadh.",
+      "how": "Nuair a chromas do ghàirdean, fàsaidh fèith nas giorra agus tarraingidh i.",
+      "extra": "Bidh fèith eile a' tarraing an rathad eile gus an gàirdean a dhìreachadh.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Bidh fèithean a' gluasad chnàmhan le",
+          "Tarraing",
+          "Gan putadh mar phòla",
+          "Gan leaghadh",
+          "Gan reothadh"
+        ],
+        [
+          "Gus do ghàirdean a dhìreachadh",
+          "Bidh fèith eile a' tarraing an rathad eile",
+          "Bidh an aon fheith a' putadh",
+          "Thèid an cnàimh air fleòd",
+          "Falbhaidh iom-tharraing"
+        ]
+      ]
+    },
+    "germs": {
+      "title": "Bitheagan agus làmhan",
+      "sentence": "Faodaidh cuid de bhitheagan tinneas adhbhrachadh, agus tha nighe làmhan le siabann a' cuideachadh gus an sgaoileadh a stad.",
+      "how": "Tha deuchainnean a' sealltainn gu bheil siabann agus uisge a' togail bhitheagan far a' chraicinn.",
+      "extra": "Tha siabann agus uisge ag obair nas fheàrr na sruthladh luath le uisge a-mhàin.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Dè a chuidicheas gus stad a chur air bitheagan a' sgaoileadh air làmhan?",
+          "Nighe le siabann agus uisge",
+          "A' suathadh gainmhich a-mhàin",
+          "A' leum thairis air siabann gu bràth",
+          "A' falach làmhan ann am fosail"
+        ],
+        [
+          "Dè an abairt a tha fìor?",
+          "Faodaidh cuid de bhitheagan tinneas adhbhrachadh",
+          "Is e creagan a th' anns a h-uile bitheag",
+          "Is e planaidean a th' ann am bitheagan",
+          "Is e planaid a th' ann an siabann"
+        ]
+      ]
+    },
+    "senses": {
+      "title": "Còig mothachaidhean",
+      "sentence": "Faodaidh tu faicinn, cluinntinn, fàileadh, blasad, agus suathadh.",
+      "how": "Tha pàirtean bodhaig fhèin aig gach mothachadh, leithid sùilean, cluasan, sròn, teanga, agus craiceann.",
+      "extra": "Tha thu cuideachd a' mothachadh cothromachaidh agus teas.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Dè an liosta a tha ag ainmeachadh còig mothachaidhean?",
+          "Faicinn, cluinntinn, fàileadh, blasad, suathadh",
+          "Tuath, deas, ear, iar, suas",
+          "Cruaidh, leaghan, gas, meirg, òr",
+          "Rùsg, mantal, cridhe, làn, bliadhna"
+        ],
+        [
+          "A bharrachd air na còig sin, faodaidh tu cuideachd mothachadh",
+          "Cothromachadh agus teas",
+          "Prògraman rèidio le do ghlùinean",
+          "Fuaim ann am fànas falamh",
+          "Magnaid anns gach corrag"
+        ]
+      ]
+    },
+    "enamel": {
+      "title": "Còta cruaidh fiacaill",
+      "sentence": "Tha còta cruaidh air fiaclan ris an canar cruan.",
+      "how": "Tha fiaclairean a' faicinn cruan mar an còmhdach cruaidh, agus tha e nas cruaidhe na taobh a-staigh na fiacaill.",
+      "extra": "Faodaidh greimeanan milis agus a bhith a' leum thairis air a' bhruis an còta sin a ghoirteachadh.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Canar seo ris a' chòta chruaidh air fiacail",
+          "Cruan",
+          "Duilleag",
+          "Fàinne de Saturn",
+          "Meirg"
+        ],
+        [
+          "Tha cruan",
+          "Nas cruaidhe na taobh a-staigh na fiacaill",
+          "Meatailt leaghaidh",
+          "Seòrsa de neul",
+          "Gealach"
+        ]
+      ]
+    },
+    "brain": {
+      "title": "D' eanchainn",
+      "sentence": "Bidh d' eanchainn a' do chuideachadh le smaoineachadh, faireachdainn, agus gluasad.",
+      "how": "Tha sganaidhean a' sealltainn pàirtean den eanchainn ag obair nuair a choimheadas tu, a bhruidhneas tu, no a ghluaiseas tu.",
+      "extra": "Bidh tu a' cleachdadh mòran phàirtean de d' eanchainn gach latha.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Bidh d' eanchainn a' do chuideachadh le",
+          "Smaoineachadh, faireachdainn, agus gluasad",
+          "Meirg mar iarann",
+          "Cuairteachadh mar phlanaid",
+          "Fleòdradh mar ola"
+        ],
+        [
+          "Dè an abairt a tha fìor?",
+          "Bidh tu a' cleachdadh mòran phàirtean de d' eanchainn gach latha",
+          "Cha chleachd daoine ach spot beag bìodach agus tha an còrr dheth",
+          "Is e cnàimh anns a' chois a th' anns an eanchainn",
+          "Tha an eanchainn dèanta de ghlainne uinneig"
+        ]
+      ]
+    },
+    "skin": {
+      "title": "Is e craiceann as motha",
+      "sentence": "Is e craiceann am ball-bodhaig as motha agad.",
+      "how": "Nuair a tha e sgaoilte, tha craiceann inbheach a' còmhdach barrachd farsaingeachd na ball-bodhaig sam bith eile.",
+      "extra": "Tha craiceann a' cuideachadh le uisge a chumail a-staigh agus bitheagan a-muigh.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Is e seo am ball-bodhaig as motha agad",
+          "Craiceann",
+          "Aon fhiacail",
+          "Aon fhalt",
+          "Aon fhabhra"
+        ],
+        [
+          "Tha craiceann a' cuideachadh le",
+          "Uisge a chumail a-staigh agus bitheagan a-muigh",
+          "Fuil a chur mun cuairt mar dhàrna cridhe",
+          "Fàinneachan a dhèanamh timcheall air Saturn",
+          "Uisge a ghoil"
+        ]
+      ]
+    },
+    "sleep": {
+      "title": "Tha cadal a' cuideachadh",
+      "sentence": "Tha cadal a' do chuideachadh le cuimhneachadh agus a' toirt ùine don bhodhaig agad fàs.",
+      "how": "Bidh sgrùdaidhean a' dèanamh coimeas eadar daoine às dèidh oidhche slàn de chadal agus às dèidh ro bheag de chadal.",
+      "extra": "Tha barrachd cadail a dhìth air clann na air inbhich.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Tha cadal a' do chuideachadh le",
+          "Cuimhneachadh agus fàs",
+          "Tionndadh gu magnaid",
+          "Do chnàmhan uile a chall",
+          "Stad a chur air feum air adhar"
+        ],
+        [
+          "Cò air a tha barrachd cadail a dhìth?",
+          "Clann",
+          "Creagan",
+          "Fosailean",
+          "Buinn òir"
+        ]
+      ]
+    },
+    "stomach": {
+      "title": "Searbhag stamag",
+      "sentence": "Bidh do stamag a' dèanamh searbhag làidir a chuidicheas le biadh a bhriseadh sìos.",
+      "how": "Faodaidh dotairean an t-searbhag sin a thomhas, agus bidh biadh ag atharrachadh às dèidh dha suidhe anns an stamag.",
+      "extra": "Tha lìonadh aig an stamag a sheasas ris an t-searbhag aige fhèin.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Bidh an stamag a' dèanamh",
+          "Searbhag a chuidicheas le biadh a bhriseadh sìos",
+          "Solas na grèine",
+          "Fàinneachan deighe",
+          "Pòla a tuath"
+        ],
+        [
+          "Carson a sheasas an stamag ris an t-searbhag aige fhèin?",
+          "Tha lìonadh cruaidh aige",
+          "Tha e dèanta de dhaoimean a-mhàin",
+          "Chan eil searbhag aige",
+          "Is e fànas falamh a th' ann"
+        ]
+      ]
+    },
+    "helpful-germs": {
+      "title": "Tha cuid de bhitheagan a' cuideachadh",
+      "sentence": "Tha cuid de bhitheagan a' dèanamh feum dhuinn, mar an fheadhainn a tha a' tionndadh bainne gu iogart.",
+      "how": "Bidh daoine a' fàs nan bitheagan sin a dh'aona ghnothach, agus tiughaichidh am bainne gu iogart.",
+      "extra": "Tha mòran bhitheagan cuideachail a' fuireach ann an ùir cuideachd.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Tha iogart a' faighinn cuideachadh bho",
+          "Bitheagan cuideachail",
+          "Airgead-beò leaghaidh",
+          "Teileasgop",
+          "Crith-thalmhainn"
+        ],
+        [
+          "A bheil a h-uile bitheag cronail?",
+          "Chan eil",
+          "Seadh",
+          "Chan eil ach bitheagan san fhànas fìor",
+          "Chan eil bitheagan fìor"
+        ]
+      ]
+    },
+    "mercury": {
+      "title": "Meatailt leaghaidh",
+      "sentence": "Faodaidh meatailt a bhith na leaghan aig teòthachd an t-seòmair, agus is e airgead-beò an meatailt sin.",
+      "how": "Ann an tiùb laba seulaichte, tha airgead-beò na shuidhe mar leaghan deàrrsach ann an seòmar blàth àbhaisteach.",
+      "extra": "Tha airgead-beò puinnseanta. Tha e ri choimhead, chan ann ri suathadh.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Dè am meatailt a tha na leaghan aig teòthachd an t-seòmair?",
+          "Airgead-beò",
+          "Iarann",
+          "Fiodh",
+          "Deigh"
+        ],
+        [
+          "Dè bu chòir dhut a dhèanamh le airgead-beò?",
+          "Fàg e seulaichte agus na bean ris",
+          "Òl e",
+          "Cuir air do chraiceann e",
+          "Caraich a-steach ann am biadh e"
+        ]
+      ]
+    },
+    "wood-frog": {
+      "title": "Faodaidh losgann reothadh",
+      "sentence": "Faodaidh cuid de losgannan-coille reothadh sa gheamhradh, an uair sin leaghadh agus leum.",
+      "how": "Tha saidheansairean air na losgannan seo fhaicinn a' reothadh agus a' tòiseachadh air gluasad a-rithist an dèidh sin.",
+      "extra": "Bidh na cuirp aca a' dèanamh leaghan siùcair a chuidicheas le na ceallan aca a dhìon.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Dè a dh'fhaodas cuid de losgannan-coille a dhèanamh?",
+          "Reothadh agus leum a-rithist an dèidh sin",
+          "Tionndadh gu meatailt",
+          "Itealaich gu Saturn",
+          "Stad a bhith nam beathaichean"
+        ],
+        [
+          "Dè a chuidicheas le ceallan losgainn-coille a dhìon?",
+          "Leaghan siùcair",
+          "Magnaid-bhàr",
+          "Làbha teth",
+          "Gainmheach thioram a-mhàin"
+        ]
+      ]
+    },
+    "octopus-hearts": {
+      "title": "Trì cridheachan",
+      "sentence": "Tha trì cridheachan aig ochd-chasach.",
+      "how": "Tha sgrùdaidhean air ochd-chasaich a' sealltainn dà chridhe ri taobh nan giùran agus aon airson a' chòrr den bhodhaig.",
+      "extra": "Nuair a shnàmhas ochd-chasach, faodaidh a' phrìomh chridhe stad greis.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Cia mheud cridhe a tha aig ochd-chasach?",
+          "Trì",
+          "Aon",
+          "Ochd",
+          "206"
+        ],
+        [
+          "Tha dà chridhe aig ochd-chasach a' frithealadh",
+          "Na giùrain",
+          "Fàinneachan Saturn",
+          "Dèanamh glainne",
+          "Pòlaichean tuath agus deas"
+        ]
+      ]
+    },
+    "banana-berry": {
+      "title": "Is e dearc a th' ann am banana",
+      "sentence": "Is e dearc a th' ann am banana, agus chan e dearc a th' ann an sùbh-làir.",
+      "how": "Bidh saidheansairean lusan a' seòrsachadh mheasan a rèir mar a dh'fhàsas pàirtean an fhlùir, chan ann a rèir ainm a' bhùtha.",
+      "extra": "Is dearcan a th' ann an tomàtothan cuideachd.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Dè aon a tha na dhearc ann an saidheans?",
+          "Banana",
+          "Sùbh-làir",
+          "Còn-giuthais",
+          "Buntàta"
+        ],
+        [
+          "Bidh saidheansairean a' seòrsachadh mheasan a rèir",
+          "Mar a dh'fhàsas pàirtean an fhlùir",
+          "Dath a' phoca",
+          "Dè cho àrd 's a tha iad",
+          "Dè cho magnaideach 's a tha iad"
+        ]
+      ]
+    },
+    "butterfly-feet": {
+      "title": "Blasad le casan",
+      "sentence": "Bidh dealanan-dè a' blasad leis na casan aca.",
+      "how": "Bidh mothachairean air na casan aca a' lorg sùgh lus milis, agus an uair sin fosglaidh an teanga.",
+      "extra": "Is e tiùb òil fada a th' anns an teanga.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Bidh dealanan-dè a' blasad leis na",
+          "Casan",
+          "Cluasan",
+          "Sgàilean",
+          "Uilnean a-mhàin"
+        ],
+        [
+          "Is e seo teanga dealain-dè",
+          "Tiùb fada",
+          "Magnaid",
+          "Cnàimh",
+          "Fàinne deighe"
+        ]
+      ]
+    },
+    "wombat-cubes": {
+      "title": "Buinn chiùbach",
+      "sentence": "Tha buinn wombat ann an cumadh ciùb.",
+      "how": "Tha daoine air an tomhas, agus tha sgrùdaidhean air a' chaolan a' sealltainn mar a tha na ciùban a' fàs.",
+      "extra": "Chan eil ciùban a' roiligeadh air falbh cho furasta ri badagan cruinn.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Dè an cumadh a tha air buinn wombat?",
+          "Ciùban",
+          "Bàlaichean foirfe",
+          "Claidheamhan fada",
+          "Fàinneachan"
+        ],
+        [
+          "Tha buinn ann an cumadh ciùb",
+          "Cha bhi iad a' roiligeadh air falbh cho furasta",
+          "A' tionndadh gu òr",
+          "Nan magnaidean",
+          "Nan reultan"
+        ]
+      ]
+    },
+    "sharks-trees": {
+      "title": "Cearbain ro chraobhan",
+      "sentence": "Bha cearbain a' snàmh mus do dh'fhàs a' chiad chraobhan.",
+      "how": "Tha fosailean cearbain ann an seann chreig fo na ciad fhosailean chraobhan.",
+      "extra": "",
+      "unsure": "Chan eil sinn cinnteach mu na bliadhnaichean ceart.",
+      "quiz": [
+        [
+          "Dè thàinig an toiseach?",
+          "Cearbain a' snàmh, an uair sin craobhan",
+          "Craobhan, an uair sin a' chiad chearbain mòran nas anmoiche",
+          "Daoine, an uair sin cearbain",
+          "Glainne, an uair sin cearbain"
+        ],
+        [
+          "A bheil sinn cinnteach mu na bliadhnaichean ceart airson cearbain agus craobhan?",
+          "Chan eil. Chan eil sinn cinnteach.",
+          "Seadh, chun na mionaid",
+          "Seadh, b' e Dimàirt sa chaidh",
+          "Bidh sinn a' dèanamh nan cinn-latha"
+        ]
+      ]
+    },
+    "eiffel-heat": {
+      "title": "Bidh tùr a' fàs",
+      "sentence": "Tha Tùr Eiffel na sheasamh beagan nas àirde air latha teth.",
+      "how": "Bidh iarann a' leudachadh nuair a theasas e, agus tha tomhais an tùir a' sealltainn àrdachadh beag.",
+      "extra": "Is e sìneadh beag a th' anns an atharrachadh, chan e làr a bharrachd slàn.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Air latha teth, tha Tùr Eiffel",
+          "Na sheasamh beagan nas àirde",
+          "A' tionndadh gu deigh",
+          "Ag itealaich air falbh",
+          "A' call a h-uile iarann"
+        ],
+        [
+          "Carson a dh'fhaodas an tùr fàs beagan?",
+          "Bidh iarann a' leudachadh nuair a theasas e",
+          "Bidh losgannan ga phutadh suas",
+          "Bidh an Moon a' tarraing a' mhullaich dheth",
+          "Bidh fuaim a' càrnadh air a' bhàrr"
+        ]
+      ]
+    },
+    "lizard-tail": {
+      "title": "Earball ùr",
+      "sentence": "Faodaidh cuid de laghairtean earball a leigeil às agus fear ùr fhàs.",
+      "how": "Faodaidh an t-earball tighinn dheth aig àite sònraichte, agus faodaidh fear ùr fàs.",
+      "extra": "Chan eil an t-earball ùr dìreach mar an seann fhear.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Dè a dh'fhaodas cuid de laghairtean a dhèanamh?",
+          "Earball a leigeil às agus fear ùr fhàs",
+          "Tionndadh gu eòin sa mhionaid",
+          "Fàs nan airgead-beò",
+          "Ceann glainne fhàs"
+        ],
+        [
+          "Tha an t-earball ùr",
+          "Chan eil e dìreach mar an seann fhear",
+          "Teileasgop",
+          "Dèanta de dhaoimean a-mhàin",
+          "Planaid"
+        ]
+      ]
+    },
+    "venus-day": {
+      "title": "Latha fada air Venus",
+      "sentence": "Bheir aon làn-snìomh de Venus nas fhaide na a chuairt timcheall air a' Ghrian.",
+      "how": "Bidh radair a' tomhas an t-snìomh slaodach, agus tha ùine na cuairt nas giorra.",
+      "extra": "Bidh Venus cuideachd a' snìomh air ais an coimeas ris an Talamh.",
+      "unsure": "",
+      "quiz": [
+        [
+          "Dè a mhaireas nas fhaide air Venus?",
+          "Aon làn-snìomh",
+          "A chuairt timcheall air a' Ghrian",
+          "Priobadh duine",
+          "Leum losgainn"
+        ],
+        [
+          "Ciamar a thomhaiseas sinn snìomh slaodach Venus?",
+          "Le radair",
+          "Le bhith a' blasad an adhair",
+          "Le magnaid air losgann",
+          "Le bhith a' cunntadh chnàmhan mucan-mara"
+        ]
+      ]
+    }
+  },
+  "people": {
+    "darwin": {
+      "when": "Rugadh e ann an 1809. Thàinig an leabhar mòr aige a-mach ann an 1859.",
+      "lines": [
+        "Rinn Charles Darwin coimeas eadar beathaichean, lusan, agus fosailean airson iomadh bliadhna.",
+        "Ann an 1859 dh'fhoillsich e teòiridh. Ma tha rud beò a' freagairt air an dachaigh aige, bidh barrachd òigridh aige. Thar ùine glè fhada, bidh buidhnean ag atharrachadh.",
+        "Tha fosailean mar aon dòigh air an teòiridh sin a dheuchainn."
+      ],
+      "extra": "Chuir e seachad bliadhnaichean aig an taigh ag ionnsachadh mu bhàrnacalan, aonan às dèidh aonain.",
+      "unsure": "",
+      "sceneAlt": "Mullach coille-uisge san Amazon",
+      "quiz": [
+        "Cò dh'fhoillsich teòiridh ann an 1859 mu nithean beò ag atharrachadh thar ùine fhada?",
+        "Charles Darwin",
+        "Isaac Newton",
+        "Marie Curie",
+        "Mae Jemison"
+      ]
+    },
+    "goodall": {
+      "when": "Thòisich i air notaichean nan simpansaidh ann an 1960.",
+      "lines": [
+        "Bha Jane Goodall a' coimhead air simpansaidhean fiadhaich agus a' sgrìobhadh sìos na rinn iad.",
+        "Ann an 1960 chunnaic i simpansaidh a' cleachdadh bata gus biastagan a tharraing à tom.",
+        "Sheall an clàr sin gum faod simpansaidhean innealan a dhèanamh agus a chleachdadh."
+      ],
+      "extra": "Anns na notaichean aice, b' e David Greybeard an t-ainm a bh' air an t-simpansaidh a chleachd an t-inneal.",
+      "unsure": "",
+      "sceneAlt": "Simpansaidh ann an coille",
+      "quiz": [
+        "Cò chunnaic simpansaidh fiadhaich a' cleachdadh bata mar inneal?",
+        "Jane Goodall",
+        "Michael Faraday",
+        "Nicolaus Copernicus",
+        "Percy Julian"
+      ]
+    },
+    "carver": {
+      "when": "Rinn e an obair bhàrr seo tràth anns na 1900an.",
+      "lines": [
+        "Rinn George Washington Carver sgrùdadh air bàrr agus air ùir sgìth.",
+        "Sheall e do thuathanaich gum b' urrainn do chnòthan-talmhainn agus do bhuntàta milis achaidhean a leigeil fois a bha air cotan fhàs ro fhada.",
+        "Lorg e cuideachd dòighean ùra air na lusan sin a chleachdadh gus nach rachadh uiread a chall."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Mullach coille-uisge san Amazon",
+      "quiz": [
+        "Cò chleachd cnòthan-talmhainn agus buntàta milis gus ùir sgìth a chuideachadh?",
+        "George Washington Carver",
+        "Galileo Galilei",
+        "Ada Lovelace",
+        "Chien-Shiung Wu"
+      ]
+    },
+    "mcclintock": {
+      "when": "Rinn i sgrùdadh air arbhar airson iomadh bliadhna, agus cho-roinn i beachd nan gine leumach anns na 1950an.",
+      "lines": [
+        "Rinn Barbara McClintock sgrùdadh air dathan gràinnean arbhair.",
+        "Thuig i gum faod pìosan de DNA leum gu àite ùr.",
+        "Sheall deuchainnean an dèidh sin ann an nithean beò eile gu robh i ceart."
+      ],
+      "extra": "Dh'ionnsaich i e le bhith a' coimhead gu dlùth, ràith às dèidh ràithe.",
+      "unsure": "",
+      "sceneAlt": "Mullach coille-uisge san Amazon",
+      "quiz": [
+        "Cò lorg gum faod pìosan de DNA leum?",
+        "Barbara McClintock",
+        "Isaac Newton",
+        "Mary Anning",
+        "Subrahmanyan Chandrasekhar"
+      ]
+    },
+    "just": {
+      "when": "Rinn e an obair cheallan as ainmeile aige tràth anns na 1900an.",
+      "lines": [
+        "Rinn Ernest Everett Just sgrùdadh air ceallan bheathaichean-mara.",
+        "Sheall e gu bheil an taobh a-muigh de chealla a' cuideachadh le smachd a chumail air na nì an cealla.",
+        "Rinn e an obair chùramach sin aig a' chladach agus anns an laba."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Ochd-chasach cumanta",
+      "quiz": [
+        "Cò sheall gu bheil taobh a-muigh cealla a' cuideachadh le smachd a chumail air an cealla?",
+        "Ernest Everett Just",
+        "Dmitri Mendeleev",
+        "Nicolaus Copernicus",
+        "Michael Faraday"
+      ]
+    },
+    "maathai": {
+      "when": "Rinn i sgrùdadh air nithean beò, agus dh'fhàs an obair cur-chraobhan bho na 1970an air adhart.",
+      "lines": [
+        "B' e bith-eòlaiche a bh' ann am Wangari Maathai a rinn sgrùdadh air mar a tha craobhan, ùir, agus daoine a' freagairt ri chèile.",
+        "Stiùir i gluasad a chuir milleanan de chraobhan.",
+        "Bidh craobhan a' cumail ùir agus a' cuideachadh an adhair."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Mullach coille-uisge san Amazon",
+      "quiz": [
+        "Cò stiùir daoine gus milleanan de chraobhan a chur?",
+        "Wangari Maathai",
+        "Isaac Newton",
+        "Galileo Galilei",
+        "Percy Julian"
+      ]
+    },
+    "curie": {
+      "when": "Rugadh i ann an 1867. Lorg i polonium agus raidiam ann an 1898.",
+      "lines": [
+        "Rinn Marie Curie sgrùdadh air ghathan a bhios cuid de dh'ataman a' leigeil a-mach.",
+        "Thug i rèidio-ghnìomhachd air a' ghnìomh sin.",
+        "Lorg i dà eileamaid, polonium agus raidiam."
+      ],
+      "extra": "Thug i polonium air, às dèidh na Pòlainn, an tìr far an do rugadh i.",
+      "unsure": "",
+      "sceneAlt": "Togalach saidheans oilthigh",
+      "quiz": [
+        "Cò lorg na h-eileamaidean polonium agus raidiam?",
+        "Marie Curie",
+        "Jane Goodall",
+        "Mae Jemison",
+        "Mary Anning"
+      ]
+    },
+    "franklin": {
+      "when": "Chaidh an dealbh DNA cudromach aice a dhèanamh ann an 1952.",
+      "lines": [
+        "Thog Rosalind Franklin dealbhan X-ghath cùramach de DNA.",
+        "Ann an 1952 thug aon dealbh sealladh soilleir gu bheil DNA na chumadh toinnte.",
+        "Chleachd saidheansairean eile an dealbh aice nuair a thog iad modail de DNA."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Microsgop air bòrd soilleir",
+      "quiz": [
+        "Cò thog dealbh X-ghath 1952 a sheall comharran mu chumadh DNA?",
+        "Rosalind Franklin",
+        "George Washington Carver",
+        "Nicolaus Copernicus",
+        "Michael Faraday"
+      ]
+    },
+    "julian": {
+      "when": "Bha an obair ceimigeachd as ainmeile aige anns na 1930an agus na 1940an.",
+      "lines": [
+        "B' e ceimigear a bh' ann am Percy Julian a rinn ceimigean feumail bho lusan.",
+        "Lorg e dòighean air ceimigean pònair-Shìneach a thionndadh gu leigheasan.",
+        "Chaidh aon de na leigheasan sin a chleachdadh gus altan rag a lasachadh."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Togalach saidheans oilthigh",
+      "quiz": [
+        "Cò rinn leigheasan bho cheimigean pònair soya?",
+        "Percy Julian",
+        "Galileo Galilei",
+        "Jane Goodall",
+        "Chien-Shiung Wu"
+      ]
+    },
+    "tu": {
+      "when": "Tharraing an sgioba aice an leigheas às an lus anns na 1970an.",
+      "lines": [
+        "Stiùir Tu Youyou sgioba a rinn deuchainn air seann leigheasan lusan.",
+        "Anns na 1970an tharraing iad leigheas làidir, artemisinin, à meilbheag mhilis.",
+        "Bidh an leigheas sin a' cuideachadh dhaoine aig a bheil fiabhras-mòr."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Meilbheag mhilis, an lus às a thig artemisinin",
+      "quiz": [
+        "Cò lorg artemisinin ann am meilbheag mhilis?",
+        "Tu Youyou",
+        "Isaac Newton",
+        "Mary Anning",
+        "Michael Faraday"
+      ]
+    },
+    "mendeleev": {
+      "when": "Dh'fhoillsich e a chlàr ann an 1869.",
+      "lines": [
+        "Chuir Dmitri Mendeleev na h-eileamaidean ann an òrdugh a rèir nam pàtranan aca.",
+        "Ann an 1869 dh'fhàg e beàrnan far an robh e a' smaoineachadh gum bu chòir eileamaidean a bha a dhìth a bhith.",
+        "An dèidh sin, lorg daoine eileamaidean a fhreagair air na beàrnan aige."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Togalach saidheans oilthigh",
+      "quiz": [
+        "Cò dh'fhàg beàrnan ann an clàr nan eileamaid airson eileamaidean nach deach a lorg fhathast?",
+        "Dmitri Mendeleev",
+        "Mae Jemison",
+        "Jane Goodall",
+        "Ernest Everett Just"
+      ]
+    },
+    "ball": {
+      "when": "Dh'fhoillsich i an dòigh aice ann an 1916.",
+      "lines": [
+        "B' e ceimigear a bh' ann an Alice Ball a dh'obraich air ola bho shìol craoibhe.",
+        "Ann an 1916 lorg i dòigh air an ola atharrachadh gus am b' urrainn don bhodhaig a gabhail a-steach.",
+        "Rinn an dòigh aice an leigheas sin mòran na b' fhasa a chleachdadh."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Togalach saidheans oilthigh",
+      "quiz": [
+        "Cò lorg dòigh air ola sìl-craoibhe a thionndadh gu leigheas a ghabhadh an corp?",
+        "Alice Ball",
+        "Galileo Galilei",
+        "Nicolaus Copernicus",
+        "Charles Darwin"
+      ]
+    },
+    "newton": {
+      "when": "Thàinig an leabhar mòr aige air gluasad agus iom-tharraing a-mach ann an 1687.",
+      "lines": [
+        "Sgrìobh Isaac Newton trì riaghailtean a tha ag innse mar a ghluaiseas rudan nuair a phutas feachdan iad.",
+        "Thog e cuideachd teòiridh iom-tharraing a tha a' còmhdach ubhal a' tuiteam agus an Moon.",
+        "Tha saidheansairean fhathast a' deuchainn iom-tharraing ann an dòighean ùra."
+      ],
+      "extra": "Smaoinich e air ùbhlan a' tuiteam agus air an Moon. Chan eil sinn cinnteach gun do bhuail ubhal e air a cheann.",
+      "unsure": "",
+      "sceneAlt": "An Talamh, air a dhealbh bho Apollo 17",
+      "quiz": [
+        "Cò sgrìobh trì riaghailtean air mar a ghluaiseas feachdan rudan?",
+        "Isaac Newton",
+        "Wangari Maathai",
+        "Tu Youyou",
+        "Mary Anning"
+      ]
+    },
+    "faraday": {
+      "when": "Sheall e deuchainn na magnaid agus an t-srutha ann an 1831.",
+      "lines": [
+        "Lorg Michael Faraday gum faod magnaid a tha a' gluasad sruth dealain a dhèanamh.",
+        "Sin mar a bhios mòran ghineadairean a' dèanamh dealan.",
+        "Rinn e deuchainn air le lùban agus magnaidean anns an laba."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Magnaid a' tarraing pìos de chlach-iarrainn",
+      "quiz": [
+        "Cò lorg gum faod magnaid a tha a' gluasad sruth dealain a dhèanamh?",
+        "Michael Faraday",
+        "Jane Goodall",
+        "George Washington Carver",
+        "Katherine Johnson"
+      ]
+    },
+    "wu": {
+      "when": "Rinn i deuchainn an sgàthain ann an 1956.",
+      "lines": [
+        "Rinn Chien-Shiung Wu deuchainn glè chùramach air mìrean beaga bìodach.",
+        "Sheall i nach bi iad an-còmhnaidh ag obair mar an ìomhaigh sgàthain aca.",
+        "Dh'atharraich an toradh aice riaghailt anns an robh fiosaigichean eile a' cur earbsa."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Togalach saidheans oilthigh",
+      "quiz": [
+        "Cò sheall nach bi mìrean beaga bìodach an-còmhnaidh a' freagairt air an ìomhaigh sgàthain aca?",
+        "Chien-Shiung Wu",
+        "Charles Darwin",
+        "Mary Anning",
+        "Nicolaus Copernicus"
+      ]
+    },
+    "lovelace": {
+      "when": "Chaidh na notaichean aice fhoillseachadh ann an 1843.",
+      "lines": [
+        "Sgrìobh Ada Lovelace mu inneal-àireamh a bha san amharc, ris an canar an Analytical Engine.",
+        "Ann an 1843 dh'fhoillsich i plana ceum air cheum airson an inneil àireamhan a thomhas.",
+        "Canaidh daoine gur e a' chiad phrògram coimpiutair a th' anns a' phlana sin. Cha deach an t-inneal a thogail na beatha."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Pàirt de Difference Engine aig Babbage",
+      "quiz": [
+        "Cò sgrìobh plana ceum air cheum airson inneal-àireamh ann an 1843?",
+        "Ada Lovelace",
+        "Mae Jemison",
+        "Percy Julian",
+        "Ernest Everett Just"
+      ]
+    },
+    "jackson": {
+      "when": "Choilean i a doctarachd fiosaigs ann an 1973.",
+      "lines": [
+        "Is fiosaigiche a th' ann an Shirley Ann Jackson a rinn sgrùdadh air mìrean beaga bìodach.",
+        "Rinn i rannsachadh air mar a bhios na mìrean sin ag obair, agus an uair sin mar a ghluaiseas eleactronan ann an stuthan sònraichte.",
+        "Chuidich an obair sin le sgrùdaidhean an dèidh sin air stuthan a chleachdar ann an eileagtronaigs."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Togalach saidheans oilthigh",
+      "quiz": [
+        "Cò rinn sgrùdadh air mìrean beaga bìodach agus mar a ghluaiseas eleactronan ann an stuthan?",
+        "Shirley Ann Jackson",
+        "Mary Anning",
+        "Jane Goodall",
+        "Charles Darwin"
+      ]
+    },
+    "ibn": {
+      "when": "Rinn e deuchainn air solas o chionn mu mhìle bliadhna.",
+      "lines": [
+        "Rinn Hasan Ibn al-Haytham deuchainn air mar a tha solas agus sealladh ag obair.",
+        "Sheall e gum faic sinn a chionn 's gu bheil solas a' dol a-steach don t-sùil, chan ann a chionn 's gu bheil an t-sùil a' cur ghathan a-mach.",
+        "Sgrìobh e na ceumannan gus am b' urrainn do chuideigin eile na deuchainnean fheuchainn."
+      ],
+      "extra": "",
+      "unsure": "Chan eil sinn cinnteach mun bhliadhna cheart a rugadh e.",
+      "sceneAlt": "Microsgop air bòrd soilleir",
+      "quiz": [
+        "Cò sheall gum faic sinn a chionn 's gu bheil solas a' dol a-steach don t-sùil?",
+        "Hasan Ibn al-Haytham",
+        "George Washington Carver",
+        "Mae Jemison",
+        "Percy Julian"
+      ]
+    },
+    "anning": {
+      "when": "Bha na lorgaidhean creige ainmeil aice tràth anns na 1800an.",
+      "lines": [
+        "Rannsaich Mary Anning na creagan aig Lyme Regis airson fosailean.",
+        "Tràth anns na 1800an lorg i cnàimhnichean de sheann bheathaichean-mara a bha ùr don t-saidheans.",
+        "Chuidich na lorg i daoine a bhith a' faicinn gu robh beatha o chionn fhada eadar-dhealaichte."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Lyme Regis, England, ri taobh nan creagan-mara",
+      "quiz": [
+        "Cò lorg beathaichean-mara fosail anns na creagan aig Lyme Regis?",
+        "Mary Anning",
+        "Tu Youyou",
+        "Chien-Shiung Wu",
+        "Barbara McClintock"
+      ]
+    },
+    "johnson": {
+      "when": "Thug i sùil air matamataig bhàtaichean-fànais anns na 1960an.",
+      "lines": [
+        "Rinn Katherine Johnson am matamataig airson slighean bhàtaichean-fànais.",
+        "Chuidich na h-àireamhan aice speuradairean a dhol suas agus tilleadh dhachaigh.",
+        "Ro aon itealaich, dh'iarr speuradairean oirre an coimpiutair a sgrùdadh le làimh."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "An Talamh, air a dhealbh bho Apollo 17",
+      "quiz": [
+        "Cò thug sùil air a' mhatamataig airson slighean bhàtaichean-fànais?",
+        "Katherine Johnson",
+        "Michael Faraday",
+        "Dmitri Mendeleev",
+        "Ernest Everett Just"
+      ]
+    },
+    "jemison": {
+      "when": "Dh'itealaich i air spàl-fànais ann an 1992.",
+      "lines": [
+        "Fhuair Mae Jemison trèanadh mar dhotair, agus an uair sin rinneadh speuradair dhith.",
+        "Ann an 1992 dh'itealaich i air spàl-fànais agus rinn i deuchainnean ann an cuairt.",
+        "Bha na deuchainnean a' coimhead air mar a tha cuirp ag obair air falbh bho tharraing àbhaisteach an Talamh."
+      ],
+      "extra": "Ro an itealaich bha i ag obair mar dhotair.",
+      "unsure": "",
+      "sceneAlt": "Teileasgop Fànais Hubble os cionn an Talamh",
+      "quiz": [
+        "Cò dh'itealaich air spàl-fànais ann an 1992 agus a rinn deuchainnean?",
+        "Mae Jemison",
+        "Isaac Newton",
+        "Ada Lovelace",
+        "Mary Anning"
+      ]
+    },
+    "copernicus": {
+      "when": "Thàinig an leabhar aige leis a' Ghrian sa mheadhan a-mach ann an 1543.",
+      "lines": [
+        "Sgrìobh Nicolaus Copernicus gu bheil an Talamh agus na planaidean eile a' dol timcheall air a' Ghrian.",
+        "Thàinig an leabhar aige a-mach ann an 1543.",
+        "Is e aon de na cuairtean sin timcheall air a' Ghrian a th' ann am bliadhna."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "An Talamh, air a dhealbh bho Apollo 17",
+      "quiz": [
+        "Cò leis an leabhar ann an 1543 a thuirt gu bheil an Talamh a' dol timcheall air a' Ghrian?",
+        "Nicolaus Copernicus",
+        "Jane Goodall",
+        "Alice Ball",
+        "Chien-Shiung Wu"
+      ]
+    },
+    "galileo": {
+      "when": "Dh'innis e mu ghealaichean Jupiter ann an 1610.",
+      "lines": [
+        "Sheall Galileo Galilei teileasgop air an speur.",
+        "Ann an 1610 chunnaic e ceithir gealaichean a' gluasad timcheall air Jupiter.",
+        "Chunnaic e cuideachd gu bheil ìrean aig Venus, agus tha sin a' freagairt air siostam leis a' Ghrian sa mheadhan."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Neòil Jupiter, bho shoitheach-fànais Juno aig NASA",
+      "quiz": [
+        "Cò chunnaic ceithir gealaichean timcheall air Jupiter ann an 1610?",
+        "Galileo Galilei",
+        "George Washington Carver",
+        "Marie Curie",
+        "Wangari Maathai"
+      ]
+    },
+    "chandra": {
+      "when": "Dh'obraich e a-mach crìoch nan reultan anns na 1930an.",
+      "lines": [
+        "Chleachd Subrahmanyan Chandrasekhar matamataig gus sgrùdadh a dhèanamh air reultan beaga fann ris an canar troichean geala.",
+        "Lorg e crìoch cuideim. Seachad air a' chrìoch sin, chan urrainn don rionnag a cumail fhèin suas san aon dòigh.",
+        "Dh'aontaich deuchainnean an dèidh sin leis an teòiridh aige."
+      ],
+      "extra": "",
+      "unsure": "",
+      "sceneAlt": "Teileasgop Fànais Hubble os cionn an Talamh",
+      "quiz": [
+        "Cò lorg crìoch cuideim airson reultan troich geal?",
+        "Subrahmanyan Chandrasekhar",
+        "Jane Goodall",
+        "Alice Ball",
+        "Michael Faraday"
+      ]
+    }
+  },
+  "places": {
+    "rain": {
+      "title": "Stèisean-achaidh coille-uisge",
+      "where": "Tiputini, Ecuador",
+      "lines": [
+        "Tha an stèisean seo anns a' choille-uisge Amazon.",
+        "Bidh saidheansairean a' coiseachd na coille agus a' sgrìobhadh sìos nan lusan agus nam beathaichean a lorgas iad.",
+        "Is e campa-obrach a th' ann an stèisean-achaidh airson nithean beò fhaicinn gu dlùth."
+      ],
+      "alt": "Mullach coille-uisge san Amazon"
+    },
+    "lab": {
+      "title": "Laba ceimigeachd",
+      "where": "Togalaichean saidheans",
+      "lines": [
+        "Bidh ceimigearan ag obair ann an labaichean taobh a-staigh thogalaichean mar seo.",
+        "Rinn Percy Julian an seòrsa obrach sin le pònairan-Sìneach anns na Stàitean Aonaichte.",
+        "Bidh tomhas cùramach, agus aon atharrachadh aig an aon àm, a' cumail deuchainn cothromach."
+      ],
+      "alt": "Togalach saidheans oilthigh"
+    },
+    "sky": {
+      "title": "Lann-amhairc",
+      "where": "Mauna Kea, Hawaii",
+      "lines": [
+        "Tha cruinn-mullaichean geala teileasgop air beinn glè àrd.",
+        "Tha an t-adhar shuas tana agus gu tric os cionn nan neòil, agus mar sin tha an speur a' coimhead nas duirche agus nas soilleire.",
+        "Bidh teileasgopan a' cruinneachadh solais bho rionnagan fann agus reul-bhuidhnean."
+      ],
+      "alt": "Cruinn-mullaichean teileasgop air Mauna Kea"
+    },
+    "cliff": {
+      "title": "Creag fhosailean",
+      "where": "Lyme Regis, England",
+      "lines": [
+        "Tha fosailean ann an sreathan creige anns na creagan-mara seo.",
+        "Lorg Mary Anning cnàimhnichean de sheann bheathaichean-mara an seo tràth anns na 1800an.",
+        "Is e fuigheall, no lorg, a th' ann am fosail a tha air a chumail ann an creag."
+      ],
+      "alt": "Lyme Regis, England, ri taobh nan creagan-mara"
+    },
+    "hospital": {
+      "title": "Laba ospadail",
+      "where": "St Mary's Hospital ann an London",
+      "lines": [
+        "Seo St Mary's Hospital ann an London.",
+        "Ann an 1928 mhothaich Alexander Fleming do mholltair a chuir stad air bitheagan ann an soitheach.",
+        "Thug am molltair sin peinicillin, leigheas a chuidicheas an corp le sabaid an aghaidh cuid de thinneasan."
+      ],
+      "alt": "St Mary's Hospital ann an London"
+    },
+    "ocean": {
+      "title": "An cuan",
+      "where": "Soithichean à Woods Hole, Massachusetts",
+      "lines": [
+        "Bidh soithichean-rannsachaidh a' fàgail a' chala agus a' sgrùdadh na mara.",
+        "Bidh iad a' tomhas uisge, a' mapadh a' ghrunnd, agus a' coinneachadh ri beathaichean a tha a' fuireach fada bhon chladach.",
+        "Is e cuan a th' anns a' mhòr-chuid den Talamh, agus mar sin is e laba gluasadach a th' ann an soitheach."
+      ],
+      "alt": "Ochd-chasach cumanta"
+    }
+  },
+  "time": {
+    "stars": {
+      "title": "Luchd-coimhid nan reultan",
+      "when": "O chionn ùine glè fhada",
+      "sentence": "Bha daoine a' coimhead air na reultan agus ag ionnsachadh nam pàtranan san speur.",
+      "more": "Chuidich na pàtranan sin iad le bhith a' leantainn nan ràithean.",
+      "unsure": "Chan eil sinn cinnteach cò rinn seo an toiseach.",
+      "alt": "Stonehenge, seann chearcall chlach air a chleachdadh gus an speur a leantainn"
+    },
+    "microscopes": {
+      "title": "Microsgopan",
+      "when": "Na 1600an",
+      "sentence": "Leigidh microsgopan le daoine rudan beaga bìodach fhaicinn nach fhaiceadh sùil leatha fhèin.",
+      "more": "Bidh lionsa beag a' lùbadh solais gus am bi spot a' coimhead mòr.",
+      "unsure": "",
+      "alt": "Microsgop air bòrd soilleir"
+    },
+    "germs": {
+      "title": "Bitheagan",
+      "when": "Na 1800an",
+      "sentence": "Rinn saidheansairean deuchainn air a' bheachd gum faod cuid de bhitheagan tinneas adhbhrachadh.",
+      "more": "Rinn Louis Pasteur agus feadhainn eile deuchainnean a thug taic do theòiridh nam bitheagan. Bidh nighe làmhan a' cuideachadh fhathast.",
+      "unsure": "",
+      "alt": "Soitheach-laba le spotan de bhitheagan"
+    },
+    "flight": {
+      "title": "Itealaich",
+      "when": "1903",
+      "sentence": "Dh'itealaich itealan le cumhachd, agus b' urrainn do dhaoine a dhol san adhar.",
+      "more": "Dh'èirich itealan nam bràithrean Wright ann an 1903.",
+      "unsure": "",
+      "alt": "Lethbhreac de Wright Flyer a' crochadh ann an taigh-tasgaidh"
+    },
+    "dna": {
+      "title": "DNA",
+      "when": "1953",
+      "sentence": "Sheall saidheansairean gur e àradh toinnte a th' ann an DNA.",
+      "more": "Chuidich dealbh X-ghath Rosalind Franklin iad gus an cumadh fhaicinn.",
+      "unsure": "",
+      "alt": "Modail taigh-tasgaidh de shnìomhan dùbailte DNA"
+    },
+    "telescope": {
+      "title": "Teileasgop fànais",
+      "when": "1990",
+      "sentence": "Bha teileasgop san fhànas a' coimhead seachad air ceò adhair an Talamh.",
+      "more": "Chaidh Teileasgop Fànais Hubble a chur air bhog ann an 1990. Bidh teileasgopan fànais nas ùire a' coimhead fhathast.",
+      "unsure": "",
+      "alt": "Teileasgop Fànais Hubble os cionn an Talamh"
+    }
+  },
+  "work": {
+    "p1-leaves": {
+      "title": "Deasaich na duilleagan",
+      "time": "15 mionaidean",
+      "need": [
+        "6 duilleagan bhon talamh",
+        "Bòrd"
+      ],
+      "steps": [
+        "Cuir na duilleagan ann an sreath.",
+        "Cuir ann an dà bhuidheann iad. Tagh thusa an riaghailt.",
+        "Abair an riaghailt os àrd. Tha mòr agus beag ceart gu leòr. Tha rèidh agus garbh ceart gu leòr."
+      ],
+      "done": "Tha dà bhuidheann agad, agus is urrainn dhut innse mar a dheasaich thu iad."
+    },
+    "p1-float": {
+      "title": "Teàrnadh no fleòdradh",
+      "time": "20 mionaidean",
+      "need": [
+        "Bobhla uisge",
+        "6 nithean sàbhailte",
+        "Inbheach"
+      ],
+      "steps": [
+        "Iarr air inbheach bobhla a lìonadh.",
+        "Dèan tuairmse teàrnadh no fleòdradh airson gach nì mus feuch thu e.",
+        "Leig sìos aon nì aig an aon àm. Sgrìobh na thachair."
+      ],
+      "done": "Tha liosta aig an sgioba de na chaidh fodha agus na sheòl."
+    },
+    "p2-shadow": {
+      "title": "Comharraich sgàil",
+      "time": "Dà sgrùdadh ann an aon latha",
+      "need": [
+        "Àite grianach",
+        "Cailc no clach",
+        "Bata no botal"
+      ],
+      "steps": [
+        "Cuir bata na sheasamh air talamh rèidh sa ghrèin.",
+        "Comharraich bàrr na sgàile.",
+        "Thig air ais an dèidh sin agus comharraich e a-rithist. Abair dè dh'atharraich."
+      ],
+      "done": "Tha dà chomharra agad agus abairt mun atharrachadh."
+    },
+    "p2-magnets": {
+      "title": "Sealg mhagnaid",
+      "time": "20 mionaidean",
+      "need": [
+        "Aon mhagnaid",
+        "8 nithean taighe",
+        "Pàipear"
+      ],
+      "steps": [
+        "Suath an mhagnaid ri gach nì.",
+        "Dèan dà liosta: a' steigeadh, agus nach eil a' steigeadh.",
+        "Cuir cearcall timcheall air na tha dèanta de iarann no stàilinn."
+      ],
+      "done": "Is urrainn don sgioba tomhadh air rud a tharraingeas a' mhagnaid agus rud nach tarraing."
+    },
+    "p3-sugar": {
+      "title": "Dè an t-uisge a bhuannaicheas",
+      "time": "15 mionaidean",
+      "need": [
+        "Dà chupa",
+        "Uisge fuar agus uisge blàth",
+        "Siùcar",
+        "Inbheach"
+      ],
+      "steps": [
+        "Iarr air inbheach uisge blàth, chan e uisge a tha a' goil.",
+        "Cuir an aon uiread siùcair anns gach cupa.",
+        "Caraich an dà chuid san aon dòigh. Coimhead dè an siùcar a thèid à sealladh an toiseach."
+      ],
+      "done": "Dh'atharraich thu an blàths a-mhàin, agus is urrainn dhut innse dè an cupa a bha nas luaithe."
+    },
+    "p3-ramp": {
+      "title": "Dè cho fada 's a rolaicheas e",
+      "time": "25 mionaidean",
+      "need": [
+        "Leathad leabhair",
+        "Bàla no càr-dèideag",
+        "Rioban-tomhais no sreang"
+      ],
+      "steps": [
+        "Leig leis a' chàr falbh bhon mhullach. Tomhais dè cho fada 's a rolaicheas e.",
+        "Dèan e trì tursan san aon dòigh.",
+        "An uair sin atharraich aon rud a-mhàin, mar àirde an leathaid, agus feuch a-rithist."
+      ],
+      "done": "Tha dà astar aig an sgioba agus is urrainn dhaibh an aon rud a dh'atharraich iad ainmeachadh."
+    },
+    "p4-celery": {
+      "title": "Coimhead air uisge a' dìreadh",
+      "time": "Sgrùdadh a-nis agus a-màireach",
+      "need": [
+        "Bata soilire",
+        "Cupa uisge",
+        "Dath bìdh",
+        "Inbheach"
+      ],
+      "steps": [
+        "Iarr air inbheach an t-uisge a dhathadh.",
+        "Cuir an soilire na sheasamh anns a' chupa.",
+        "Coimhead an ath latha. Càite an deach an dath?"
+      ],
+      "done": "Is urrainn dhut tomhadh air an t-slighe a ghabh an t-uisge dathte."
+    },
+    "p4-pulse": {
+      "title": "Cunnt na buillean",
+      "time": "15 mionaidean",
+      "need": [
+        "Uaireadair",
+        "Àite sàmhach",
+        "Pàipear"
+      ],
+      "steps": [
+        "Suidh gu socair. Cunnt buillean cridhe airson 30 diog.",
+        "Leum airson 30 diog, agus an uair sin cunnt a-rithist.",
+        "Sgrìobh an dà àireamh. Abair dè dh'atharraich agus dè a chùm thu mar a bha e."
+      ],
+      "done": "Tha dà chunntas aig an sgioba agus abairt mun eadar-dhealachadh."
+    },
+    "p5-friction": {
+      "title": "Trì uachdaran",
+      "time": "20 mionaidean",
+      "need": [
+        "Dèideag bheag",
+        "Làr fiodha no bòrd",
+        "Aodach",
+        "Leac rèidh no leabhar"
+      ],
+      "steps": [
+        "Thoir an aon phutadh don dèideig air gach uachdar.",
+        "Faic dè an sleamhnachadh as fhaide.",
+        "Ainmich an fheachd a shlaod e. Is e suathadh an fheachd sin."
+      ],
+      "done": "Is urrainn dhut na trì uachdaran a chur ann an òrdugh agus innse carson a bha aonan nas slaodaiche."
+    },
+    "p5-drop": {
+      "title": "Paraisiut le aon atharrachadh",
+      "time": "40 mionaidean",
+      "need": [
+        "Pàipear",
+        "Sreang",
+        "Greim-phàipeir",
+        "Uaireadair"
+      ],
+      "steps": [
+        "Dèan dà pharaisiut pàipeir a tha coltach ri chèile.",
+        "Leig sìos iad bhon aon àirde agus tomhais an tuiteam.",
+        "Atharraich aon rud air aon pharaisiut, mar meud a' phàipeir. Dèan deuchainn a-rithist."
+      ],
+      "done": "Is urrainn don sgioba innse dè an aon atharrachadh a rinn an tuiteam eadar-dhealaichte."
+    },
+    "p6-moon": {
+      "title": "Leabhar-latha an Moon",
+      "time": "7 oidhcheannan goirid",
+      "need": [
+        "Pàipear",
+        "Peansail",
+        "Sealladh soilleir air an speur"
+      ],
+      "steps": [
+        "Coimhead airson an Moon aig an aon àm gach oidhche.",
+        "Tarraing am pàirt soilleir. Ma tha neòil ga fhalach, sgrìobh neòil.",
+        "Às dèidh seachdain, abair mar a dh'atharraich am pàirt soilleir."
+      ],
+      "done": "Tha seachd bogsaichean agad agus abairt mu thaobh grianach an Moon."
+    },
+    "p6-planets": {
+      "title": "Òrdugh nam planaidean",
+      "time": "30 mionaidean",
+      "need": [
+        "8 nithean beaga",
+        "Bileagan pàipeir",
+        "Bòrd fada no làr"
+      ],
+      "steps": [
+        "Cuir a' Ghrian aig aon cheann.",
+        "Cuir ochd planaidean ann an òrdugh bhon Ghrian. Thoir sùil air fìrinn planaid a leugh thu.",
+        "Abair aon fhìrinn thomhais a chleachd thu, agus aon rud a tha fhathast na theòiridh."
+      ],
+      "done": "Tha am modail ann an òrdugh, agus is urrainn don sgioba an fhìrinn a sgrùdaich iad ainmeachadh."
+    },
+    "p7-ice": {
+      "title": "Dè an còmhdach a chumas deigh",
+      "time": "30 mionaidean",
+      "need": [
+        "3 ciùban deighe den aon mheud",
+        "Aodach",
+        "Pàipear",
+        "Plàta",
+        "Uaireadair"
+      ],
+      "steps": [
+        "Fàg aon chiùb lom. Paisg aonan ann am pàipear. Paisg aonan ann an aodach.",
+        "Cùm an seòmar mar a tha e airson na trì.",
+        "Thoir sùil gach 5 mionaidean. Dè an ciùb as fhaide a mhaireas?"
+      ],
+      "done": "Dh'atharraich thu an còmhdach a-mhàin, agus is urrainn dhut innse dè a chùm an deigh nas fhaide."
+    },
+    "p7-question": {
+      "title": "Do dheuchainn chothromach fhèin",
+      "time": "45 mionaidean",
+      "need": [
+        "Fìrinn a leugh thu",
+        "Pàipear",
+        "Stuthan sàbhailte sìmplidh",
+        "Inbheach ma chleachdas tu uisge"
+      ],
+      "steps": [
+        "Tagh ceist as urrainn dhut deuchainn a dhèanamh oirre an-diugh.",
+        "Atharraich aon rud. Cùm an còrr mar a tha e. Tomhais an toradh.",
+        "Sgrìobh dè dh'atharraicheadh an toradh nam biodh tu mì-chùramach."
+      ],
+      "done": "Tha toradh, aonad, agus aon abairt aig an sgioba mu dè a mhilleadh an deuchainn."
+    },
+    "print-fair": {
+      "title": "Duilleag deuchainn chothromach",
+      "time": "20 mionaidean",
+      "need": [
+        "An duilleag seo",
+        "Peansail"
+      ],
+      "steps": [
+        "Sgrìobh a' cheist.",
+        "Sgrìobh an aon rud a dh'atharraicheas tu.",
+        "Sgrìobh na chumas tu mar a tha e, agus na thomhaiseas tu."
+      ],
+      "done": "Tha freagairt fhìor anns gach bogsa, chan e beàrn."
+    },
+    "print-fact": {
+      "title": "Notaichean fìrinnean",
+      "time": "15 mionaidean",
+      "need": [
+        "An duilleag seo",
+        "Fìrinn a leugh thu"
+      ],
+      "steps": [
+        "Dèan lethbhreac de aon abairt shoilleir.",
+        "Dèan lethbhreac den loidhne mar a tha fios againn.",
+        "Comharraich e: fìrinn thomhais, teòiridh, no tomhas."
+      ],
+      "done": "Is urrainn do leughadair innse dè an seòrsa abairt a lethbhreac thu."
+    },
+    "print-measure": {
+      "title": "Leabhar-tomhais",
+      "time": "15 mionaidean",
+      "need": [
+        "An duilleag seo",
+        "Rùilear, cupa, no uaireadair"
+      ],
+      "steps": [
+        "Tagh aon rud ri thomhas.",
+        "Tomhais e trì tursan san aon dòigh.",
+        "Sgrìobh an t-aonad gach turas."
+      ],
+      "done": "Tha aon aonad aig trì àireamhan."
+    },
+    "print-scientist": {
+      "title": "Notaichean saidheansaire",
+      "time": "15 mionaidean",
+      "need": [
+        "An duilleag seo",
+        "Saidheansaire a leugh thu mu dheidhinn"
+      ],
+      "steps": [
+        "Sgrìobh ainm an t-saidheansaire.",
+        "Sgrìobh na rinn iad deuchainn air no na thuig iad.",
+        "Sgrìobh aon cheist a tha agad fhathast."
+      ],
+      "done": "Tha an duilleag mun saidheans aca, anns na h-abairtean goirid agad fhèin."
+    }
+  },
+  "quiz": {
+    "time-stars": [
+      "A bheil sinn cinnteach cò choimhead air na reultan gu cùramach an toiseach?",
+      "Chan eil. Chan eil sinn cinnteach.",
+      "Seadh. B' e Galileo ann an 1610.",
+      "Seadh. B' e Jane Goodall.",
+      "Seadh. B' e an-uiridh."
+    ],
+    "time-scope": [
+      "Dè leig microsgopan anns na 1600an le daoine fhaicinn?",
+      "Rudan beaga bìodach",
+      "Meadhan an Talamh leis an t-sùil",
+      "Fuaim ann am fànas falamh",
+      "Smaointean magnaid"
+    ],
+    "time-germs": [
+      "Anns dè na bliadhnaichean a dh'fhàs deuchainnean làidir gun urrainn do bhitheagan tinneas adhbhrachadh?",
+      "Na 1800an",
+      "A' bhliadhna 1610 a-mhàin",
+      "Mus do chruthaicheadh an Talamh, agus tha sinn cinnteach",
+      "An t-seachdain sa chaidh a-mhàin"
+    ],
+    "time-flight": [
+      "Cuin a dh'itealaich itealan le cumhachd an toiseach?",
+      "1903",
+      "1543",
+      "1610",
+      "1992"
+    ],
+    "time-dna": [
+      "Chaidh modail àradh toinnte DNA a shealltainn ann an",
+      "1953",
+      "1650",
+      "1903",
+      "965"
+    ],
+    "time-space": [
+      "Carson a chuirear teileasgop san fhànas?",
+      "Gus faighinn os cionn ceò an adhair",
+      "Gus teicheadh bho gach solas",
+      "Gus losgannan a reothadh",
+      "Gus a' Ghrian a mhèinneadh"
+    ],
+    "place-rain": [
+      "Tha stèisean-achaidh na coille-uisge air a' mhapa ann an",
+      "Ecuador",
+      "Fàinneachan Saturn",
+      "An Moon",
+      "Eigh-shruth a-mhàin"
+    ],
+    "place-lab": [
+      "Tha stad na ceimigeachd mu dheidhinn",
+      "A' tionndadh ceimigean lusan gu stuthan ùra",
+      "Ag itealaich spàl",
+      "Creagan fosailean a-mhàin",
+      "Làin an Moon"
+    ],
+    "place-sky": [
+      "Carson a tha beinn àrd math airson teileasgop?",
+      "Tha e na shuidhe os cionn mòran neòil",
+      "Tha e fon chuan",
+      "Chan eil speur aige",
+      "Tha an t-adhar cruaidh an sin"
+    ],
+    "place-cliff": [
+      "Tha creagan fosailean Mary Anning ann an",
+      "England",
+      "Hawaii",
+      "Ecuador",
+      "Cuairt-fànais"
+    ],
+    "place-hospital": [
+      "Tha laba an ospadail air a' mhapa ann an",
+      "London",
+      "An Amazon",
+      "Fànais dhomhainn",
+      "Eigh-shruth"
+    ],
+    "place-ocean": [
+      "Bidh soithichean à Woods Hole a' falbh a sgrùdadh",
+      "An cuan",
+      "Taobh a-staigh na Grèine",
+      "Cailc clas a-mhàin",
+      "Glainne uinneig"
+    ],
+    "idea-fair": [
+      "Bidh deuchainn chothromach ag atharrachadh",
+      "Aon rud",
+      "A h-uile rud aig an aon àm",
+      "Chan eil dad, a-chaoidh",
+      "Am freagairt mus tòisich thu"
+    ],
+    "idea-two": [
+      "Bidh thu ag atharrachadh an uisge agus an t-solais ann an deuchainn lus. Dè an duilgheadas?",
+      "Cha bhi fios agad dè an t-atharrachadh a bha cudromach",
+      "Tha an deuchainn nas cothromaiche",
+      "Sguiridh lusan a bhith beò a dh'aona ghnothach",
+      "Thèid a' Ghrian às"
+    ],
+    "idea-gravity": [
+      "Dè am facal a fhreagras air a' bheachd dhomhainn air iom-tharraing?",
+      "Teòiridh",
+      "Tomhas gun deuchainnean",
+      "Cnàimh",
+      "Dearc"
+    ],
+    "idea-science": [
+      "Is e saidheans mar a bhios sinn",
+      "A' deuchainn bheachdan mun t-saoghal nàdarra",
+      "A' taghadh creideamhan teaghlaich dhaibh",
+      "A' leum thairis air tomhas",
+      "Ag ràdh gur e fìrinn a th' ann an tomhas"
+    ]
+  },
+  "photos": {
+    "frog": "Losgann-coille",
+    "bee": "Seillean-meala air flùr",
+    "mushroom": "Balgan-buachair beag",
+    "chimp": "Simpansaidh ann an coille",
+    "amazon": "Mullach coille-uisge san Amazon",
+    "wormwood": "Meilbheag mhilis, an lus às a thig artemisinin",
+    "lab": "Togalach saidheans oilthigh",
+    "magnet": "Magnaid a' tarraing pìos de chlach-iarrainn",
+    "earth": "An Talamh, air a dhealbh bho Apollo 17",
+    "jupiter": "Neòil Jupiter, bho shoitheach-fànais Juno aig NASA",
+    "hubble": "Teileasgop Fànais Hubble os cionn an Talamh",
+    "keck": "Cruinn-mullaichean teileasgop air Mauna Kea",
+    "heart": "Modail de chridhe daonna",
+    "octopus": "Ochd-chasach cumanta",
+    "stonehenge": "Stonehenge, seann chearcall chlach air a chleachdadh gus an speur a leantainn",
+    "scope": "Microsgop air bòrd soilleir",
+    "petri": "Soitheach-laba le spotan de bhitheagan",
+    "flight": "Lethbhreac de Wright Flyer a' crochadh ann an taigh-tasgaidh",
+    "dna": "Modail taigh-tasgaidh de shnìomhan dùbailte DNA",
+    "engine": "Pàirt de Difference Engine aig Babbage",
+    "lyme": "Lyme Regis, England, ri taobh nan creagan-mara",
+    "hospital": "St Mary's Hospital ann an London"
+  }
+}
+
+
+
+
