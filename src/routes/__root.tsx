@@ -1,11 +1,30 @@
-import { createRootRoute, HeadContent, Outlet, Scripts } from "@tanstack/react-router";
+import { createRootRoute, HeadContent, Outlet, Scripts, redirect } from "@tanstack/react-router";
 import { LangProvider } from "@/i18n";
 import { AuthProvider } from "@/lib/auth/provider";
 import { PreviewHostBridge } from "@/components/preview-host-bridge";
+import { AccessProvider } from "@/components/access-context";
 import { PHOTO_LIST } from "@/data/photos";
+import { getAccess } from "@/lib/access";
 import appCss from "../styles.css?url";
 
+function safeNext(value: string): string {
+  if (!value.startsWith("/") || value.startsWith("//") || value.startsWith("/unlock")) return "/";
+  if (value.includes("://") || value.includes("\\")) return "/";
+  return value.slice(0, 300);
+}
+
 export const Route = createRootRoute({
+  beforeLoad: async ({ location }) => {
+    const { open } = await getAccess();
+    const path = location.pathname;
+    if (!open && path !== "/" && path !== "/unlock") {
+      throw redirect({
+        to: "/unlock",
+        search: { from: safeNext(`${path}${location.searchStr}`) },
+      });
+    }
+    return { open };
+  },
   head: () => ({
     meta: [
       { charSet: "utf-8" },
@@ -34,7 +53,7 @@ export const Route = createRootRoute({
         <PreviewHostBridge />
         <LangProvider>
           <AuthProvider>
-            <Outlet />
+            <Gate />
           </AuthProvider>
         </LangProvider>
         <Scripts />
@@ -42,3 +61,12 @@ export const Route = createRootRoute({
     </html>
   ),
 });
+
+function Gate() {
+  const { open } = Route.useRouteContext();
+  return (
+    <AccessProvider serverOpen={open}>
+      <Outlet />
+    </AccessProvider>
+  );
+}

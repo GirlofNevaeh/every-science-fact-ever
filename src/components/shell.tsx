@@ -1,11 +1,14 @@
-import { Link, useNavigate } from "@tanstack/react-router";
+import { Link, useNavigate, useRouter } from "@tanstack/react-router";
+import { useServerFn } from "@tanstack/react-start";
 import { createContext, useContext, useEffect, useRef, useState, type FormEvent, type ReactNode } from "react";
 import { PHOTO_LIST, SHOTS, shotBySrc } from "@/data/photos";
 import type { Look } from "@/data/types";
 import { Portrait } from "@/components/portrait";
+import { useAccess } from "@/components/access-context";
 import { LANGS, photoAlt, useI18n } from "@/i18n";
 import { photoKeyBySrc } from "@/i18n/content";
 import type { UiKey } from "@/i18n/ui";
+import { ACCESS_STORAGE, lockSite } from "@/lib/access";
 
 const NAV = [
   { to: "/", key: "home", exact: true },
@@ -175,9 +178,39 @@ function SiteHeader() {
   );
 }
 
+function LockButton() {
+  const { t } = useI18n();
+  const { setOpen } = useAccess();
+  const router = useRouter();
+  const lock = useServerFn(lockSite);
+  return (
+    <button
+      type="button"
+      className="btn btn-paper"
+      onClick={() => {
+        try {
+          localStorage.removeItem(ACCESS_STORAGE);
+        } catch {
+          /* still clear the cookie */
+        }
+        setOpen(false);
+        void lock()
+          .catch(() => {})
+          .then(async () => {
+            await router.invalidate();
+            window.location.assign("/");
+          });
+      }}
+    >
+      {t("lockDevice")}
+    </button>
+  );
+}
+
 export function Shell({ children }: { children: ReactNode }) {
   const { t, lang } = useI18n();
   const [open, setOpen] = useState(false);
+  const unlocked = useAccess().open;
   return (
     <InstallContext.Provider value={() => setOpen(true)}>
       <PreloadPhotos />
@@ -190,6 +223,7 @@ export function Shell({ children }: { children: ReactNode }) {
         <footer className="no-print mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-4 py-8 text-base">
           <p>{t("ages")}</p>
           <div className="flex flex-wrap gap-2">
+            {unlocked ? <LockButton /> : null}
             <button type="button" className="btn btn-paper" onClick={() => setOpen(true)}>
               {t("install")}
             </button>
