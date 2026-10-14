@@ -1,20 +1,11 @@
-import { createRootRoute, HeadContent, Outlet, Scripts, redirect } from "@tanstack/react-router";
+import { createRootRoute, HeadContent, Outlet, Scripts } from "@tanstack/react-router";
 import { LangProvider } from "@/i18n";
 import { AuthProvider } from "@/lib/auth/provider";
 import { PreviewHostBridge } from "@/components/preview-host-bridge";
-import { AccessGate } from "@/components/paywall";
 import { PHOTO_LIST } from "@/data/photos";
-import { getAccess } from "@/lib/access";
 import appCss from "../styles.css?url";
 
 export const Route = createRootRoute({
-  beforeLoad: async ({ location }) => {
-    const { open } = await getAccess();
-    if (!open && location.pathname !== "/") {
-      throw redirect({ to: "/" });
-    }
-    return { open };
-  },
   head: () => ({
     meta: [
       { charSet: "utf-8" },
@@ -43,7 +34,7 @@ export const Route = createRootRoute({
         <PreviewHostBridge />
         <LangProvider>
           <AuthProvider>
-            <Gate />
+            <Outlet />
           </AuthProvider>
         </LangProvider>
         <Scripts />
@@ -51,12 +42,3 @@ export const Route = createRootRoute({
     </html>
   ),
 });
-
-function Gate() {
-  const { open } = Route.useRouteContext();
-  return (
-    <AccessGate serverOpen={open}>
-      <Outlet />
-    </AccessGate>
-  );
-}
