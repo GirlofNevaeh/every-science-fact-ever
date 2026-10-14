@@ -17,6 +17,7 @@ import { Route as PeopleRouteImport } from './routes/people'
 import { Route as PlacesRouteImport } from './routes/places'
 import { Route as QuizRouteImport } from './routes/quiz'
 import { Route as TimeRouteImport } from './routes/time'
+import { Route as UnlockRouteImport } from './routes/unlock'
 import { Route as WorkRouteImport } from './routes/work'
 import { Route as FactsIndexRouteImport } from './routes/facts.index'
 import { Route as FactsSlugRouteImport } from './routes/facts.$slug'
@@ -65,6 +66,11 @@ const TimeRoute = TimeRouteImport.update({
   path: '/time',
   getParentRoute: () => rootRouteImport,
 } as any)
+const UnlockRoute = UnlockRouteImport.update({
+  id: '/unlock',
+  path: '/unlock',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const WorkRoute = WorkRouteImport.update({
   id: '/work',
   path: '/work',
@@ -110,6 +116,7 @@ export interface FileRoutesByFullPath {
   '/places': typeof PlacesRoute
   '/quiz': typeof QuizRoute
   '/time': typeof TimeRoute
+  '/unlock': typeof UnlockRoute
   '/work': typeof WorkRouteWithChildren
   '/facts/$slug': typeof FactsSlugRoute
   '/people/$slug': typeof PeopleSlugRoute
@@ -125,6 +132,7 @@ export interface FileRoutesByTo {
   '/places': typeof PlacesRoute
   '/quiz': typeof QuizRoute
   '/time': typeof TimeRoute
+  '/unlock': typeof UnlockRoute
   '/facts/$slug': typeof FactsSlugRoute
   '/people/$slug': typeof PeopleSlugRoute
   '/work/$slug': typeof WorkSlugRoute
@@ -142,6 +150,7 @@ export interface FileRoutesById {
   '/places': typeof PlacesRoute
   '/quiz': typeof QuizRoute
   '/time': typeof TimeRoute
+  '/unlock': typeof UnlockRoute
   '/work': typeof WorkRouteWithChildren
   '/facts/$slug': typeof FactsSlugRoute
   '/people/$slug': typeof PeopleSlugRoute
@@ -161,6 +170,7 @@ export interface FileRouteTypes {
     | '/places'
     | '/quiz'
     | '/time'
+    | '/unlock'
     | '/work'
     | '/facts/$slug'
     | '/people/$slug'
@@ -176,6 +186,7 @@ export interface FileRouteTypes {
     | '/places'
     | '/quiz'
     | '/time'
+    | '/unlock'
     | '/facts/$slug'
     | '/people/$slug'
     | '/work/$slug'
@@ -192,6 +203,7 @@ export interface FileRouteTypes {
     | '/places'
     | '/quiz'
     | '/time'
+    | '/unlock'
     | '/work'
     | '/facts/$slug'
     | '/people/$slug'
@@ -210,6 +222,7 @@ export interface RootRouteChildren {
   PlacesRoute: typeof PlacesRoute
   QuizRoute: typeof QuizRoute
   TimeRoute: typeof TimeRoute
+  UnlockRoute: typeof UnlockRoute
   WorkRoute: typeof WorkRouteWithChildren
 }
 
@@ -269,6 +282,13 @@ declare module '@tanstack/react-router' {
       path: '/time'
       fullPath: '/time'
       preLoaderRoute: typeof TimeRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/unlock': {
+      id: '/unlock'
+      path: '/unlock'
+      fullPath: '/unlock'
+      preLoaderRoute: typeof UnlockRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/work': {
@@ -369,6 +389,7 @@ const rootRouteChildren: RootRouteChildren = {
   PlacesRoute: PlacesRoute,
   QuizRoute: QuizRoute,
   TimeRoute: TimeRoute,
+  UnlockRoute: UnlockRoute,
   WorkRoute: WorkRouteWithChildren,
 }
 export const routeTree = rootRouteImport
