@@ -207,6 +207,42 @@ function LockButton() {
   );
 }
 
+const COOKIE_NOTICE = "esfe-cookie-ok";
+
+function CookieNotice() {
+  const { t } = useI18n();
+  const [show, setShow] = useState(false);
+  useEffect(() => {
+    try {
+      if (localStorage.getItem(COOKIE_NOTICE) !== "1") setShow(true);
+    } catch {
+      setShow(true);
+    }
+  }, []);
+  if (!show) return null;
+  return (
+    <div className="no-print fixed inset-x-0 bottom-0 z-50 border-t-[3px] border-ink bg-paper p-3" role="region" aria-label={t("cookieLabel")}>
+      <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3">
+        <p className="max-w-3xl text-base">{t("cookieNote")}</p>
+        <button
+          type="button"
+          className="btn btn-ink bg-ink text-lab"
+          onClick={() => {
+            try {
+              localStorage.setItem(COOKIE_NOTICE, "1");
+            } catch {
+              /* still hide it for this visit */
+            }
+            setShow(false);
+          }}
+        >
+          {t("cookieOk")}
+        </button>
+      </div>
+    </div>
+  );
+}
+
 export function Shell({ children }: { children: ReactNode }) {
   const { t, lang } = useI18n();
   const [open, setOpen] = useState(false);
@@ -244,6 +280,7 @@ export function Shell({ children }: { children: ReactNode }) {
           </ul>
         </details>
         <InstallDialog open={open} onClose={() => setOpen(false)} />
+        <CookieNotice />
       </div>
     </InstallContext.Provider>
   );
