@@ -1,6 +1,6 @@
 import type { QuizQuestion } from "@/data/quiz";
 import type { Fact, Person, Place, Step, WorkCard } from "@/data/types";
-import type { Lang } from "@/i18n/langs";
+import { isEnglish, type Lang } from "@/i18n/langs";
 import gd from "@/i18n/gd.json";
 import cy from "@/i18n/cy.json";
 import ga from "@/i18n/ga.json";
@@ -22,7 +22,7 @@ export type ContentPack = {
   photos: Record<string, string>;
 };
 
-const PACKS: Record<Exclude<Lang, "en">, ContentPack> = {
+const PACKS: Record<Exclude<Lang, "en" | "en-US">, ContentPack> = {
   gd: gd as unknown as ContentPack,
   cy: cy as unknown as ContentPack,
   ga: ga as unknown as ContentPack,
@@ -39,7 +39,7 @@ function rowChoices(row: QuizRow | undefined): [string, string, string, string] 
 }
 
 export function localizeFact(fact: Fact, lang: Lang): Fact {
-  if (lang === "en") return fact;
+  if (isEnglish(lang)) return fact;
   const row = PACKS[lang].facts[fact.slug];
   if (!row) return fact;
   return {
@@ -59,7 +59,7 @@ export function localizeFact(fact: Fact, lang: Lang): Fact {
 }
 
 export function localizePerson(person: Person, lang: Lang): Person {
-  if (lang === "en") return person;
+  if (isEnglish(lang)) return person;
   const row = PACKS[lang].people[person.slug];
   if (!row) return person;
   const choices = rowChoices(row.quiz);
@@ -75,7 +75,7 @@ export function localizePerson(person: Person, lang: Lang): Person {
 }
 
 export function localizePlace(place: Place, lang: Lang): Place {
-  if (lang === "en") return place;
+  if (isEnglish(lang)) return place;
   const row = PACKS[lang].places[place.id];
   if (!row) return place;
   return {
@@ -88,7 +88,7 @@ export function localizePlace(place: Place, lang: Lang): Place {
 }
 
 export function localizeStep(step: Step, lang: Lang): Step {
-  if (lang === "en") return step;
+  if (isEnglish(lang)) return step;
   const row = PACKS[lang].time[step.id];
   if (!row) return step;
   return {
@@ -103,7 +103,7 @@ export function localizeStep(step: Step, lang: Lang): Step {
 }
 
 export function localizeWork(card: WorkCard, lang: Lang): WorkCard {
-  if (lang === "en") return card;
+  if (isEnglish(lang)) return card;
   const row = PACKS[lang].work[card.slug];
   if (!row) return card;
   return {
@@ -117,7 +117,7 @@ export function localizeWork(card: WorkCard, lang: Lang): WorkCard {
 }
 
 export function localizeQuestion(question: QuizQuestion, lang: Lang): QuizQuestion {
-  if (lang === "en") return question;
+  if (isEnglish(lang)) return question;
   const pack = PACKS[lang];
   if (question.id.startsWith("person-")) {
     const row = pack.people[question.id.slice(7)]?.quiz;
@@ -142,7 +142,7 @@ export function localizeQuestion(question: QuizQuestion, lang: Lang): QuizQuesti
 }
 
 export function photoAlt(key: string, fallback: string, lang: Lang): string {
-  if (lang === "en") return fallback;
+  if (isEnglish(lang)) return fallback;
   return PACKS[lang].photos[key] || fallback;
 }
 

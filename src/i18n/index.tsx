@@ -28,7 +28,7 @@ export function LangProvider({ children }: { children: ReactNode }) {
   const [lang, setLang] = useState<Lang>(storedLang);
   useEffect(() => {
     localStorage.setItem(STORAGE, lang);
-    document.documentElement.lang = lang;
+  document.documentElement.lang = lang === "en-US" ? "en-US" : lang;
   }, [lang]);
   const value = useMemo<I18n>(
     () => ({
@@ -56,6 +56,7 @@ const STAGE_AGES = ["5-6", "6-7", "7-8", "8-9", "9-10", "10-11", "11-12"] as con
 
 const AGE_WORD: Record<Lang, string> = {
   en: "Age",
+  "en-US": "Age",
   gd: "Aois",
   cy: "Oed",
   ga: "Aois",

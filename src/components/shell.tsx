@@ -96,7 +96,7 @@ export function LanguageButton() {
         {t("langPick")}: {current.name}
       </button>
       {open ? (
-        <ul role="listbox" aria-label={t("langPick")} className="absolute right-0 z-50 mt-1 w-48 rounded-card border-[3px] border-ink bg-paper p-1">
+        <ul role="listbox" aria-label={t("langPick")} className="absolute right-0 z-50 mt-1 w-56 rounded-card border-[3px] border-ink bg-paper p-1">
           {LANGS.map((item) => (
             <li key={item.id}>
               <button

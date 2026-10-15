@@ -1,6 +1,6 @@
 import type { Lang } from "@/i18n/langs";
 
-type Row = Record<Lang, string>;
+type Row = Record<Exclude<Lang, "en-US">, string>;
 
 export const UI = {
   site: {
@@ -699,5 +699,6 @@ export function fill(text: string, vars?: Record<string, string | number>): stri
 }
 
 export function ui(lang: Lang, key: UiKey, vars?: Record<string, string | number>): string {
-  return fill(UI[key][lang], vars);
+  const row = UI[key];
+  return fill(lang === "en-US" ? row.en : row[lang], vars);
 }
