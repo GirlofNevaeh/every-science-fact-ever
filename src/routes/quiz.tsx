@@ -261,7 +261,7 @@ function QuizBody() {
                 <Portrait look={KID_LOOKS[cursor % KID_LOOKS.length] ?? KID_LOOKS[0]!} className="h-20 w-20 shrink-0" />
                 <div>
                   <p className="font-extrabold">{teams[teamIndex]?.name}</p>
-                  <h2 className="font-display text-2xl leading-tight font-bold">{shown?.prompt}</h2>
+                  <h1 className="font-display text-2xl leading-tight font-bold">{shown?.prompt}</h1>
                 </div>
               </div>
               <div className="mt-4 grid gap-2">

@@ -533,7 +533,7 @@ export const UI = {
   gravityCard: { en: "The gravity card", gd: "Cairt na h-iom-tharraing", cy: "Cerdyn disgyrchiant", ga: "Cárta na himtharraingthe", fr: "La carte gravité", it: "La scheda gravità", es: "La tarjeta de la gravedad", ru: "Карточка о тяготении" , de: "Die Karte zur Schwerkraft"},
   germsTitle: { en: "Germs", gd: "Bitheagan", cy: "Germau", ga: "Frídíní", fr: "Microbes", it: "Germi", es: "Gérmenes", ru: "Микробы" , de: "Keime"},
   germs1: {
-    en: "Germ theory says tiny living things can make us ill. Tests back it up.",
+    en: "Germ theory says tiny living things can make us ill. Tests support that idea.",
     gd: "Tha teòiridh nam bitheagan ag ràdh gum faod nithean beò beaga bìodach ar n-eucoir. Tha deuchainnean ga dhearbhadh.",
     cy: "Mae theori germau yn dweud y gall pethau byw bach ein gwneud yn sâl. Mae profion yn ei chefnogi.",
     ga: "Deir teoiric na bhfrídíní gur féidir le rudaí beo bídeacha breoiteacht a chur orainn. Tacaíonn tástálacha leis.",

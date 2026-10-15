@@ -1,6 +1,7 @@
 import { createHash, createHmac, timingSafeEqual } from "node:crypto";
 import { readFileSync } from "node:fs";
 import { getCookie, getRequest, setCookie } from "@tanstack/react-start/server";
+import { isLang, type Lang } from "@/i18n/langs";
 
 const COOKIE = "esfe_pass";
 const MAX_AGE = 60 * 60 * 24 * 200;
@@ -75,6 +76,11 @@ export function verifyPass(token: string | undefined | null): boolean {
   if (a.length !== b.length || !timingSafeEqual(a, b)) return false;
   const until = Number(exp);
   return Number.isFinite(until) && until > Date.now() / 1000;
+}
+
+export function readLang(): Lang {
+  const raw = getCookie("esfe-lang") ?? "";
+  return isLang(raw) ? raw : "en";
 }
 
 export function isOpen(token?: string): boolean {

@@ -15,7 +15,7 @@ function safeNext(value: string): string {
 
 export const Route = createRootRoute({
   beforeLoad: async ({ location }) => {
-    const { open } = await getAccess();
+    const { open, lang } = await getAccess();
     const path = location.pathname;
     if (!open && path !== "/" && path !== "/unlock") {
       throw redirect({
@@ -23,7 +23,7 @@ export const Route = createRootRoute({
         search: { from: safeNext(`${path}${location.searchStr}`) },
       });
     }
-    return { open };
+    return { open, lang };
   },
   head: () => ({
     meta: [
@@ -44,14 +44,20 @@ export const Route = createRootRoute({
       ...PHOTO_LIST.map((shot) => ({ rel: "preload", as: "image", href: shot.src })),
     ],
   }),
-  component: () => (
-    <html lang="en" suppressHydrationWarning>
+  component: Root,
+});
+
+function Root() {
+  const { lang } = Route.useRouteContext();
+  const htmlLang = lang === "en-US" ? "en-US" : lang;
+  return (
+    <html lang={htmlLang} suppressHydrationWarning>
       <head>
         <HeadContent />
       </head>
       <body>
         <PreviewHostBridge />
-        <LangProvider>
+        <LangProvider initialLang={lang}>
           <AuthProvider>
             <Gate />
           </AuthProvider>
@@ -59,8 +65,8 @@ export const Route = createRootRoute({
         <Scripts />
       </body>
     </html>
-  ),
-});
+  );
+}
 
 function Gate() {
   const { open } = Route.useRouteContext();

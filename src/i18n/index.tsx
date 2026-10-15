@@ -5,6 +5,7 @@ import { ui, type UiKey } from "@/i18n/ui";
 import type { Kind, TopicId, FieldId } from "@/data/types";
 
 const STORAGE = "esfe-lang";
+const COOKIE = "esfe-lang";
 
 type I18n = {
   lang: Lang;
@@ -18,18 +19,35 @@ const I18nContext = createContext<I18n>({
   t: (key, vars) => ui("en", key, vars),
 });
 
-function storedLang(): Lang {
-  if (typeof window === "undefined") return "en";
-  const saved = localStorage.getItem(STORAGE);
-  return saved && isLang(saved) ? saved : "en";
+function writeLang(lang: Lang) {
+  try {
+    localStorage.setItem(STORAGE, lang);
+  } catch {
+    /* private mode can block storage */
+  }
+  document.cookie = `${COOKIE}=${encodeURIComponent(lang)}; Path=/; Max-Age=31536000; SameSite=Lax`;
 }
 
-export function LangProvider({ children }: { children: ReactNode }) {
-  const [lang, setLang] = useState<Lang>(storedLang);
+export function LangProvider({ initialLang, children }: { initialLang: Lang; children: ReactNode }) {
+  const [lang, setLangState] = useState<Lang>(initialLang);
+  const setLang = (next: Lang) => {
+    setLangState(next);
+    writeLang(next);
+  };
   useEffect(() => {
-    localStorage.setItem(STORAGE, lang);
-  document.documentElement.lang = lang === "en-US" ? "en-US" : lang;
+    document.documentElement.lang = lang === "en-US" ? "en-US" : lang;
   }, [lang]);
+  useEffect(() => {
+    const hasCookie = document.cookie.split(/;\s*/).some((part) => part.startsWith(`${COOKIE}=`));
+    if (hasCookie) return;
+    let saved: string | null = null;
+    try {
+      saved = localStorage.getItem(STORAGE);
+    } catch {
+      saved = null;
+    }
+    if (saved && isLang(saved) && saved !== lang) setLang(saved);
+  }, []);
   const value = useMemo<I18n>(
     () => ({
       lang,

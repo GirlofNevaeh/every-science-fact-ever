@@ -28,7 +28,7 @@ function PersonPage() {
     return (
       <Shell>
         <div className="mx-auto max-w-3xl px-4 py-8">
-          <p className="text-xl">{t("personMissing")}</p>
+          <h1 className="font-display text-4xl font-bold">{t("personMissing")}</h1>
           <Link to="/people" className="btn btn-chalk mt-4">
             {t("allPeople")}
           </Link>

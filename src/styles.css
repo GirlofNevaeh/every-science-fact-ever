@@ -112,8 +112,6 @@
     line-height: 1.1;
     text-align: center;
     white-space: normal;
-    text-align: center;
-    white-space: nowrap;
   }
   .nav-link.is-on {
     background: var(--color-leaf);

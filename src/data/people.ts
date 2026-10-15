@@ -77,7 +77,7 @@ export const PEOPLE: Person[] = [
     [
       "George Washington Carver studied crops and tired soil.",
       "He showed farmers that peanuts and sweet potatoes could rest fields that had grown cotton for too long.",
-      "He also found new ways to use those plants so less was wasted.",
+      "He also found new ways to use those plants so less of the crop was wasted.",
     ],
     { skin: 6, hair: 5, style: "recede", woman: false, mustache: true, bow: true, older: true, coat: "ink" },
     "/art/living.jpg",

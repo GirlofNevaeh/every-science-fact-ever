@@ -21,7 +21,7 @@ function WorkDetail() {
     return (
       <Shell>
         <div className="mx-auto max-w-3xl px-4 py-8">
-          <p>{t("pageMissing")}</p>
+          <h1 className="font-display text-4xl font-bold">{t("pageMissing")}</h1>
           <Link to="/work" className="btn btn-chalk mt-4">
             {t("projects")}
           </Link>

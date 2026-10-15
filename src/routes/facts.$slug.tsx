@@ -30,7 +30,7 @@ function FactPage() {
     return (
       <Shell>
         <div className="mx-auto max-w-3xl px-4 py-8">
-          <p className="text-xl">{t("factMissing")}</p>
+          <h1 className="font-display text-4xl font-bold">{t("factMissing")}</h1>
           <Link to="/facts" search={{ q: "", topic: "all" }} className="btn btn-chalk mt-4">
             {t("allFacts")}
           </Link>

@@ -40,7 +40,7 @@ Q|Which is one way we test that idea?|Fossils|A single wish|The color of a magne
 water-h2o|materials|Water is H2O|Water is H2O, two hydrogen atoms and one oxygen atom.|fact|When scientists split water, they get that same recipe every time.|Ice is solid water, and it floats on liquid water.||
 Q|Which recipe names water?|H2O|CO2|NaCl|Fe|0
 Q|How many hydrogen atoms are in one molecule of water?|Two|Zero|Ten|One hundred|0
-states|materials|Three states|Matter can be a solid, a liquid, or a gas.|fact|You can watch the same water be ice, then liquid, then steam.|The tiny bits move more freely as it warms.||
+states|materials|Three states|Matter can be a solid, a liquid, or a gas.|fact|You can watch the same water turn into ice, then liquid, then steam.|The tiny bits move more freely as it warms.||
 Q|Ice, liquid water, and steam are|The same matter in three states|Three different metals|Three planets|Three bones|0
 Q|Which list names three states of matter?|Solid, liquid, gas|North, south, east|Leaf, root, beak|Day, year, tide|0
 ice-floats|materials|Ice floats|Ice floats on liquid water.|fact|Set a piece of ice in a glass of water and it stays at the top.|Ice takes up more room than the same water as a liquid.||
@@ -148,7 +148,7 @@ Q|Why do other stars look tiny?|They are very far away|They are bacteria|They ar
 eight-planets|space|Eight planets|Eight planets go around the Sun.|fact|Telescopes track eight big worlds on clear paths around the Sun.|Pluto is called a dwarf planet, not one of the eight.||
 Q|How many planets go around the Sun?|Eight|Two|206|One million|0
 Q|Pluto is|A dwarf planet|One of the eight planets|The biggest ocean|A kind of bone|0
-moon-light|space|The Moon reflects|The Moon does not make its own light. It reflects the Sun.|fact|The bright part of the Moon always faces the Sun's light.|The side in shadow looks dark.||
+moon-light|space|The Moon reflects|The Moon does not make its own light. It reflects the Sun.|fact|The bright part of the Moon is the part facing the Sun.|The side in shadow looks dark.||
 Q|The Moon's light comes from|The Sun bouncing off it|A fire inside the Moon|City lamps|Frogs on the Moon|0
 Q|The dark part of the Moon is|The side in shadow|A hole with no rock|An ocean of ink|A magnet|0
 moon-phases|space|Moon phases|The Moon looks different each night because we see different amounts of its sunny side.|fact|Draw the Moon for a month and the bright part grows and shrinks in order.|A full loop of phases takes about one month.||

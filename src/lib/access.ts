@@ -1,3 +1,4 @@
+import { isLang, type Lang } from "@/i18n/langs";
 import { createMiddleware, createServerFn } from "@tanstack/react-start";
 
 export const ACCESS_STORAGE = "esfe-access";
@@ -14,10 +15,12 @@ const passToken = createMiddleware({ type: "function" }).client(async ({ next })
 
 export const getAccess = createServerFn({ method: "GET" })
   .middleware([passToken])
-  .handler(async ({ context }): Promise<{ open: boolean }> => {
-    const { isOpen } = await import("./access.server");
+  .handler(async ({ context }): Promise<{ open: boolean; lang: Lang }> => {
+    const { isOpen, readLang } = await import("./access.server");
     const token = typeof context.accessToken === "string" ? context.accessToken : "";
-    return { open: isOpen(token) };
+    const raw = readLang();
+    const lang: Lang = isLang(raw) ? raw : "en";
+    return { open: isOpen(token), lang };
   });
 
 export const unlock = createServerFn({ method: "POST" })
