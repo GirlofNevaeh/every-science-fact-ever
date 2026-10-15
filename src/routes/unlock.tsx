@@ -80,7 +80,7 @@ function UnlockForm({ from }: { from: string }) {
       <p className="mt-4 text-lg">{t("payInside")}</p>
       <section className="stamp mt-5 bg-chalk p-5">
         <p className="text-lg leading-snug">{t("payBuy")}</p>
-        <a href="https://everyschoolever.com" className="btn btn-cobalt mt-4 w-full" target="_blank" rel="noreferrer">
+        <a href="https://www.everyschoolever.com/pricing?plan=" className="btn btn-cobalt mt-4 w-full" target="_blank" rel="noreferrer">
           {t("payBuyLink")}
         </a>
         <form className="mt-5" onSubmit={(event) => void submit(event)}>
