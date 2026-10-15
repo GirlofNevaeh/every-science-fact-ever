@@ -22,6 +22,17 @@ export const UI = {
   time: { en: "Time", gd: "Ùine", cy: "Amser", ga: "Am", fr: "Temps", it: "Tempo", es: "Tiempo", ru: "Время" , de: "Zeit"},
   quiz: { en: "Quiz", gd: "Ceistean", cy: "Cwis", ga: "Tráth", fr: "Quiz", it: "Quiz", es: "Quiz", ru: "Тест" , de: "Quiz"},
   projects: { en: "Projects", gd: "Pròiseactan", cy: "Prosiectau", ga: "Tionscadail", fr: "Projets", it: "Progetti", es: "Proyectos", ru: "Проекты" , de: "Projekte"},
+  nav: {
+    en: "Pages",
+    gd: "Duilleagan",
+    cy: "Tudalennau",
+    ga: "Leathanaigh",
+    fr: "Pages",
+    it: "Pagine",
+    es: "Páginas",
+    ru: "Страницы",
+    de: "Seiten",
+  },
   langPick: {
     en: "Language",
     gd: "Cànan",

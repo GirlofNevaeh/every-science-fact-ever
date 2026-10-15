@@ -72,7 +72,7 @@ function ProjectCard({ card }: { card: WorkCard }) {
       </p>
       <p className="mt-1">
         <span className="font-extrabold">{t("needLabel")} </span>
-        {card.need.join(", ")}
+        {card.need.join("; ")}
       </p>
       <ol className="mt-2 list-decimal space-y-1 pl-5">
         {card.steps.map((step) => (

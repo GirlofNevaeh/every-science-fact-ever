@@ -477,7 +477,7 @@ export const PEOPLE: Person[] = [
     [
       "Katherine Johnson did the math for spacecraft paths.",
       "Her numbers helped astronauts go up and come home.",
-      "Before one flight, astronauts asked for her to check the computer by hand.",
+      "Before one flight, astronauts asked her to check the computer by hand.",
     ],
     { skin: 5, hair: 1, style: "short", woman: true, glasses: true, coat: "cobalt" },
     "/art/space.jpg",

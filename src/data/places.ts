@@ -39,7 +39,7 @@ export const PLACES: Place[] = [
     where: "Mauna Kea, Hawaii",
     lines: [
       "White telescope domes sit on a very tall mountain.",
-      "The air up there is thin and often above the clouds, so the sky looks darker and clearer.",
+      "The air up there is thin, and the mountain is often above the clouds, so the sky looks darker and clearer.",
       "Telescopes gather light from faint stars and galaxies.",
     ],
     x: 12,
@@ -55,7 +55,7 @@ export const PLACES: Place[] = [
     lines: [
       "Layers of rock in these sea cliffs hold fossils.",
       "Mary Anning found skeletons of ancient sea animals here in the early 1800s.",
-      "A fossil is a remain, or a trace, kept in rock.",
+      "A fossil is the remains of a living thing, or a trace of one, kept in rock.",
     ],
     x: 44,
     y: 40,

@@ -61,7 +61,9 @@ function FactPage() {
             <h1 className="mt-4 font-display text-4xl leading-tight font-bold">{fact.sentence}</h1>
             {fact.unsure ? <p className="mt-4 text-lg font-extrabold">{fact.unsure}</p> : null}
           </div>
-          <Art src={art?.src ?? "/photos/frog.jpg"} alt={art?.alt ?? ""} className="w-full" />
+          <div className="bg-chalk">
+            <Art src={art?.src ?? "/photos/frog.jpg"} alt={art?.alt ?? ""} className="w-full" />
+          </div>
         </div>
         <section className="stamp mt-4 bg-cobalt p-5 text-lab">
           <h2 className="font-display text-2xl font-bold">{t("how")}</h2>

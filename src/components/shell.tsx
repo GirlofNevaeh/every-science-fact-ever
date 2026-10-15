@@ -154,7 +154,7 @@ function SiteHeader() {
           {t("searchBtn")}
         </button>
       </form>
-      <nav className="mx-auto flex max-w-6xl flex-wrap gap-1 px-2 pb-2" aria-label={t("langPick")}>
+      <nav className="mx-auto flex max-w-6xl flex-wrap gap-1 px-2 pb-2" aria-label={t("nav")}>
         {NAV.map((item) => (
           <Link
             key={item.key}
@@ -221,8 +221,8 @@ function CookieNotice() {
   }, []);
   if (!show) return null;
   return (
-    <div className="no-print fixed inset-x-0 bottom-0 z-50 border-t-[3px] border-ink bg-paper p-3" role="region" aria-label={t("cookieLabel")}>
-      <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3">
+    <div className="no-print border-b-[3px] border-ink bg-paper" role="region" aria-label={t("cookieLabel")}>
+      <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-4 py-3">
         <p className="max-w-3xl text-base">{t("cookieNote")}</p>
         <button
           type="button"
@@ -255,6 +255,7 @@ export function Shell({ children }: { children: ReactNode }) {
           {t("skip")}
         </a>
         <SiteHeader />
+        <CookieNotice />
         <main id="content">{children}</main>
         <footer className="no-print mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-4 py-8 text-base">
           <p>{t("ages")}</p>
@@ -280,7 +281,6 @@ export function Shell({ children }: { children: ReactNode }) {
           </ul>
         </details>
         <InstallDialog open={open} onClose={() => setOpen(false)} />
-        <CookieNotice />
       </div>
     </InstallContext.Provider>
   );

@@ -124,7 +124,7 @@ Q|How do we know Earth has layers?|Earthquake waves change speed inside it|Someo
 fossils|earth|Fossils in rock|Fossils are remains or traces of living things kept in rock.|fact|People find bones, shells, and footprints turned to stone in rock layers.|Fossils are one way we know life has changed.||anning
 Q|A fossil can be|A bone or footprint kept in rock|A living whale|A rain cloud|A magnet pole|0
 Q|Who found famous fossil sea animals in cliffs in England?|Mary Anning|Katherine Johnson|Ada Lovelace|Chien-Shiung Wu|0
-ocean-cover|earth|Ocean covers most|Ocean covers most of Earth.|fact|Maps and pictures from space show much more water than land.|About seven tenths of Earth's surface is ocean.||
+ocean-cover|earth|Ocean covers most|Ocean covers most of Earth.|fact|Maps and pictures from space show much more water than land.|About seven-tenths of Earth's surface is ocean.||
 Q|What covers most of Earth?|Ocean|Cities|Desert sand only|Ice only|0
 Q|About how much of Earth's surface is ocean?|Seven-tenths|One-tenth|None|All of the Moon|0
 volcano|earth|Volcanoes|A volcano can let melted rock come out of Earth.|fact|People have watched lava flow out and then cool into rock.|Not every mountain is a volcano.||
@@ -148,7 +148,7 @@ Q|Why do other stars look tiny?|They are very far away|They are bacteria|They ar
 eight-planets|space|Eight planets|Eight planets go around the Sun.|fact|Telescopes track eight big worlds on clear paths around the Sun.|Pluto is called a dwarf planet, not one of the eight.||
 Q|How many planets go around the Sun?|Eight|Two|206|One million|0
 Q|Pluto is|A dwarf planet|One of the eight planets|The biggest ocean|A kind of bone|0
-moon-light|space|The Moon reflects|The Moon does not make its own light. It reflects the Sun.|fact|The bright part of the Moon always faces the Sun light.|The side in shadow looks dark.||
+moon-light|space|The Moon reflects|The Moon does not make its own light. It reflects the Sun.|fact|The bright part of the Moon always faces the Sun's light.|The side in shadow looks dark.||
 Q|The Moon's light comes from|The Sun bouncing off it|A fire inside the Moon|City lamps|Frogs on the Moon|0
 Q|The dark part of the Moon is|The side in shadow|A hole with no rock|An ocean of ink|A magnet|0
 moon-phases|space|Moon phases|The Moon looks different each night because we see different amounts of its sunny side.|fact|Draw the Moon for a month and the bright part grows and shrinks in order.|A full loop of phases takes about one month.||

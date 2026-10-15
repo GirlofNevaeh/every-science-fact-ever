@@ -125,7 +125,7 @@ export const WORK: WorkCard[] = [
     need: ["A small toy", "A wood floor or table", "A cloth", "A smooth tile or book"],
     steps: [
       "Give the toy the same push on each surface.",
-      "See which slide goes farthest.",
+      "See which one slides farthest.",
       "Name the force that slowed it. That force is friction.",
     ],
     done: "You can rank the three surfaces and say why one was slower.",

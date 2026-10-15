@@ -359,7 +359,7 @@ const EXTRA: QuizQuestion[] = [
   },
   {
     id: "extra-third",
-    prompt: "Earth is which planet from the Sun?",
+    prompt: "Counting out from the Sun, Earth is",
     choices: ["The third", "The first", "The eighth", "A moon of Jupiter"],
     answer: 0,
   },

@@ -205,7 +205,7 @@ export const TOPIC_SHOT: Record<string, Shot> = {
   materials: SHOTS.lab,
   forces: SHOTS.magnet,
   earth: SHOTS.earth,
-  space: SHOTS.jupiter,
+  space: SHOTS.hubble,
   body: SHOTS.heart,
   unusual: SHOTS.octopus,
 };
