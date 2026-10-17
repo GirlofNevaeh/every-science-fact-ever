@@ -5,6 +5,7 @@ import { Shell } from "@/components/shell";
 import { drawQuestions, type QuizQuestion } from "@/data/quiz";
 import { localizeQuestion, useI18n, usePageTitle } from "@/i18n";
 import type { Lang } from "@/i18n/langs";
+import { playCheer, playFart, resumeQuizAudio } from "@/lib/quiz-sounds";
 
 export const Route = createFileRoute("/quiz")({
   head: () => ({ meta: [{ title: "Quiz · Every Science Fact Ever" }] }),
@@ -69,6 +70,7 @@ function QuizBody() {
   }, [phase, cursor, picked]);
 
   function start() {
+    resumeQuizAudio();
     const size = play === "solo" ? 1 : count;
     const nextTeams =
       play === "solo"
@@ -94,7 +96,10 @@ function QuizBody() {
   const correct = shown ? picked === shown.answer : false;
 
   function choose(choice: number) {
-    if (phase !== "ask") return;
+    if (phase !== "ask" || !shown) return;
+    resumeQuizAudio();
+    if (choice === shown.answer) playCheer(1);
+    else playFart(1);
     setPicked(choice);
     setPhase("wait");
   }
